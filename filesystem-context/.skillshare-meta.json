@@ -1,0 +1,14 @@
+{
+  "source": "https://github.com/guanyang/antigravity-skills/skills/filesystem-context",
+  "type": "github-subdir",
+  "installed_at": "2026-03-03T21:20:56.9447795-03:00",
+  "repo_url": "https://github.com/guanyang/antigravity-skills.git",
+  "subdir": "skills/filesystem-context",
+  "version": "d3f0218",
+  "tree_hash": "b14be458224c83276683361184bef9180fe3d7bb",
+  "file_hashes": {
+    "SKILL.md": "sha256:3e5c853c8c51d29b17111a7f6b05f269b2689e789ba3cbae5a989959dd955763",
+    "references/implementation-patterns.md": "sha256:10d14a84ac0183dacbf840d394da09c03a932178bc4a18a5a98fb659b018ed05",
+    "scripts/filesystem_context.py": "sha256:3c7819dc89a6f40128df89f4a2ff12ee13dafa222e58416436bb5395dd8e3354"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "source": "https://github.com/ibelick/ui-skills/skills/fixing-motion-performance",
+  "type": "github-subdir",
+  "installed_at": "2026-03-10T14:02:22.3050911-03:00",
+  "repo_url": "https://github.com/ibelick/ui-skills.git",
+  "subdir": "skills/fixing-motion-performance",
+  "version": "66eb2f5",
+  "tree_hash": "76e5757bd2eb8ff38ff667eca9b665cbd707a386",
+  "file_hashes": {
+    "SKILL.md": "sha256:bc5af058e1f6479c35cdcf87d74b013980ffad626a7f344e0bcc71ced657b484"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "source": "https://github.com/guanyang/antigravity-skills/skills/project-development",
+  "type": "github-subdir",
+  "installed_at": "2026-03-03T21:20:58.3660602-03:00",
+  "repo_url": "https://github.com/guanyang/antigravity-skills.git",
+  "subdir": "skills/project-development",
+  "version": "d3f0218",
+  "tree_hash": "a6d95dd56f3a0f987529be053ea8aa8abbd4bbf3",
+  "file_hashes": {
+    "SKILL.md": "sha256:a3d158e4864be8ef068148d14199a5a8c5f64f929bbf93c1cfc00a043edef9e0",
+    "references/case-studies.md": "sha256:9716d81ecc661d26c53546888df6eb01f0382714fdcd53940c2ad9ae00fc240f",
+    "references/pipeline-patterns.md": "sha256:b4f8bc1ea1e79faebdbcbaf857fc6ced032b5e5835c850512415df9186897845",
+    "scripts/pipeline_template.py": "sha256:d6611b67e3a51acf47fbaf017e921a85036732e5fe83ea2d63b45b98752f4d09"
+  }
+}

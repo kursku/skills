@@ -1,0 +1,12 @@
+{
+  "source": "https://github.com/pbakaus/impeccable/.claude/skills/distill",
+  "type": "github-subdir",
+  "installed_at": "2026-03-10T14:10:19.0756056-03:00",
+  "repo_url": "https://github.com/pbakaus/impeccable.git",
+  "subdir": ".claude/skills/distill",
+  "version": "9014a4a",
+  "tree_hash": "14fa0cb15391368a80a25664fd613837ad9fffca",
+  "file_hashes": {
+    "SKILL.md": "sha256:b7ac566ae5fe5278412659cea4f1985647bf3a9bf2a698133a65ca1f2268ac3f"
+  }
+}

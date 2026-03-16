@@ -1,0 +1,12 @@
+{
+  "source": "https://github.com/guanyang/antigravity-skills/template",
+  "type": "github-subdir",
+  "installed_at": "2026-03-03T21:21:00.2102661-03:00",
+  "repo_url": "https://github.com/guanyang/antigravity-skills.git",
+  "subdir": "template",
+  "version": "d3f0218",
+  "tree_hash": "3374ee2a3201c8cfcb1d1660104fd3a86bac9dfd",
+  "file_hashes": {
+    "SKILL.md": "sha256:cbeaa025790a3129058e317911b39a170fcf8526145c4aea48e0227507e4f945"
+  }
+}

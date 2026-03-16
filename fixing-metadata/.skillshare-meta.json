@@ -1,0 +1,12 @@
+{
+  "source": "https://github.com/ibelick/ui-skills/skills/fixing-metadata",
+  "type": "github-subdir",
+  "installed_at": "2026-03-10T14:02:22.1860106-03:00",
+  "repo_url": "https://github.com/ibelick/ui-skills.git",
+  "subdir": "skills/fixing-metadata",
+  "version": "66eb2f5",
+  "tree_hash": "2906fa056416dff36892d1ff17c37de3090625b6",
+  "file_hashes": {
+    "SKILL.md": "sha256:498a1ae121c010df199c2f1bcd4a0ccda92351f2b4eb33b7be73715db702dec6"
+  }
+}

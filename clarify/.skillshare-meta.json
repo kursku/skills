@@ -1,0 +1,12 @@
+{
+  "source": "https://github.com/pbakaus/impeccable/.claude/skills/clarify",
+  "type": "github-subdir",
+  "installed_at": "2026-03-10T14:10:18.260677-03:00",
+  "repo_url": "https://github.com/pbakaus/impeccable.git",
+  "subdir": ".claude/skills/clarify",
+  "version": "9014a4a",
+  "tree_hash": "7614abc251a4cce3ff8ec438530b95f0a749ddd9",
+  "file_hashes": {
+    "SKILL.md": "sha256:b9227f4968f096e3cb44062ac6085b5d011582d13dd785759b269dcbded80844"
+  }
+}

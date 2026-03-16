@@ -1,0 +1,12 @@
+{
+  "source": "https://github.com/pbakaus/impeccable/.claude/skills/onboard",
+  "type": "github-subdir",
+  "installed_at": "2026-03-10T14:10:19.6959604-03:00",
+  "repo_url": "https://github.com/pbakaus/impeccable.git",
+  "subdir": ".claude/skills/onboard",
+  "version": "9014a4a",
+  "tree_hash": "38c232ca4c4cf05f34a91b2b5e733746651a7c7e",
+  "file_hashes": {
+    "SKILL.md": "sha256:939de1e4fc5aa96616d020921f7b6ecab6709ae87d70cbc8e6be66520050fc3a"
+  }
+}
