@@ -24,35 +24,70 @@ description: "O que essa skill faz e quando usá-la."
 
 ## Gerando os arquivos `.skill`
 
-Use o script `scripts/release.sh` para gerar todos os bundles automaticamente:
+### Skills curadas (76 skills)
+
+Use o `scripts/release.sh` diretamente:
 
 ```bash
-# Todas as skills curadas (exclui packs/ por padrão)
+# Todas as skills curadas
 ./scripts/release.sh
 
-# Ver o que seria gerado, sem criar arquivos
+# Ver o que seria gerado sem criar arquivos
 ./scripts/release.sh --dry-run
 
-# Apenas uma categoria
+# Só uma categoria
 ./scripts/release.sh --category frontend
-
-# Incluir packs/ também (atenção: gera ~1800 arquivos)
-./scripts/release.sh --include-packs
 ```
+
+### Pack skills (1785 skills)
+
+Primeiro gere o catálogo (necessário uma vez, ou após mudanças nos packs):
+
+```bash
+python3 scripts/catalog.py
+```
+
+Depois use `--packs <categoria>` no release:
+
+```bash
+# Pack skills de uma categoria específica
+./scripts/release.sh --packs security
+./scripts/release.sh --packs ai-agents
+./scripts/release.sh --packs devops
+
+# Todas as pack skills (gera ~1785 arquivos)
+./scripts/release.sh --packs all
+
+# Ver o que o catálogo encontrou por categoria
+python3 scripts/catalog.py --issues-only
+```
+
+**Categorias disponíveis nos packs:**
+
+| Categoria | Skills | Descrição |
+|-----------|--------|-----------|
+| `devops` | ~406 | CI/CD, deploy, pipelines, Kubernetes |
+| `ai-agents` | ~278 | Agentes, RAG, LLM, MCP, orchestration |
+| `business` | ~204 | Vendas, finanças, jurídico, CRM |
+| `content` | ~180 | Copywriting, SEO, social media, email |
+| `security` | ~138 | Auditoria, OWASP, pentest, hardening |
+| `backend` | ~117 | APIs, cloud, databases, frameworks |
+| `frontend` | ~105 | UI, React, mobile, games, acessibilidade |
+| `automation` | ~103 | Zapier, n8n, bots, webhooks |
+| `data` | ~65 | Data engineering, analytics, SQL |
+| `education` | ~39 | Cursos, documentação, tutoriais |
+| `uncategorized` | ~125 | Aguardando classificação |
 
 **Output:** `dist/<categoria>/<skill-name>.skill`
 
 ```
 dist/
-├── backend/
-│   ├── luau-roblox.skill
-│   └── supabase-postgres-best-practices.skill
-├── frontend/
-│   ├── adapt.skill
-│   ├── animate.skill
+├── security/
+│   ├── 007.skill
+│   ├── api-fuzzing-bug-bounty.skill
 │   └── ...
-├── tooling/
-├── workflow/
+├── ai-agents/
+├── devops/
 └── ...
 ```
 
@@ -69,8 +104,11 @@ O claude.ai aceita **um `.skill` por upload**. Não há batch upload oficial na 
 | Volume | Estratégia |
 |--------|-----------|
 | 1–10 skills | Upload manual direto no claude.ai |
-| 10–80 skills | Upload por categoria (ex: subir toda a `frontend/` de uma vez se suportado) |
-| 80+ skills (packs) | Use a API do claude.ai se disponível, ou mantenha nos packs do repositório |
+| 10–80 skills (curadas) | Build por categoria e upload por lote |
+| 80–1785 skills (packs) | Priorize por categoria: rode `--packs security` e suba o que for relevante |
+| Tudo de uma vez | Só via API do claude.ai (quando disponível) |
+
+> **Dica:** Use o catálogo para decidir o que subir. `python3 scripts/catalog.py --issues-only` mostra skills com problemas de qualidade que provavelmente não valem o upload.
 
 ### Passo a passo (upload manual):
 
