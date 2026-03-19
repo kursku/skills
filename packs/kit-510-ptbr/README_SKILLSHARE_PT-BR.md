@@ -1,5 +1,7 @@
 # Guia para Iniciantes: Kit 510+ com Skillshare
 
+**Language / Idioma:** [English (Main README)](../../../../README.md) · Português (PT-BR)
+
 Este guia foi escrito para quem esta comecando agora.
 Objetivo: em poucos passos, voce instala o kit, testa um skill e entende como manter tudo funcionando.
 
