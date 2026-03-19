@@ -1,4 +1,8 @@
 .DS_Store
+.vscode/
+.missing_in_repo.txt
+.skill_coverage_summary.json
+.tmp_skill_compare.ps1
 
 # BEGIN SKILLSHARE MANAGED - DO NOT EDIT
 _sickn33-antigravity-awesome-skills/

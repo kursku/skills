@@ -12,18 +12,60 @@ Skills are specialized instruction sets that teach AI assistants how to handle s
 
 ## 📂 Folder Structure
 
-Each skill lives in its own folder with this structure:
+Each skill lives in its own folder, optionally grouped by domain:
 
 ```
 skills/
-├── skill-name/              # Individual skill folder
-│   ├── SKILL.md             # Main skill definition (required)
-│   ├── scripts/             # Helper scripts (optional)
-│   ├── examples/            # Usage examples (optional)
-│   └── resources/           # Templates & resources (optional)
+├── frontend/                # Domain group (recommended)
+│   └── skill-name/          # Individual skill folder
+│       ├── SKILL.md         # Main skill definition (required)
+│       ├── scripts/         # Helper scripts (optional)
+│       ├── examples/        # Usage examples (optional)
+│       └── resources/       # Templates & resources (optional)
+└── skill-name/              # Also supported for legacy/flat layouts
 ```
 
 **Key point:** Only `SKILL.md` is required. Everything else is optional!
+
+---
+
+## Use With Skillshare
+
+This repository works well as a central source for skillshare in project mode.
+
+### Fast Setup (Project Mode)
+
+```bash
+skillshare init -p --targets "claude,codex,cursor"
+skillshare install github.com/sickn33/antigravity-awesome-skills --track -p --all
+skillshare sync -p
+```
+
+### Keep Skills Updated
+
+```bash
+skillshare check -p
+skillshare update --all -p
+skillshare sync -p
+```
+
+### Validate This Repo Before Sharing
+
+```powershell
+./scripts/skillshare_repo_check.ps1 -WriteIndex
+```
+
+See [docs/SKILLSHARE.md](docs/SKILLSHARE.md) for full guidance.
+
+Portuguese marketing kit pack location: [packs/kit-510-ptbr](packs/kit-510-ptbr).
+
+If you use Claude.ai (web), see the Claude.ai section in [docs/SKILLSHARE.md](docs/SKILLSHARE.md) for the upload-and-project workflow.
+
+Skill group explanations and onboarding map: [docs/SKILL_EXPLANATIONS.md](docs/SKILL_EXPLANATIONS.md).
+
+Portuguese version: [docs/SKILL_EXPLANATIONS_PT-BR.md](docs/SKILL_EXPLANATIONS_PT-BR.md).
+
+Global source coverage is currently complete (missing = 0): [docs/global-skillshare-coverage-summary.json](docs/global-skillshare-coverage-summary.json).
 
 ---
 
