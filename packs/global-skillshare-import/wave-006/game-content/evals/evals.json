@@ -1,0 +1,31 @@
+{
+  "skill_name": "game-content",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Add a grandpa event that fires after the player first builds a home upgrade. He should say something quiet about the father — not sentimental, just a small detail that lands.",
+      "expected_output": "A valid event JSON object for events.json: correct id prefix (evt_), speaker set to grandpa, require referencing a real home upgrade key, desc written in the game's dry terminal tone, no 'choices' needed.",
+      "files": [
+        "C:/Users/nicol/dyad-apps/MechaScrapyard/data/mecha/events.json",
+        "C:/Users/nicol/dyad-apps/MechaScrapyard/data/mecha/homes.json"
+      ]
+    },
+    {
+      "id": 1,
+      "prompt": "I want an event where Ironjaw comes to collect on the debt and the player has to choose: pay them off (compliance), fight back (lose rep with Ironjaw but gain street cred), or sell intel to NTPD (moral compromise, gain police rep). Morality and rep consequences for each.",
+      "expected_output": "A valid choice event JSON for events.json: evt_ id, speaker ironjaw_enforcer, 3 choices each with appropriate morality values, faction rep effects (rep_ironjaw, rep_police, street_cred), unique flag set for each choice, terminal-voice log entries.",
+      "files": [
+        "C:/Users/nicol/dyad-apps/MechaScrapyard/data/mecha/events.json"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Write a mid-game story mission where the underground faction helps you infiltrate a Taeyang corporate depot. Requires the player to have found the surveillance array (flag_found_surveillance) and rep_underground >= 20. Should have intel tiers, a narrative briefing from the underground contact, story beats, and fire a follow-up event on completion.",
+      "expected_output": "A valid story mission JSON for missions.json with missionType story, correct require expression using flag_found_surveillance and rep_underground, Taeyang enemies, narrative object with speaker, storyBeats, debrief, intel tiers, onComplete wiring to a new evt_ id. Plus the follow-up event JSON for events.json.",
+      "files": [
+        "C:/Users/nicol/dyad-apps/MechaScrapyard/data/mecha/missions.json",
+        "C:/Users/nicol/dyad-apps/MechaScrapyard/data/mecha/events.json"
+      ]
+    }
+  ]
+}
