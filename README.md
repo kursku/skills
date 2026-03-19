@@ -2,6 +2,11 @@
 
 **Welcome to the skills folder!** This is where all 179+ specialized AI skills live.
 
+## Language / Idioma
+
+- English: [README.md](README.md)
+- Portugues (PT-BR): [packs/kit-510-ptbr/README_SKILLSHARE_PT-BR.md](packs/kit-510-ptbr/README_SKILLSHARE_PT-BR.md)
+
 ## 🤔 What Are Skills?
 
 Skills are specialized instruction sets that teach AI assistants how to handle specific tasks. Think of them as expert knowledge modules that your AI can load on-demand.
