@@ -1,0 +1,16 @@
+{
+  "source": "https://github.com/guanyang/antigravity-skills/skills/bdi-mental-states",
+  "type": "github-subdir",
+  "installed_at": "2026-03-03T21:20:55.9016113-03:00",
+  "repo_url": "https://github.com/guanyang/antigravity-skills.git",
+  "subdir": "skills/bdi-mental-states",
+  "version": "d3f0218",
+  "tree_hash": "7889f62da2f054d2df66c590c2f93b2074843833",
+  "file_hashes": {
+    "SKILL.md": "sha256:b2222bae000ef3d174e79dfe473ac9ed0797b3e2c8a4a3a34ad9419ed08bb12e",
+    "references/bdi-ontology-core.md": "sha256:c3db202d80f4024d1e5decccf8bcaffdecdf50fe8807951b34e0a4d2f5617dba",
+    "references/framework-integration.md": "sha256:99810bc69fade6ebc951e1b989df737b8dafb6f41179edd71b499ce040a276fa",
+    "references/rdf-examples.md": "sha256:052296d6df8d6e9df2cec6f57b913eb9e38a224d3a15cb27969da5eda9fa20c2",
+    "references/sparql-competency.md": "sha256:8b2b9454dab3514826b8dc75ddef515e151a7eb11ca3811b91f5493cede44cb8"
+  }
+}

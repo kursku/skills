@@ -1,0 +1,12 @@
+{
+  "source": "https://github.com/guanyang/antigravity-skills/skills/defuddle",
+  "type": "github-subdir",
+  "installed_at": "2026-03-03T21:20:56.6463894-03:00",
+  "repo_url": "https://github.com/guanyang/antigravity-skills.git",
+  "subdir": "skills/defuddle",
+  "version": "d3f0218",
+  "tree_hash": "d365ce41229386873b7868d05c13fac80cd9c7fc",
+  "file_hashes": {
+    "SKILL.md": "sha256:dd54e6aeb863b99a57e0f5603b8a92ca8fbf70cff35b000d9ddc44faab5a0e37"
+  }
+}

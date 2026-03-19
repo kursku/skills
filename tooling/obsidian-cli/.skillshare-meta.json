@@ -1,0 +1,12 @@
+{
+  "source": "https://github.com/guanyang/antigravity-skills/skills/obsidian-cli",
+  "type": "github-subdir",
+  "installed_at": "2026-03-03T21:20:57.8389574-03:00",
+  "repo_url": "https://github.com/guanyang/antigravity-skills.git",
+  "subdir": "skills/obsidian-cli",
+  "version": "d3f0218",
+  "tree_hash": "96254a554e480359de7b685571876f2e7f9ba57d",
+  "file_hashes": {
+    "SKILL.md": "sha256:b4d398c64e086d84cfd51bed896b9bdc243a5fd8a9ea2815a261cd9cb4da3155"
+  }
+}

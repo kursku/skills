@@ -1,0 +1,16 @@
+{
+  "source": "https://github.com/guanyang/antigravity-skills/skills/advanced-evaluation",
+  "type": "github-subdir",
+  "installed_at": "2026-03-03T21:20:55.5865955-03:00",
+  "repo_url": "https://github.com/guanyang/antigravity-skills.git",
+  "subdir": "skills/advanced-evaluation",
+  "version": "d3f0218",
+  "tree_hash": "b391d8b49cf60133b7a5b418f801ae0121f2e673",
+  "file_hashes": {
+    "SKILL.md": "sha256:00c936b9eb880e828be7df2059d5df82fd7f617c446110c03b46d8dc09d7ba40",
+    "references/bias-mitigation.md": "sha256:1e00b42ec1f3a54a33dd2510725b7095a827db4ece1afdfdc99c8a78ba2da02f",
+    "references/implementation-patterns.md": "sha256:948139505752ef57a2f2010271f29ebcf33a974d82df51a6cde60592242651ab",
+    "references/metrics-guide.md": "sha256:457f0d5aabe88ca973f73326fe4ce4584b6003af122c692618622b5e4742bd35",
+    "scripts/evaluation_example.py": "sha256:e4c7c8fb4929c2fb9a03832946823abab212e2981cec411fd872cacc9de84412"
+  }
+}

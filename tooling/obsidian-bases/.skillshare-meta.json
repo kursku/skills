@@ -1,0 +1,13 @@
+{
+  "source": "https://github.com/guanyang/antigravity-skills/skills/obsidian-bases",
+  "type": "github-subdir",
+  "installed_at": "2026-03-03T21:20:57.6963227-03:00",
+  "repo_url": "https://github.com/guanyang/antigravity-skills.git",
+  "subdir": "skills/obsidian-bases",
+  "version": "d3f0218",
+  "tree_hash": "4bef60bb848bfb02b4172b552626d5741b0d4057",
+  "file_hashes": {
+    "SKILL.md": "sha256:6a579ea3baaafd27256d347090a9cc0d81809832d629622006238d4889a8ebe7",
+    "references/FUNCTIONS_REFERENCE.md": "sha256:0d0cd128bc5070ef1aba2baef41bd55b31b3f56961975934d7a5172396ca0006"
+  }
+}
