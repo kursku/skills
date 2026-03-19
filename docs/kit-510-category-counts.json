@@ -1,0 +1,74 @@
+[
+    {
+        "category":  "00-utilitarios-negocio",
+        "skills":  4
+    },
+    {
+        "category":  "00-utilitarios-tecnicos",
+        "skills":  8
+    },
+    {
+        "category":  "01-conteudo-copy",
+        "skills":  32
+    },
+    {
+        "category":  "02-email-automacao",
+        "skills":  32
+    },
+    {
+        "category":  "03-funis-vendas",
+        "skills":  32
+    },
+    {
+        "category":  "04-anuncios-trafego",
+        "skills":  32
+    },
+    {
+        "category":  "05-seo-busca",
+        "skills":  32
+    },
+    {
+        "category":  "06-financeiro-precos",
+        "skills":  32
+    },
+    {
+        "category":  "07-juridico-compliance",
+        "skills":  32
+    },
+    {
+        "category":  "08-lancamento-growth",
+        "skills":  32
+    },
+    {
+        "category":  "09-redes-sociais",
+        "skills":  32
+    },
+    {
+        "category":  "10-clientes-consultoria",
+        "skills":  32
+    },
+    {
+        "category":  "11-operacoes-sistemas",
+        "skills":  32
+    },
+    {
+        "category":  "12-ia-automacao",
+        "skills":  32
+    },
+    {
+        "category":  "13-cursos-educacao",
+        "skills":  32
+    },
+    {
+        "category":  "14-marca-pessoal",
+        "skills":  32
+    },
+    {
+        "category":  "15-analytics-dados",
+        "skills":  32
+    },
+    {
+        "category":  "16-nichos-especificos",
+        "skills":  30
+    }
+]

@@ -1,0 +1,776 @@
+{
+    "generated_at":  "2026-03-19T11:26:20.1315850-03:00",
+    "total_skills":  77,
+    "skills":  [
+                   {
+                       "group":  "_experimental",
+                       "folder":  "template",
+                       "path":  "_experimental\\template",
+                       "skill_file":  "_experimental\\template/SKILL.md",
+                       "name":  "template-skill",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "backend",
+                       "folder":  "luau-roblox",
+                       "path":  "backend\\luau-roblox",
+                       "skill_file":  "backend\\luau-roblox/SKILL.md",
+                       "name":  "luau-roblox",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "backend",
+                       "folder":  "supabase-postgres-best-practices",
+                       "path":  "backend\\supabase-postgres-best-practices",
+                       "skill_file":  "backend\\supabase-postgres-best-practices/SKILL.md",
+                       "name":  "supabase-postgres-best-practices",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "core",
+                       "folder":  "internal-comms",
+                       "path":  "core\\internal-comms",
+                       "skill_file":  "core\\internal-comms/SKILL.md",
+                       "name":  "internal-comms",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "data-ai",
+                       "folder":  "advanced-evaluation",
+                       "path":  "data-ai\\advanced-evaluation",
+                       "skill_file":  "data-ai\\advanced-evaluation/SKILL.md",
+                       "name":  "advanced-evaluation",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "data-ai",
+                       "folder":  "bdi-mental-states",
+                       "path":  "data-ai\\bdi-mental-states",
+                       "skill_file":  "data-ai\\bdi-mental-states/SKILL.md",
+                       "name":  "bdi-mental-states",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "data-ai",
+                       "folder":  "hosted-agents",
+                       "path":  "data-ai\\hosted-agents",
+                       "skill_file":  "data-ai\\hosted-agents/SKILL.md",
+                       "name":  "hosted-agents",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "data-ai",
+                       "folder":  "project-development",
+                       "path":  "data-ai\\project-development",
+                       "skill_file":  "data-ai\\project-development/SKILL.md",
+                       "name":  "project-development",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "adapt",
+                       "path":  "frontend\\adapt",
+                       "skill_file":  "frontend\\adapt/SKILL.md",
+                       "name":  "adapt",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "animate",
+                       "path":  "frontend\\animate",
+                       "skill_file":  "frontend\\animate/SKILL.md",
+                       "name":  "animate",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "audit",
+                       "path":  "frontend\\audit",
+                       "skill_file":  "frontend\\audit/SKILL.md",
+                       "name":  "audit",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "baseline-ui",
+                       "path":  "frontend\\baseline-ui",
+                       "skill_file":  "frontend\\baseline-ui/SKILL.md",
+                       "name":  "baseline-ui",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "bolder",
+                       "path":  "frontend\\bolder",
+                       "skill_file":  "frontend\\bolder/SKILL.md",
+                       "name":  "bolder",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "brand-guidelines",
+                       "path":  "frontend\\brand-guidelines",
+                       "skill_file":  "frontend\\brand-guidelines/SKILL.md",
+                       "name":  "brand-guidelines",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "clarify",
+                       "path":  "frontend\\clarify",
+                       "skill_file":  "frontend\\clarify/SKILL.md",
+                       "name":  "clarify",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "colorize",
+                       "path":  "frontend\\colorize",
+                       "skill_file":  "frontend\\colorize/SKILL.md",
+                       "name":  "colorize",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "composition-patterns",
+                       "path":  "frontend\\composition-patterns",
+                       "skill_file":  "frontend\\composition-patterns/SKILL.md",
+                       "name":  "vercel-composition-patterns",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "critique",
+                       "path":  "frontend\\critique",
+                       "skill_file":  "frontend\\critique/SKILL.md",
+                       "name":  "critique",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "delight",
+                       "path":  "frontend\\delight",
+                       "skill_file":  "frontend\\delight/SKILL.md",
+                       "name":  "delight",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "develop-web-game",
+                       "path":  "frontend\\develop-web-game",
+                       "skill_file":  "frontend\\develop-web-game/SKILL.md",
+                       "name":  "develop-web-game",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "distill",
+                       "path":  "frontend\\distill",
+                       "skill_file":  "frontend\\distill/SKILL.md",
+                       "name":  "distill",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "extract",
+                       "path":  "frontend\\extract",
+                       "skill_file":  "frontend\\extract/SKILL.md",
+                       "name":  "extract",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "fixing-accessibility",
+                       "path":  "frontend\\fixing-accessibility",
+                       "skill_file":  "frontend\\fixing-accessibility/SKILL.md",
+                       "name":  "fixing-accessibility",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "fixing-metadata",
+                       "path":  "frontend\\fixing-metadata",
+                       "skill_file":  "frontend\\fixing-metadata/SKILL.md",
+                       "name":  "fixing-metadata",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "fixing-motion-performance",
+                       "path":  "frontend\\fixing-motion-performance",
+                       "skill_file":  "frontend\\fixing-motion-performance/SKILL.md",
+                       "name":  "fixing-motion-performance",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "harden",
+                       "path":  "frontend\\harden",
+                       "skill_file":  "frontend\\harden/SKILL.md",
+                       "name":  "harden",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "normalize",
+                       "path":  "frontend\\normalize",
+                       "skill_file":  "frontend\\normalize/SKILL.md",
+                       "name":  "normalize",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "onboard",
+                       "path":  "frontend\\onboard",
+                       "skill_file":  "frontend\\onboard/SKILL.md",
+                       "name":  "onboard",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "optimize",
+                       "path":  "frontend\\optimize",
+                       "skill_file":  "frontend\\optimize/SKILL.md",
+                       "name":  "optimize",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "polish",
+                       "path":  "frontend\\polish",
+                       "skill_file":  "frontend\\polish/SKILL.md",
+                       "name":  "polish",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "quieter",
+                       "path":  "frontend\\quieter",
+                       "skill_file":  "frontend\\quieter/SKILL.md",
+                       "name":  "quieter",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "react-native-skills",
+                       "path":  "frontend\\react-native-skills",
+                       "skill_file":  "frontend\\react-native-skills/SKILL.md",
+                       "name":  "vercel-react-native-skills",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "remotion",
+                       "path":  "frontend\\remotion",
+                       "skill_file":  "frontend\\remotion/SKILL.md",
+                       "name":  "remotion-best-practices",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "frontend",
+                       "folder":  "teach-impeccable",
+                       "path":  "frontend\\teach-impeccable",
+                       "skill_file":  "frontend\\teach-impeccable/SKILL.md",
+                       "name":  "teach-impeccable",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "tooling",
+                       "folder":  "claude-ask",
+                       "path":  "tooling\\claude-ask",
+                       "skill_file":  "tooling\\claude-ask/SKILL.md",
+                       "name":  "claude-ask",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "tooling",
+                       "folder":  "codex-ask",
+                       "path":  "tooling\\codex-ask",
+                       "skill_file":  "tooling\\codex-ask/SKILL.md",
+                       "name":  "codex-ask",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "tooling",
+                       "folder":  "defuddle",
+                       "path":  "tooling\\defuddle",
+                       "skill_file":  "tooling\\defuddle/SKILL.md",
+                       "name":  "defuddle",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "tooling",
+                       "folder":  "filesystem-context",
+                       "path":  "tooling\\filesystem-context",
+                       "skill_file":  "tooling\\filesystem-context/SKILL.md",
+                       "name":  "filesystem-context",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "tooling",
+                       "folder":  "gemini-ask",
+                       "path":  "tooling\\gemini-ask",
+                       "skill_file":  "tooling\\gemini-ask/SKILL.md",
+                       "name":  "gemini-ask",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "tooling",
+                       "folder":  "json-canvas",
+                       "path":  "tooling\\json-canvas",
+                       "skill_file":  "tooling\\json-canvas/SKILL.md",
+                       "name":  "json-canvas",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "tooling",
+                       "folder":  "kimi-ask",
+                       "path":  "tooling\\kimi-ask",
+                       "skill_file":  "tooling\\kimi-ask/SKILL.md",
+                       "name":  "kimi-ask",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "tooling",
+                       "folder":  "obsidian-bases",
+                       "path":  "tooling\\obsidian-bases",
+                       "skill_file":  "tooling\\obsidian-bases/SKILL.md",
+                       "name":  "obsidian-bases",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "tooling",
+                       "folder":  "obsidian-cli",
+                       "path":  "tooling\\obsidian-cli",
+                       "skill_file":  "tooling\\obsidian-cli/SKILL.md",
+                       "name":  "obsidian-cli",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "tooling",
+                       "folder":  "obsidian-markdown",
+                       "path":  "tooling\\obsidian-markdown",
+                       "skill_file":  "tooling\\obsidian-markdown/SKILL.md",
+                       "name":  "obsidian-markdown",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "tooling",
+                       "folder":  "skillshare",
+                       "path":  "tooling\\skillshare",
+                       "skill_file":  "tooling\\skillshare/SKILL.md",
+                       "name":  "skillshare",
+                       "has_description":  true,
+                       "has_meta":  true,
+                       "meta_valid":  true
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-add-phase",
+                       "path":  "workflow\\gsd-add-phase",
+                       "skill_file":  "workflow\\gsd-add-phase/SKILL.md",
+                       "name":  "gsd-add-phase",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-add-tests",
+                       "path":  "workflow\\gsd-add-tests",
+                       "skill_file":  "workflow\\gsd-add-tests/SKILL.md",
+                       "name":  "gsd-add-tests",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-add-todo",
+                       "path":  "workflow\\gsd-add-todo",
+                       "skill_file":  "workflow\\gsd-add-todo/SKILL.md",
+                       "name":  "gsd-add-todo",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-audit-milestone",
+                       "path":  "workflow\\gsd-audit-milestone",
+                       "skill_file":  "workflow\\gsd-audit-milestone/SKILL.md",
+                       "name":  "gsd-audit-milestone",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-check-todos",
+                       "path":  "workflow\\gsd-check-todos",
+                       "skill_file":  "workflow\\gsd-check-todos/SKILL.md",
+                       "name":  "gsd-check-todos",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-cleanup",
+                       "path":  "workflow\\gsd-cleanup",
+                       "skill_file":  "workflow\\gsd-cleanup/SKILL.md",
+                       "name":  "gsd-cleanup",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-complete-milestone",
+                       "path":  "workflow\\gsd-complete-milestone",
+                       "skill_file":  "workflow\\gsd-complete-milestone/SKILL.md",
+                       "name":  "gsd-complete-milestone",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-debug",
+                       "path":  "workflow\\gsd-debug",
+                       "skill_file":  "workflow\\gsd-debug/SKILL.md",
+                       "name":  "gsd-debug",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-discuss-phase",
+                       "path":  "workflow\\gsd-discuss-phase",
+                       "skill_file":  "workflow\\gsd-discuss-phase/SKILL.md",
+                       "name":  "gsd-discuss-phase",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-execute-phase",
+                       "path":  "workflow\\gsd-execute-phase",
+                       "skill_file":  "workflow\\gsd-execute-phase/SKILL.md",
+                       "name":  "gsd-execute-phase",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-health",
+                       "path":  "workflow\\gsd-health",
+                       "skill_file":  "workflow\\gsd-health/SKILL.md",
+                       "name":  "gsd-health",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-help",
+                       "path":  "workflow\\gsd-help",
+                       "skill_file":  "workflow\\gsd-help/SKILL.md",
+                       "name":  "gsd-help",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-insert-phase",
+                       "path":  "workflow\\gsd-insert-phase",
+                       "skill_file":  "workflow\\gsd-insert-phase/SKILL.md",
+                       "name":  "gsd-insert-phase",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-join-discord",
+                       "path":  "workflow\\gsd-join-discord",
+                       "skill_file":  "workflow\\gsd-join-discord/SKILL.md",
+                       "name":  "gsd-join-discord",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-list-phase-assumptions",
+                       "path":  "workflow\\gsd-list-phase-assumptions",
+                       "skill_file":  "workflow\\gsd-list-phase-assumptions/SKILL.md",
+                       "name":  "gsd-list-phase-assumptions",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-map-codebase",
+                       "path":  "workflow\\gsd-map-codebase",
+                       "skill_file":  "workflow\\gsd-map-codebase/SKILL.md",
+                       "name":  "gsd-map-codebase",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-new-milestone",
+                       "path":  "workflow\\gsd-new-milestone",
+                       "skill_file":  "workflow\\gsd-new-milestone/SKILL.md",
+                       "name":  "gsd-new-milestone",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-new-project",
+                       "path":  "workflow\\gsd-new-project",
+                       "skill_file":  "workflow\\gsd-new-project/SKILL.md",
+                       "name":  "gsd-new-project",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-pause-work",
+                       "path":  "workflow\\gsd-pause-work",
+                       "skill_file":  "workflow\\gsd-pause-work/SKILL.md",
+                       "name":  "gsd-pause-work",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-plan-milestone-gaps",
+                       "path":  "workflow\\gsd-plan-milestone-gaps",
+                       "skill_file":  "workflow\\gsd-plan-milestone-gaps/SKILL.md",
+                       "name":  "gsd-plan-milestone-gaps",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-plan-phase",
+                       "path":  "workflow\\gsd-plan-phase",
+                       "skill_file":  "workflow\\gsd-plan-phase/SKILL.md",
+                       "name":  "gsd-plan-phase",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-progress",
+                       "path":  "workflow\\gsd-progress",
+                       "skill_file":  "workflow\\gsd-progress/SKILL.md",
+                       "name":  "gsd-progress",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-quick",
+                       "path":  "workflow\\gsd-quick",
+                       "skill_file":  "workflow\\gsd-quick/SKILL.md",
+                       "name":  "gsd-quick",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-reapply-patches",
+                       "path":  "workflow\\gsd-reapply-patches",
+                       "skill_file":  "workflow\\gsd-reapply-patches/SKILL.md",
+                       "name":  "gsd-reapply-patches",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-remove-phase",
+                       "path":  "workflow\\gsd-remove-phase",
+                       "skill_file":  "workflow\\gsd-remove-phase/SKILL.md",
+                       "name":  "gsd-remove-phase",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-research-phase",
+                       "path":  "workflow\\gsd-research-phase",
+                       "skill_file":  "workflow\\gsd-research-phase/SKILL.md",
+                       "name":  "gsd-research-phase",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-resume-work",
+                       "path":  "workflow\\gsd-resume-work",
+                       "skill_file":  "workflow\\gsd-resume-work/SKILL.md",
+                       "name":  "gsd-resume-work",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-set-profile",
+                       "path":  "workflow\\gsd-set-profile",
+                       "skill_file":  "workflow\\gsd-set-profile/SKILL.md",
+                       "name":  "gsd-set-profile",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-settings",
+                       "path":  "workflow\\gsd-settings",
+                       "skill_file":  "workflow\\gsd-settings/SKILL.md",
+                       "name":  "gsd-settings",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-update",
+                       "path":  "workflow\\gsd-update",
+                       "skill_file":  "workflow\\gsd-update/SKILL.md",
+                       "name":  "gsd-update",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-validate-phase",
+                       "path":  "workflow\\gsd-validate-phase",
+                       "skill_file":  "workflow\\gsd-validate-phase/SKILL.md",
+                       "name":  "gsd-validate-phase",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   },
+                   {
+                       "group":  "workflow",
+                       "folder":  "gsd-verify-work",
+                       "path":  "workflow\\gsd-verify-work",
+                       "skill_file":  "workflow\\gsd-verify-work/SKILL.md",
+                       "name":  "gsd-verify-work",
+                       "has_description":  true,
+                       "has_meta":  false,
+                       "meta_valid":  false
+                   }
+               ]
+}
