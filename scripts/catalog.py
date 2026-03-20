@@ -30,75 +30,77 @@ DIST_DIR = REPO_ROOT / "dist"
 # ── Canonical category taxonomy ────────────────────────────────────────────────
 # Order matters: first match wins. More specific patterns should come first.
 
+# Each keyword is matched as a whole word (surrounded by non-word chars).
+# Order matters: first match wins. More specific patterns must come first.
 CATEGORIES = [
     ("security", [
-        "security", "audit", "owasp", "pentest", "hardening", "threat-model",
-        "vulnerability", "sast", "secret-scan", "zero-trust", "compliance",
-        "csrf", "xss", "injection", "firewall", "encryption", "red-team",
-        "blue-team", "incident", "active-directory", "attack", "cyber",
-        "advogado-criminal",  # legal/criminal maps to security context
+        "security", "owasp", "pentest", "hardening", "threat model",
+        "vulnerability", "sast", "secret scan", "zero trust",
+        "csrf", "xss", "firewall", "encryption", "red team",
+        "blue team", "active directory", "cyber", "advogado criminal",
+        "bug bounty", "malware", "exploit", "injection attack",
     ]),
     ("ai-agents", [
-        "agent", "orchestrat", "multi-agent", "rag", "llm", "langchain",
-        "langgraph", "crewai", "autogen", "memory-mcp", "mcp", "tool-builder",
-        "agentfolio", "agentmail", "agents-md", "ai-engineer", "ai-wrapper",
-        "ai-agent", "ai-ml", "ai-native", "ai-studio", "ai-product",
-        "bdi-mental", "hosted-agent",
+        "agent", "orchestrat", "multi agent", "rag", "llm", "langchain",
+        "langgraph", "crewai", "autogen", "memory mcp", "tool builder",
+        "agentfolio", "agentmail", "agents md", "ai engineer", "ai wrapper",
+        "ai agent", "ai ml", "ai native", "ai studio", "ai product",
+        "bdi mental", "hosted agent", "agentic", "prompt engineering",
     ]),
     ("devops", [
-        "ci", "cd", "deploy", "pipeline", "kubernetes", "docker", "build",
-        "lint", "test-workflow", "rollback", "branch-cleanup", "stale-issues",
-        "issue-triage", "sast-scan", "secret-scan", "matrix-build", "migration",
-        "production", "infra", "vault", "gitops", "helm", "rebase", "airflow",
-        "github-action", "github-comment", "address-github",
+        "deploy", "kubernetes", "docker", "ci cd", "pipeline",
+        "rollback", "branch cleanup", "stale issues", "issue triage",
+        "matrix build", "gitops", "helm", "rebase", "github action",
+        "github comment", "infra", "migration monitoring", "production pipeline",
+        "build and push", "lint check", "smart test",
     ]),
     ("data", [
-        "data-engineer", "data-pipeline", "data-driven", "analytics",
+        "data engineer", "data pipeline", "data driven", "data warehouse",
         "database", "postgres", "postgresql", "mysql", "sql", "dbt",
-        "airflow-dag", "spark", "warehouse", "etl", "streaming",
-        "analytics-dados", "airtable",
+        "airflow", "spark", "warehouse", "etl", "streaming",
+        "analytics dados", "airtable", "analytics tracking",
     ]),
     ("backend", [
-        "api", "backend", "server", "node", "python", "django", "flask",
-        "fastapi", "graphql", "rest", "grpc", "microservice", "supabase",
-        "firebase", "aws", "azure", "gcp", "cloud", "lambda", "serverless",
-        "luau", "roblox", "activecampaign",
+        "backend", "api", "fastapi", "graphql", "grpc", "microservice",
+        "supabase", "firebase", "serverless", "luau", "roblox",
+        "activecampaign", "rest api", "api endpoint", "cloud",
+        "aws", "azure", "gcp", "lambda", "node", "flask", "django",
     ]),
     ("frontend", [
-        "frontend", "ui", "ux", "react", "vue", "angular", "svelte",
-        "css", "tailwind", "web", "landing-page", "html", "design",
-        "mobile", "expo", "swift-ui", "jetpack", "react-native",
-        "2d-game", "3d-game", "game-art", "game-audio", "game-design",
-        "remotion", "animation", "accessibility", "wcag",
+        "frontend", "react", "vue", "angular", "svelte",
+        "tailwind", "landing page", "ui ux", "expo", "swift ui",
+        "jetpack", "react native", "2d game", "3d game", "game art",
+        "game audio", "game design", "game development", "remotion",
+        "animation", "accessibility", "wcag", "html", "css", "web design",
     ]),
     ("automation", [
-        "automation", "zapier", "make", "n8n", "workflow", "webhook",
-        "bot", "whatsapp", "telegram", "instagram", "chatbot",
-        "email-automation", "notification", "spreadsheet", "crm-auto",
-        "process-mining", "document-auto", "social-media-auto", "scraping",
-        "lead-enrich", "task-auto",
+        "automation", "zapier", "n8n", "webhook",
+        "whatsapp", "telegram", "chatbot", "bot",
+        "email automation", "notification", "spreadsheet",
+        "process mining", "document auto", "social media auto", "scraping",
+        "lead enrich", "workflow", "make scenario", "n8n workflow",
     ]),
     ("content", [
-        "content", "copy", "seo", "social-media", "email-campaign",
-        "ad-copy", "marketing", "copywriting", "blog", "article",
-        "conteudo", "copy-variant", "brand", "viral", "launch-email",
-        "persona", "marca-pessoal", "redes-sociais",
+        "copywriting", "copy variant", "ad copy", "conteudo",
+        "marca pessoal", "redes sociais", "launch email",
+        "seo", "viral", "blog", "marketing", "brand",
+        "social media", "copy", "email campaign",
     ]),
     ("business", [
-        "business", "sales", "finance", "legal", "consulting", "contract",
-        "pricing", "funnel", "growth", "crm", "b2b", "startup", "yc",
+        "business", "sales", "finance", "consulting", "contract",
+        "pricing", "funnel", "growth", "b2b", "startup", "yc",
         "pitch", "investor", "revenue", "financeiro", "juridico",
-        "compliance", "advogado", "lancamento", "funil", "vendas",
-        "clientes", "consultoria", "nichos",
+        "advogado", "lancamento", "funil", "vendas",
+        "clientes", "consultoria", "nichos", "legal",
     ]),
     ("productivity", [
-        "productivity", "task", "planning", "project", "gsd", "todo",
-        "milestone", "kanban", "notion", "obsidian", "calendar",
-        "operacoes", "sistemas",
+        "productivity", "gsd", "kanban", "notion", "obsidian",
+        "operacoes", "sistemas", "planning", "project management",
+        "task management",
     ]),
     ("education", [
-        "education", "learning", "course", "teach", "tutorial", "document",
-        "writing", "cursos", "educacao", "training",
+        "education", "learning", "course", "teach", "tutorial",
+        "cursos", "educacao", "training", "document", "writing",
     ]),
 ]
 
@@ -144,29 +146,29 @@ def parse_frontmatter(path: Path) -> dict:
     fm_text = text[3:end]
     result = {}
     current_key = None
-    list_items = []
+    list_items: list[str] = []
+
+    def flush():
+        if current_key and list_items:
+            result[current_key] = list_items[:]
 
     for line in fm_text.splitlines():
-        if line.startswith("  ") and current_key and list_items is not None:
-            # nested key (metadata: block) — skip for now
+        if line.startswith("  ") and current_key:
+            # nested key (metadata: block) — skip
             continue
         list_match = re.match(r"^- (.+)$", line)
         kv_match = re.match(r"^(\w[\w-]*): ?(.*)", line)
 
         if list_match and current_key is not None:
             list_items.append(list_match.group(1).strip())
-            result[current_key] = list_items
         elif kv_match:
-            if current_key and isinstance(list_items, list) and list_items:
-                result[current_key] = list_items
+            flush()
             current_key = kv_match.group(1)
             val = kv_match.group(2).strip().strip("'\"")
             result[current_key] = val
             list_items = []
-        else:
-            if current_key and isinstance(list_items, list):
-                pass  # continuation line, ignore
 
+    flush()  # save the last list field
     return result
 
 
@@ -179,14 +181,15 @@ def classify(name: str, description: str, tags: list, kit_subfolder: str = "") -
     if kit_subfolder and kit_subfolder in KIT_CATEGORY_MAP:
         return KIT_CATEGORY_MAP[kit_subfolder]
 
-    # 2. Combine searchable text
+    # 2. Combine searchable text; normalize hyphens/underscores to spaces
     haystack = " ".join([name, description, *tags]).lower()
     haystack = re.sub(r"[-_]", " ", haystack)
 
     for category, keywords in CATEGORIES:
         for kw in keywords:
             kw_norm = re.sub(r"[-_]", " ", kw.lower())
-            if kw_norm in haystack:
+            # Match whole words only to avoid false positives (e.g. "ci" in "social")
+            if re.search(r"(?<!\w)" + re.escape(kw_norm) + r"(?!\w)", haystack):
                 return category
 
     return "uncategorized"
@@ -194,7 +197,7 @@ def classify(name: str, description: str, tags: list, kit_subfolder: str = "") -
 
 # ── Quality issues ────────────────────────────────────────────────────────────
 
-def quality_issues(fm: dict, path: Path) -> list[str]:
+def quality_issues(fm: dict) -> list[str]:
     issues = []
     if not fm.get("name"):
         issues.append("missing-name")
@@ -241,7 +244,7 @@ def load_skills(pack_filter: str = "") -> list[dict]:
             wave = parts[0] if len(parts) >= 3 and "global" in pack_dir.name else ""
 
             category = classify(name, description, tags, kit_subfolder)
-            issues = quality_issues(fm, skill_md)
+            issues = quality_issues(fm)
 
             skill = {
                 "name": str(name),
@@ -318,8 +321,11 @@ def write_catalog_md(skills: list[dict], out: Path):
             issue_str = ", ".join(s["issues"]) if s["issues"] else "—"
             risk = s["risk"] or "—"
             pack_short = "global" if "global" in s["pack"] else "kit"
-            desc_short = s["description"][:70] + "…" if len(s["description"]) > 70 else s["description"]
-            lines.append(f"| **{s['name']}** — {desc_short} | {pack_short} | {risk} | {issue_str} |")
+            desc = s["description"][:70] + "…" if len(s["description"]) > 70 else s["description"]
+            # Escape pipe chars that would break Markdown table cells
+            safe_name = s["name"].replace("|", "\\|")
+            safe_desc = desc.replace("|", "\\|")
+            lines.append(f"| **{safe_name}** — {safe_desc} | {pack_short} | {risk} | {issue_str} |")
         lines.append("")
 
     with open(out, "w", encoding="utf-8") as f:
@@ -358,7 +364,7 @@ def main():
     parser.add_argument("--json", action="store_true", help="Output JSON to stdout instead of file")
     args = parser.parse_args()
 
-    print(f"[catalog] Loading skills from {PACKS_DIR}...")
+    print(f"[catalog] Loading skills from {PACKS_DIR}...", file=sys.stderr)
     skills = load_skills(pack_filter=args.pack)
 
     if args.category:

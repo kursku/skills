@@ -56,6 +56,7 @@ validate_skill() {
 
 # ── Collect curated skill directories (non-pack) ──────────────────────────────
 SKILL_DIRS=()
+SKILL_CATS=()  # parallel array: category for each entry in SKILL_DIRS
 
 if [[ -z "$PACKS_CATEGORY" ]]; then
   # Curated skills only (not in packs/)
@@ -68,11 +69,12 @@ if [[ -z "$PACKS_CATEGORY" ]]; then
       | sort
   )
   for dir in "${ALL_CURATED[@]}"; do
-    if [[ -n "$FILTER_CATEGORY" ]]; then
-      category="$(basename "$(dirname "$dir")")"
-      [[ "$category" != "$FILTER_CATEGORY" ]] && continue
+    category="$(basename "$(dirname "$dir")")"
+    if [[ -n "$FILTER_CATEGORY" && "$category" != "$FILTER_CATEGORY" ]]; then
+      continue
     fi
     SKILL_DIRS+=("$dir")
+    SKILL_CATS+=("$category")
   done
 fi
 
@@ -84,26 +86,35 @@ if [[ -n "$PACKS_CATEGORY" ]]; then
     python3 "$REPO_ROOT/scripts/catalog.py"
   fi
 
-  if command -v python3 &>/dev/null; then
-    filter_arg="$PACKS_CATEGORY"
-    [[ "$filter_arg" == "all" ]] && filter_arg=""
-    mapfile -t PACK_PATHS < <(
-      python3 - "$CATALOG" "$filter_arg" <<'PYEOF'
+  if ! command -v python3 &>/dev/null; then
+    log "ERROR: python3 required for pack catalog filtering."
+    exit 1
+  fi
+
+  filter_arg="$PACKS_CATEGORY"
+  [[ "$filter_arg" == "all" ]] && filter_arg=""
+
+  # Output "path<TAB>category" lines in a single python3 call; avoids per-skill subprocesses
+  mapfile -t PACK_PATH_CATS < <(
+    python3 - "$CATALOG" "$filter_arg" <<'PYEOF'
 import json, sys
 catalog = json.load(open(sys.argv[1]))
 cat_filter = sys.argv[2] if len(sys.argv) > 2 else ""
 for s in catalog:
     if not cat_filter or s["category"] == cat_filter:
-        print(s["path"])
+        print(s["path"] + "\t" + s["category"])
 PYEOF
-    )
-    for rel in "${PACK_PATHS[@]}"; do
-      SKILL_DIRS+=("$REPO_ROOT/$rel")
-    done
-  else
-    log "ERROR: python3 required for pack catalog filtering."
-    exit 1
-  fi
+  )
+  for entry in "${PACK_PATH_CATS[@]}"; do
+    rel="${entry%%	*}"
+    cat="${entry##*	}"
+    SKILL_DIRS+=("$REPO_ROOT/$rel")
+    SKILL_CATS+=("$cat")
+  done
+fi
+
+if [[ -n "$PACKS_CATEGORY" && -n "$FILTER_CATEGORY" ]]; then
+  log "WARNING: --category is ignored when --packs is set. Use --packs <category> to filter pack skills."
 fi
 
 if [[ ${#SKILL_DIRS[@]} -eq 0 ]]; then
@@ -154,24 +165,8 @@ build_skill() {
   ((BUILT++)) || true
 }
 
-for skill_dir in "${SKILL_DIRS[@]}"; do
-  # Determine category:
-  # - For curated skills: parent folder name (frontend, backend, etc.)
-  # - For pack skills: look up in catalog JSON
-  if [[ "$skill_dir" == */packs/* ]]; then
-    rel="${skill_dir#"$REPO_ROOT/"}"
-    category="$(SKILL_PATH="$rel" CATALOG_FILE="$DIST_DIR/pack-catalog.json" python3 -c "
-import json, os
-catalog = json.load(open(os.environ['CATALOG_FILE']))
-path = os.environ['SKILL_PATH']
-match = next((s for s in catalog if s['path'] == path), None)
-print(match['category'] if match else 'uncategorized')
-")"
-  else
-    category="$(basename "$(dirname "$skill_dir")")"
-  fi
-
-  build_skill "$skill_dir" "$category"
+for i in "${!SKILL_DIRS[@]}"; do
+  build_skill "${SKILL_DIRS[$i]}" "${SKILL_CATS[$i]}"
 done
 
 # ── Summary ───────────────────────────────────────────────────────────────────

@@ -76,6 +76,8 @@ python3 scripts/catalog.py --issues-only
 | `automation` | ~103 | Zapier, n8n, bots, webhooks |
 | `data` | ~65 | Data engineering, analytics, SQL |
 | `education` | ~39 | Cursos, documentação, tutoriais |
+| `productivity` | ~17 | GSD, Notion, Kanban, planejamento |
+| `tooling` | ~8 | Utilitários técnicos, CLI, integrações |
 | `uncategorized` | ~125 | Aguardando classificação |
 
 **Output:** `dist/<categoria>/<skill-name>.skill`
