@@ -4,21 +4,34 @@ Skills são módulos de instrução especializada que ensinam o Claude a lidar c
 
 ---
 
-## Como usar no claude.ai
+## Como instalar no claude.ai
 
-**1. Escolha uma skill abaixo e clique em Download**
+<!-- demo GIF — gerado por scripts/record_install_demo.py -->
+![Instalando uma skill no claude.ai](docs/assets/install-demo.gif)
 
-**2. Abra seu Projeto no claude.ai e vá em Configurações**
+**1. Escolha uma skill nas categorias abaixo e clique em ⬇ Download**
 
-<!-- 📸 Adicione aqui um screenshot da tela de Projeto no claude.ai, mostrando onde clicar em "Configurações" ou o ícone de engrenagem -->
+**2. Acesse [claude.ai/customize/skills](https://claude.ai/customize/skills)**
 
-**3. Clique em "Add content" e faça upload do arquivo `.skill`**
+**3. Clique em "Add skill" e faça upload do arquivo `.skill` baixado**
 
-<!-- 📸 Adicione aqui um screenshot da tela de configurações do Projeto, mostrando o botão "Add content" -->
+**4. Pronto! A skill está disponível em todos os seus chats e Projetos**
 
-**4. Pronto! A skill está ativa no seu Projeto**
+> **Alternativa (Projetos):** Se preferir usar a skill apenas em um Projeto específico, abra o Projeto → Configurações → Add content → faça upload do `.skill`.
 
-<!-- 📸 Adicione aqui um screenshot confirmando que o arquivo aparece na lista de conteúdos do Projeto -->
+---
+
+## claude.ai vs Claude Desktop
+
+| | claude.ai (web) | Claude Desktop / CLI |
+|---|---|---|
+| **Como instalar** | Upload do `.skill` em [claude.ai/customize/skills](https://claude.ai/customize/skills) | `skillshare install` via terminal |
+| **Formato** | Arquivo `.skill` (ZIP renomeado com `SKILL.md`) | Pasta com `SKILL.md` diretamente |
+| **Escopo** | Global — disponível em todos os chats e Projetos | Por projeto ou global, conforme config |
+| **Atualização** | Re-upload manual | `skillshare update --all` |
+
+Se você usa o **claude.ai no navegador**, siga o passo a passo acima.
+Se você usa o **Claude Desktop ou Claude Code**, veja [docs/SKILLSHARE.md](docs/SKILLSHARE.md) para instalar via `skillshare`.
 
 ---
 

@@ -11,7 +11,7 @@ Mapa geral de explicacoes do repositorio: `docs/SKILL_EXPLANATIONS_PT-BR.md`.
 
 ## Usando no Claude.ai sem instalar nada
 
-Se voce usa o Claude.ai no navegador, nao precisa do `skillshare`. Baixe o arquivo `.skill` direto e envie para o seu Projeto.
+Se voce usa o Claude.ai no navegador, nao precisa do `skillshare`. Baixe o arquivo `.skill` direto e instale pela pagina de skills.
 
 **Passo a passo:**
 
@@ -25,13 +25,15 @@ Se voce usa o Claude.ai no navegador, nao precisa do `skillshare`. Baixe o arqui
 
 2. Clique em **Download** na skill que quiser.
 
-3. No Claude.ai, abra seu Projeto e va em **Configuracoes**.
+3. Acesse [claude.ai/customize/skills](https://claude.ai/customize/skills).
 
-4. Clique em **Add content** e faca o upload do arquivo `.skill`.
+4. Clique em **Add skill** e faca o upload do arquivo `.skill`.
 
-5. Pronto. A skill esta ativa no seu Projeto.
+5. Pronto. A skill esta disponivel em todos os seus chats e Projetos.
 
-**Dica:** suba de 10 a 40 skills por projeto, agrupadas por contexto (ex.: Marketing, Operacoes, Vendas).
+> **Alternativa:** Para usar a skill apenas dentro de um Projeto especifico, abra o Projeto → Configuracoes → Add content → faca o upload do `.skill`.
+
+**Dica:** comece com 5 a 10 skills agrupadas por contexto (ex.: Marketing, Desenvolvimento, Seguranca).
 
 ---
 
