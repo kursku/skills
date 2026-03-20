@@ -101,11 +101,19 @@ dist/
 
 O claude.ai aceita **um `.skill` por upload**. Não há batch upload oficial na UI.
 
+### Onde fazer upload
+
+Acesse **[claude.ai/customize/skills](https://claude.ai/customize/skills)** → clique em **Add skill** → faça upload do `.skill`.
+
+As skills instaladas aqui ficam disponíveis em **todos os seus chats e Projetos**.
+
+> **Alternativa por Projeto:** Para instalar em apenas um Projeto, abra o Projeto → Configurações → Add content → faça upload do `.skill`.
+
 ### Estratégia recomendada por volume:
 
 | Volume | Estratégia |
 |--------|-----------|
-| 1–10 skills | Upload manual direto no claude.ai |
+| 1–10 skills | Upload manual em [claude.ai/customize/skills](https://claude.ai/customize/skills) |
 | 10–80 skills (curadas) | Build por categoria e upload por lote |
 | 80–1785 skills (packs) | Priorize por categoria: rode `--packs security` e suba o que for relevante |
 | Tudo de uma vez | Só via API do claude.ai (quando disponível) |
@@ -115,7 +123,7 @@ O claude.ai aceita **um `.skill` por upload**. Não há batch upload oficial na 
 ### Passo a passo (upload manual):
 
 1. Rode `./scripts/release.sh` para gerar os `.skill` files em `dist/`
-2. Acesse [claude.ai](https://claude.ai) → Skills → Upload
+2. Acesse [claude.ai/customize/skills](https://claude.ai/customize/skills)
 3. Faça upload dos arquivos `.skill` da pasta `dist/` desejada
 4. Cada `.skill` vira uma skill disponível na sua conta
 
