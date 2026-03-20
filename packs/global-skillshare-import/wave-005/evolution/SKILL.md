@@ -1,10 +1,6 @@
 ---
 name: evolution
-description: |
-  CRITICAL: Use for makepad-skills self-evolution and contribution. Triggers on:
-  evolve, evolution, contribute, contribution, self-improve, self-improvement,
-  add pattern, new pattern, capture learning, document solution,
-  hooks, hook system, auto-trigger, skill...
+description: "Self-evolution and contribution system for makepad-skills. Use when capturing new patterns, correcting skill errors, contributing learnings, or setting up hooks for auto-triggered skill updates."
 ---
 
 <!-- security-allowlist: curl-pipe-bash -->

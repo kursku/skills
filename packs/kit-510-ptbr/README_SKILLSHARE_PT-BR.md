@@ -1,11 +1,39 @@
 # Guia para Iniciantes: Kit 510+ com Skillshare
 
-**Language / Idioma:** [English (Main README)](../../../../README.md) · Português (PT-BR)
+**Language / Idioma:** [English (Main README)](../../README.md) · Português (PT-BR)
 
 Este guia foi escrito para quem esta comecando agora.
 Objetivo: em poucos passos, voce instala o kit, testa um skill e entende como manter tudo funcionando.
 
 Mapa geral de explicacoes do repositorio: `docs/SKILL_EXPLANATIONS_PT-BR.md`.
+
+---
+
+## Usando no Claude.ai sem instalar nada
+
+Se voce usa o Claude.ai no navegador, nao precisa do `skillshare`. Baixe o arquivo `.skill` direto e envie para o seu Projeto.
+
+**Passo a passo:**
+
+1. Acesse a lista de skills por categoria:
+   - [Frontend](../../frontend/) — design, animacoes, acessibilidade
+   - [Backend](../../backend/) — banco de dados, APIs
+   - [Data & AI](../../data-ai/) — LLMs, avaliacao de modelos, agentes
+   - [Tooling](../../tooling/) — ferramentas, CLIs, produtividade
+   - [Workflow (GSD)](../../workflow/) — gerenciamento de projetos e fases
+   - [Core](../../core/) — comunicacao interna e uso geral
+
+2. Clique em **Download** na skill que quiser.
+
+3. No Claude.ai, abra seu Projeto e va em **Configuracoes**.
+
+4. Clique em **Add content** e faca o upload do arquivo `.skill`.
+
+5. Pronto. A skill esta ativa no seu Projeto.
+
+**Dica:** suba de 10 a 40 skills por projeto, agrupadas por contexto (ex.: Marketing, Operacoes, Vendas).
+
+---
 
 ## O que e este kit?
 
@@ -172,9 +200,15 @@ Nao instale o kit inteiro. Comece por 1 ou 2 trilhas (ex.: `01-conteudo-copy`, `
 
 No Claude.ai do navegador, o fluxo e diferente:
 - `skillshare` nao sincroniza direto no Claude.ai.
-- Voce precisa enviar arquivos no Projeto (Knowledge).
+- Voce pode enviar arquivos `.skill` (download direto) ou `SKILL.md` manualmente.
 
-Passo a passo:
+**Opcao 1 — Download direto (recomendado):**
+1. Baixe os arquivos `.skill` pelas listas de categoria acima.
+2. Crie um Projeto no Claude.ai (ex.: "Marketing").
+3. Em Configuracoes do Projeto, clique em **Add content** e envie os `.skill` baixados.
+4. Adicione uma instrucao fixa do projeto (modelo abaixo).
+
+**Opcao 2 — Upload manual de SKILL.md:**
 1. Crie um Projeto no Claude.ai (ex.: "Marketing").
 2. Envie os `SKILL.md` das trilhas que voce quer usar.
 3. Envie tambem arquivos de apoio importantes (templates/referencias).

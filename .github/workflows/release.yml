@@ -1,0 +1,43 @@
+name: Release Skills
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build .skill files
+        run: bash scripts/release.sh
+
+      - name: Collect built files
+        id: collect
+        run: |
+          files=$(find dist -name "*.skill" | sort | tr '\n' ' ')
+          echo "files=$files" >> "$GITHUB_OUTPUT"
+
+      - name: Delete existing latest release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release delete latest --yes 2>/dev/null || true
+          git push --delete origin latest 2>/dev/null || true
+
+      - name: Create release and upload skills
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create latest \
+            --title "Skills — última versão" \
+            --notes "Arquivos `.skill` prontos para upload no claude.ai. Veja o [README](https://github.com/${{ github.repository }}/blob/master/README.md) para instruções." \
+            --latest \
+            ${{ steps.collect.outputs.files }}

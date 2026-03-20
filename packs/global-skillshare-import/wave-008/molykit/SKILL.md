@@ -1,10 +1,6 @@
 ---
 name: molykit
-description: |
-  CRITICAL: Use for MolyKit AI chat toolkit. Triggers on:
-  BotClient, OpenAI, SSE streaming, AI chat, molykit,
-  PlatformSend, spawn(), ThreadToken, cross-platform async,
-  Chat widget, Messages, PromptInput, Avatar, LLM
+description: "AI chat interfaces with Makepad using MolyKit. Covers BotClient, SSE streaming, cross-platform async (PlatformSend, spawn, ThreadToken), and chat widgets (Messages, PromptInput, Avatar)."
 ---
 
 # MolyKit Skill
