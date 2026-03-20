@@ -33,74 +33,234 @@ DIST_DIR = REPO_ROOT / "dist"
 # Each keyword is matched as a whole word (surrounded by non-word chars).
 # Order matters: first match wins. More specific patterns must come first.
 CATEGORIES = [
+    # ── Health (before business/education to avoid false positives) ───────────
+    ("health", [
+        "health analyzer", "health data", "health pattern", "wellally",
+        "fitness analyzer", "nutrition analyzer", "sleep analyzer",
+        "mental health", "skin health", "oral health", "rehabilitation",
+        "family health", "travel health", "occupational health",
+        "sexual health", "goal analyzer", "weightloss", "tcm constitution",
+        "health assistant", "health trend", "emergency card", "medical",
+        "claude ally health", "ai analyzer",
+        "健康", "营养", "睡眠", "运动", "医疗", "体质",
+    ]),
+
+    # ── Security ──────────────────────────────────────────────────────────────
     ("security", [
         "security", "owasp", "pentest", "hardening", "threat model",
         "vulnerability", "sast", "secret scan", "zero trust",
         "csrf", "xss", "firewall", "encryption", "red team",
         "blue team", "active directory", "cyber", "advogado criminal",
         "bug bounty", "malware", "exploit", "injection attack",
+        "reverse engineer", "binary analysis", "memory forensics",
+        "protocol reverse", "anti reversing", "obfuscat",
+        "gdpr", "pci compliance", "pci dss", "wireshark",
+        "shodan", "smtp penetration", "ffuf", "web fuzzing",
+        "forensic", "zeroize", "semgrep", "vibe code audit",
+        "production code audit", "constant time",
+        "varlock", "yes md", "yes-md",
     ]),
+
+    # ── AI / Agents / ML ──────────────────────────────────────────────────────
     ("ai-agents", [
         "agent", "orchestrat", "multi agent", "rag", "llm", "langchain",
         "langgraph", "crewai", "autogen", "memory mcp", "tool builder",
         "agentfolio", "agentmail", "agents md", "ai engineer", "ai wrapper",
         "ai agent", "ai ml", "ai native", "ai studio", "ai product",
         "bdi mental", "hosted agent", "agentic", "prompt engineering",
+        "mcp builder", "mcp server", "model context protocol",
+        "ml engineer", "mlops", "computer use", "voice agent",
+        "fal audio", "fal generate", "fal image", "fal upscale",
+        "hugging face", "imagen", "skill developer", "skill router",
+        "skill sentinel", "subagent", "tool design", "dispatching",
+        "context manager", "context guardian", "memory system",
+        "similarity search", "vector index", "prompt library",
+        "autonomous agent", "computer vision",
+        # remaining uncategorized
+        "context management", "context optimiz", "data structure protocol",
+        "openai docs", "app builder", "blockrun",
+        "acceptance orchestrat", "closed loop", "executing plan",
+        "skill check", "skill seeker", "using superpower", "superpowers lab",
+        "enhance prompt", "vexor", "full stack orchestrat",
     ]),
+
+    # ── DevOps / CI / Git / Testing ───────────────────────────────────────────
     ("devops", [
         "deploy", "kubernetes", "docker", "ci cd", "pipeline",
         "rollback", "branch cleanup", "stale issues", "issue triage",
         "matrix build", "gitops", "helm", "rebase", "github action",
         "github comment", "infra", "migration monitoring", "production pipeline",
         "build and push", "lint check", "smart test",
+        "terraform", "prometheus", "grafana", "observabilit",
+        "slo ", "sli ", "incident responder", "incident response",
+        "incident runbook", "on call", "service mesh",
+        "tdd", "test driven", "monorepo", "turborepo", "nx workspace",
+        "bazel", "dependency upgrade", "git workflow", "git push",
+        "pull request", "pr writer", " pr ", "create branch",
+        "create issue", "address github", "iterate pr", "fix review",
+        "finishing a development", "using git worktree",
+        "verification before", "commit", "conductor",
+        "lint and validate", "devops troubleshoot", "performance engineer",
+        "distributed tracing", "distributed debug",
+        # remaining uncategorized — code quality & debugging cluster
+        "code review", "code refactor", "codebase cleanup", "code simplif",
+        "codex review", "legacy moderniz", "vibe code",
+        "debugging", "error debug", "error diagnostic", "error handling",
+        "error detective", "bug hunt", "systematic debug",
+        "performance optim", "performance profil", "web performance",
+        "framework migration", "deployment validation", "test fixing",
+        "unit testing", "environment setup", "dx optim",
+        "server management", "network setup", "web server", "network 101",
+        "project scaffold", "cc-skill", "comprehensive review",
+        "claude win11", "speckit", "templates",
+        "github actions", "github issue creator", "gh review",
+        "git advanced", "slo implement",
+        "architect review", "architecture decision", "c4 architect",
+        "c4 code", "c4 component", "c4 context", "c4 container",
+        "software architect", "ab test", "receiving code review",
+        "requesting code review", "oss hunter", "issues",
+        "linear claude", "pypict", "android ui verif",
     ]),
+
+    # ── Data / Analytics / Visualization ─────────────────────────────────────
     ("data", [
         "data engineer", "data pipeline", "data driven", "data warehouse",
         "database", "postgres", "postgresql", "mysql", "sql", "dbt",
         "airflow", "spark", "warehouse", "etl", "streaming",
         "analytics dados", "airtable", "analytics tracking",
+        "matplotlib", "plotly", "seaborn", "networkx", "sympy",
+        "statsmodel", "backtesting", "quant", "trading strateg",
+        "risk metric", "risk manager", "apify audience", "apify content",
+        "apify trend", "youtube summarizer", "daily news",
+        "astropy", "cirq", "qiskit", "pandas", "numpy",
+        "d3.js", "d3js", "data visuali", "claude d3",
     ]),
+
+    # ── Backend / Languages / APIs ────────────────────────────────────────────
     ("backend", [
         "backend", "api", "fastapi", "graphql", "grpc", "microservice",
         "supabase", "firebase", "serverless", "luau", "roblox",
         "activecampaign", "rest api", "api endpoint", "cloud",
         "aws", "azure", "gcp", "lambda", "node", "flask", "django",
+        "rust pro", "rust async", "systems programming rust",
+        "golang pro", "go concurrency", "kotlin coroutine",
+        "typescript pro", "typescript expert", "typescript advanced",
+        "javascript master", "javascript testing",
+        "ruby pro", "php pro", "elixir pro", "haskell pro",
+        "julia pro", "c pro", "cpp pro", "csharp pro",
+        "nestjs", "rails", "new rails", "skill rails",
+        "cloudflare worker", "payment integration", "paypal", "stripe",
+        "pci compliance", "clerk auth", "auth implementation",
+        "jwt", "oauth", "blockchain", "web3", "nft standard",
+        "lightning network", "lightning channel", "bevy ecs",
+        "unreal engine", "arm cortex", "posix shell",
+        "bash linux", "linux shell", "powershell", "busybox",
+        "async python", "python pattern", "python packaging",
+        "python performance", "uv package",
+        "fp errors", "fp either", "fp option", "fp pipe",
+        "fp pragmatic", "fp refactor", "fp ts", "fp data",
+        "cqrs", "event sourc", "event store", "domain driven",
+        "ddd tactical", "ddd context",
+        "microservices pattern", "salesforce", "odoo",
+        "m365 agent", "temporal python", "istio",
+        "nosql", "avalonia", "godot", "minecraft bukkit",
+        "dwarf expert", "binary analysis", "shellcheck",
     ]),
+
+    # ── Frontend / 3D / Mobile / Games ────────────────────────────────────────
     ("frontend", [
         "frontend", "react", "vue", "angular", "svelte",
         "tailwind", "landing page", "ui ux", "expo", "swift ui",
         "jetpack", "react native", "2d game", "3d game", "game art",
         "game audio", "game design", "game development", "remotion",
         "animation", "accessibility", "wcag", "html", "css", "web design",
+        "three.js", "threejs", "three js",
+        "unity developer", "flutter expert", "ios developer",
+        "swiftui", "swift ui expert",
+        "electron", "chrome extension", "browser extension",
+        "nextjs", "next.js", "astro ", "shadcn", "radix ui",
+        "magic ui", "stitch ui", "stitch loop",
+        "scroll experience", "canvas design", "iconsax",
+        "interactive portfolio", "mobile design",
+        "makepad", "robius",
+        "hig components", "hig foundations", "hig inputs",
+        "hig patterns", "hig platforms",
+        "vr ar", "vr development", "ar development",
+        "mermaid", "vizcom", "algorithmic art",
+        "avalonia layout", "avalonia view", "avalonia zafiro",
+        # remaining uncategorized
+        "chat widget", "core components", "design system", "design spell",
+        "ui skill", "favicon", "game balance", "game content",
+        "draw ", "design md",
     ]),
+
+    # ── Automation / Bots / Workflows ─────────────────────────────────────────
     ("automation", [
         "automation", "zapier", "n8n", "webhook",
         "whatsapp", "telegram", "chatbot", "bot",
         "email automation", "notification", "spreadsheet",
         "process mining", "document auto", "social media auto", "scraping",
         "lead enrich", "workflow", "make scenario", "n8n workflow",
+        "apify ultimate", "file organizer", "android ui verif",
+        "playwright", "e2e testing",
     ]),
+
+    # ── Content / Marketing / Copywriting ────────────────────────────────────
     ("content", [
         "copywriting", "copy variant", "ad copy", "conteudo",
         "marca pessoal", "redes sociais", "launch email",
         "seo", "viral", "blog", "marketing", "brand",
         "social media", "copy", "email campaign",
+        "cro", "conversion rate", "signup flow", "onboarding cro",
+        "paywall upgrade", "form cro", "page cro",
+        "app store optim", "paid ads",
+        "geo fundamentals", "generative engine optim",
+        "email sequence", "x article", "professional proofreader",
+        "keyword extractor",
+        "internal comms", "unsplash", "launch strateg",
+        "claude speed reader", "speed reader",
     ]),
+
+    # ── Business / Finance / Legal / Ops ─────────────────────────────────────
     ("business", [
         "business", "sales", "finance", "consulting", "contract",
         "pricing", "funnel", "growth", "b2b", "startup", "yc",
         "pitch", "investor", "revenue", "financeiro", "juridico",
         "advogado", "lancamento", "funil", "vendas",
         "clientes", "consultoria", "nichos", "legal",
+        "hr pro", "human resource", "interview coach",
+        "andruia", "niche intelligence", "tecnologico",
+        "logistics", "supply chain", "carrier relationship",
+        "customs trade", "energy procurement", "returns reverse",
+        "production scheduling", "quality nonconformance",
+        "market sizing", "competitive landscape", "team composition",
+        "product manager", "product inventor",
+        "segment cdp", "sred project", "leiloeiro",
+        "fda food", "fda medtech",
     ]),
+
+    # ── Productivity / Workflow / Planning ────────────────────────────────────
     ("productivity", [
         "productivity", "gsd", "kanban", "notion", "obsidian",
         "operacoes", "sistemas", "planning", "project management",
         "task management",
+        "kaizen", "brainstorming",
+        "peon ping", "diary", "speed reader", "speckit",
+        "elon musk", "ilya sutskever", "steve jobs", "matematico",
     ]),
+
+    # ── Education / Docs / Research ──────────────────────────────────────────
     ("education", [
         "education", "learning", "course", "teach", "tutorial",
         "cursos", "educacao", "training", "document", "writing",
+        "wiki architect", "wiki changelog", "wiki onboard",
+        "wiki researcher", "wiki vitepress", "wiki qa",
+        "docs architect", "search specialist", "citation",
+        "research", "latex paper", "paper publisher",
+        "pdf official", "pptx official",
+        "i18n", "localization",
+        "explain like", "ask questions if", "claude code guide",
+        "environment setup guide",
     ]),
 ]
 
@@ -188,8 +348,11 @@ def classify(name: str, description: str, tags: list, kit_subfolder: str = "") -
     for category, keywords in CATEGORIES:
         for kw in keywords:
             kw_norm = re.sub(r"[-_]", " ", kw.lower())
-            # Match whole words only to avoid false positives (e.g. "ci" in "social")
-            if re.search(r"(?<!\w)" + re.escape(kw_norm) + r"(?!\w)", haystack):
+            # Left-boundary only: keyword must start at a word boundary but can
+            # be followed by suffixes/plurals (e.g. "agent" matches "agents",
+            # "orchestrat" matches "orchestrator"/"orchestration").
+            # The left boundary prevents false positives like "ci" in "social".
+            if re.search(r"(?<!\w)" + re.escape(kw_norm), haystack):
                 return category
 
     return "uncategorized"
