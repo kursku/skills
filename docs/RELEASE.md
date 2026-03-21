@@ -169,6 +169,7 @@ dist-packs/
 ```
 
 > `dist/` continua sendo a superfície pública final. `dist-packs/` é saída operacional separada para releases derivados de `packs/`.
+> Tanto `dist/`, quanto `dist-packs/` e `build/catalog/` são artefatos gerados de workflow e não devem ser versionados.
 
 ## Upload no claude.ai
 
@@ -234,7 +235,7 @@ python3 scripts/catalog.py
 2. Garantir que o `SKILL.md` tenha frontmatter válido.
 3. Se necessário, atualizar a classificação operacional com `scripts/catalog.py`.
 4. Gerar os `.skill` com `./scripts/release.sh`.
-5. Validar a saída em `dist/<categoria>/`.
+5. Validar a saída em `dist/<categoria>/` ou `dist-packs/<categoria>/`, conforme o tipo de release.
 6. Fazer upload no claude.ai.
 
 ## Validação antes do upload
