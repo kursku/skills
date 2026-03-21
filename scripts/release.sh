@@ -4,11 +4,12 @@
 # Usage:
 #   ./scripts/release.sh                         # Build all curated skills (excludes packs/)
 #   ./scripts/release.sh --category frontend     # Build only a specific curated category
-#   ./scripts/release.sh --packs security        # Build pack skills of a catalog category
-#   ./scripts/release.sh --packs all             # Build ALL pack skills (1785 files)
+#   ./scripts/release.sh --packs security        # Build pack-backed skills in a public category
+#   ./scripts/release.sh --packs all             # Build all pack-backed skills
 #   ./scripts/release.sh --dry-run               # Show what would be built, no output files
 #
-# Pack categorization is driven by dist/pack-catalog.json (run scripts/catalog.py first).
+# Pack-backed categorization is driven by dist/pack-catalog.json (run scripts/catalog.py first).
+# The filename is kept for compatibility, but the categories inside are the public taxonomy.
 # Output: dist/<category>/<skill-name>.skill
 #
 # A .skill file is a ZIP archive containing the skill's folder contents.
@@ -19,7 +20,7 @@ set -euo pipefail
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 DIST_DIR="$REPO_ROOT/dist"
 FILTER_CATEGORY=""
-PACKS_CATEGORY=""   # if set, build pack skills of this catalog category ("all" = every pack)
+PACKS_CATEGORY=""   # if set, build pack-backed skills of this public category ("all" = every pack)
 DRY_RUN=false
 
 # ── Parse args ───────────────────────────────────────────────────────────────
@@ -78,7 +79,7 @@ if [[ -z "$PACKS_CATEGORY" ]]; then
   done
 fi
 
-# ── Collect pack skill directories (catalog-driven) ───────────────────────────
+# ── Collect pack-backed skill directories (catalog-driven) ────────────────────
 if [[ -n "$PACKS_CATEGORY" ]]; then
   CATALOG="$DIST_DIR/pack-catalog.json"
   if [[ ! -f "$CATALOG" ]]; then
@@ -98,7 +99,7 @@ if [[ -n "$PACKS_CATEGORY" ]]; then
   mapfile -t PACK_PATH_CATS < <(
     python3 - "$CATALOG" "$filter_arg" <<'PYEOF'
 import json, sys
-catalog = json.load(open(sys.argv[1]))
+catalog = json.load(open(sys.argv[1], encoding="utf-8"))
 cat_filter = sys.argv[2] if len(sys.argv) > 2 else ""
 for s in catalog:
     if not cat_filter or s["category"] == cat_filter:
@@ -114,7 +115,7 @@ PYEOF
 fi
 
 if [[ -n "$PACKS_CATEGORY" && -n "$FILTER_CATEGORY" ]]; then
-  log "WARNING: --category is ignored when --packs is set. Use --packs <category> to filter pack skills."
+  log "WARNING: --category is ignored when --packs is set. Use --packs <category> to filter public categories backed by packs."
 fi
 
 if [[ ${#SKILL_DIRS[@]} -eq 0 ]]; then

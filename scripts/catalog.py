@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-catalog.py — Catalog and categorize pack skills from the skills repository.
+catalog.py — Catalog and categorize pack skills into the public taxonomy.
 
 Usage:
     python scripts/catalog.py                      # Catalog all packs
@@ -11,8 +11,8 @@ Usage:
     python scripts/catalog.py --json               # Output JSON to stdout
 
 Output:
-    dist/pack-catalog.md   — Human-readable catalog grouped by category
-    dist/pack-catalog.json — Machine-readable catalog (used by release.sh)
+    dist/pack-catalog.md   — Human-readable catalog grouped by public category
+    dist/pack-catalog.json — Machine-readable catalog used by release.sh
 """
 
 import argparse
@@ -27,24 +27,17 @@ REPO_ROOT = Path(__file__).parent.parent
 PACKS_DIR = REPO_ROOT / "packs"
 DIST_DIR = REPO_ROOT / "dist"
 
-# ── Canonical category taxonomy ────────────────────────────────────────────────
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
+# ── Public category taxonomy ───────────────────────────────────────────────────
 # Order matters: first match wins. More specific patterns should come first.
 
-# Each keyword is matched as a whole word (surrounded by non-word chars).
-# Order matters: first match wins. More specific patterns must come first.
+# Each keyword is matched from a word boundary. More specific patterns must come
+# first to avoid broad matches swallowing narrower classes.
 CATEGORIES = [
-    # ── Health (before business/education to avoid false positives) ───────────
-    ("health", [
-        "health analyzer", "health data", "health pattern", "wellally",
-        "fitness analyzer", "nutrition analyzer", "sleep analyzer",
-        "mental health", "skin health", "oral health", "rehabilitation",
-        "family health", "travel health", "occupational health",
-        "sexual health", "goal analyzer", "weightloss", "tcm constitution",
-        "health assistant", "health trend", "emergency card", "medical",
-        "claude ally health", "ai analyzer",
-        "健康", "营养", "睡眠", "运动", "医疗", "体质",
-    ]),
-
     # ── Security ──────────────────────────────────────────────────────────────
     ("security", [
         "security", "owasp", "pentest", "hardening", "threat model",
@@ -61,8 +54,98 @@ CATEGORIES = [
         "varlock", "yes md", "yes-md",
     ]),
 
-    # ── AI / Agents / ML ──────────────────────────────────────────────────────
-    ("ai-agents", [
+    # ── Mobile / Games (before frontend) ─────────────────────────────────────
+    ("mobile", [
+        "mobile", "ios", "android", "expo", "react native", "flutter",
+        "swift ui", "swiftui", "jetpack", "kotlin coroutine",
+        "android ui", "native data fetching", "expo router",
+    ]),
+
+    ("game-dev", [
+        "2d game", "3d game", "game art", "game audio", "game design",
+        "game development", "game balance", "game content", "unity developer",
+        "godot", "unreal engine", "minecraft bukkit", "bevy ecs",
+        "three.js", "threejs", "three js",
+    ]),
+
+    # ── Docs / Content systems ────────────────────────────────────────────────
+    ("docs-content", [
+        "document", "documentation", "readme", "wiki ", "wiki-",
+        "tutorial", "tutorial engineer", "tutorials", "teach",
+        "citation", "latex paper", "paper publisher", "pdf official",
+        "pptx official", "xlsx official", "docx official",
+        "mermaid", "api document", "openapi", "c4 architect", "c4 ",
+        "docs architect", "reference builder", "scientific writing",
+        "professional proofreader", "internal comms",
+        "avoid ai writing",
+    ]),
+
+    # ── Cloud / DevOps / Platform ────────────────────────────────────────────
+    ("cloud-devops", [
+        "deploy", "kubernetes", "docker", "ci cd", "pipeline",
+        "terraform", "prometheus", "grafana", "observabilit",
+        "slo ", "sli ", "incident responder", "incident response",
+        "incident runbook", "on call", "service mesh", "gitops",
+        "helm", "infra", "cloud", "aws", "azure", "gcp", "lambda",
+        "serverless", "cloudflare worker", "temporal python",
+        "distributed tracing", "distributed debug", "devops",
+        "platform engineering", "mtls", "istio", "linkerd",
+        "render automation", "vercel deployment", "azure function",
+    ]),
+
+    # ── Automation / Integrations ────────────────────────────────────────────
+    ("automation", [
+        "automation", "zapier", "n8n", "webhook",
+        "whatsapp", "telegram", "chatbot", "bot",
+        "email automation", "notification", "spreadsheet",
+        "process mining", "document auto", "social media auto",
+        "scraping", "lead enrich", "make scenario", "n8n workflow",
+        "apify ultimate", "playwright", "e2e testing",
+        "activecampaign", "airtable", "asana", "brevo", "hubspot",
+        "mailchimp", "make automation", "notion automation",
+        "slack automation", "github automation", "jira automation",
+    ]),
+
+    # ── Frontend / UX / Web interface ────────────────────────────────────────
+    ("frontend", [
+        "frontend", "react", "vue", "angular", "svelte",
+        "tailwind", "landing page", "ui ux", "accessibility",
+        "wcag", "html", "css", "web design", "animation",
+        "nextjs", "next.js", "astro ", "shadcn", "radix ui",
+        "magic ui", "stitch ui", "stitch loop", "scroll experience",
+        "canvas design", "iconsax", "interactive portfolio",
+        "electron", "chrome extension", "browser extension",
+        "makepad", "robius", "hig components", "hig foundations",
+        "hig inputs", "hig patterns", "hig platforms",
+        "design system", "design spell", "ui skill", "favicon",
+        "avalonia", "visual", "metadata",
+        "algorithmic art", "chat widget", "remotion", "vizcom",
+        "draw", "shader programming glsl",
+    ]),
+
+    # ── Backend / APIs / Languages ───────────────────────────────────────────
+    ("backend", [
+        "backend", "api", "fastapi", "graphql", "grpc", "microservice",
+        "supabase", "firebase", "rest api", "api endpoint",
+        "node", "flask", "django", "nestjs", "rails", "new rails",
+        "rust pro", "rust async", "systems programming rust",
+        "golang pro", "go concurrency", "typescript pro", "typescript expert",
+        "typescript advanced", "javascript master", "javascript testing",
+        "ruby pro", "php pro", "elixir pro", "haskell pro",
+        "julia pro", "c pro", "cpp pro", "csharp pro",
+        "auth implementation", "jwt", "oauth", "clerk auth",
+        "payment integration", "paypal", "stripe",
+        "blockchain", "web3", "nft standard", "lightning network",
+        "fp errors", "fp either", "fp option", "fp pipe",
+        "fp pragmatic", "fp refactor", "fp ts", "cqrs",
+        "event sourc", "event store", "domain driven", "ddd tactical",
+        "ddd context", "microservices pattern", "nosql", "odoo",
+        "salesforce", "m365 agent", "arm cortex", "sql-pro",
+        "lightning factory explainer",
+    ]),
+
+    # ── Data / AI ─────────────────────────────────────────────────────────────
+    ("data-ai", [
         "agent", "orchestrat", "multi agent", "rag", "llm", "langchain",
         "langgraph", "crewai", "autogen", "memory mcp", "tool builder",
         "agentfolio", "agentmail", "agents md", "ai engineer", "ai wrapper",
@@ -82,48 +165,6 @@ CATEGORIES = [
         "acceptance orchestrat", "closed loop", "executing plan",
         "skill check", "skill seeker", "using superpower", "superpowers lab",
         "enhance prompt", "vexor", "full stack orchestrat",
-    ]),
-
-    # ── DevOps / CI / Git / Testing ───────────────────────────────────────────
-    ("devops", [
-        "deploy", "kubernetes", "docker", "ci cd", "pipeline",
-        "rollback", "branch cleanup", "stale issues", "issue triage",
-        "matrix build", "gitops", "helm", "rebase", "github action",
-        "github comment", "infra", "migration monitoring", "production pipeline",
-        "build and push", "lint check", "smart test",
-        "terraform", "prometheus", "grafana", "observabilit",
-        "slo ", "sli ", "incident responder", "incident response",
-        "incident runbook", "on call", "service mesh",
-        "tdd", "test driven", "monorepo", "turborepo", "nx workspace",
-        "bazel", "dependency upgrade", "git workflow", "git push",
-        "pull request", "pr writer", " pr ", "create branch",
-        "create issue", "address github", "iterate pr", "fix review",
-        "finishing a development", "using git worktree",
-        "verification before", "commit", "conductor",
-        "lint and validate", "devops troubleshoot", "performance engineer",
-        "distributed tracing", "distributed debug",
-        # remaining uncategorized — code quality & debugging cluster
-        "code review", "code refactor", "codebase cleanup", "code simplif",
-        "codex review", "legacy moderniz", "vibe code",
-        "debugging", "error debug", "error diagnostic", "error handling",
-        "error detective", "bug hunt", "systematic debug",
-        "performance optim", "performance profil", "web performance",
-        "framework migration", "deployment validation", "test fixing",
-        "unit testing", "environment setup", "dx optim",
-        "server management", "network setup", "web server", "network 101",
-        "project scaffold", "cc-skill", "comprehensive review",
-        "claude win11", "speckit", "templates",
-        "github actions", "github issue creator", "gh review",
-        "git advanced", "slo implement",
-        "architect review", "architecture decision", "c4 architect",
-        "c4 code", "c4 component", "c4 context", "c4 container",
-        "software architect", "ab test", "receiving code review",
-        "requesting code review", "oss hunter", "issues",
-        "linear claude", "pypict", "android ui verif",
-    ]),
-
-    # ── Data / Analytics / Visualization ─────────────────────────────────────
-    ("data", [
         "data engineer", "data pipeline", "data driven", "data warehouse",
         "database", "postgres", "postgresql", "mysql", "sql", "dbt",
         "airflow", "spark", "warehouse", "etl", "streaming",
@@ -134,79 +175,55 @@ CATEGORIES = [
         "apify trend", "youtube summarizer", "daily news",
         "astropy", "cirq", "qiskit", "pandas", "numpy",
         "d3.js", "d3js", "data visuali", "claude d3",
+        "health analyzer", "health data", "health pattern", "wellally",
+        "fitness analyzer", "nutrition analyzer", "sleep analyzer",
+        "mental health", "skin health", "oral health", "rehabilitation",
+        "family health", "travel health", "occupational health",
+        "sexual health", "goal analyzer", "weightloss", "tcm constitution",
+        "health assistant", "health trend", "emergency card", "medical",
+        "claude ally health", "ai analyzer",
+        "ab test setup", "clarity gate", "claude scientific skill",
+        "fp data transforms",
+        "健康", "营养", "睡眠", "运动", "医疗", "体质",
     ]),
 
-    # ── Backend / Languages / APIs ────────────────────────────────────────────
-    ("backend", [
-        "backend", "api", "fastapi", "graphql", "grpc", "microservice",
-        "supabase", "firebase", "serverless", "luau", "roblox",
-        "activecampaign", "rest api", "api endpoint", "cloud",
-        "aws", "azure", "gcp", "lambda", "node", "flask", "django",
-        "rust pro", "rust async", "systems programming rust",
-        "golang pro", "go concurrency", "kotlin coroutine",
-        "typescript pro", "typescript expert", "typescript advanced",
-        "javascript master", "javascript testing",
-        "ruby pro", "php pro", "elixir pro", "haskell pro",
-        "julia pro", "c pro", "cpp pro", "csharp pro",
-        "nestjs", "rails", "new rails", "skill rails",
-        "cloudflare worker", "payment integration", "paypal", "stripe",
-        "pci compliance", "clerk auth", "auth implementation",
-        "jwt", "oauth", "blockchain", "web3", "nft standard",
-        "lightning network", "lightning channel", "bevy ecs",
-        "unreal engine", "arm cortex", "posix shell",
-        "bash linux", "linux shell", "powershell", "busybox",
-        "async python", "python pattern", "python packaging",
-        "python performance", "uv package",
-        "fp errors", "fp either", "fp option", "fp pipe",
-        "fp pragmatic", "fp refactor", "fp ts", "fp data",
-        "cqrs", "event sourc", "event store", "domain driven",
-        "ddd tactical", "ddd context",
-        "microservices pattern", "salesforce", "odoo",
-        "m365 agent", "temporal python", "istio",
-        "nosql", "avalonia", "godot", "minecraft bukkit",
-        "dwarf expert", "binary analysis", "shellcheck",
+    # ── Workflow / orchestration / planning ──────────────────────────────────
+    ("workflow", [
+        "workflow", "gsd", "kanban", "planning", "project management",
+        "task management", "brainstorming", "kaizen", "conductor",
+        "git workflow", "git push", "pull request", "pr writer",
+        "create branch", "create issue", "iterate pr", "using git worktree",
+        "closed loop", "acceptance orchestrat", "executing plan",
+        "finishing a development", "verification before",
+        "issues", "linear claude", "peon ping", "diary",
+        "address github", "gh review", "rebase",
+        "writing plans",
     ]),
 
-    # ── Frontend / 3D / Mobile / Games ────────────────────────────────────────
-    ("frontend", [
-        "frontend", "react", "vue", "angular", "svelte",
-        "tailwind", "landing page", "ui ux", "expo", "swift ui",
-        "jetpack", "react native", "2d game", "3d game", "game art",
-        "game audio", "game design", "game development", "remotion",
-        "animation", "accessibility", "wcag", "html", "css", "web design",
-        "three.js", "threejs", "three js",
-        "unity developer", "flutter expert", "ios developer",
-        "swiftui", "swift ui expert",
-        "electron", "chrome extension", "browser extension",
-        "nextjs", "next.js", "astro ", "shadcn", "radix ui",
-        "magic ui", "stitch ui", "stitch loop",
-        "scroll experience", "canvas design", "iconsax",
-        "interactive portfolio", "mobile design",
-        "makepad", "robius",
-        "hig components", "hig foundations", "hig inputs",
-        "hig patterns", "hig platforms",
-        "vr ar", "vr development", "ar development",
-        "mermaid", "vizcom", "algorithmic art",
-        "avalonia layout", "avalonia view", "avalonia zafiro",
-        # remaining uncategorized
-        "chat widget", "core components", "design system", "design spell",
-        "ui skill", "favicon", "game balance", "game content",
-        "draw ", "design md",
+    # ── Tooling / CLI / debugging / local DX ─────────────────────────────────
+    ("tooling", [
+        "tooling", "lint", "validate", "test driven", "tdd", "monorepo",
+        "turborepo", "nx workspace", "bazel", "dependency upgrade",
+        "code review", "code refactor", "codebase cleanup", "code simplif",
+        "codex review", "legacy moderniz", "vibe code", "debugging",
+        "error debug", "error diagnostic", "error handling", "error detective",
+        "bug hunt", "systematic debug", "performance optim",
+        "performance profil", "framework migration", "test fixing",
+        "unit testing", "environment setup", "dx optim", "server management",
+        "network setup", "web server", "network 101", "project scaffold",
+        "cc-skill", "comprehensive review", "claude win11", "speckit",
+        "templates", "github actions", "github issue creator", "commit",
+        "shellcheck", "posix shell", "bash linux", "linux shell",
+        "powershell", "busybox", "python pattern", "python packaging",
+        "python performance", "uv package", "dwarf expert", "pypict",
+        "search specialist", "tool design", "skill check",
+        "architect review", "build", "clean code", "file organizer",
+        "memory safety pattern", "modern javascript pattern", "oss hunter",
+        "software architecture",
     ]),
 
-    # ── Automation / Bots / Workflows ─────────────────────────────────────────
-    ("automation", [
-        "automation", "zapier", "n8n", "webhook",
-        "whatsapp", "telegram", "chatbot", "bot",
-        "email automation", "notification", "spreadsheet",
-        "process mining", "document auto", "social media auto", "scraping",
-        "lead enrich", "workflow", "make scenario", "n8n workflow",
-        "apify ultimate", "file organizer", "android ui verif",
-        "playwright", "e2e testing",
-    ]),
-
-    # ── Content / Marketing / Copywriting ────────────────────────────────────
-    ("content", [
+    # ── Business / marketing / verticals ─────────────────────────────────────
+    ("business", [
         "copywriting", "copy variant", "ad copy", "conteudo",
         "marca pessoal", "redes sociais", "launch email",
         "seo", "viral", "blog", "marketing", "brand",
@@ -217,13 +234,7 @@ CATEGORIES = [
         "geo fundamentals", "generative engine optim",
         "email sequence", "x article", "professional proofreader",
         "keyword extractor",
-        "internal comms", "unsplash", "launch strateg",
-        "claude speed reader", "speed reader",
-    ]),
-
-    # ── Business / Finance / Legal / Ops ─────────────────────────────────────
-    ("business", [
-        "business", "sales", "finance", "consulting", "contract",
+        "launch strateg", "business", "sales", "finance", "consulting", "contract",
         "pricing", "funnel", "growth", "b2b", "startup", "yc",
         "pitch", "investor", "revenue", "financeiro", "juridico",
         "advogado", "lancamento", "funil", "vendas",
@@ -237,53 +248,34 @@ CATEGORIES = [
         "product manager", "product inventor",
         "segment cdp", "sred project", "leiloeiro",
         "fda food", "fda medtech",
-    ]),
-
-    # ── Productivity / Workflow / Planning ────────────────────────────────────
-    ("productivity", [
-        "productivity", "gsd", "kanban", "notion", "obsidian",
-        "operacoes", "sistemas", "planning", "project management",
-        "task management",
-        "kaizen", "brainstorming",
-        "peon ping", "diary", "speed reader", "speckit",
         "elon musk", "ilya sutskever", "steve jobs", "matematico",
-    ]),
-
-    # ── Education / Docs / Research ──────────────────────────────────────────
-    ("education", [
-        "education", "learning", "course", "teach", "tutorial",
-        "cursos", "educacao", "training", "document", "writing",
-        "wiki architect", "wiki changelog", "wiki onboard",
-        "wiki researcher", "wiki vitepress", "wiki qa",
-        "docs architect", "search specialist", "citation",
-        "research", "latex paper", "paper publisher",
-        "pdf official", "pptx official",
-        "i18n", "localization",
-        "explain like", "ask questions if", "claude code guide",
-        "environment setup guide",
+        "education", "learning", "course", "cursos", "educacao", "training",
+        "notion", "obsidian", "speed reader", "unsplash",
+        "i18n", "localization", "explain like", "ask questions if",
+        "claude code guide",
     ]),
 ]
 
-# kit-510-ptbr explicit category mapping (folder prefix → canonical)
+# kit-510-ptbr explicit mapping to public categories
 KIT_CATEGORY_MAP = {
-    "00-utilitarios-negocio":  "business",
-    "00-utilitarios-tecnicos": "tooling",
-    "01-conteudo-copy":        "content",
-    "02-email-automacao":      "automation",
-    "03-funis-vendas":         "business",
-    "04-anuncios-trafego":     "content",
-    "05-seo-busca":            "content",
-    "06-financeiro-precos":    "business",
-    "07-juridico-compliance":  "business",
-    "08-lancamento-growth":    "business",
-    "09-redes-sociais":        "content",
-    "10-clientes-consultoria": "business",
-    "11-operacoes-sistemas":   "automation",
-    "12-ia-automacao":         "ai-agents",
-    "13-cursos-educacao":      "education",
-    "14-marca-pessoal":        "content",
-    "15-analytics-dados":      "data",
-    "16-nichos-especificos":   "business",
+    "00-utilitarios-negocio":  "utilitarios-negocio",
+    "00-utilitarios-tecnicos": "utilitarios-tecnicos",
+    "01-conteudo-copy":        "conteudo-copy",
+    "02-email-automacao":      "email-automacao",
+    "03-funis-vendas":         "funis-vendas",
+    "04-anuncios-trafego":     "anuncios-trafego",
+    "05-seo-busca":            "seo-busca",
+    "06-financeiro-precos":    "financeiro-precos",
+    "07-juridico-compliance":  "juridico-compliance",
+    "08-lancamento-growth":    "lancamento-growth",
+    "09-redes-sociais":        "redes-sociais",
+    "10-clientes-consultoria": "clientes-consultoria",
+    "11-operacoes-sistemas":   "operacoes-sistemas",
+    "12-ia-automacao":         "ia-automacao",
+    "13-cursos-educacao":      "cursos-educacao",
+    "14-marca-pessoal":        "marca-pessoal",
+    "15-analytics-dados":      "analytics-dados",
+    "16-nichos-especificos":   "nichos-especificos",
 }
 
 
@@ -335,7 +327,7 @@ def parse_frontmatter(path: Path) -> dict:
 # ── Category classifier ────────────────────────────────────────────────────────
 
 def classify(name: str, description: str, tags: list, kit_subfolder: str = "") -> str:
-    """Assign a canonical category. Returns 'uncategorized' if no match."""
+    """Assign a public category. Returns 'uncategorized' if no match."""
 
     # 1. Use kit folder map if available
     if kit_subfolder and kit_subfolder in KIT_CATEGORY_MAP:
@@ -413,9 +405,13 @@ def load_skills(pack_filter: str = "") -> list[dict]:
                 "name": str(name),
                 "description": str(description),
                 "category": category,
+                "public_category": category,
                 "pack": pack_dir.name,
                 "wave": wave,
                 "kit_subfolder": kit_subfolder,
+                "source_pack": pack_dir.name,
+                "source_wave": wave,
+                "source_group": kit_subfolder or wave,
                 "path": str(skill_md.parent.relative_to(REPO_ROOT)),
                 "risk": fm.get("risk", "unknown"),
                 "source": fm.get("source", ""),
@@ -440,7 +436,7 @@ def write_catalog_json(skills: list[dict], out: Path):
     out.parent.mkdir(parents=True, exist_ok=True)
     with open(out, "w", encoding="utf-8") as f:
         json.dump(skills, f, ensure_ascii=False, indent=2)
-    print(f"[catalog] JSON → {out}  ({len(skills)} skills)")
+    print(f"[catalog] JSON -> {out}  ({len(skills)} skills)")
 
 
 def write_catalog_md(skills: list[dict], out: Path):
@@ -457,9 +453,9 @@ def write_catalog_md(skills: list[dict], out: Path):
     risk_unknown = sum(1 for s in skills if "risk-unset" in s["issues"])
 
     lines = [
-        "# Pack Skills Catalog",
+        "# Public Skills Catalog",
         "",
-        f"**Total:** {total} skills across {len(by_category)} categories",
+        f"**Total:** {total} skills across {len(by_category)} public categories",
         "",
         "## Quality Overview",
         "",
@@ -493,7 +489,7 @@ def write_catalog_md(skills: list[dict], out: Path):
 
     with open(out, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
-    print(f"[catalog] MD  → {out}  ({total} skills, {len(by_category)} categories)")
+    print(f"[catalog] MD  -> {out}  ({total} skills, {len(by_category)} categories)")
 
 
 def print_issues_report(skills: list[dict]):
@@ -552,7 +548,7 @@ def main():
 
     print("\n[catalog] Category breakdown:")
     for cat, count in sorted(by_cat.items(), key=lambda x: -x[1]):
-        bar = "█" * (count // 10)
+        bar = "#" * (count // 10)
         print(f"  {cat:<20} {count:>4}  {bar}")
 
     total_issues = sum(1 for s in skills if s["issues"])
