@@ -58,9 +58,10 @@ Detalhamento estratégico:
 
 ## Gerando os arquivos `.skill`
 
-Use o pipeline de release normalmente:
+Use o pipeline conforme o tipo de release:
 
 ```bash
+# release público curado
 ./scripts/release.sh
 ```
 
@@ -70,10 +71,17 @@ Exemplos úteis:
 # Ver o que seria gerado sem criar artefatos
 ./scripts/release.sh --dry-run
 
-# Publicar uma categoria já classificada
+# Release público curado por categoria
 ./scripts/release.sh --category frontend
 ./scripts/release.sh --category conteudo-copy
 ./scripts/release.sh --category security
+
+# Release operacional pack-backed por categoria pública
+./scripts/release.sh --packs frontend
+./scripts/release.sh --packs conteudo-copy
+
+# Release operacional pack-backed completo
+./scripts/release.sh --packs all
 ```
 
 ## Quando usar `scripts/catalog.py`
@@ -91,6 +99,8 @@ Esse passo é útil quando:
 - novas skills foram adicionadas em `packs/kit-510-ptbr`
 - novas importações chegaram em `packs/global-skillshare-import`
 - a classificação operacional precisa ser recalculada antes do release
+
+Esse comando gera catálogo operacional em `build/catalog/pack-catalog.*`.
 
 Ele não muda a decisão estrutural do repositório:
 
@@ -137,7 +147,10 @@ Ele não muda a decisão estrutural do repositório:
 
 ## Output esperado
 
-Os artefatos ficam em `dist/<categoria>/`.
+Os artefatos agora saem em dois trilhos:
+
+- release público curado: `dist/<categoria>/`
+- release operacional pack-backed: `dist-packs/<categoria>/`
 
 Exemplo:
 
@@ -148,9 +161,14 @@ dist/
 ├── frontend/
 ├── security/
 └── workflow/
+
+dist-packs/
+├── conteudo-copy/
+├── frontend/
+└── workflow/
 ```
 
-> `dist/` é pasta de artefatos de publicação. Os `.skill` gerados não devem virar referência conceitual do repositório além do catálogo público final.
+> `dist/` continua sendo a superfície pública final. `dist-packs/` é saída operacional separada para releases derivados de `packs/`.
 
 ## Upload no claude.ai
 

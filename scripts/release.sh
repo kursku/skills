@@ -2,15 +2,16 @@
 # release.sh — Build .skill bundles from the repo for upload to claude.ai
 #
 # Usage:
-#   ./scripts/release.sh                         # Build all curated skills (excludes packs/)
-#   ./scripts/release.sh --category frontend     # Build only a specific curated category
-#   ./scripts/release.sh --packs security        # Build pack-backed skills in a public category
-#   ./scripts/release.sh --packs all             # Build all pack-backed skills
+#   ./scripts/release.sh                         # Build public curated release into dist/
+#   ./scripts/release.sh --category frontend     # Build one public curated category into dist/
+#   ./scripts/release.sh --packs security        # Build one pack-backed release category into dist-packs/
+#   ./scripts/release.sh --packs all             # Build all pack-backed release categories into dist-packs/
 #   ./scripts/release.sh --dry-run               # Show what would be built, no output files
 #
-# Pack-backed categorization is driven by dist/pack-catalog.json (run scripts/catalog.py first).
-# The filename is kept for compatibility, but the categories inside are the public taxonomy.
-# Output: dist/<category>/<skill-name>.skill
+# Public curated release output: dist/<category>/<skill-name>.skill
+# Pack-backed release output:    dist-packs/<category>/<skill-name>.skill
+# Pack-backed categorization is driven by build/catalog/pack-catalog.json
+# (run scripts/catalog.py first, or release.sh will generate it).
 #
 # A .skill file is a ZIP archive containing the skill's folder contents.
 # Required: SKILL.md with YAML frontmatter (name + description fields).
@@ -19,6 +20,8 @@ set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 DIST_DIR="$REPO_ROOT/dist"
+PACKS_DIST_DIR="$REPO_ROOT/dist-packs"
+CATALOG_DIR="$REPO_ROOT/build/catalog"
 FILTER_CATEGORY=""
 PACKS_CATEGORY=""   # if set, build pack-backed skills of this public category ("all" = every pack)
 DRY_RUN=false
@@ -40,6 +43,14 @@ done
 # ── Helpers ──────────────────────────────────────────────────────────────────
 log()  { echo "[release] $*"; }
 info() { echo "  $*"; }
+
+output_root() {
+  if [[ -n "$PACKS_CATEGORY" ]]; then
+    echo "$PACKS_DIST_DIR"
+  else
+    echo "$DIST_DIR"
+  fi
+}
 
 validate_skill() {
   local skill_md="$1"
@@ -81,7 +92,7 @@ fi
 
 # ── Collect pack-backed skill directories (catalog-driven) ────────────────────
 if [[ -n "$PACKS_CATEGORY" ]]; then
-  CATALOG="$DIST_DIR/pack-catalog.json"
+  CATALOG="$CATALOG_DIR/pack-catalog.json"
   if [[ ! -f "$CATALOG" ]]; then
     log "Pack catalog not found. Running scripts/catalog.py first..."
     python3 "$REPO_ROOT/scripts/catalog.py"
@@ -128,6 +139,12 @@ fi
 
 log "Found ${#SKILL_DIRS[@]} skill(s) to bundle."
 [[ "$DRY_RUN" == true ]] && log "(dry-run mode — no files will be written)"
+OUTPUT_ROOT="$(output_root)"
+if [[ -n "$PACKS_CATEGORY" ]]; then
+  log "Output root: $PACKS_DIST_DIR"
+else
+  log "Output root: $DIST_DIR"
+fi
 
 # ── Build .skill files ────────────────────────────────────────────────────────
 BUILT=0
@@ -149,11 +166,13 @@ build_skill() {
     return
   fi
 
-  local out_dir="$DIST_DIR/$category"
+  local out_dir="$OUTPUT_ROOT/$category"
   local out_file="$out_dir/$skill_name.skill"
 
   if [[ "$DRY_RUN" == true ]]; then
-    info "would build → dist/$category/$skill_name.skill"
+    local rel_root
+    rel_root="$(basename "$OUTPUT_ROOT")"
+    info "would build -> $rel_root/$category/$skill_name.skill"
     ((BUILT++)) || true
     return
   fi
@@ -181,9 +200,9 @@ if [[ ${#ERRORS[@]} -gt 0 ]]; then
 fi
 
 if [[ "$DRY_RUN" == false && $BUILT -gt 0 ]]; then
-  log "Output: $DIST_DIR/"
-  find "$DIST_DIR" -name "*.skill" | sort | while read -r f; do
-    rel="${f#"$DIST_DIR/"}"
+  log "Output: $OUTPUT_ROOT/"
+  find "$OUTPUT_ROOT" -name "*.skill" | sort | while read -r f; do
+    rel="${f#"$OUTPUT_ROOT/"}"
     size="$(du -sh "$f" 2>/dev/null | cut -f1)"
     info "$rel  ($size)"
   done

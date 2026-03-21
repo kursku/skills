@@ -11,8 +11,8 @@ Usage:
     python scripts/catalog.py --json               # Output JSON to stdout
 
 Output:
-    dist/pack-catalog.md   — Human-readable catalog grouped by public category
-    dist/pack-catalog.json — Machine-readable catalog used by release.sh
+    build/catalog/pack-catalog.md   — Human-readable operational catalog
+    build/catalog/pack-catalog.json — Machine-readable catalog used by pack release
 """
 
 import argparse
@@ -26,6 +26,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).parent.parent
 PACKS_DIR = REPO_ROOT / "packs"
 DIST_DIR = REPO_ROOT / "dist"
+CATALOG_DIR = REPO_ROOT / "build" / "catalog"
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -538,8 +539,8 @@ def main():
         return
 
     DIST_DIR.mkdir(parents=True, exist_ok=True)
-    write_catalog_json(skills, DIST_DIR / "pack-catalog.json")
-    write_catalog_md(skills, DIST_DIR / "pack-catalog.md")
+    write_catalog_json(skills, CATALOG_DIR / "pack-catalog.json")
+    write_catalog_md(skills, CATALOG_DIR / "pack-catalog.md")
 
     # Summary by category
     by_cat: dict[str, int] = defaultdict(int)
