@@ -1,17 +1,25 @@
-# Release Guide — Uploading Skills to claude.ai
+# Release Guide
+
+## Objetivo
+
+Publicar skills para o claude.ai seguindo o modelo novo do repositório:
+
+- o catálogo público final é organizado pelas categorias em `dist/`
+- `packs/` é apenas mecanismo interno de ingestão, composição e transição
+- o artefato publicado continua sendo o arquivo `.skill`
 
 ## Formato exigido pelo claude.ai
 
-Cada skill precisa de um arquivo `.skill` (que é um ZIP renomeado) contendo:
+Cada skill precisa de um arquivo `.skill` que é, na prática, um ZIP renomeado contendo pelo menos:
 
-```
-my-skill.skill   ← ZIP renomeado
-└── SKILL.md     ← Obrigatório (com frontmatter YAML: name + description)
-└── references/  ← Opcional
+```text
+my-skill.skill
+└── SKILL.md
+└── references/
 └── ...
 ```
 
-O `SKILL.md` precisa ter o frontmatter YAML com pelo menos:
+O `SKILL.md` precisa ter frontmatter YAML com pelo menos:
 
 ```yaml
 ---
@@ -20,134 +28,218 @@ description: "O que essa skill faz e quando usá-la."
 ---
 ```
 
----
+## Modelo de publicação
+
+### Estrutura pública
+
+As skills publicadas devem ser consumidas pelas categorias finais em `dist/`.
+
+Exemplos:
+
+- `dist/conteudo-copy/`
+- `dist/email-automacao/`
+- `dist/frontend/`
+- `dist/security/`
+- `dist/workflow/`
+
+### Estrutura operacional
+
+As coleções em `packs/` ainda podem ser usadas para compor e classificar skills durante a transição, mas não devem ser tratadas como estrutura pública principal.
+
+Resumo:
+
+- `dist/` = navegação pública final
+- `packs/` = ingestão e composição interna
+
+Detalhamento estratégico:
+
+- [PUBLIC_CATALOG_STRATEGY.md](C:\Users\nicol\Downloads\skills\docs\PUBLIC_CATALOG_STRATEGY.md)
+- [PUBLIC_TAXONOMY_MIGRATION.md](C:\Users\nicol\Downloads\skills\docs\PUBLIC_TAXONOMY_MIGRATION.md)
 
 ## Gerando os arquivos `.skill`
 
-### Skills curadas (76 skills)
-
-Use o `scripts/release.sh` diretamente:
+Use o pipeline de release normalmente:
 
 ```bash
-# Todas as skills curadas
 ./scripts/release.sh
-
-# Ver o que seria gerado sem criar arquivos
-./scripts/release.sh --dry-run
-
-# Só uma categoria
-./scripts/release.sh --category frontend
 ```
 
-### Pack skills (1785 skills)
+Exemplos úteis:
 
-Primeiro gere o catálogo (necessário uma vez, ou após mudanças nos packs):
+```bash
+# Ver o que seria gerado sem criar artefatos
+./scripts/release.sh --dry-run
+
+# Publicar uma categoria já classificada
+./scripts/release.sh --category frontend
+./scripts/release.sh --category conteudo-copy
+./scripts/release.sh --category security
+```
+
+## Quando usar `scripts/catalog.py`
+
+Use `scripts/catalog.py` apenas quando precisar atualizar a classificação operacional vinda de `packs/`.
+
+Exemplo:
 
 ```bash
 python3 scripts/catalog.py
 ```
 
-Depois use `--packs <categoria>` no release:
+Esse passo é útil quando:
+
+- novas skills foram adicionadas em `packs/kit-510-ptbr`
+- novas importações chegaram em `packs/global-skillshare-import`
+- a classificação operacional precisa ser recalculada antes do release
+
+Ele não muda a decisão estrutural do repositório:
+
+- o catálogo final continua sendo `dist/`
+- `packs/` continua sendo backstage operacional
+
+## Categorias públicas finais
+
+### PT-BR
+
+- `utilitarios-negocio`
+- `utilitarios-tecnicos`
+- `conteudo-copy`
+- `email-automacao`
+- `funis-vendas`
+- `anuncios-trafego`
+- `seo-busca`
+- `financeiro-precos`
+- `juridico-compliance`
+- `lancamento-growth`
+- `redes-sociais`
+- `clientes-consultoria`
+- `operacoes-sistemas`
+- `ia-automacao`
+- `cursos-educacao`
+- `marca-pessoal`
+- `analytics-dados`
+- `nichos-especificos`
+
+### Importadas
+
+- `frontend`
+- `backend`
+- `data-ai`
+- `tooling`
+- `workflow`
+- `security`
+- `cloud-devops`
+- `mobile`
+- `game-dev`
+- `docs-content`
+- `automation`
+- `business`
+
+## Output esperado
+
+Os artefatos ficam em `dist/<categoria>/`.
+
+Exemplo:
+
+```text
+dist/
+├── conteudo-copy/
+├── email-automacao/
+├── frontend/
+├── security/
+└── workflow/
+```
+
+> `dist/` é pasta de artefatos de publicação. Os `.skill` gerados não devem virar referência conceitual do repositório além do catálogo público final.
+
+## Upload no claude.ai
+
+O claude.ai aceita upload individual de `.skill`.
+
+Fluxo:
+
+1. gerar os arquivos `.skill`
+2. abrir [claude.ai/customize/skills](https://claude.ai/customize/skills)
+3. clicar em `Add skill`
+4. fazer upload do arquivo desejado
+
+Alternativa por Projeto:
+
+- Projeto → Configurações → Add content → upload do `.skill`
+
+## Estratégia recomendada de publicação
+
+### Pequenos lotes
+
+Use quando:
+
+- você quer subir poucas skills
+- está validando uma categoria nova
+- quer revisar manualmente antes do upload
+
+Fluxo:
 
 ```bash
-# Pack skills de uma categoria específica
-./scripts/release.sh --packs security
-./scripts/release.sh --packs ai-agents
-./scripts/release.sh --packs devops
-
-# Todas as pack skills (gera ~1785 arquivos)
-./scripts/release.sh --packs all
-
-# Ver o que o catálogo encontrou por categoria
-python3 scripts/catalog.py --issues-only
+./scripts/release.sh --category frontend
 ```
 
-**Categorias disponíveis nos packs:**
+### Publicação orientada por catálogo
 
-| Categoria | Skills | Descrição |
-|-----------|--------|-----------|
-| `devops` | ~406 | CI/CD, deploy, pipelines, Kubernetes |
-| `ai-agents` | ~278 | Agentes, RAG, LLM, MCP, orchestration |
-| `business` | ~204 | Vendas, finanças, jurídico, CRM |
-| `content` | ~180 | Copywriting, SEO, social media, email |
-| `security` | ~138 | Auditoria, OWASP, pentest, hardening |
-| `backend` | ~117 | APIs, cloud, databases, frameworks |
-| `frontend` | ~105 | UI, React, mobile, games, acessibilidade |
-| `automation` | ~103 | Zapier, n8n, bots, webhooks |
-| `data` | ~65 | Data engineering, analytics, SQL |
-| `education` | ~39 | Cursos, documentação, tutoriais |
-| `productivity` | ~17 | GSD, Notion, Kanban, planejamento |
-| `tooling` | ~8 | Utilitários técnicos, CLI, integrações |
-| `uncategorized` | ~125 | Aguardando classificação |
+Use quando:
 
-**Output:** `dist/<categoria>/<skill-name>.skill`
+- você já classificou as skills
+- quer publicar um bloco consistente da taxonomia pública final
 
-```
-dist/
-├── security/
-│   ├── 007.skill
-│   ├── api-fuzzing-bug-bounty.skill
-│   └── ...
-├── ai-agents/
-├── devops/
-└── ...
+Fluxo:
+
+```bash
+./scripts/release.sh
 ```
 
-> A pasta `dist/` está no `.gitignore` — os `.skill` files são artefatos de build, não devem ser commitados.
+### Atualização com ingestão operacional
 
----
+Use quando:
 
-## Fazendo upload no claude.ai
+- houve mudança em `packs/`
+- a classificação precisa ser regenerada antes do build
 
-O claude.ai aceita **um `.skill` por upload**. Não há batch upload oficial na UI.
+Fluxo:
 
-### Onde fazer upload
-
-Acesse **[claude.ai/customize/skills](https://claude.ai/customize/skills)** → clique em **Add skill** → faça upload do `.skill`.
-
-As skills instaladas aqui ficam disponíveis em **todos os seus chats e Projetos**.
-
-> **Alternativa por Projeto:** Para instalar em apenas um Projeto, abra o Projeto → Configurações → Add content → faça upload do `.skill`.
-
-### Estratégia recomendada por volume:
-
-| Volume | Estratégia |
-|--------|-----------|
-| 1–10 skills | Upload manual em [claude.ai/customize/skills](https://claude.ai/customize/skills) |
-| 10–80 skills (curadas) | Build por categoria e upload por lote |
-| 80–1785 skills (packs) | Priorize por categoria: rode `--packs security` e suba o que for relevante |
-| Tudo de uma vez | Só via API do claude.ai (quando disponível) |
-
-> **Dica:** Use o catálogo para decidir o que subir. `python3 scripts/catalog.py --issues-only` mostra skills com problemas de qualidade que provavelmente não valem o upload.
-
-### Passo a passo (upload manual):
-
-1. Rode `./scripts/release.sh` para gerar os `.skill` files em `dist/`
-2. Acesse [claude.ai/customize/skills](https://claude.ai/customize/skills)
-3. Faça upload dos arquivos `.skill` da pasta `dist/` desejada
-4. Cada `.skill` vira uma skill disponível na sua conta
-
----
-
-## Fluxo de release no repositório
-
-```
-1. Desenvolver/atualizar a skill em sua pasta (ex: frontend/adapt/)
-2. Editar o SKILL.md com as instruções e o frontmatter correto
-3. Commitar na branch de feature
-4. Após merge no master, rodar: ./scripts/release.sh
-5. Fazer upload dos .skill files gerados em dist/
+```bash
+python3 scripts/catalog.py
+./scripts/release.sh
 ```
 
----
+## Fluxo recomendado no repositório
+
+1. Criar ou atualizar a skill-fonte.
+2. Garantir que o `SKILL.md` tenha frontmatter válido.
+3. Se necessário, atualizar a classificação operacional com `scripts/catalog.py`.
+4. Gerar os `.skill` com `./scripts/release.sh`.
+5. Validar a saída em `dist/<categoria>/`.
+6. Fazer upload no claude.ai.
 
 ## Validação antes do upload
 
-O script `release.sh` valida automaticamente que cada `SKILL.md` tem `name:` e `description:` no frontmatter. Skills inválidas são listadas como "skipped" no output.
+O pipeline deve garantir:
 
-Para validar manualmente uma skill:
+- presença de `name:` e `description:` no frontmatter
+- estrutura mínima válida do pacote
+- saída classificada em categoria pública final
+
+Verificação manual simples:
 
 ```bash
 head -5 frontend/adapt/SKILL.md
-# Deve mostrar os campos name: e description:
 ```
+
+Deve mostrar o frontmatter com `name:` e `description:`.
+
+## Critério de qualidade para release
+
+Uma skill está pronta para publicação quando:
+
+- tem `SKILL.md` válido
+- está associada a uma categoria pública final
+- não depende de `packs/` para ser compreendida pelo usuário final
+- pode ser encontrada pelo catálogo público sem expor sua estrutura de ingestão
