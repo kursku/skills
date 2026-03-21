@@ -100,7 +100,7 @@ Esse passo é útil quando:
 - novas importações chegaram em `packs/global-skillshare-import`
 - a classificação operacional precisa ser recalculada antes do release
 
-Esse comando gera catálogo operacional em `build/catalog/pack-catalog.*`.
+Esse comando gera catálogo operacional em `build/catalog/pack-release-catalog.*`.
 
 Ele não muda a decisão estrutural do repositório:
 

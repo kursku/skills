@@ -11,8 +11,8 @@ Usage:
     python scripts/catalog.py --json               # Output JSON to stdout
 
 Output:
-    build/catalog/pack-catalog.md   — Human-readable operational catalog
-    build/catalog/pack-catalog.json — Machine-readable catalog used by pack release
+    build/catalog/pack-release-catalog.md   — Human-readable operational catalog
+    build/catalog/pack-release-catalog.json — Machine-readable catalog used by pack release
 """
 
 import argparse
@@ -52,7 +52,7 @@ CATEGORIES = [
         "shodan", "smtp penetration", "ffuf", "web fuzzing",
         "forensic", "zeroize", "semgrep", "vibe code audit",
         "production code audit", "constant time",
-        "varlock", "yes md", "yes-md",
+        "varlock", "yes md", "yes-md", "sharp edges",
     ]),
 
     # ── Mobile / Games (before frontend) ─────────────────────────────────────
@@ -66,7 +66,7 @@ CATEGORIES = [
         "2d game", "3d game", "game art", "game audio", "game design",
         "game development", "game balance", "game content", "unity developer",
         "godot", "unreal engine", "minecraft bukkit", "bevy ecs",
-        "three.js", "threejs", "three js",
+        "three.js", "threejs", "three js", "vr ar", "webxr", "arkit", "arcore",
     ]),
 
     # ── Docs / Content systems ────────────────────────────────────────────────
@@ -539,8 +539,8 @@ def main():
         return
 
     DIST_DIR.mkdir(parents=True, exist_ok=True)
-    write_catalog_json(skills, CATALOG_DIR / "pack-catalog.json")
-    write_catalog_md(skills, CATALOG_DIR / "pack-catalog.md")
+    write_catalog_json(skills, CATALOG_DIR / "pack-release-catalog.json")
+    write_catalog_md(skills, CATALOG_DIR / "pack-release-catalog.md")
 
     # Summary by category
     by_cat: dict[str, int] = defaultdict(int)

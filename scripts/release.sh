@@ -10,7 +10,7 @@
 #
 # Public curated release output: dist/<category>/<skill-name>.skill
 # Pack-backed release output:    dist-packs/<category>/<skill-name>.skill
-# Pack-backed categorization is driven by build/catalog/pack-catalog.json
+# Pack-backed categorization is driven by build/catalog/pack-release-catalog.json
 # (run scripts/catalog.py first, or release.sh will generate it).
 #
 # A .skill file is a ZIP archive containing the skill's folder contents.
@@ -92,7 +92,7 @@ fi
 
 # ── Collect pack-backed skill directories (catalog-driven) ────────────────────
 if [[ -n "$PACKS_CATEGORY" ]]; then
-  CATALOG="$CATALOG_DIR/pack-catalog.json"
+  CATALOG="$CATALOG_DIR/pack-release-catalog.json"
   if [[ ! -f "$CATALOG" ]]; then
     log "Pack catalog not found. Running scripts/catalog.py first..."
     python3 "$REPO_ROOT/scripts/catalog.py"
