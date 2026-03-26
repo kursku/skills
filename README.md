@@ -6,32 +6,29 @@ Skills são módulos de instrução especializada que ensinam o Claude a lidar c
 
 ## Como instalar no claude.ai
 
-<!-- demo GIF — gerado por scripts/record_install_demo.py -->
-![Instalando uma skill no claude.ai](docs/assets/install-demo.gif)
+**1. Escolha uma skill nas categorias abaixo**
 
-**1. Escolha uma skill nas categorias abaixo e clique em ⬇ Download**
+**2. Abra a pasta da skill e copie o conteudo do arquivo `SKILL.md`**
 
-**2. Acesse [claude.ai/customize/skills](https://claude.ai/customize/skills)**
+**3. Acesse [claude.ai](https://claude.ai) → Projeto → Configuracoes → Add content**
 
-**3. Clique em "Add skill" e faça upload do arquivo `.skill` baixado**
+**4. Cole o conteudo como instrucao do projeto. Pronto!**
 
-**4. Pronto! A skill está disponível em todos os seus chats e Projetos**
-
-> **Alternativa (Projetos):** Se preferir usar a skill apenas em um Projeto específico, abra o Projeto → Configurações → Add content → faça upload do `.skill`.
+> **Alternativa (Claude Code / CLI):** Se voce usa o Claude Code, veja [docs/SKILLSHARE.md](docs/SKILLSHARE.md) para instalar via `skillshare install`.
 
 ---
 
-## claude.ai vs Claude Desktop
+## claude.ai vs Claude Code
 
-| | claude.ai (web) | Claude Desktop / CLI |
+| | claude.ai (web) | Claude Code / CLI |
 |---|---|---|
-| **Como instalar** | Upload do `.skill` em [claude.ai/customize/skills](https://claude.ai/customize/skills) | `skillshare install` via terminal |
-| **Formato** | Arquivo `.skill` (ZIP renomeado com `SKILL.md`) | Pasta com `SKILL.md` diretamente |
-| **Escopo** | Global — disponível em todos os chats e Projetos | Por projeto ou global, conforme config |
-| **Atualização** | Re-upload manual | `skillshare update --all` |
+| **Como instalar** | Copie o `SKILL.md` como instrucao de Projeto | `skillshare install <skill>` via terminal |
+| **Formato** | Texto colado ou arquivo de instrucao | Pasta com `SKILL.md` diretamente |
+| **Escopo** | Por projeto | Por projeto ou global, conforme config |
+| **Atualizacao** | Re-colar manualmente | `skillshare update --all` |
 
-Se você usa o **claude.ai no navegador**, siga o passo a passo acima.
-Se você usa o **Claude Desktop ou Claude Code**, veja [docs/SKILLSHARE.md](docs/SKILLSHARE.md) para instalar via `skillshare`.
+Se voce usa o **claude.ai no navegador**, siga o passo a passo acima.
+Se voce usa o **Claude Code**, veja [docs/SKILLSHARE.md](docs/SKILLSHARE.md) para instalar via `skillshare`.
 
 ---
 
