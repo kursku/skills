@@ -7,7 +7,7 @@ metadata:
   author: Cafe Code AI
   category: 01-conteudo-copy
   updated: 2026-03-01
-risk: caution
+risk: safe
 ---
 
 # Thread Twitter X

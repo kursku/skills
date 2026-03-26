@@ -1,7 +1,7 @@
 ---
 name: github-issue-creator
 description: "Convert raw notes, error logs, voice dictation, or screenshots into crisp GitHub-flavored markdown issue reports. Use when the user pastes bug info, error messages, or informal descriptions and wan..."
-risk: critical
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

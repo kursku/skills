@@ -1,7 +1,7 @@
 ---
 name: notion-template-business
 description: "Expert in building and selling Notion templates as a business - not just making templates, but building a sustainable digital product business. Covers template design, pricing, marketplaces, market..."
-risk: critical
+risk: safe
 source: "vibeship-spawner-skills (Apache 2.0)"
 date_added: "2026-02-27"
 ---

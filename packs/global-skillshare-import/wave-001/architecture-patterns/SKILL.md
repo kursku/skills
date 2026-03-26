@@ -1,7 +1,7 @@
 ---
 name: architecture-patterns
 description: "Implement proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design. Use when architecting complex backend systems or refactoring existing ..."
-risk: critical
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

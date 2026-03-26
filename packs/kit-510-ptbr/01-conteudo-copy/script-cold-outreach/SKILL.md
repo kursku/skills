@@ -8,7 +8,7 @@ metadata:
   category: 01-conteudo-copy
   domain: conteúdo-copywriting
   updated: 2026-03-01
-risk: critical
+risk: none
 ---
 
 # Script Cold Outreach

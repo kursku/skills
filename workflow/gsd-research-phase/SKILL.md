@@ -3,6 +3,7 @@ name: "gsd-research-phase"
 description: "Research how to implement a phase (standalone - usually use $gsd-plan-phase instead)"
 metadata:
   short-description: "Research how to implement a phase (standalone - usually use $gsd-plan-phase instead)"
+risk: safe
 ---
 
 <codex_skill_adapter>

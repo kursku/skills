@@ -1,7 +1,7 @@
 ---
 name: social-content
 description: "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn..."
-risk: caution
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

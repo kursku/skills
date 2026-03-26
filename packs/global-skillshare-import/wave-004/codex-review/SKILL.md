@@ -1,7 +1,7 @@
 ---
 name: codex-review
 description: "Professional code review with auto CHANGELOG generation, integrated with Codex AI"
-risk: caution
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

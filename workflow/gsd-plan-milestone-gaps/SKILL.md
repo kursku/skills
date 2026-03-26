@@ -3,6 +3,7 @@ name: "gsd-plan-milestone-gaps"
 description: "Create phases to close all gaps identified by milestone audit"
 metadata:
   short-description: "Create phases to close all gaps identified by milestone audit"
+risk: safe
 ---
 
 <codex_skill_adapter>

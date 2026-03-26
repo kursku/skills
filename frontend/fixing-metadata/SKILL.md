@@ -7,6 +7,7 @@ description: >
   or shipping new pages that need correct meta tags.
 version: 1.0.1
 license: MIT
+risk: safe
 ---
 
 ## Workflow

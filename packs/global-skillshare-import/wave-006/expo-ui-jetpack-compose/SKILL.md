@@ -1,7 +1,7 @@
 ---
 name: expo-ui-jetpack-compose
 description: expo-ui-jetpack-compose
-risk: caution
+risk: safe
 ---
 
 ---

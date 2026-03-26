@@ -7,7 +7,7 @@ metadata:
   author: Cafe Code AI
   category: 15-analytics-dados
   updated: 2026-03-01
-risk: critical
+risk: safe
 ---
 
 # Heatmap Analysis

@@ -1,7 +1,7 @@
 ---
 name: hybrid-cloud-networking
 description: "Configure secure, high-performance connectivity between on-premises infrastructure and cloud platforms using VPN and dedicated connections. Use when building hybrid cloud architectures, connecting ..."
-risk: critical
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

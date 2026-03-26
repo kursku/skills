@@ -1,7 +1,7 @@
 ---
 name: saas-mvp-launcher
 description: "Use when planning or building a SaaS MVP from scratch. Provides a structured roadmap covering tech stack, architecture, auth, payments, and launch checklist."
-risk: safe
+risk: critical
 source: community
 date_added: "2026-03-04"
 ---

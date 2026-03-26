@@ -1,7 +1,7 @@
 ---
 name: github-workflow-automation
 description: "Automate GitHub workflows with AI assistance. Includes PR reviews, issue triage, CI/CD integration, and Git operations. Use when automating GitHub workflows, setting up PR review automation, creati..."
-risk: offensive
+risk: critical
 source: community
 date_added: "2026-02-27"
 ---

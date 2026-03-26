@@ -5,7 +5,7 @@ description: |
   makepad widget, makepad View, makepad Button, makepad Label, makepad Image,
   makepad TextInput, RoundedView, SolidView, ScrollView, "makepad component",
   makepad Markdown, makepad Html, TextFlow, rich...
-risk: critical
+risk: safe
 ---
 
 # Makepad Widgets Skill

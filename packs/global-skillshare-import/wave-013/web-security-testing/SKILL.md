@@ -2,7 +2,7 @@
 name: web-security-testing
 description: "Web application security testing workflow for OWASP Top 10 vulnerabilities including injection, XSS, authentication flaws, and access control issues."
 category: granular-workflow-bundle
-risk: safe
+risk: offensive
 source: personal
 date_added: "2026-02-27"
 ---

@@ -3,6 +3,7 @@ name: "gsd-verify-work"
 description: "Validate built features through conversational UAT"
 metadata:
   short-description: "Validate built features through conversational UAT"
+risk: safe
 ---
 
 <codex_skill_adapter>

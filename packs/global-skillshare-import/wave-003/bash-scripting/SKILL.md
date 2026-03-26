@@ -2,7 +2,7 @@
 name: bash-scripting
 description: "Bash scripting workflow for creating production-ready shell scripts with defensive patterns, error handling, and testing."
 category: granular-workflow-bundle
-risk: safe
+risk: critical
 source: personal
 date_added: "2026-02-27"
 ---

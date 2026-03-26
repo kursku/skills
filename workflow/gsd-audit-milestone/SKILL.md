@@ -3,6 +3,7 @@ name: "gsd-audit-milestone"
 description: "Audit milestone completion against original intent before archiving"
 metadata:
   short-description: "Audit milestone completion against original intent before archiving"
+risk: safe
 ---
 
 <codex_skill_adapter>

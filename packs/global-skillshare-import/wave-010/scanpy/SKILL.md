@@ -4,7 +4,7 @@ description: Standard single-cell RNA-seq analysis pipeline. Use for QC, normali
 license: SD-3-Clause license
 metadata:
     skill-author: K-Dense Inc.
-risk: critical
+risk: safe
 ---
 
 # Scanpy: Single-Cell Analysis

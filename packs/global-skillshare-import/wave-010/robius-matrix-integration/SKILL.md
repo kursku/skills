@@ -5,7 +5,7 @@ description: |
   Matrix SDK, sliding sync, MatrixRequest, timeline,
   matrix-sdk, matrix client, robrix, matrix room,
   Matrix 集成, 聊天客户端
-risk: critical
+risk: safe
 ---
 
 # Robius Matrix SDK Integration Skill

@@ -3,6 +3,7 @@ name: "gsd-complete-milestone"
 description: "Archive completed milestone and prepare for next version"
 metadata:
   short-description: "Archive completed milestone and prepare for next version"
+risk: safe
 ---
 
 <codex_skill_adapter>

@@ -1,7 +1,7 @@
 ---
 name: conductor-manage
 description: "Manage track lifecycle: archive, restore, delete, rename, and cleanup"
-risk: critical
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

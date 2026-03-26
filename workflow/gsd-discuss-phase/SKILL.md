@@ -3,6 +3,7 @@ name: "gsd-discuss-phase"
 description: "Gather phase context through adaptive questioning before planning"
 metadata:
   short-description: "Gather phase context through adaptive questioning before planning"
+risk: safe
 ---
 
 <codex_skill_adapter>

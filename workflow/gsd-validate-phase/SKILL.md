@@ -3,6 +3,7 @@ name: "gsd-validate-phase"
 description: "Retroactively audit and fill Nyquist validation gaps for a completed phase"
 metadata:
   short-description: "Retroactively audit and fill Nyquist validation gaps for a completed phase"
+risk: safe
 ---
 
 <codex_skill_adapter>

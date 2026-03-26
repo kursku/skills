@@ -3,6 +3,7 @@ name: "gsd-add-todo"
 description: "Capture idea or task as todo from current conversation context"
 metadata:
   short-description: "Capture idea or task as todo from current conversation context"
+risk: safe
 ---
 
 <codex_skill_adapter>

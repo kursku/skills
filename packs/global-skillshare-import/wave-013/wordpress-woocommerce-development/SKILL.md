@@ -2,7 +2,7 @@
 name: wordpress-woocommerce-development
 description: "WooCommerce store development workflow covering store setup, payment integration, shipping configuration, and customization."
 category: granular-workflow-bundle
-risk: safe
+risk: critical
 source: personal
 date_added: "2026-02-27"
 ---

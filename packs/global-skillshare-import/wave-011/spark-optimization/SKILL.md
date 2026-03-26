@@ -1,7 +1,7 @@
 ---
 name: spark-optimization
 description: "Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Spark performance, debugging slow jobs, or scaling data processing pipelines."
-risk: critical
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

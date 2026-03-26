@@ -3,6 +3,7 @@ name: "gsd-plan-phase"
 description: "Create detailed phase plan (PLAN.md) with verification loop"
 metadata:
   short-description: "Create detailed phase plan (PLAN.md) with verification loop"
+risk: safe
 ---
 
 <codex_skill_adapter>

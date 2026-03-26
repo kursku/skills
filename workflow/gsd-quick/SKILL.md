@@ -3,6 +3,7 @@ name: "gsd-quick"
 description: "Execute a quick task with GSD guarantees (atomic commits, state tracking) but skip optional agents"
 metadata:
   short-description: "Execute a quick task with GSD guarantees (atomic commits, state tracking) but skip optional agents"
+risk: safe
 ---
 
 <codex_skill_adapter>

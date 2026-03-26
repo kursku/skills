@@ -1,7 +1,7 @@
 ---
 name: comprehensive-review-full-review
 description: "Use when working with comprehensive review full review"
-risk: offensive
+risk: critical
 source: community
 date_added: "2026-02-27"
 ---

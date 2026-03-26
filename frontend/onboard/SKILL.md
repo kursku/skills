@@ -6,6 +6,7 @@ args:
   - name: target
     description: The feature or area needing onboarding (optional)
     required: false
+risk: safe
 ---
 
 Create or improve onboarding experiences that help users understand, adopt, and succeed with the product quickly.

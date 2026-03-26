@@ -1,7 +1,7 @@
 ---
 name: brand-guidelines-community
 description: "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatt..."
-risk: caution
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

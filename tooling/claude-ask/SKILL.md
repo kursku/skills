@@ -1,6 +1,7 @@
 ---
 name: claude-ask
 description: Deliberative consultation with another Claude model via Task tool. Opus consults Sonnet, Sonnet consults Opus. Ask, evaluate, critique, iterate until workable agreement.
+risk: safe
 ---
 
 # Hard Invariants (always apply)

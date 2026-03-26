@@ -13,7 +13,7 @@ tags:
   - grouping
   - aggregation
   - null-safety
-risk: critical
+risk: safe
 ---
 
 # Practical Data Transformations

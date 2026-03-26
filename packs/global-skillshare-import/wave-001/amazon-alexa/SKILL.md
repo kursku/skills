@@ -1,7 +1,7 @@
 ---
 name: amazon-alexa
 description: Integracao completa com Amazon Alexa para criar skills de voz inteligentes, transformar Alexa em assistente com Claude como cerebro (projeto Auri) e integrar com AWS ecosystem (Lambda, DynamoDB,...
-risk: safe
+risk: critical
 source: community
 date_added: '2026-03-06'
 author: renat

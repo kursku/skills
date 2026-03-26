@@ -7,7 +7,7 @@ metadata:
   author: Cafe Code AI
   category: 14-marca-pessoal
   updated: 2024-07-29
-risk: critical
+risk: safe
 ---
 
 # Content Pillar Personal

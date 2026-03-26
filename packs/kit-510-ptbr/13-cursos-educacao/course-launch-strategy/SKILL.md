@@ -7,7 +7,7 @@ metadata:
   author: Cafe Code AI
   category: 13-cursos-educacao
   updated: 2026-03-01
-risk: caution
+risk: none
 ---
 
 # Course Launch Strategy

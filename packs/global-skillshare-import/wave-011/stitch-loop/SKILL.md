@@ -7,7 +7,7 @@ allowed-tools:
   - "Read"
   - "Write"
   - "Bash"
-risk: critical
+risk: safe
 ---
 
 # Stitch Build Loop

@@ -1,7 +1,7 @@
 ---
 name: speckit-updater
 description: SpecKit Safe Update
-risk: critical
+risk: safe
 ---
 
 # SpecKit Safe Update

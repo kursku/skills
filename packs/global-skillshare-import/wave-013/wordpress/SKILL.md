@@ -2,7 +2,7 @@
 name: wordpress
 description: "Complete WordPress development workflow covering theme development, plugin creation, WooCommerce integration, performance optimization, and security hardening."
 category: workflow-bundle
-risk: safe
+risk: critical
 source: personal
 date_added: "2026-02-27"
 ---

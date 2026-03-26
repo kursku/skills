@@ -3,6 +3,7 @@ name: "gsd-debug"
 description: "Systematic debugging with persistent state across context resets"
 metadata:
   short-description: "Systematic debugging with persistent state across context resets"
+risk: safe
 ---
 
 <codex_skill_adapter>

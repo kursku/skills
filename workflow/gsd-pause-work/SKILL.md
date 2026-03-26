@@ -3,6 +3,7 @@ name: "gsd-pause-work"
 description: "Create context handoff when pausing work mid-phase"
 metadata:
   short-description: "Create context handoff when pausing work mid-phase"
+risk: safe
 ---
 
 <codex_skill_adapter>

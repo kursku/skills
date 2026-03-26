@@ -1,7 +1,7 @@
 ---
 name: game-development
 description: "Game development orchestrator. Routes to platform-specific skills based on project needs."
-risk: critical
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

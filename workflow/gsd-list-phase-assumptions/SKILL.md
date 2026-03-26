@@ -3,6 +3,7 @@ name: "gsd-list-phase-assumptions"
 description: "Surface Claude's assumptions about a phase approach before planning"
 metadata:
   short-description: "Surface Claude's assumptions about a phase approach before planning"
+risk: safe
 ---
 
 <codex_skill_adapter>

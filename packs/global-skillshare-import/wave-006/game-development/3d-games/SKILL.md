@@ -1,7 +1,7 @@
 ---
 name: 3d-games
 description: "3D game development principles. Rendering, shaders, physics, cameras."
-risk: critical
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

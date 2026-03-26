@@ -12,7 +12,7 @@ tags:
   - deno
   - dependency-injection
   - reader-task-either
-risk: critical
+risk: safe
 ---
 
 # fp-ts Backend Patterns

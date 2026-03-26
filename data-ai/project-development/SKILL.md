@@ -1,6 +1,7 @@
 ---
 name: project-development
 description: This skill should be used when the user asks to "start an LLM project", "design batch pipeline", "evaluate task-model fit", "structure agent project", or mentions pipeline architecture, agent-assisted development, cost estimation, or choosing between LLM and traditional approaches.
+risk: safe
 ---
 
 # Project Development Methodology

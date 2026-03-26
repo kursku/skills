@@ -12,6 +12,7 @@ description: |
   or trash recovery, piping skillshare output to scripts (--json), setting up CI/CD
   audit pipelines, or building/sharing skill hubs (hub index, hub add).
 argument-hint: "[command] [target] [--json] [--dry-run] [-p|-g]"
+risk: critical
 ---
 
 # Skillshare CLI

@@ -1,7 +1,7 @@
 ---
 name: social-orchestrator
 description: Orquestrador unificado de canais sociais — coordena Instagram, Telegram e WhatsApp em um unico fluxo de trabalho. Publicacao cross-channel, metricas unificadas, reutilizacao de conteudo por...
-risk: critical
+risk: safe
 source: community
 date_added: '2026-03-06'
 author: renat

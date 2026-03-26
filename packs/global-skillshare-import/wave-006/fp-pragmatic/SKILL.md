@@ -10,7 +10,7 @@ tags:
   - pragmatic
   - beginner-friendly
   - best-practices
-risk: critical
+risk: safe
 ---
 
 # Pragmatic Functional Programming

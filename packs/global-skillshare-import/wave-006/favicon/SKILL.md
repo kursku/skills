@@ -7,7 +7,7 @@ context: fork
 metadata:
   author: Shpigford
   version: "1.0"
-risk: caution
+risk: safe
 ---
 
 Generate a complete set of favicons from the source image at `$1` and update the project's HTML with the appropriate link tags.

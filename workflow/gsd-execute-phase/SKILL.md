@@ -3,6 +3,7 @@ name: "gsd-execute-phase"
 description: "Execute all plans in a phase with wave-based parallelization"
 metadata:
   short-description: "Execute all plans in a phase with wave-based parallelization"
+risk: safe
 ---
 
 <codex_skill_adapter>

@@ -1,7 +1,7 @@
 ---
 name: build
 description: build
-risk: critical
+risk: safe
 ---
 
 ---

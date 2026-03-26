@@ -3,6 +3,7 @@ name: "gsd-join-discord"
 description: "Join the GSD Discord community"
 metadata:
   short-description: "Join the GSD Discord community"
+risk: safe
 ---
 
 <codex_skill_adapter>
