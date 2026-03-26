@@ -1,6 +1,7 @@
 ---
 name: sexual-health-analyzer
 description: Sexual Health Analyzer
+risk: safe
 ---
 
 # 性健康分析技能

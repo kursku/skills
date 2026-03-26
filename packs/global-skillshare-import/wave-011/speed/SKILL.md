@@ -3,6 +3,7 @@ name: speed
 description: Launch RSVP speed reader for text
 trigger: command
 tools: Write, Bash, Read
+risk: caution
 ---
 
 # Speed Reader

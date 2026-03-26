@@ -1,7 +1,7 @@
 ---
 name: anti-reversing-techniques
 description: "Understand anti-reversing, obfuscation, and protection techniques encountered during software analysis. Use when analyzing protected binaries, bypassing anti-debugging for authorized analysis, or u..."
-risk: unknown
+risk: offensive
 source: community
 date_added: "2026-02-27"
 ---

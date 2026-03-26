@@ -7,6 +7,7 @@ metadata:
   author: Cafe Code AI
   category: 08-lancamento-growth
   updated: 2026-03-01
+risk: critical
 ---
 
 # Mvp Scope

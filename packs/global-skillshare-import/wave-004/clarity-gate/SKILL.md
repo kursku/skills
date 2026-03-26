@@ -29,6 +29,7 @@ outputs:
     extension: .cgd.md
     spec: docs/CLARITY_GATE_FORMAT_SPEC.md
 spec_version: "2.1"
+risk: critical
 ---
 
 # Clarity Gate v2.1

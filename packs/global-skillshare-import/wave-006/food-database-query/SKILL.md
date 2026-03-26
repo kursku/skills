@@ -1,6 +1,7 @@
 ---
 name: food-database-query
 description: Food Database Query
+risk: caution
 ---
 
 # 食物数据库查询技能

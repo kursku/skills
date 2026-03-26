@@ -2,6 +2,7 @@
 name: trigger-dev
 description: Build Trigger.dev background jobs, automations, and workflows in TypeScript. Use when the user wants to create tasks, scheduled jobs, AI agent workflows, queued background processing, cron jobs, or any long-running async work with Trigger.dev. Triggers on imports from @trigger.dev/sdk or mentions of trigger.dev.
 argument-hint: [description of what to build]
+risk: offensive
 ---
 
 # Trigger.dev Skill

@@ -1,7 +1,7 @@
 ---
 name: azure-microsoft-playwright-testing-ts
 description: "Run Playwright tests at scale using Azure Playwright Workspaces (formerly Microsoft Playwright Testing). Use when scaling browser tests across cloud-hosted browsers, integrating with CI/CD pipeline..."
-risk: unknown
+risk: critical
 source: community
 date_added: "2026-02-27"
 ---

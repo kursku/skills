@@ -4,6 +4,7 @@ description: Google quantum computing framework. Use when targeting Google Quant
 license: Apache-2.0 license
 metadata:
     skill-author: K-Dense Inc.
+risk: critical
 ---
 
 # Cirq - Quantum Computing with Python

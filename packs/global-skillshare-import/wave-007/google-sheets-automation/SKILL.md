@@ -4,7 +4,7 @@ description: |
   Read and write Google Sheets spreadsheets - get content, update cells, append rows, fetch specific ranges,
   search for spreadsheets, and view metadata. Use when user asks to: read a spreadsheet, update cells,
   add data to Google Sheets, find a spreadsheet, check sheet...
-risk: unknown
+risk: critical
 source: community
 license: Apache-2.0
 metadata:

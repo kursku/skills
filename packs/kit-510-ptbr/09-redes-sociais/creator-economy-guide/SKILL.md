@@ -7,6 +7,7 @@ metadata:
   author: Cafe Code AI
   category: 09-redes-sociais
   updated: 2026-03-01
+risk: critical
 ---
 
 # Creator Economy Guide

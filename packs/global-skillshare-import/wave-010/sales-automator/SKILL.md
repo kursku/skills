@@ -7,7 +7,7 @@ description: 'Draft cold emails, follow-ups, and proposal templates. Creates
   outreach or lead nurturing.
 
   '
-risk: unknown
+risk: caution
 source: community
 date_added: '2026-02-27'
 ---

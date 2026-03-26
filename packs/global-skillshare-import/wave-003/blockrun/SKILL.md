@@ -1,7 +1,7 @@
 ---
 name: blockrun
 description: "Use when user needs capabilities Claude lacks (image generation, real-time X/Twitter data) or explicitly requests external models (\\\"blockrun\\\", \\\"use grok\\\", \\\"use gpt\\\", \\\"da..."
-risk: unknown
+risk: critical
 source: community
 date_added: "2026-02-27"
 ---

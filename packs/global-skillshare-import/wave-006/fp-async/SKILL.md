@@ -12,6 +12,7 @@ tags:
   - promises
   - api
   - fetch
+risk: critical
 ---
 
 # Practical Async Patterns with fp-ts

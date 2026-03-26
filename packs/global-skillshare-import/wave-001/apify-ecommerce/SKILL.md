@@ -1,6 +1,7 @@
 ---
 name: apify-ecommerce
 description: "Scrape e-commerce data for pricing intelligence, customer reviews, and seller discovery across Amazon, Walmart, eBay, IKEA, and 50+ marketplaces. Use when user asks to monitor prices, track competi..."
+risk: critical
 ---
 
 # E-commerce Data Extraction

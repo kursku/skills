@@ -1,6 +1,7 @@
 ---
 name: sharp-edges
 description: sharp-edges
+risk: offensive
 ---
 
 ---

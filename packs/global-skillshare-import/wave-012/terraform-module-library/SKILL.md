@@ -1,7 +1,7 @@
 ---
 name: terraform-module-library
 description: "Build reusable Terraform modules for AWS, Azure, and GCP infrastructure following infrastructure-as-code best practices. Use when creating infrastructure modules, standardizing cloud provisioning, ..."
-risk: unknown
+risk: critical
 source: community
 date_added: "2026-02-27"
 ---

@@ -5,6 +5,7 @@ description: |
   Tokio, async, submit_async_request, 异步, 架构,
   SignalToUI, Cx::post_action, worker task,
   app structure, MatchEvent, handle_startup
+risk: critical
 ---
 
 # Robius App Architecture Skill

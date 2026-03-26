@@ -4,6 +4,7 @@ description: Transforms vague UI ideas into polished, Stitch-optimized prompts. 
 allowed-tools:
   - "Read"
   - "Write"
+risk: critical
 ---
 
 # Enhance Prompt for Stitch

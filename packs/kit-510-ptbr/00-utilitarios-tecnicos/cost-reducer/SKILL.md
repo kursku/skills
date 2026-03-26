@@ -2,6 +2,7 @@
 name: cost-reducer
 description: Reduce cloud, infrastructure, and operational costs while maintaining performance. Use when writing database queries, configuring cloud resources, optimizing bundles, setting up caching, choosing between services, sizing instances, configuring CDN, managing storage, or reviewing code for cost inefficiencies. Covers AWS/GCP/Vercel pricing, database optimization, serverless tuning, image pipelines, observability costs, and FinOps practices.
 argument-hint: [area to optimize or review for cost]
+risk: critical
 ---
 
 # Cost Reducer

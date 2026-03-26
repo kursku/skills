@@ -1,7 +1,7 @@
 ---
 name: conductor-new-track
 description: "Create a new track with specification and phased implementation plan"
-risk: unknown
+risk: caution
 source: community
 date_added: "2026-02-27"
 ---

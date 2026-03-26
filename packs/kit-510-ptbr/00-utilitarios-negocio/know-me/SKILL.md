@@ -2,6 +2,7 @@
 name: know-me
 description: Learn about the user across sessions. Observe preferences, habits, corrections, and context. Save to memory topic files. Reference stored knowledge to personalize responses. Auto-activates when the user shares personal info, corrects Claude, or expresses preferences.
 auto-activate: true
+risk: critical
 ---
 
 # Know Everything About Me

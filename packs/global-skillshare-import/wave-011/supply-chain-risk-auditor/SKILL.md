@@ -7,6 +7,7 @@ allowed-tools:
   - Bash
   - Glob
   - Grep
+risk: offensive
 ---
 
 # Supply Chain Risk Auditor

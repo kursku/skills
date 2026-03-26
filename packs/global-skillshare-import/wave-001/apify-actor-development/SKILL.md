@@ -1,6 +1,7 @@
 ---
 name: apify-actor-development
 description: "Develop, debug, and deploy Apify Actors - serverless cloud programs for web scraping, automation, and data processing. Use when creating new Actors, modifying existing ones, or troubleshooting Acto..."
+risk: offensive
 ---
 
 <!-- security-allowlist: curl-pipe-bash, irm-pipe-iex -->

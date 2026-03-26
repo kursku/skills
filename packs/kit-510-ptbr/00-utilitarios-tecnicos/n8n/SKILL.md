@@ -2,6 +2,7 @@
 name: n8n
 description: Build n8n workflow automations, custom nodes, and integrations. Use when the user wants to create n8n workflows, build custom n8n nodes, write n8n expressions, configure n8n triggers, handle n8n errors, set up webhook automations, or work with n8n's API. Triggers on mentions of n8n, workflow automation with n8n, or imports from n8n-workflow.
 argument-hint: [description of workflow or node to build]
+risk: critical
 ---
 
 # n8n Skill

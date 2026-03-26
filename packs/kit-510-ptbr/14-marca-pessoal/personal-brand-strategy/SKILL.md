@@ -7,6 +7,7 @@ metadata:
   author: Cafe Code AI
   category: 14-marca-pessoal
   updated: 2026-03-01
+risk: critical
 ---
 
 # Personal Brand Strategy

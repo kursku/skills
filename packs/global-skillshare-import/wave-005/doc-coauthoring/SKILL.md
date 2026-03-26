@@ -1,7 +1,7 @@
 ---
 name: doc-coauthoring
 description: "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This ..."
-risk: unknown
+risk: critical
 source: community
 date_added: "2026-02-27"
 ---

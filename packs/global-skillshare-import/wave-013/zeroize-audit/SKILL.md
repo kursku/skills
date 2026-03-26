@@ -13,6 +13,7 @@ allowed-tools:
   - mcp__serena__find_symbol
   - mcp__serena__find_referencing_symbols
   - mcp__serena__get_symbols_overview
+risk: offensive
 ---
 
 # zeroize-audit — Claude Skill

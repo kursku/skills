@@ -1,6 +1,7 @@
 ---
 name: django-access-review
 description: django-access-review
+risk: caution
 ---
 
 ---

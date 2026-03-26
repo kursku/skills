@@ -1,6 +1,7 @@
 ---
 name: blog-writing-guide
 description: Write, review, and improve blog posts for the Sentry engineering blog following Sentry's specific writing standards, voice, and quality bar. Use this skill whenever someone asks to write a blog post, draft a technical article, review blog content, improve a draft, write a...
+risk: critical
 ---
 
 # Sentry Blog Writing Skill

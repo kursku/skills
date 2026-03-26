@@ -1,6 +1,7 @@
 ---
 name: differential-review
 description: "Security-focused review of code changes (PRs, commits, diffs). Adapts to codebase size, uses git history, calculates blast radius, checks test coverage, and generates markdown reports."
+risk: offensive
 ---
 
 # Differential Security Review

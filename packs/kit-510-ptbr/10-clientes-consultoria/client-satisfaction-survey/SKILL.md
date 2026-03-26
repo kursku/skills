@@ -7,6 +7,7 @@ metadata:
   author: Cafe Code AI
   category: 10-clientes-consultoria
   updated: 2026-03-01
+risk: critical
 ---
 
 # Client Satisfaction Survey

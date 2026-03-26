@@ -11,6 +11,7 @@ tags:
   - typescript
   - validation
   - practical
+risk: critical
 ---
 
 # Practical Error Handling with fp-ts
