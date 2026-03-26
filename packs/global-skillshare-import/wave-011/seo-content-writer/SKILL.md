@@ -4,6 +4,7 @@ description: Writes SEO-optimized content based on provided keywords and topic b
 risk: safe
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 ## Use this skill when

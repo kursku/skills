@@ -4,6 +4,7 @@ description: Master Flutter development with Dart 3, advanced widgets, and multi
 risk: critical
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 ## Use this skill when

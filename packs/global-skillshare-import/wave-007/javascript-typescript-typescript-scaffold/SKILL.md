@@ -4,6 +4,7 @@ description: "You are a TypeScript project architecture expert specializing in s
 risk: safe
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # TypeScript Project Scaffolding

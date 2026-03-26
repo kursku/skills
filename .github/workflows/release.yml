@@ -21,8 +21,27 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install test dependencies
+        run: pip install pytest
+
+      - name: Run tests
+        run: python3 -m pytest scripts/test_catalog.py scripts/test_infer_risk.py -v
+
       - name: Build catalog
         run: python3 scripts/catalog.py
+
+      - name: Quality gate
+        run: |
+          python3 -c "
+          import json, sys
+          with open('dist/pack-catalog.json') as f:
+              catalog = json.load(f)
+          missing_name = sum(1 for s in catalog if 'missing-name' in s.get('issues', []))
+          if missing_name > 0:
+              print(f'FAIL: {missing_name} skills missing name')
+              sys.exit(1)
+          print(f'OK: {len(catalog)} skills indexed, no critical issues')
+          "
 
       - name: Build curated .skill files
         run: bash scripts/release.sh

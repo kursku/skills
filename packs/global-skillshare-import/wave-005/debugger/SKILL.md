@@ -8,6 +8,7 @@ description: 'Debugging specialist for errors, test failures, and unexpected
 risk: safe
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 ## Use this skill when

@@ -4,6 +4,7 @@ description: "Use when working with error debugging multi agent review"
 risk: safe
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # Multi-Agent Code Review Orchestration Tool

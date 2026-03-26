@@ -4,6 +4,7 @@ description: Create interface designs, wireframes, and design systems. Masters u
 risk: safe
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 ## Use this skill when

@@ -4,6 +4,7 @@ description: "Display project status, active tracks, and next actions"
 risk: safe
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # Conductor Status

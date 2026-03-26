@@ -4,6 +4,7 @@ description: "Generate comprehensive C4 architecture documentation for an existi
 risk: critical
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # C4 Architecture Documentation Workflow

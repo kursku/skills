@@ -4,6 +4,7 @@ description: Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and
 risk: critical
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 ## Use this skill when

@@ -4,6 +4,7 @@ description: "You are a frontend security specialist focusing on Cross-Site Scri
 risk: safe
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # XSS Vulnerability Scanner for Frontend Code

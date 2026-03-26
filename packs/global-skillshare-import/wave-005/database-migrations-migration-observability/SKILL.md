@@ -5,6 +5,7 @@ risk: critical
 source: community
 tags: "database, cdc, debezium, kafka, prometheus, grafana, monitoring"
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # Migration Observability and Real-time Monitoring

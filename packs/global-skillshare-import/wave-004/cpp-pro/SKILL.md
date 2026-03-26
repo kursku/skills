@@ -4,6 +4,7 @@ description: Write idiomatic C++ code with modern features, RAII, smart pointers
 risk: safe
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 ## Use this skill when

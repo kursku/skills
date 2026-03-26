@@ -10,6 +10,7 @@ description: 'Write idiomatic PHP code with generators, iterators, SPL data
 risk: safe
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 ## Use this skill when

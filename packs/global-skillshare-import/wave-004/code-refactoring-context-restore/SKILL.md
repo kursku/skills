@@ -4,6 +4,7 @@ description: "Use when working with code refactoring context restore"
 risk: safe
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # Context Restoration: Advanced Semantic Memory Rehydration

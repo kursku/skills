@@ -4,6 +4,7 @@ description: "You are a Rust project architecture expert specializing in scaffol
 risk: safe
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # Rust Project Scaffolding

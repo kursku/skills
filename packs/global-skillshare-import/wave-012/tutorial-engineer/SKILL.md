@@ -6,6 +6,7 @@ source: community
 date_added: '2026-03-02'
 metadata:
   version: '2.0.0'
+quality: stub
 ---
 
 ## Use this skill when

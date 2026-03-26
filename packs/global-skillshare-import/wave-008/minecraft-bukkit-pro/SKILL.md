@@ -4,6 +4,7 @@ description: Master Minecraft server plugin development with Bukkit, Spigot, and
 risk: critical
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 ## Use this skill when

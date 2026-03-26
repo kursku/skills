@@ -4,6 +4,7 @@ description: This skill should be used when the user asks about \\\"key startup 
 risk: safe
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 # Startup Metrics Framework

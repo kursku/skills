@@ -373,6 +373,8 @@ def quality_issues(fm: dict) -> list[str]:
     description = fm.get("description", "")
     if name and description and name.lower() in description.lower() and len(description) < 60:
         issues.append("description-generic")
+    if fm.get("quality") == "stub":
+        issues.append("stub-content")
     return issues
 
 

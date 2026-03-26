@@ -4,6 +4,7 @@ description: "You are an expert prompt engineer specializing in crafting effecti
 risk: safe
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # Prompt Optimization

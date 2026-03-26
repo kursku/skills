@@ -8,6 +8,7 @@ description: 'Generate comprehensive market opportunity analysis with TAM/SAM/SO
 risk: safe
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 # Market Opportunity Analysis

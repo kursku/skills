@@ -4,6 +4,7 @@ description: "You are a Python project architecture expert specializing in scaff
 risk: safe
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # Python Project Scaffolding

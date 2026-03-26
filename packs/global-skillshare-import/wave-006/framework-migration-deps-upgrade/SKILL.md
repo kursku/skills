@@ -4,6 +4,7 @@ description: "You are a dependency management expert specializing in safe, incre
 risk: safe
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # Dependency Upgrade Strategy

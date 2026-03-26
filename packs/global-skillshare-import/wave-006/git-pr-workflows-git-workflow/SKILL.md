@@ -4,6 +4,7 @@ description: "Orchestrate a comprehensive git workflow from code review through 
 risk: critical
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # Complete Git Workflow with Multi-Agent Orchestration

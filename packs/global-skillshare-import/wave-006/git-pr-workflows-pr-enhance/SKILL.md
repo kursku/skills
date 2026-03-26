@@ -4,6 +4,7 @@ description: "You are a PR optimization expert specializing in creating high-qua
 risk: safe
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # Pull Request Enhancement

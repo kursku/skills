@@ -4,6 +4,7 @@ description: Expert reverse engineer specializing in binary analysis, disassembl
 risk: offensive
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 # Common RE scripting environments

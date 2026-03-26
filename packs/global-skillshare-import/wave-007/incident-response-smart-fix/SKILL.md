@@ -4,6 +4,7 @@ description: "[Extended thinking: This workflow implements a sophisticated debug
 risk: safe
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # Intelligent Issue Resolution with Multi-Agent Orchestration

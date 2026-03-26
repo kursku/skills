@@ -4,6 +4,7 @@ description: "You are an expert AI-powered code review specialist combining auto
 risk: offensive
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # AI-Powered Code Review Specialist

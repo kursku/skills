@@ -4,6 +4,7 @@ description: "You are a data pipeline architecture expert specializing in scalab
 risk: critical
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # Data Pipeline Architecture
