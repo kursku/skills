@@ -3,6 +3,7 @@ name: researcher
 description: Deep research on any topic using web search, multiple sources, and synthesis. Use when the user wants to research a topic, investigate a question, compare technologies, understand a concept deeply, find best practices, or needs a well-sourced analysis. Triggers on "research", "investigate", "deep dive", "compare", "what are the best", "pros and cons", "how does X work".
 argument-hint: [topic or question to research]
 auto-activate: false
+risk: critical
 ---
 
 # Deep Researcher

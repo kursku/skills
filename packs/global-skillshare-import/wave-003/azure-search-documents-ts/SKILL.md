@@ -1,7 +1,7 @@
 ---
 name: azure-search-documents-ts
 description: "Build search applications using Azure AI Search SDK for JavaScript (@azure/search-documents). Use when creating/managing indexes, implementing vector/hybrid search, semantic ranking, or building ag..."
-risk: unknown
+risk: critical
 source: community
 date_added: "2026-02-27"
 ---

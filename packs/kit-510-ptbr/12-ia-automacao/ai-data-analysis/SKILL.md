@@ -7,6 +7,7 @@ metadata:
   author: Cafe Code AI
   category: 12-ia-automacao
   updated: 2026-03-01
+risk: offensive
 ---
 
 # Ai Data Analysis

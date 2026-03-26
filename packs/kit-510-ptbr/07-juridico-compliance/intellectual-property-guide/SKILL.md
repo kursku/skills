@@ -7,6 +7,7 @@ metadata:
   author: Cafe Code AI
   category: 07-juridico-compliance
   updated: 2026-03-01
+risk: critical
 ---
 
 # Intellectual Property Guide

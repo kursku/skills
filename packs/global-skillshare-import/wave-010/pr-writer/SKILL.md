@@ -1,6 +1,7 @@
 ---
 name: pr-writer
 description: ALWAYS use this skill when creating or updating pull requests — never create or edit a PR directly without it. Follows Sentry conventions for PR titles, descriptions, and issue references. Trigger on any create PR, open PR, submit PR, make PR,...
+risk: caution
 ---
 
 # PR Writer

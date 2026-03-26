@@ -6,6 +6,7 @@ context: fork
 metadata:
   author: Shpigford
   version: "1.0"
+risk: critical
 ---
 
 Set up this Rails project for Conductor, the Mac app for parallel coding agents.

@@ -13,6 +13,7 @@ tags:
   - option
   - task
   - reader
+risk: critical
 ---
 
 # Refactoring Imperative Code to fp-ts

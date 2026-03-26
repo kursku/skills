@@ -1,6 +1,7 @@
 ---
 name: build
 description: build
+risk: critical
 ---
 
 ---

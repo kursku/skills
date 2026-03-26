@@ -1,7 +1,7 @@
 ---
 name: copy-editing
 description: "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this ..."
-risk: unknown
+risk: critical
 source: community
 date_added: "2026-02-27"
 ---

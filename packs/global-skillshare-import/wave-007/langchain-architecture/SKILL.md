@@ -1,7 +1,7 @@
 ---
 name: langchain-architecture
 description: "Design LLM applications using the LangChain framework with agents, memory, and tool integration patterns. Use when building LangChain applications, implementing AI agents, or creating complex LLM w..."
-risk: unknown
+risk: critical
 source: community
 date_added: "2026-02-27"
 ---

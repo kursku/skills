@@ -1,6 +1,7 @@
 ---
 name: molykit
 description: "AI chat interfaces with Makepad using MolyKit. Covers BotClient, SSE streaming, cross-platform async (PlatformSend, spawn, ThreadToken), and chat widgets (Messages, PromptInput, Avatar)."
+risk: critical
 ---
 
 # MolyKit Skill

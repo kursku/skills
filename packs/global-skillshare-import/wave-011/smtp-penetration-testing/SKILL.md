@@ -1,7 +1,7 @@
 ---
 name: smtp-penetration-testing
 description: "This skill should be used when the user asks to \"perform SMTP penetration testing\", \"enumerate email users\", \"test for open mail relays\", \"grab SMTP banners\", \"brute force email cre..."
-risk: unknown
+risk: offensive
 source: community
 author: zebbern
 date_added: "2026-02-27"

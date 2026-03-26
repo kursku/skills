@@ -4,6 +4,7 @@ description: Comprehensive Python library for astronomy and astrophysics. This s
 license: BSD-3-Clause license
 metadata:
     skill-author: K-Dense Inc.
+risk: caution
 ---
 
 # Astropy

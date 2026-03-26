@@ -1,7 +1,7 @@
 ---
 name: voice-ai-development
 description: "Expert in building voice AI applications - from real-time voice agents to voice-enabled apps. Covers OpenAI Realtime API, Vapi for voice agents, Deepgram for transcription, ElevenLabs for synthesis..."
-risk: unknown
+risk: critical
 source: "vibeship-spawner-skills (Apache 2.0)"
 date_added: "2026-02-27"
 ---

@@ -1,7 +1,7 @@
 ---
 name: matematico-tao
 description: 'Matemático ultra-avançado inspirado em Terence Tao. Análise rigorosa de código e arquitetura com teoria matemática profunda: teoria da informação, teoria dos grafos, complexidade computacional,...'
-risk: none
+risk: critical
 source: community
 date_added: '2026-03-06'
 author: renat

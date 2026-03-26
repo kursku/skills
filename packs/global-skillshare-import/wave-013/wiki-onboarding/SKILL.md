@@ -1,7 +1,7 @@
 ---
 name: wiki-onboarding
 description: "Generates two complementary onboarding guides \u2014 a Principal-Level architectural deep-dive and a Zero-to-Hero contributor walkthrough. Use when the user wants onboarding documentation fo..."
-risk: unknown
+risk: critical
 source: community
 date_added: "2026-02-27"
 ---

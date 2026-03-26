@@ -4,6 +4,7 @@ description: IBM quantum computing framework. Use when targeting IBM Quantum har
 license: Apache-2.0 license
 metadata:
     skill-author: K-Dense Inc.
+risk: critical
 ---
 
 # Qiskit

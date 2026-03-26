@@ -1,7 +1,7 @@
 ---
 name: docx-official
 description: "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional document..."
-risk: unknown
+risk: critical
 source: community
 date_added: "2026-02-27"
 ---

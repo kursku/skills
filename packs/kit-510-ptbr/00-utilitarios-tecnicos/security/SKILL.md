@@ -2,6 +2,7 @@
 name: security
 description: Secure web and desktop application development. Use when writing authentication, authorization, API endpoints, form handling, database queries, file uploads, Electron apps, Tauri apps, IPC handlers, cryptography, secrets management, security headers, input validation, or when reviewing code for vulnerabilities. Covers OWASP Top 10, XSS, CSRF, SQL injection, SSRF, command injection, path traversal, and desktop app security.
 argument-hint: [area to secure or review]
+risk: offensive
 ---
 
 # Application Security

@@ -6,6 +6,7 @@ description: |
   no matching field, parse error, widget not found, UI not updating,
   code quality, refactor, responsive layout, adaptive,
   api docs, reference,...
+risk: critical
 ---
 
 # Makepad Reference

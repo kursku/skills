@@ -7,6 +7,7 @@ context: fork
 metadata:
   author: Shpigford
   version: "1.0"
+risk: critical
 ---
 
 Generate a new Rails project named $1 in the current directory. You may reference @CLAUDE.md for general guidance, though the guidance here takes precedence.

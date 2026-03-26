@@ -2,6 +2,7 @@
 name: create-skill
 description: Create high-quality Claude Code custom skills and slash commands. Use when the user wants to create a new skill, build a custom command, make a slash command, or add a reusable workflow.
 argument-hint: [description of the skill to create]
+risk: offensive
 ---
 
 # Skill Creation Guide

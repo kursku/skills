@@ -1,7 +1,7 @@
 ---
 name: wiki-qa
 description: "Answers questions about a code repository using source file analysis. Use when the user asks a question about how something works, wants to understand a component, or needs help navigating the code..."
-risk: unknown
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

@@ -1,6 +1,7 @@
 ---
 name: debug-buttercup
 description: "Debugs the Buttercup CRS on Kubernetes. Use when diagnosing pod crashes, restart loops, Redis failures, resource pressure, DinD issues, or service misbehavior in the crs namespace."
+risk: offensive
 ---
 
 # Debug Buttercup

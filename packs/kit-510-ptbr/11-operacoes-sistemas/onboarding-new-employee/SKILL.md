@@ -7,6 +7,7 @@ metadata:
   author: Cafe Code AI
   category: 11-operacoes-sistemas
   updated: 2024-07-30
+risk: caution
 ---
 
 # Onboarding New Employee

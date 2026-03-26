@@ -1,7 +1,7 @@
 ---
 name: context-driven-development
 description: Use this skill when working with Conductor's context-driven development methodology, managing project context artifacts, or understanding the relationship between product.md, tech-stack.md, and...
-risk: unknown
+risk: critical
 source: community
 date_added: '2026-02-27'
 ---

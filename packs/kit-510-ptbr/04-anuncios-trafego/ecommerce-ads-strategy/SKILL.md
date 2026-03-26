@@ -7,6 +7,7 @@ metadata:
   author: Cafe Code AI
   category: 04-anuncios-trafego
   updated: 2026-03-01
+risk: caution
 ---
 
 # Ecommerce Ads Strategy

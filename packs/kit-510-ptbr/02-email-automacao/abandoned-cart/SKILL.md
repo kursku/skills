@@ -7,6 +7,7 @@ metadata:
   author: Cafe Code AI
   category: 02-email-automacao
   updated: 2026-03-01
+risk: critical
 ---
 
 # Abandoned Cart

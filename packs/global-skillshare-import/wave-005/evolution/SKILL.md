@@ -1,6 +1,7 @@
 ---
 name: evolution
 description: "Self-evolution and contribution system for makepad-skills. Use when capturing new patterns, correcting skill errors, contributing learnings, or setting up hooks for auto-triggered skill updates."
+risk: critical
 ---
 
 <!-- security-allowlist: curl-pipe-bash -->

@@ -1,6 +1,7 @@
 ---
 name: skill-improver
 description: Iteratively reviews and fixes Claude Code skill quality issues until they meet standards. Runs automated fix-review cycles using the skill-reviewer agent. Use to fix skill quality issues, improve skill descriptions, run automated skill review loops, or iteratively refine a...
+risk: caution
 ---
 
 # Skill Improvement Methodology

@@ -1,7 +1,7 @@
 ---
 name: wiki-page-writer
 description: "Generates rich technical documentation pages with dark-mode Mermaid diagrams, source code citations, and first-principles depth. Use when writing documentation, generating wiki pages, creating tech..."
-risk: unknown
+risk: caution
 source: community
 date_added: "2026-02-27"
 ---

@@ -1,7 +1,7 @@
 ---
 name: code-review-excellence
 description: "Master effective code review practices to provide constructive feedback, catch bugs early, and foster knowledge sharing while maintaining team morale. Use when reviewing pull requests, establishing..."
-risk: unknown
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

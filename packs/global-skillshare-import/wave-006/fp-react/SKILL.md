@@ -4,6 +4,7 @@ description: Practical patterns for using fp-ts with React - hooks, state, forms
 version: 2.0.0
 author: fp-ts-skills
 tags: [fp-ts, react, typescript, hooks, state-management, forms, data-fetching, remote-data, react-19, next-js]
+risk: critical
 ---
 
 # Functional Programming in React
