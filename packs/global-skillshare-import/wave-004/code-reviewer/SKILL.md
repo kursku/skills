@@ -4,6 +4,7 @@ description: "Elite code review expert specializing in modern AI-powered code"
 risk: critical
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 ## Use this skill when

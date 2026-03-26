@@ -8,6 +8,7 @@ description: 'Generate comprehensive investor-ready business case document with
 risk: safe
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 # Business Case Generator

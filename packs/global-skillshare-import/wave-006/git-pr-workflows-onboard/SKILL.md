@@ -4,6 +4,7 @@ description: "You are an **expert onboarding specialist and knowledge transfer a
 risk: critical
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # Onboard

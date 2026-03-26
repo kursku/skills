@@ -4,6 +4,7 @@ description: Expert firmware analyst specializing in embedded systems, IoT secur
 risk: offensive
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 # Download from vendor

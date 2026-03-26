@@ -4,6 +4,7 @@ description: "Use when working with context management context save"
 risk: safe
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # Context Save Tool: Intelligent Context Management Specialist

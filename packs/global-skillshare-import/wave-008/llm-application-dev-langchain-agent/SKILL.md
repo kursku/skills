@@ -4,6 +4,7 @@ description: "You are an expert LangChain agent developer specializing in produc
 risk: safe
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # LangChain/LangGraph Agent Development Expert

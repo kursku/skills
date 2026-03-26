@@ -51,6 +51,10 @@ validate_skill() {
     echo "MISSING_DESC"
     return
   fi
+  if grep -qE '^quality:\s*stub' "$skill_md"; then
+    echo "STUB_CONTENT"
+    return
+  fi
   echo "OK"
 }
 
@@ -160,7 +164,16 @@ build_skill() {
   mkdir -p "$out_dir"
   (
     cd "$skill_dir"
-    zip -qr "$out_file" . --exclude "*.DS_Store" --exclude "__pycache__/*"
+    zip -qr "$out_file" . \
+      --exclude "*.DS_Store" \
+      --exclude "__pycache__/*" \
+      --exclude ".env*" \
+      --exclude "*.key" \
+      --exclude "*.pem" \
+      --exclude "credentials*" \
+      --exclude "secrets*" \
+      --exclude "node_modules/*" \
+      --exclude ".git/*"
   )
   ((BUILT++)) || true
 }

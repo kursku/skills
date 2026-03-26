@@ -4,6 +4,7 @@ description: This skill should be used when the user asks to \\\"plan team struc
 risk: safe
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 # Team Composition Analysis

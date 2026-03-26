@@ -4,6 +4,7 @@ description: "You are a monitoring and observability expert specializing in impl
 risk: safe
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # Monitoring and Observability Setup

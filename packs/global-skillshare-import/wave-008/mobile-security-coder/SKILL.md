@@ -4,6 +4,7 @@ description: Expert in secure mobile coding practices specializing in input vali
 risk: offensive
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 ## Use this skill when

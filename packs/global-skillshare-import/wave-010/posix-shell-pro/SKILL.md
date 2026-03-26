@@ -4,6 +4,7 @@ description: Expert in strict POSIX sh scripting for maximum portability across 
 risk: critical
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 ## Use this skill when

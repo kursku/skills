@@ -4,6 +4,7 @@ description: "Create a new track with specification and phased implementation pl
 risk: safe
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # New Track

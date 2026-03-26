@@ -4,6 +4,7 @@ description: Expert C4 Code-level documentation specialist. Analyzes code direct
 risk: safe
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 # C4 Code Level: [Directory Name]

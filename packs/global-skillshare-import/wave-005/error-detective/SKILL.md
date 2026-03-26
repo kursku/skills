@@ -4,6 +4,7 @@ description: Search logs and codebases for error patterns, stack traces, and ano
 risk: safe
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 ## Use this skill when

@@ -4,6 +4,7 @@ description: "Use when working with full stack orchestration full stack feature"
 risk: critical
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 ## Use this skill when

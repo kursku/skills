@@ -4,6 +4,7 @@ description: "You are a technical debt expert specializing in identifying, quant
 risk: critical
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # Technical Debt Analysis and Remediation

@@ -4,6 +4,7 @@ description: "Master binary analysis patterns including disassembly, decompilati
 risk: safe
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # Binary Analysis Patterns

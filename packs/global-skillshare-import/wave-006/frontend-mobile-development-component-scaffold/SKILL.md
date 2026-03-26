@@ -4,6 +4,7 @@ description: "You are a React component architecture expert specializing in scaf
 risk: safe
 source: community
 date_added: "2026-02-27"
+quality: stub
 ---
 
 # React/React Native Component Scaffolding

@@ -4,6 +4,7 @@ description: Expert C4 Context-level documentation specialist. Creates high-leve
 risk: safe
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 # C4 Context Level: System Context

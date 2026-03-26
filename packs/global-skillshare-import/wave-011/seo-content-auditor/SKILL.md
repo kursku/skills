@@ -4,6 +4,7 @@ description: Analyzes provided content for quality, E-E-A-T signals, and SEO bes
 risk: safe
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 ## Use this skill when

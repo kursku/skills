@@ -4,6 +4,7 @@ description: Master TDD orchestrator specializing in red-green-refactor discipli
 risk: critical
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 ## Use this skill when

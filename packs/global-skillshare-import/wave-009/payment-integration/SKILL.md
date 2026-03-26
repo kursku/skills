@@ -4,6 +4,7 @@ description: Integrate Stripe, PayPal, and payment processors. Handles checkout 
 risk: critical
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 ## Use this skill when

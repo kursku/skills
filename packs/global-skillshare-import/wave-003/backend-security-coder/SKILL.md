@@ -4,6 +4,7 @@ description: Expert in secure backend coding practices specializing in input val
 risk: critical
 source: community
 date_added: '2026-02-27'
+quality: stub
 ---
 
 ## Use this skill when
