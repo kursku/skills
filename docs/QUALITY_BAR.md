@@ -12,7 +12,7 @@ The `SKILL.md` frontmatter must be valid YAML and contain:
 
 - `name`: Kebab-case, matches folder name.
 - `description`: Under 200 chars, clear value prop.
-- `risk`: One of `[none, safe, critical, offensive, unknown]`. Use `unknown` only for legacy or unclassified skills; prefer a concrete level for new skills.
+- `risk`: One of `[none, safe, critical, offensive]`. Use `scripts/infer_risk.py` to auto-classify.
 - `source`: URL to original source (or "self" if original).
 
 ### 2. Clear Triggers ("When to use")
@@ -58,9 +58,10 @@ We also categorize skills by who maintains them:
 
 ## How to Validate Your Skill
 
-The canonical validator is `scripts/validate_skills.py`. Run `npm run validate` (or `npm run validate:strict`) before submitting a PR:
+Use os scripts do repositorio para validar:
 
 ```bash
-npm run validate       # soft mode (warnings only)
-npm run validate:strict  # strict mode (CI uses this)
+python3 scripts/catalog.py --issues-only    # listar problemas de qualidade
+python3 scripts/infer_risk.py --stats       # verificar classificacao de risk
+python3 -m pytest scripts/test_*.py -v      # rodar testes
 ```

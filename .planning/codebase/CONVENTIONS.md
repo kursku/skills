@@ -1,0 +1,191 @@
+# Coding Conventions
+
+**Analysis Date:** 2026-03-26
+
+## Naming Patterns
+
+**Skill Folders:**
+- Use lowercase-with-hyphens (kebab-case): `my-skill-name`
+- Must match the `name` field in SKILL.md frontmatter exactly
+- Maximum 64 characters
+- No leading/trailing hyphens, no consecutive hyphens
+- Only lowercase letters, digits, and hyphens: regex `^[a-z0-9-]+$`
+- Prefer short, verb-led phrases that describe the action
+- Namespace by tool when it improves clarity (e.g., `gh-address-comments`, `linear-address-issue`)
+- Validated by: `.system/skill-creator/scripts/quick_validate.py`
+
+**Category Directories (curated):**
+- Top-level directories use kebab-case: `frontend/`, `backend/`, `data-ai/`, `cloud-devops/`
+- Approved group folders: `core`, `frontend`, `backend`, `data-ai`, `security`, `workflow`, `tooling`, `_experimental`
+- Skills nest at depth 2 or 3: `{category}/{skill-name}/SKILL.md` or `{group}/{category}/{skill-name}/SKILL.md`
+
+**Pack Directories:**
+- PT-BR pack: `packs/kit-510-ptbr/{NN-category-name}/{skill-name}/`
+- Global import: `packs/global-skillshare-import/wave-{NNN}/{skill-name}/`
+
+**Scripts:**
+- Python: `snake_case.py` (e.g., `infer_risk.py`, `catalog.py`, `quick_validate.py`)
+- Shell: `kebab-case.sh` or `snake_case.sh` (e.g., `release.sh`)
+- PowerShell: `snake_case.ps1` (e.g., `skillshare_repo_check.ps1`)
+
+**Markdown Files:**
+- UPPERCASE.md for required/important files: `SKILL.md`, `README.md`, `CLAUDE.md`, `AGENTS.md`
+- Regular case for docs: `docs/QUALITY_BAR.md`, `docs/SKILL_ANATOMY.md`
+
+## SKILL.md Frontmatter Standard
+
+**Required fields (strictly enforced by `quick_validate.py`):**
+- `name`: kebab-case string, matches folder name, max 64 chars
+- `description`: string, max 1024 chars, no angle brackets (`<` or `>`). Should explain WHAT the skill does AND WHEN to use it (specific triggers/scenarios)
+
+**Allowed fields (Codex/OpenAI format, enforced by `quick_validate.py`):**
+- `name` (required)
+- `description` (required)
+- `license`
+- `allowed-tools`
+- `metadata` (object, can contain `short-description`, `version`, `author`, `category`)
+
+**Legacy/community fields (present in pack skills, NOT enforced by `quick_validate.py`):**
+- `risk`: one of `safe`, `caution`, `critical`, `offensive`, `unknown`, `none`
+- `source`: URL or `"community"` or `"self"`
+- `date_added`: ISO 8601 date `"YYYY-MM-DD"`
+- `category`: category slug
+- `tags`: array of strings
+- `user-invokable`: boolean
+- `args`: array of argument objects
+- `version`: semver string
+- `author`: string
+
+**Two frontmatter schemas coexist:**
+1. **Codex/OpenAI schema** (`.system/skill-creator/scripts/quick_validate.py`): Only allows `name`, `description`, `license`, `allowed-tools`, `metadata`. Used for new skills.
+2. **Legacy/community schema** (pack skills): Includes `risk`, `source`, `date_added`, `category`, etc. Not validated by `quick_validate.py`.
+
+**Frontmatter format:**
+```yaml
+---
+name: my-skill-name
+description: Clear explanation of what the skill does and when to use it.
+---
+```
+
+## SKILL.md Body Structure
+
+**Recommended section order (from `docs/SKILL_TEMPLATE.md`):**
+1. `# Skill Title` (H1)
+2. `## Overview` - 2-4 sentence explanation
+3. `## When to Use This Skill` - Bulleted scenarios (accepted headings: "When to Use", "Use this skill when", "When to Use This Skill", "When to Activate")
+4. `## How It Works` - Step-by-step instructions with `### Step N:` subsections
+5. `## Examples` - At least one code block or interaction example
+6. `## Best Practices` - Do/don't lists
+7. `## Common Pitfalls` - Problem/solution pairs
+8. `## Related Skills` - Cross-references using `@skill-name`
+
+**Writing style:**
+- Use imperative/infinitive form: "Create the file" not "The file should be created"
+- Be specific and actionable, not vague
+- Always specify language in code blocks
+- Keep SKILL.md body under 500 lines; split into `references/` files when approaching this limit
+
+## Skill Directory Structure
+
+**Standard skill folder:**
+```
+skill-name/
+├── SKILL.md              # Required: main skill definition
+├── agents/               # Recommended: UI metadata
+│   └── openai.yaml       # display_name, short_description, default_prompt
+├── scripts/              # Optional: executable code
+├── references/           # Optional: documentation loaded on-demand
+├── assets/               # Optional: files used in output (templates, images)
+└── .skillshare-meta.json # Auto-generated: import tracking metadata
+```
+
+**Do NOT include in a skill:**
+- README.md (within skill folder)
+- INSTALLATION_GUIDE.md, QUICK_REFERENCE.md, CHANGELOG.md
+- Any auxiliary documentation not needed by the AI agent
+
+## agents/openai.yaml Format
+
+```yaml
+interface:
+  display_name: "Human-Readable Name"
+  short_description: "Short UI label"
+  icon_small: "./assets/icon-small.svg"
+  icon_large: "./assets/icon-large.png"
+  brand_color: "#hexcolor"
+  default_prompt: "Default prompt text"
+```
+
+- Generated by `.system/skill-creator/scripts/generate_openai_yaml.py`
+- Allowed keys: `display_name`, `short_description`, `icon_small`, `icon_large`, `brand_color`, `default_prompt`
+- Only include optional fields (icons, brand_color) if explicitly provided
+
+## .skillshare-meta.json Format
+
+Auto-generated tracking file for imported skills:
+```json
+{
+  "source": "https://github.com/user/repo/.claude/skills/skill-name",
+  "type": "github-subdir",
+  "installed_at": "ISO-8601-timestamp",
+  "repo_url": "https://github.com/user/repo.git",
+  "subdir": ".claude/skills/skill-name",
+  "version": "short-commit-hash",
+  "tree_hash": "full-tree-hash",
+  "file_hashes": {
+    "SKILL.md": "sha256:hash"
+  }
+}
+```
+
+## Import Organization
+
+**Not applicable** - This is a Markdown/YAML catalog, not a code project. No import statements.
+
+## Error Handling
+
+**Validation scripts use exit codes:**
+- Exit 0: valid
+- Exit 1: invalid (with error message to stdout)
+- Pattern in `quick_validate.py`: return `(bool, str)` tuples
+
+## Logging
+
+**Scripts use print() to stdout:**
+- `release.sh`: `log()` and `info()` helper functions with `[release]` prefix
+- Python scripts: plain `print()` statements
+
+## Comments
+
+**Python scripts:**
+- Module-level docstrings with usage examples and description
+- Inline comments for non-obvious logic
+- No JSDoc/TSDoc (no JavaScript/TypeScript source code in the project)
+
+**Shell scripts:**
+- Header comments with usage examples
+- Section comments with `# ── Section Name ──` divider pattern (used in `release.sh` and `catalog.py`)
+
+## Risk Classification
+
+**When assigning `risk` to a skill (legacy schema):**
+- `safe`: Read-only, informational, no external side effects
+- `caution`: Writes files, calls APIs, modifies state
+- `critical`: Handles credentials, deploys, accesses sensitive systems
+- `offensive`: Pentesting, exploitation, red team tools. MUST include "Authorized Use Only" disclaimer
+
+**Automated inference:** `scripts/infer_risk.py` uses pattern matching against skill name, description, and content to auto-classify risk level. Priority: offensive > critical > caution > safe.
+
+## Progressive Disclosure Principle
+
+Skills use three-level loading to manage context:
+1. **Metadata** (name + description): Always in context (~100 words)
+2. **SKILL.md body**: Loaded when skill triggers (<5k words, <500 lines)
+3. **Bundled resources**: Loaded as needed by the agent
+
+Keep references one level deep from SKILL.md. Avoid deeply nested reference chains.
+
+---
+
+*Convention analysis: 2026-03-26*
