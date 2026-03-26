@@ -232,4 +232,4 @@ Web Analytics Audit — Skill especializada para web analytics audit
 
 ---
 
-[← Voltar para todas as categorias](../../README.md)
+[← Voltar para todas as categorias](../../../README.md)

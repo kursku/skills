@@ -232,4 +232,4 @@ Vendor Management — Skill especializada para vendor management
 
 ---
 
-[← Voltar para todas as categorias](../../README.md)
+[← Voltar para todas as categorias](../../../README.md)

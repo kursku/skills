@@ -218,4 +218,4 @@ Wedding Marketing — Skill especializada para criar e executar estratégias de 
 
 ---
 
-[← Voltar para todas as categorias](../../README.md)
+[← Voltar para todas as categorias](../../../README.md)

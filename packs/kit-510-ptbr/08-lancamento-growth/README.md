@@ -232,4 +232,4 @@ Waitlist Strategy — Skill especializada para criação, gestão e otimização
 
 ---
 
-[← Voltar para todas as categorias](../../README.md)
+[← Voltar para todas as categorias](../../../README.md)

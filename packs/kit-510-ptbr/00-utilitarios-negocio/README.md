@@ -36,4 +36,4 @@ Deep research on any topic using web search, multiple sources, and synthesis. Us
 
 ---
 
-[← Voltar para todas as categorias](../../README.md)
+[← Voltar para todas as categorias](../../../README.md)

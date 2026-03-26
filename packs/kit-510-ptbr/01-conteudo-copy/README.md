@@ -232,4 +232,4 @@ Whatsapp Scripts — Skill especializada para whatsapp scripts
 
 ---
 
-[← Voltar para todas as categorias](../../README.md)
+[← Voltar para todas as categorias](../../../README.md)

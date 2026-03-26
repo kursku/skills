@@ -232,4 +232,4 @@ Youtube Strategy — Skill especializada para youtube strategy
 
 ---
 
-[← Voltar para todas as categorias](../../README.md)
+[← Voltar para todas as categorias](../../../README.md)
