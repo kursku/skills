@@ -3,6 +3,7 @@ name: "gsd-set-profile"
 description: "Switch model profile for GSD agents (quality/balanced/budget)"
 metadata:
   short-description: "Switch model profile for GSD agents (quality/balanced/budget)"
+risk: safe
 ---
 
 <codex_skill_adapter>

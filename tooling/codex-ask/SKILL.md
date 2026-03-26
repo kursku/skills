@@ -1,6 +1,7 @@
 ---
 name: codex-ask
 description: Deliberative consultation with Codex CLI. Ask, evaluate, critique, iterate until workable agreement.
+risk: safe
 ---
 
 # Hard Invariants (always apply)

@@ -3,6 +3,7 @@ name: "gsd-cleanup"
 description: "Archive accumulated phase directories from completed milestones"
 metadata:
   short-description: "Archive accumulated phase directories from completed milestones"
+risk: safe
 ---
 
 <codex_skill_adapter>

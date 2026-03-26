@@ -7,7 +7,7 @@ metadata:
   author: Cafe Code AI
   category: 06-financeiro-precos
   updated: 2026-03-01
-risk: caution
+risk: safe
 ---
 
 # Annual Budget

@@ -1,7 +1,7 @@
 ---
 name: rag-engineer
 description: "Expert in building Retrieval-Augmented Generation systems. Masters embedding models, vector databases, chunking strategies, and retrieval optimization for LLM applications. Use when: building RAG, ..."
-risk: critical
+risk: safe
 source: "vibeship-spawner-skills (Apache 2.0)"
 date_added: "2026-02-27"
 ---

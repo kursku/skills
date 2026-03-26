@@ -3,6 +3,7 @@ name: "gsd-check-todos"
 description: "List pending todos and select one to work on"
 metadata:
   short-description: "List pending todos and select one to work on"
+risk: safe
 ---
 
 <codex_skill_adapter>

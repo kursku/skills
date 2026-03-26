@@ -1,7 +1,7 @@
 ---
 name: ab-test-setup
 description: "Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and execution readiness."
-risk: caution
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

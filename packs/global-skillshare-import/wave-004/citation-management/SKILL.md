@@ -4,7 +4,7 @@ description: Comprehensive citation management for academic research. Search Goo
 license: MIT License
 metadata:
     skill-author: K-Dense Inc.
-risk: critical
+risk: safe
 ---
 
 # Citation Management

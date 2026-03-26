@@ -6,7 +6,7 @@ license: MIT
 metadata:
   author: PeonPing
   version: "1.0"
-risk: caution
+risk: safe
 ---
 
 # peon-ping-use

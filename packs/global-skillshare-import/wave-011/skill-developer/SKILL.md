@@ -1,7 +1,7 @@
 ---
 name: skill-developer
 description: "Create and manage Claude Code skills following Anthropic best practices. Use when creating new skills, modifying skill-rules.json, understanding trigger patterns, working with hooks, debugging skil..."
-risk: caution
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

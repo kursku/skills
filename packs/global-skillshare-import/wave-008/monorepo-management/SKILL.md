@@ -1,7 +1,7 @@
 ---
 name: monorepo-management
 description: "Master monorepo management with Turborepo, Nx, and pnpm workspaces to build efficient, scalable multi-package repositories with optimized builds and dependency management. Use when setting up monor..."
-risk: critical
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

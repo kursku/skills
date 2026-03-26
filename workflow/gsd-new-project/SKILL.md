@@ -3,6 +3,7 @@ name: "gsd-new-project"
 description: "Initialize a new project with deep context gathering and PROJECT.md"
 metadata:
   short-description: "Initialize a new project with deep context gathering and PROJECT.md"
+risk: safe
 ---
 
 <codex_skill_adapter>

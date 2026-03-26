@@ -2,7 +2,7 @@
 name: customer-support
 description: Handle customer support tasks professionally. Use when drafting support responses, analyzing customer issues, triaging tickets, writing help articles, creating macros/templates, reviewing support conversations for quality, or building support workflows. Covers email replies, live chat, ticket management, escalation, tone calibration, and CSAT optimization.
 argument-hint: [customer issue, ticket, or support task]
-risk: critical
+risk: safe
 ---
 
 # Customer Support

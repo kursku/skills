@@ -10,7 +10,7 @@ description: >
   "street cred threshold too hard to reach", or any question about whether game numbers feel good.
   Also trigger when the user is about to design a new phase or mechanic and needs to know if it
   fits existing balance ranges.
-risk: caution
+risk: safe
 ---
 
 # Game Balance Analyst — MechaScrapyard

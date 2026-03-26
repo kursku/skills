@@ -3,6 +3,7 @@ name: "gsd-reapply-patches"
 description: "Reapply local modifications after a GSD update"
 metadata:
   short-description: "Reapply local modifications after a GSD update"
+risk: safe
 ---
 
 <codex_skill_adapter>

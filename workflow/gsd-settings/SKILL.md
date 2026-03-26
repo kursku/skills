@@ -3,6 +3,7 @@ name: "gsd-settings"
 description: "Configure GSD workflow toggles and model profile"
 metadata:
   short-description: "Configure GSD workflow toggles and model profile"
+risk: safe
 ---
 
 <codex_skill_adapter>

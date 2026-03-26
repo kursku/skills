@@ -1,7 +1,7 @@
 ---
 name: modern-javascript-patterns
 description: "Master ES6+ features including async/await, destructuring, spread operators, arrow functions, promises, modules, iterators, generators, and functional programming patterns for writing clean, effici..."
-risk: critical
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

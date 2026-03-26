@@ -7,7 +7,7 @@ metadata:
   author: Cafe Code AI
   category: 03-funis-vendas
   updated: 2026-03-01
-risk: caution
+risk: safe
 ---
 
 # Referral System

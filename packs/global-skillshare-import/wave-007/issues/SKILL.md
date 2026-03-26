@@ -5,7 +5,7 @@ allowed-tools: Bash(gh *)
 metadata:
   author: Shpigford
   version: "1.0"
-risk: critical
+risk: safe
 ---
 
 Interact with GitHub issues - create, list, and view issues.

@@ -1,7 +1,7 @@
 ---
 name: lint-and-validate
 description: "Automatic quality control, linting, and static analysis procedures. Use after every code modification to ensure syntax correctness and project standards. Triggers onKeywords: lint, format, check, v..."
-risk: caution
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

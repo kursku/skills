@@ -3,6 +3,7 @@ name: "gsd-new-milestone"
 description: "Start a new milestone cycle — update PROJECT.md and route to requirements"
 metadata:
   short-description: "Start a new milestone cycle — update PROJECT.md and route to requirements"
+risk: safe
 ---
 
 <codex_skill_adapter>

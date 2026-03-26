@@ -3,6 +3,7 @@ name: "gsd-help"
 description: "Show available GSD commands and usage guide"
 metadata:
   short-description: "Show available GSD commands and usage guide"
+risk: safe
 ---
 
 <codex_skill_adapter>

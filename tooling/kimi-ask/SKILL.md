@@ -1,6 +1,7 @@
 ---
 name: kimi-ask
 description: Deliberative consultation with Kimi API. Ask, evaluate, critique, iterate until workable agreement.
+risk: safe
 ---
 
 # Hard Invariants (always apply)

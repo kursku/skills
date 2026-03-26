@@ -6,7 +6,7 @@ author: "Digidai"
 tags: ["product-management", "saas", "frameworks", "metrics", "strategy"]
 source: "Digidai/product-manager-skills (MIT)"
 date_added: "2026-03-06"
-risk: caution
+risk: safe
 ---
 
 # Product Manager Skills

@@ -1,7 +1,7 @@
 ---
 name: constant-time-analysis
 description: Detects timing side-channel vulnerabilities in cryptographic code. Use when implementing or reviewing crypto code, encountering division on secrets, secret-dependent branches, or constant-time programming questions in C, C++, Go, Rust, Swift, Java, Kotlin, C#, PHP,...
-risk: critical
+risk: safe
 ---
 
 # Constant-Time Analysis

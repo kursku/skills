@@ -6,6 +6,7 @@ args:
   - name: target
     description: The feature or area to optimize (optional)
     required: false
+risk: safe
 ---
 
 Identify and fix performance issues to create faster, smoother user experiences.

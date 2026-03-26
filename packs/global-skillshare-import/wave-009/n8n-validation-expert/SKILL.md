@@ -1,7 +1,7 @@
 ---
 name: n8n-validation-expert
 description: Interpret validation errors and guide fixing them. Use when encountering validation errors, validation warnings, false positives, operator structure issues, or need help understanding validation results. Also use when asking about validation...
-risk: critical
+risk: safe
 ---
 
 # n8n Validation Expert

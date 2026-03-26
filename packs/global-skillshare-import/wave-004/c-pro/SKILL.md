@@ -1,7 +1,7 @@
 ---
 name: c-pro
 description: "Write efficient C code with proper memory management, pointer"
-risk: critical
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

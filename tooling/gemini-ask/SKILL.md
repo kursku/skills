@@ -1,6 +1,7 @@
 ---
 name: gemini-ask
 description: Deliberative consultation with Gemini CLI. Ask, evaluate, critique, iterate until workable agreement.
+risk: safe
 ---
 
 # Hard Invariants (always apply)

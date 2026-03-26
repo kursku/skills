@@ -6,6 +6,7 @@ args:
   - name: feature
     description: The page, route, or feature to normalize (optional)
     required: false
+risk: safe
 ---
 
 Analyze and redesign the feature to perfectly match our design system standards, aesthetics, and established patterns.

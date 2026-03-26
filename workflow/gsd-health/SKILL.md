@@ -3,6 +3,7 @@ name: "gsd-health"
 description: "Diagnose planning directory health and optionally repair issues"
 metadata:
   short-description: "Diagnose planning directory health and optionally repair issues"
+risk: safe
 ---
 
 <codex_skill_adapter>

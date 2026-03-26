@@ -2,7 +2,7 @@
 name: self-healing
 description: Continuously improve Claude's effectiveness by recognizing patterns, saving memory, creating skills, and refining project knowledge. Use when Claude notices repeated workflows, encounters a problem it solved before, wants to save something for future sessions, needs to create a reusable skill, or when the user asks Claude to improve itself, learn, remember, or get smarter over time.
 argument-hint: [optional: specific area to improve or review]
-risk: critical
+risk: safe
 ---
 
 # Self-Healing & Continuous Improvement

@@ -1,7 +1,7 @@
 ---
 name: ai-agents-architect
 description: "Expert in designing and building autonomous AI agents. Masters tool use, memory systems, planning strategies, and multi-agent orchestration. Use when: build agent, AI agent, autonomous agent, tool ..."
-risk: caution
+risk: safe
 source: "vibeship-spawner-skills (Apache 2.0)"
 date_added: "2026-02-27"
 ---

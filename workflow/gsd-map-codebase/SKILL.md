@@ -3,6 +3,7 @@ name: "gsd-map-codebase"
 description: "Analyze codebase with parallel mapper agents to produce .planning/codebase/ documents"
 metadata:
   short-description: "Analyze codebase with parallel mapper agents to produce .planning/codebase/ documents"
+risk: safe
 ---
 
 <codex_skill_adapter>

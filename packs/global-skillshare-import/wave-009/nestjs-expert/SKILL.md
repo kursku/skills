@@ -2,7 +2,7 @@
 name: nestjs-expert
 description: "Nest.js framework expert specializing in module architecture, dependency injection, middleware, guards, interceptors, testing with Jest/Supertest, TypeORM/Mongoose integration, and Passport.js auth..."
 category: framework
-risk: critical
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

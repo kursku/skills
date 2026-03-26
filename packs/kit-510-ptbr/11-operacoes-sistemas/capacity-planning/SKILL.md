@@ -7,7 +7,7 @@ metadata:
   author: Cafe Code AI
   category: 11-operacoes-sistemas
   updated: 2026-03-01
-risk: critical
+risk: safe
 ---
 
 # Capacity Planning

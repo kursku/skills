@@ -8,7 +8,7 @@ allowed-tools:
   - "Read"
   - "Write"
   - "web_fetch"
-risk: critical
+risk: safe
 source: community
 ---
 

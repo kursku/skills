@@ -3,6 +3,7 @@ name: "gsd-add-tests"
 description: "Generate tests for a completed phase based on UAT criteria and implementation"
 metadata:
   short-description: "Generate tests for a completed phase based on UAT criteria and implementation"
+risk: safe
 ---
 
 <codex_skill_adapter>

@@ -12,6 +12,7 @@ triggers:
   - rojo
   - incremental game
 type: general
+risk: offensive
 ---
 
 # Luau / Roblox Development Skill

@@ -4,7 +4,7 @@ description: Statistical models library for Python. Use when you need specific m
 license: BSD-3-Clause license
 metadata:
     skill-author: K-Dense Inc.
-risk: caution
+risk: safe
 ---
 
 # Statsmodels: Statistical Modeling and Econometrics

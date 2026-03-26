@@ -2,7 +2,7 @@
 name: aws-secrets-rotation
 description: "Automate AWS secrets rotation for RDS, API keys, and credentials"
 category: security
-risk: safe
+risk: critical
 source: community
 tags: "[aws, secrets-manager, security, automation, kiro-cli, credentials]"
 date_added: "2026-02-27"

@@ -1,7 +1,7 @@
 ---
 name: prompt-engineering-patterns
 description: "Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability in production. Use when optimizing prompts, improving LLM outputs, or designing productio..."
-risk: critical
+risk: safe
 source: community
 date_added: "2026-02-27"
 ---

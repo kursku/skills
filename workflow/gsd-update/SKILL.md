@@ -3,6 +3,7 @@ name: "gsd-update"
 description: "Update GSD to latest version with changelog display"
 metadata:
   short-description: "Update GSD to latest version with changelog display"
+risk: safe
 ---
 
 <codex_skill_adapter>

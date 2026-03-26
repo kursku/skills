@@ -10,7 +10,7 @@ description: >
   between Ironjaw and NTPD", "write some grandpa dialogue for when the garage is built" — even if
   they don't say the word "content" or "JSON". If the task involves adding anything to the game's
   narrative, combat, or progression systems, this skill applies.
-risk: caution
+risk: safe
 ---
 
 # Game Content Authoring

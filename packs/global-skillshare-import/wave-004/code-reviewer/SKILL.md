@@ -1,7 +1,7 @@
 ---
 name: code-reviewer
 description: "Elite code review expert specializing in modern AI-powered code"
-risk: offensive
+risk: critical
 source: community
 date_added: "2026-02-27"
 ---

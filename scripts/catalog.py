@@ -367,7 +367,7 @@ def quality_issues(fm: dict) -> list[str]:
     if not fm.get("description") or len(fm.get("description", "")) < 20:
         issues.append("description-too-short")
     risk = fm.get("risk", "")
-    if risk in ("unknown", "", "none"):
+    if risk in ("unknown", ""):
         issues.append("risk-unset")
     name = fm.get("name", "")
     description = fm.get("description", "")

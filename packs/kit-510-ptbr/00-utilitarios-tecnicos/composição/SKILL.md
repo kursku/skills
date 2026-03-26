@@ -2,7 +2,7 @@
 name: composio
 description: Build AI agent integrations with Composio (composio.dev). Use when the user wants to connect AI agents to third-party apps (GitHub, Gmail, Slack, Notion, Salesforce, etc.), set up OAuth authentication for tools, create Composio sessions, use Composio tools natively or via MCP, set up event triggers, or build multi-app agent workflows. Triggers on imports from composio or @composio or mentions of composio.
 argument-hint: [description of what to build or integrate]
-risk: critical
+risk: safe
 ---
 
 # Composio Skill

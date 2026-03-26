@@ -10,6 +10,7 @@ license: MIT
 metadata:
   author: vercel
   version: '1.0.0'
+risk: safe
 ---
 
 # React Composition Patterns

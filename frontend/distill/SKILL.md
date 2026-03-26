@@ -6,6 +6,7 @@ args:
   - name: target
     description: The feature or component to distill (optional)
     required: false
+risk: safe
 ---
 
 Remove unnecessary complexity from designs, revealing the essential elements and creating clarity through ruthless simplification.

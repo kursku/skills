@@ -3,6 +3,7 @@ name: "gsd-remove-phase"
 description: "Remove a future phase from roadmap and renumber subsequent phases"
 metadata:
   short-description: "Remove a future phase from roadmap and renumber subsequent phases"
+risk: safe
 ---
 
 <codex_skill_adapter>

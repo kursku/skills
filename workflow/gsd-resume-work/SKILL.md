@@ -3,6 +3,7 @@ name: "gsd-resume-work"
 description: "Resume work from previous session with full context restoration"
 metadata:
   short-description: "Resume work from previous session with full context restoration"
+risk: safe
 ---
 
 <codex_skill_adapter>
