@@ -16,8 +16,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build .skill files
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build catalog
+        run: python3 scripts/catalog.py
+
+      - name: Build curated .skill files
         run: bash scripts/release.sh
+
+      - name: Build pack .skill files
+        run: bash scripts/release.sh --packs all
 
       - name: Collect built files
         id: collect
