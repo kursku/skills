@@ -1,0 +1,231 @@
+# Conteudo & Copy
+
+Skills para copywriting, headlines, roteiros, posts e materiais persuasivos.
+
+---
+
+### ad-copy-variants
+Estrategias e praticas de ad copy variants para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/ad-copy-variants/)
+
+---
+
+### bio-writer
+Estrategias e praticas de bio writer para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/bio-writer/)
+
+---
+
+### blog-seo-writer
+Estrategias e praticas de blog seo writer para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/blog-seo-writer/)
+
+---
+
+### brand-voice-guide
+Estrategias e praticas de brand voice guide para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/brand-voice-guide/)
+
+---
+
+### carousel-creator
+Estrategias e praticas de carousel creator para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/carousel-creator/)
+
+---
+
+### case-study-writer
+Estrategias e praticas de case study writer para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/case-study-writer/)
+
+---
+
+### comparison-content
+Estrategias e praticas de comparison content para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/comparison-content/)
+
+---
+
+### content-calendar
+Estrategias e praticas de content calendar para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/content-calendar/)
+
+---
+
+### cta-optimizer
+Estrategias e praticas de cta optimizer para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/cta-optimizer/)
+
+---
+
+### email-subject-lines
+Estrategias e praticas de email subject lines para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/email-subject-lines/)
+
+---
+
+### faq-generator
+Estrategias e praticas de faq generator para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/faq-generator/)
+
+---
+
+### headline-formulas
+Estrategias e praticas de headline formulas para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/headline-formulas/)
+
+---
+
+### hooks-swipe-file
+Estrategias e praticas de hooks swipe file para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/hooks-swipe-file/)
+
+---
+
+### instagram-caption
+Estrategias e praticas de instagram caption para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/instagram-caption/)
+
+---
+
+### linkedin-post
+Estrategias e praticas de linkedin post para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/linkedin-post/)
+
+---
+
+### micro-copy
+Estrategias e praticas de micro copy para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/micro-copy/)
+
+---
+
+### newsletter-writer
+Estrategias e praticas de newsletter writer para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/newsletter-writer/)
+
+---
+
+### podcast-outline
+Estrategias e praticas de podcast outline para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/podcast-outline/)
+
+---
+
+### press-release
+Estrategias e praticas de press release para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/press-release/)
+
+---
+
+### product-description
+Estrategias e praticas de product description para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/product-description/)
+
+---
+
+### review-response
+Estrategias e praticas de review response para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/review-response/)
+
+---
+
+### rewrite-improver
+Estrategias e praticas de rewrite improver para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/rewrite-improver/)
+
+---
+
+### sales-page-copy
+Estrategias e praticas de sales page copy para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/sales-page-copy/)
+
+---
+
+### script-cold-outreach
+Estrategias e praticas de script cold outreach para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/script-cold-outreach/)
+
+---
+
+### seo-meta-writer
+Estrategias e praticas de seo meta writer para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/seo-meta-writer/)
+
+---
+
+### storytelling-framework
+Estrategias e praticas de storytelling framework para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/storytelling-framework/)
+
+---
+
+### tagline-generator
+Estrategias e praticas de tagline generator para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/tagline-generator/)
+
+---
+
+### thread-twitter-x
+Estrategias e praticas de thread twitter x para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/thread-twitter-x/)
+
+---
+
+### ugc-brief
+Estrategias e praticas de ugc brief para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/ugc-brief/)
+
+---
+
+### video-script
+Estrategias e praticas de video script para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/video-script/)
+
+---
+
+### webinar-script
+Estrategias e praticas de webinar script para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/webinar-script/)
+
+---
+
+### whatsapp-scripts
+Estrategias e praticas de whatsapp scripts para conteudo e copywriting.
+
+[Ver skill](../packs/kit-510-ptbr/01-conteudo-copy/whatsapp-scripts/)
+
+---
+
+[← Voltar para todas as categorias](../README.md)
