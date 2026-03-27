@@ -1,64 +1,64 @@
-# 🏆 Quality Bar & Validation Standards
+# 🏆 Padrão de Qualidade & Validação
 
-To transform **Antigravity Awesome Skills** from a collection of scripts into a trusted platform, every skill must meet a specific standard of quality and safety.
+Para transformar as **Skills para Claude** de uma coleção de scripts em uma plataforma confiável, toda skill precisa atender a um padrão específico de qualidade e segurança.
 
-## The "Validated" Badge ✅
+## O Selo "Validada" ✅
 
-A skill earns the "Validated" badge only if it passes these **5 automated checks**:
+Uma skill recebe o selo "Validada" apenas se passar nestas **5 verificações automatizadas**:
 
-### 1. Metadata Integrity
+### 1. Integridade dos Metadados
 
-The `SKILL.md` frontmatter must be valid YAML and contain:
+O frontmatter do `SKILL.md` precisa ser um YAML válido e conter:
 
-- `name`: Kebab-case, matches folder name.
-- `description`: Under 200 chars, clear value prop.
-- `risk`: One of `[none, safe, critical, offensive]`. Use `scripts/infer_risk.py` to auto-classify.
-- `source`: URL to original source (or "self" if original).
+- `name`: Em kebab-case, correspondendo ao nome da pasta.
+- `description`: Até 200 caracteres, com proposta de valor clara.
+- `risk`: Um entre `[none, safe, critical, offensive]`. Use `scripts/infer_risk.py` para classificar automaticamente.
+- `source`: URL da fonte original (ou "self" se for original).
 
-### 2. Clear Triggers ("When to use")
+### 2. Gatilhos Claros ("Quando usar")
 
-The skill MUST have a section explicitly stating when to trigger it.
+A skill PRECISA ter uma seção indicando explicitamente quando deve ser acionada.
 
-- **Good**: "Use when the user asks to debug a React component."
-- **Bad**: "This skill helps you with code."
-Accepted headings: `## When to Use`, `## Use this skill when`, `## When to Use This Skill`.
+- **Bom**: "Use quando o usuário pedir para debugar um componente React."
+- **Ruim**: "Essa skill ajuda com código."
+Headings aceitos: `## When to Use`, `## Use this skill when`, `## When to Use This Skill`.
 
-### 3. Safety & Risk Classification
+### 3. Segurança & Classificação de Risco
 
-Every skill must declare its risk level:
+Toda skill precisa declarar seu nível de risco:
 
-- 🟢 **none**: Pure text/reasoning (e.g., Brainstorming).
-- 🔵 **safe**: Reads files, runs safe commands (e.g., Linter).
-- 🟠 **critical**: Modifies state, deletes files, pushes to prod (e.g., Git Push).
-- 🔴 **offensive**: Pentesting/Red Team tools. **MUST** have "Authorized Use Only" warning.
+- 🟢 **none**: Apenas texto/raciocínio (ex.: Brainstorming).
+- 🔵 **safe**: Lê arquivos, executa comandos seguros (ex.: Linter).
+- 🟠 **critical**: Modifica estado, deleta arquivos, faz push para produção (ex.: Git Push).
+- 🔴 **offensive**: Ferramentas de pentest/Red Team. **PRECISA** ter aviso de "Uso Autorizado Apenas".
 
-### 4. Copy-Pasteable Examples
+### 4. Exemplos Prontos para Usar
 
-At least one code block or interaction example that a user (or agent) can immediately use.
+Pelo menos um bloco de código ou exemplo de interação que o usuário (ou agente) possa utilizar imediatamente.
 
-### 5. Explicit Limitations
+### 5. Limitações Explícitas
 
-A list of known edge cases or things the skill _cannot_ do.
+Uma lista de edge cases conhecidos ou coisas que a skill _não consegue_ fazer.
 
-- _Example_: "Does not work on Windows without WSL."
-
----
-
-## Support Levels
-
-We also categorize skills by who maintains them:
-
-| Level         | Badge | Meaning                                             |
-| :------------ | :---- | :-------------------------------------------------- |
-| **Official**  | 🟣    | Maintained by the core team. High reliability.      |
-| **Community** | ⚪    | Contributed by the ecosystem. Best effort support.  |
-| **Verified**  | ✨    | Community skill that has passed deep manual review. |
+- _Exemplo_: "Não funciona no Windows sem WSL."
 
 ---
 
-## How to Validate Your Skill
+## Níveis de Suporte
 
-Use os scripts do repositorio para validar:
+Também categorizamos as skills por quem as mantém:
+
+| Nível         | Selo | Significado                                                  |
+| :------------ | :--- | :----------------------------------------------------------- |
+| **Oficial**   | 🟣   | Mantida pela equipe principal. Alta confiabilidade.          |
+| **Comunidade**| ⚪   | Contribuída pelo ecossistema. Suporte por melhor esforço.    |
+| **Verificada**| ✨   | Skill da comunidade que passou por revisão manual detalhada. |
+
+---
+
+## Como Validar Sua Skill
+
+Use os scripts do repositório para validar:
 
 ```bash
 python3 scripts/catalog.py --issues-only    # listar problemas de qualidade

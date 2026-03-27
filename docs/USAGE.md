@@ -1,394 +1,395 @@
-# 📖 Usage Guide: How to Actually Use These Skills
+# Guia de Uso: Como Usar as Skills na Pratica
 
-> **Confused after installation?** This guide walks you through exactly what to do next, step by step.
-
----
-
-## 🤔 "I just installed the repository. Now what?"
-
-Great question! Here's what just happened and what to do next:
-
-### What You Just Did
-
-When you ran `npx antigravity-awesome-skills` or cloned the repository, you:
-
-✅ **Downloaded 954+ skill files** to your computer (default: `~/.gemini/antigravity/skills/`; or `~/.agent/skills/` if you used `--path`)  
-✅ **Made them available** to your AI assistant  
-❌ **Did NOT enable them all automatically** (they're just sitting there, waiting)
-
-Think of it like installing a toolbox. You have all the tools now, but you need to **pick which ones to use** for each job.
+> **Perdido apos a instalacao?** Este guia te mostra exatamente o que fazer, passo a passo.
 
 ---
 
-## 🎯 Step 1: Understanding "Bundles" (This is NOT Another Install!)
+## "Instalei as skills. E agora?"
 
-**Common confusion:** "Do I need to download each skill separately?"
+Otima pergunta! Veja o que aconteceu e o que fazer a seguir:
 
-**Answer: NO!** Here's what bundles actually are:
+### O Que Voce Acabou de Fazer
 
-### What Bundles Are
+Quando voce baixou e configurou as Skills para Claude, voce:
 
-Bundles are **recommended lists** of skills grouped by role. They help you decide which skills to start using.
+- **Baixou os arquivos de skills** para o seu computador
+- **Deixou tudo disponivel** para o seu assistente de IA
+- **NAO ativou todas automaticamente** (elas estao la, esperando voce usar)
 
-**Analogy:**
+Pense nisso como instalar uma caixa de ferramentas. Voce tem todas as ferramentas agora, mas precisa **escolher quais usar** para cada tarefa.
 
-- You installed a toolbox with 954+ tools (✅ done)
-- Bundles are like **labeled organizer trays** saying: "If you're a carpenter, start with these 10 tools"
-- You don't install bundles—you **pick skills from them**
+---
 
-### What Bundles Are NOT
+## Passo 1: Entendendo os "Bundles" (Isso NAO e Outra Instalacao!)
 
-❌ Separate installations  
-❌ Different download commands  
-❌ Something you need to "activate"
+**Confusao comum:** "Preciso baixar cada skill separadamente?"
 
-### Example: The "Web Wizard" Bundle
+**Resposta: NAO!** Veja o que bundles realmente sao:
 
-When you see the [Web Wizard bundle](BUNDLES.md#-the-web-wizard-pack), it lists:
+### O Que Sao Bundles
+
+Bundles sao **listas recomendadas** de skills agrupadas por funcao. Eles ajudam voce a decidir por onde comecar.
+
+**Analogia:**
+
+- Voce instalou uma caixa de ferramentas com centenas de ferramentas (ja feito)
+- Bundles sao como **bandejas organizadoras com etiquetas** dizendo: "Se voce e desenvolvedor web, comece com essas 10 ferramentas"
+- Voce nao instala bundles — voce **escolhe skills a partir deles**
+
+### O Que Bundles NAO Sao
+
+- Instalacoes separadas
+- Comandos de download diferentes
+- Algo que precisa ser "ativado"
+
+### Exemplo: O Bundle "Web Wizard"
+
+Quando voce ve o [bundle Web Wizard](BUNDLES.md#-the-web-wizard-pack), ele lista:
 
 - `frontend-design`
 - `react-best-practices`
 - `tailwind-patterns`
 - etc.
 
-These are **recommendations** for which skills a web developer should try first. They're already installed—you just need to **use them in your prompts**.
+Essas sao **recomendacoes** de quais skills um desenvolvedor web deveria experimentar primeiro. Elas ja estao instaladas — voce so precisa **usa-las nos seus prompts**.
 
 ---
 
-## 🚀 Step 2: How to Actually Execute/Use a Skill
+## Passo 2: Como Usar uma Skill de Verdade
 
-This is the part that should have been explained better! Here's how to use skills:
+Essa e a parte que merece mais atencao! Veja como usar as skills:
 
-### The Simple Answer
+### A Resposta Simples
 
-**Just mention the skill name in your conversation with your AI assistant.**
+**Basta mencionar o nome da skill na sua conversa com o assistente de IA.**
 
-### Different Tools, Different Syntax
+### Como Adicionar uma Skill ao Claude
 
-The exact syntax varies by tool, but it's always simple:
+O fluxo para habilitar uma skill no Claude e:
+
+**Personalizar → Habilidades → Upload do SKILL.md**
+
+Depois de fazer o upload, a skill fica disponivel para uso nas suas conversas.
+
+### Diferentes Ferramentas, Diferentes Sintaxes
+
+A sintaxe exata varia por ferramenta, mas sempre e simples:
 
 #### Claude Code (CLI)
 
 ```bash
-# In your terminal/chat with Claude Code:
+# No seu terminal/chat com o Claude Code:
 >> Use @brainstorming to help me design a todo app
 ```
 
 #### Cursor (IDE)
 
 ```bash
-# In the Cursor chat panel:
+# No painel de chat do Cursor:
 @brainstorming help me design a todo app
 ```
 
 #### Gemini CLI
 
 ```bash
-# In your conversation with Gemini:
+# Na sua conversa com o Gemini:
 Use the brainstorming skill to help me plan my app
 ```
 
 #### Codex CLI
 
 ```bash
-# In your conversation with Codex:
+# Na sua conversa com o Codex:
 Apply @brainstorming to design a new feature
 ```
 
-#### Antigravity IDE
-
-```bash
-# In agent mode:
-Use @brainstorming to plan this feature
-```
-
-> **Pro Tip:** Most modern tools use the `@skill-name` syntax. When in doubt, try that first!
+> **Dica:** A maioria das ferramentas modernas usa a sintaxe `@nome-da-skill`. Na duvida, tente isso primeiro!
 
 ---
 
-## 💬 Step 3: What Should My Prompts Look Like?
+## Passo 3: Como Devem Ser Meus Prompts?
 
-Here are **real-world examples** of good prompts:
+Aqui estao **exemplos reais** de bons prompts:
 
-### Example 1: Starting a New Project
+### Exemplo 1: Comecando um Novo Projeto
 
-**Bad Prompt:**
+**Prompt Ruim:**
 
-> "Help me build a todo app"
+> "Me ajude a fazer um app de tarefas"
 
-**Good Prompt:**
+**Prompt Bom:**
 
-> "Use @brainstorming to help me design a todo app with user authentication and cloud sync"
+> "Use @brainstorming para me ajudar a projetar um app de tarefas com autenticacao de usuario e sincronizacao na nuvem"
 
-**Why it's better:** You're explicitly invoking the skill and providing context.
-
----
-
-### Example 2: Reviewing Code
-
-**Bad Prompt:**
-
-> "Check my code"
-
-**Good Prompt:**
-
-> "Use @lint-and-validate to check `src/components/Button.tsx` for issues"
-
-**Why it's better:** Specific skill + specific file = precise results.
+**Por que e melhor:** Voce invoca a skill explicitamente e fornece contexto.
 
 ---
 
-### Example 3: Security Audit
+### Exemplo 2: Revisando Codigo
 
-**Bad Prompt:**
+**Prompt Ruim:**
 
-> "Make my API secure"
+> "Verifica meu codigo"
 
-**Good Prompt:**
+**Prompt Bom:**
 
-> "Use @api-security-best-practices to review my REST endpoints in `routes/api/users.js`"
+> "Use @lint-and-validate para verificar `src/components/Button.tsx` em busca de problemas"
 
-**Why it's better:** The AI knows exactly which skill's standards to apply.
-
----
-
-### Example 4: Combining Multiple Skills
-
-**Good Prompt:**
-
-> "Use @brainstorming to design a payment flow, then apply @stripe-integration to implement it"
-
-**Why it's good:** You can chain skills together in a single prompt!
+**Por que e melhor:** Skill especifica + arquivo especifico = resultados precisos.
 
 ---
 
-## 🎓 Step 4: Your First Skill (Hands-On Tutorial)
+### Exemplo 3: Auditoria de Seguranca
 
-Let's actually use a skill right now. Follow these steps:
+**Prompt Ruim:**
 
-### Scenario: You want to plan a new feature
+> "Deixa minha API segura"
 
-1. **Pick a skill:** Let's use `brainstorming` (from the "Essentials" bundle)
+**Prompt Bom:**
 
-2. **Open your AI assistant** (Claude Code, Cursor, etc.)
+> "Use @api-security-best-practices para revisar meus endpoints REST em `routes/api/users.js`"
 
-3. **Type this exact prompt:**
+**Por que e melhor:** A IA sabe exatamente quais padroes da skill aplicar.
+
+---
+
+### Exemplo 4: Combinando Multiplas Skills
+
+**Prompt Bom:**
+
+> "Use @brainstorming para projetar um fluxo de pagamento, depois aplique @stripe-integration para implementar"
+
+**Por que e bom:** Voce pode encadear skills em um unico prompt!
+
+---
+
+## Passo 4: Sua Primeira Skill (Tutorial Pratico)
+
+Vamos usar uma skill agora mesmo. Siga estes passos:
+
+### Cenario: Voce quer planejar uma nova funcionalidade
+
+1. **Escolha uma skill:** Vamos usar `brainstorming` (do bundle "Essentials")
+
+2. **Abra seu assistente de IA** (Claude Code, Cursor, etc.)
+
+3. **Digite este prompt:**
 
    ```
-   Use @brainstorming to help me design a user profile page for my app
+   Use @brainstorming para me ajudar a projetar uma pagina de perfil de usuario para meu app
    ```
 
-4. **Press Enter**
+4. **Aperte Enter**
 
-5. **What happens next:**
-   - The AI loads the brainstorming skill
-   - It will start asking you structured questions (one at a time)
-   - It will guide you through understanding, requirements, and design
-   - You answer each question, and it builds a complete spec
+5. **O que acontece em seguida:**
+   - A IA carrega a skill de brainstorming
+   - Ela vai comecar a fazer perguntas estruturadas (uma de cada vez)
+   - Ela vai te guiar pelas etapas de entendimento, requisitos e design
+   - Voce responde cada pergunta, e ela constroi uma especificacao completa
 
-6. **Result:** You'll end up with a detailed design document—without writing a single line of code yet!
+6. **Resultado:** Voce termina com um documento de design detalhado — sem escrever uma unica linha de codigo!
 
 ---
 
-## 🗂️ Step 5: Picking Your First Skills (Practical Advice)
+## Passo 5: Escolhendo Suas Primeiras Skills (Conselho Pratico)
 
-Don't try to use all 954+ skills! Here's a sensible approach:
+Nao tente usar todas as skills de uma vez! Aqui vai uma abordagem sensata:
 
-### Start with "The Essentials" (5 skills, everyone needs these)
+### Comece com "O Essencial" (5 skills que todo mundo precisa)
 
-1. **`@brainstorming`** - Plan before you build
-2. **`@lint-and-validate`** - Keep code clean
-3. **`@git-pushing`** - Save work safely
-4. **`@systematic-debugging`** - Fix bugs faster
-5. **`@concise-planning`** - Organize tasks
+1. **`@brainstorming`** - Planeje antes de construir
+2. **`@lint-and-validate`** - Mantenha o codigo limpo
+3. **`@git-pushing`** - Salve seu trabalho com seguranca
+4. **`@systematic-debugging`** - Corrija bugs mais rapido
+5. **`@concise-planning`** - Organize tarefas
 
-**How to use them:**
+**Como usar:**
 
-- Before writing new code → `@brainstorming`
-- After writing code → `@lint-and-validate`
-- Before committing → `@git-pushing`
-- When stuck → `@systematic-debugging`
+- Antes de escrever codigo novo → `@brainstorming`
+- Depois de escrever codigo → `@lint-and-validate`
+- Antes de commitar → `@git-pushing`
+- Quando travar → `@systematic-debugging`
 
-### Then Add Role-Specific Skills (5-10 more)
+### Depois Adicione Skills do Seu Perfil (mais 5-10)
 
-Find your role in [BUNDLES.md](BUNDLES.md) and pick 5-10 skills from that bundle.
+Encontre seu perfil em [BUNDLES.md](BUNDLES.md) e escolha 5-10 skills daquele bundle.
 
-**Example for Web Developer:**
+**Exemplo para Desenvolvedor Web:**
 
 - `@frontend-design`
 - `@react-best-practices`
 - `@tailwind-patterns`
 - `@seo-audit`
 
-**Example for Security Engineer:**
+**Exemplo para Engenheiro de Seguranca:**
 
 - `@api-security-best-practices`
 - `@vulnerability-scanner`
 - `@ethical-hacking-methodology`
 
-### Finally, Add On-Demand Skills (as needed)
+### Por Fim, Adicione Skills Sob Demanda (conforme necessidade)
 
-Keep the [CATALOG.md](../CATALOG.md) open as reference. When you need something specific:
+Mantenha o [CATALOG.md](../CATALOG.md) aberto como referencia. Quando precisar de algo especifico:
 
-> "I need to integrate Stripe payments"  
-> → Search catalog → Find `@stripe-integration` → Use it!
-
----
-
-## 🔄 Complete Example: Building a Feature End-to-End
-
-Let's walk through a realistic scenario:
-
-### Task: "Add a blog to my Next.js website"
-
-#### Step 1: Plan (use @brainstorming)
-
-```
-You: Use @brainstorming to design a blog system for my Next.js site
-
-AI: [Asks structured questions about requirements]
-You: [Answer questions]
-AI: [Produces detailed design spec]
-```
-
-#### Step 2: Implement (use @nextjs-best-practices)
-
-```
-You: Use @nextjs-best-practices to scaffold the blog with App Router
-
-AI: [Creates file structure, sets up routes, adds components]
-```
-
-#### Step 3: Style (use @tailwind-patterns)
-
-```
-You: Use @tailwind-patterns to make the blog posts look modern
-
-AI: [Applies Tailwind styling with responsive design]
-```
-
-#### Step 4: SEO (use @seo-audit)
-
-```
-You: Use @seo-audit to optimize the blog for search engines
-
-AI: [Adds meta tags, sitemaps, structured data]
-```
-
-#### Step 5: Test & Deploy
-
-```
-You: Use @test-driven-development to add tests, then @vercel-deployment to deploy
-
-AI: [Creates tests, sets up CI/CD, deploys to Vercel]
-```
-
-**Result:** Professional blog built with best practices, without manually researching each step!
+> "Preciso integrar pagamentos com Stripe"
+> → Busque no catalogo → Encontre `@stripe-integration` → Use!
 
 ---
 
-## 🆘 Common Questions
+## Exemplo Completo: Construindo uma Feature de Ponta a Ponta
 
-### "Which tool should I use? Claude Code, Cursor, Gemini?"
+Vamos acompanhar um cenario realista:
 
-**Any of them!** Skills work universally. Pick the tool you already use or prefer:
+### Tarefa: "Adicionar um blog ao meu site Next.js"
 
-- **Claude Code** - Best for terminal/CLI workflows
-- **Cursor** - Best for IDE integration
-- **Gemini CLI** - Best for Google ecosystem
-- **Codex CLI** - Best for OpenAI ecosystem
-
-### "Can I see all available skills?"
-
-Yes! Three ways:
-
-1. Browse [CATALOG.md](../CATALOG.md) (searchable list)
-2. Run `ls ~/.agent/skills/` (if installed there)
-3. Ask your AI: "What skills do you have for [topic]?"
-
-### "Do I need to restart my IDE after installing?"
-
-Usually no, but if your AI doesn't recognize a skill:
-
-1. Try restarting your IDE/CLI
-2. Check the installation path matches your tool
-3. Try the explicit path: `npx antigravity-awesome-skills --claude` (or `--cursor`, `--gemini`, etc.)
-
-### "Can I create my own skills?"
-
-Yes! Use the `@skill-creator` skill:
+#### Etapa 1: Planejar (use @brainstorming)
 
 ```
-Use @skill-creator to help me build a custom skill for [your task]
+Voce: Use @brainstorming para projetar um sistema de blog para meu site Next.js
+
+IA: [Faz perguntas estruturadas sobre requisitos]
+Voce: [Responde as perguntas]
+IA: [Produz uma especificacao de design detalhada]
 ```
 
-### "What if a skill doesn't work as expected?"
+#### Etapa 2: Implementar (use @nextjs-best-practices)
 
-1. Check the skill's SKILL.md file directly: `~/.agent/skills/[skill-name]/SKILL.md`
-2. Read the description to ensure you're using it correctly
-3. [Open an issue](https://github.com/sickn33/antigravity-awesome-skills/issues) with details
+```
+Voce: Use @nextjs-best-practices para criar a estrutura do blog com App Router
 
----
+IA: [Cria estrutura de arquivos, configura rotas, adiciona componentes]
+```
 
-## 🎯 Quick Reference Card
+#### Etapa 3: Estilizar (use @tailwind-patterns)
 
-**Save this for quick lookup:**
+```
+Voce: Use @tailwind-patterns para deixar os posts do blog com visual moderno
 
-| Task             | Skill to Use                   | Example Prompt                                      |
-| ---------------- | ------------------------------ | --------------------------------------------------- |
-| Plan new feature | `@brainstorming`               | `Use @brainstorming to design a login system`       |
-| Review code      | `@lint-and-validate`           | `Use @lint-and-validate on src/app.js`              |
-| Debug issue      | `@systematic-debugging`        | `Use @systematic-debugging to fix login error`      |
-| Security audit   | `@api-security-best-practices` | `Use @api-security-best-practices on my API routes` |
-| SEO check        | `@seo-audit`                   | `Use @seo-audit on my landing page`                 |
-| React component  | `@react-patterns`              | `Use @react-patterns to build a form component`     |
-| Deploy app       | `@vercel-deployment`           | `Use @vercel-deployment to ship this to production` |
+IA: [Aplica estilizacao com Tailwind e design responsivo]
+```
 
----
+#### Etapa 4: SEO (use @seo-audit)
 
-## 🚦 Next Steps
+```
+Voce: Use @seo-audit para otimizar o blog para mecanismos de busca
 
-Now that you understand how to use skills:
+IA: [Adiciona meta tags, sitemaps, dados estruturados]
+```
 
-1. ✅ **Try one skill right now** - Start with `@brainstorming` on any idea you have
-2. 📚 **Pick 3-5 skills** from your role's bundle in [BUNDLES.md](BUNDLES.md)
-3. 🔖 **Bookmark** [CATALOG.md](../CATALOG.md) for when you need something specific
-4. 🎯 **Try a workflow** from [WORKFLOWS.md](WORKFLOWS.md) for a complete end-to-end process
+#### Etapa 5: Testar e Deploy
 
----
+```
+Voce: Use @test-driven-development para adicionar testes, depois @vercel-deployment para fazer o deploy
 
-## 💡 Pro Tips for Maximum Effectiveness
+IA: [Cria testes, configura CI/CD, faz deploy na Vercel]
+```
 
-### Tip 1: Start Every Feature with @brainstorming
-
-> Before writing code, use `@brainstorming` to plan. You'll save hours of refactoring.
-
-### Tip 2: Chain Skills in Order
-
-> Don't try to do everything at once. Use skills sequentially: Plan → Build → Test → Deploy
-
-### Tip 3: Be Specific in Prompts
-
-> Bad: "Use @react-patterns"  
-> Good: "Use @react-patterns to build a modal component with animations"
-
-### Tip 4: Reference File Paths
-
-> Help the AI focus: "Use @security-auditor on routes/api/auth.js"
-
-### Tip 5: Combine Skills for Complex Tasks
-
-> "Use @brainstorming to design, then @test-driven-development to implement with tests"
+**Resultado:** Blog profissional construido com boas praticas, sem precisar pesquisar cada etapa manualmente!
 
 ---
 
-## 📞 Still Confused?
+## Perguntas Frequentes
 
-If something still doesn't make sense:
+### "Qual ferramenta devo usar? Claude Code, Cursor, Gemini?"
 
-1. Check the [FAQ](FAQ.md)
-2. See [Real-World Examples](EXAMPLES.md)
-3. [Open a Discussion](https://github.com/sickn33/antigravity-awesome-skills/discussions)
-4. [File an Issue](https://github.com/sickn33/antigravity-awesome-skills/issues) to help us improve this guide!
+**Qualquer uma!** As skills funcionam universalmente. Escolha a ferramenta que voce ja usa ou prefere:
 
-Remember: You're not alone! The whole point of this project is to make AI assistants easier to use. If this guide didn't help, let us know so we can fix it. 🙌
+- **Claude Code** - Melhor para workflows no terminal/CLI
+- **Cursor** - Melhor para integracao com IDE
+- **Gemini CLI** - Melhor para o ecossistema Google
+- **Codex CLI** - Melhor para o ecossistema OpenAI
+
+### "Posso ver todas as skills disponiveis?"
+
+Sim! De tres formas:
+
+1. Navegue pelo [CATALOG.md](../CATALOG.md) (lista pesquisavel)
+2. Rode `ls ~/.agent/skills/` (se instalou la)
+3. Pergunte a sua IA: "Quais skills voce tem para [topico]?"
+
+### "Preciso reiniciar minha IDE depois de instalar?"
+
+Geralmente nao, mas se sua IA nao reconhecer uma skill:
+
+1. Tente reiniciar sua IDE/CLI
+2. Verifique se o caminho de instalacao corresponde a sua ferramenta
+3. Para o Claude, siga o fluxo: Personalizar → Habilidades → Upload do SKILL.md
+
+### "Posso criar minhas proprias skills?"
+
+Sim! Use a skill `@skill-creator`:
+
+```
+Use @skill-creator para me ajudar a criar uma skill personalizada para [sua tarefa]
+```
+
+### "E se uma skill nao funcionar como esperado?"
+
+1. Verifique o arquivo SKILL.md da skill diretamente: `~/.agent/skills/[nome-da-skill]/SKILL.md`
+2. Leia a descricao para garantir que esta usando corretamente
+3. [Abra uma issue](https://github.com/sickn33/antigravity-awesome-skills/issues) com detalhes
+
+---
+
+## Cartao de Referencia Rapida
+
+**Salve isso para consulta rapida:**
+
+| Tarefa                  | Skill para Usar                | Exemplo de Prompt                                                |
+| ----------------------- | ------------------------------ | ---------------------------------------------------------------- |
+| Planejar nova feature   | `@brainstorming`               | `Use @brainstorming para projetar um sistema de login`           |
+| Revisar codigo          | `@lint-and-validate`           | `Use @lint-and-validate em src/app.js`                           |
+| Debugar problema        | `@systematic-debugging`        | `Use @systematic-debugging para corrigir erro de login`          |
+| Auditoria de seguranca  | `@api-security-best-practices` | `Use @api-security-best-practices nas minhas rotas de API`       |
+| Verificar SEO           | `@seo-audit`                   | `Use @seo-audit na minha landing page`                           |
+| Componente React        | `@react-patterns`              | `Use @react-patterns para construir um componente de formulario` |
+| Deploy do app           | `@vercel-deployment`           | `Use @vercel-deployment para colocar isso em producao`           |
+
+---
+
+## Proximos Passos
+
+Agora que voce entende como usar as skills:
+
+1. **Experimente uma skill agora** - Comece com `@brainstorming` em qualquer ideia que voce tenha
+2. **Escolha 3-5 skills** do bundle do seu perfil em [BUNDLES.md](BUNDLES.md)
+3. **Salve nos favoritos** o [CATALOG.md](../CATALOG.md) para quando precisar de algo especifico
+4. **Experimente um workflow** de [WORKFLOWS.md](WORKFLOWS.md) para um processo completo de ponta a ponta
+
+---
+
+## Dicas para Maximo Aproveitamento
+
+### Dica 1: Comece Toda Feature com @brainstorming
+
+> Antes de escrever codigo, use `@brainstorming` para planejar. Voce vai economizar horas de refatoracao.
+
+### Dica 2: Encadeie Skills na Ordem Certa
+
+> Nao tente fazer tudo de uma vez. Use skills sequencialmente: Planejar → Construir → Testar → Deploy
+
+### Dica 3: Seja Especifico nos Prompts
+
+> Ruim: "Use @react-patterns"
+> Bom: "Use @react-patterns para construir um componente de modal com animacoes"
+
+### Dica 4: Referencie Caminhos de Arquivos
+
+> Ajude a IA a focar: "Use @security-auditor em routes/api/auth.js"
+
+### Dica 5: Combine Skills para Tarefas Complexas
+
+> "Use @brainstorming para projetar, depois @test-driven-development para implementar com testes"
+
+---
+
+## Ainda Com Duvidas?
+
+Se algo ainda nao faz sentido:
+
+1. Veja o [FAQ](FAQ.md)
+2. Veja os [Exemplos Reais](EXAMPLES.md)
+3. [Abra uma Discussao](https://github.com/sickn33/antigravity-awesome-skills/discussions)
+4. [Abra uma Issue](https://github.com/sickn33/antigravity-awesome-skills/issues) para nos ajudar a melhorar este guia!
+
+Lembre-se: voce nao esta sozinho! O objetivo deste projeto e tornar os assistentes de IA mais faceis de usar. Se este guia nao ajudou, nos avise para que possamos melhorar.
