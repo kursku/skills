@@ -1,218 +1,214 @@
 # Nichos Especificos
 
-_Specific Niches_
-
-Skills de marketing e estrategia para nichos e verticais especificos.
+Skills de marketing para imoveis, saude, educacao, SaaS e mais.
 
 ---
 
-## Skills (30)
-
 ### agency-marketing
-Agency Marketing — Skill especializada para agências de marketing que buscam otimizar sua própria prospecção, brandin...
+Estrategias e praticas de agency marketing para nichos especificos.
 
 [Ver skill](./agency-marketing/)
 
 ---
 
 ### agriculture-marketing
-Agriculture Marketing — Skill especializada para agriculture marketing
+Estrategias e praticas de agriculture marketing para nichos especificos.
 
 [Ver skill](./agriculture-marketing/)
 
 ---
 
 ### automotive-marketing
-Automotive Marketing — Skill especializada para criar e executar estratégias de marketing digital e tradicional para ...
+Estrategias e praticas de automotive marketing para nichos especificos.
 
 [Ver skill](./automotive-marketing/)
 
 ---
 
 ### b2b-marketing
-B2B Marketing — Skill especializada para b2b marketing
+Estrategias e praticas de b2b marketing para nichos especificos.
 
 [Ver skill](./b2b-marketing/)
 
 ---
 
 ### beauty-salon-marketing
-Beauty Salon Marketing — Skill especializada para beauty salon marketing
+Estrategias e praticas de beauty salon marketing para nichos especificos.
 
 [Ver skill](./beauty-salon-marketing/)
 
 ---
 
 ### coaching-marketing
-Coaching Marketing — Skill especializada para coaching marketing
+Estrategias e praticas de coaching marketing para nichos especificos.
 
 [Ver skill](./coaching-marketing/)
 
 ---
 
 ### construction-marketing
-Construction Marketing — Skill especializada para construction marketing
+Estrategias e praticas de construction marketing para nichos especificos.
 
 [Ver skill](./construction-marketing/)
 
 ---
 
 ### dental-marketing
-Dental Marketing — Skill especializada para atrair, converter e fidelizar pacientes em clínicas odontológicas.
+Estrategias e praticas de dental marketing para nichos especificos.
 
 [Ver skill](./dental-marketing/)
 
 ---
 
 ### dropshipping-marketing
-Dropshipping Marketing — Skill especializada para dropshipping marketing
+Estrategias e praticas de dropshipping marketing para nichos especificos.
 
 [Ver skill](./dropshipping-marketing/)
 
 ---
 
 ### ecommerce-fashion
-Ecommerce Fashion — Skill especializada para ecommerce fashion
+Estrategias e praticas de ecommerce fashion para nichos especificos.
 
 [Ver skill](./ecommerce-fashion/)
 
 ---
 
 ### education-marketing
-Education Marketing — Skill especializada para desenvolver e executar estratégias de marketing focadas na captação e ...
+Estrategias e praticas de education marketing para nichos especificos.
 
 [Ver skill](./education-marketing/)
 
 ---
 
 ### event-marketing
-Event Marketing — Skill especializada para event marketing
+Estrategias e praticas de event marketing para nichos especificos.
 
 [Ver skill](./event-marketing/)
 
 ---
 
 ### fintech-marketing
-Fintech Marketing — Skill especializada para fintech marketing
+Estrategias e praticas de fintech marketing para nichos especificos.
 
 [Ver skill](./fintech-marketing/)
 
 ---
 
 ### fitness-marketing
-Fitness Marketing — Skill especializada para fitness marketing
+Estrategias e praticas de fitness marketing para nichos especificos.
 
 [Ver skill](./fitness-marketing/)
 
 ---
 
 ### franchise-marketing
-Franchise Marketing — Skill especializada para franchise marketing
+Estrategias e praticas de franchise marketing para nichos especificos.
 
 [Ver skill](./franchise-marketing/)
 
 ---
 
 ### gaming-marketing
-Gaming Marketing — Skill especializada para marketing de jogos digitais e eSports, cobrindo aquisição, retenção e mon...
+Estrategias e praticas de gaming marketing para nichos especificos.
 
 [Ver skill](./gaming-marketing/)
 
 ---
 
 ### healthcare-marketing
-Healthcare Marketing — Skill especializada para healthcare marketing
+Estrategias e praticas de healthcare marketing para nichos especificos.
 
 [Ver skill](./healthcare-marketing/)
 
 ---
 
 ### home-services-marketing
-Home Services Marketing — Skill especializada para home services marketing
+Estrategias e praticas de home services marketing para nichos especificos.
 
 [Ver skill](./home-services-marketing/)
 
 ---
 
 ### legal-marketing
-Legal Marketing — Skill especializada para legal marketing
+Estrategias e praticas de legal marketing para nichos especificos.
 
 [Ver skill](./legal-marketing/)
 
 ---
 
 ### local-business-marketing
-Local Business Marketing — Skill especializada para local business marketing
+Estrategias e praticas de local business marketing para nichos especificos.
 
 [Ver skill](./local-business-marketing/)
 
 ---
 
 ### luxury-brand-marketing
-Luxury Brand Marketing — Skill especializada para luxury brand marketing
+Estrategias e praticas de luxury brand marketing para nichos especificos.
 
 [Ver skill](./luxury-brand-marketing/)
 
 ---
 
 ### music-marketing
-Music Marketing — Skill especializada para music marketing
+Estrategias e praticas de music marketing para nichos especificos.
 
 [Ver skill](./music-marketing/)
 
 ---
 
 ### nonprofit-marketing
-Nonprofit Marketing — Skill especializada para nonprofit marketing
+Estrategias e praticas de nonprofit marketing para nichos especificos.
 
 [Ver skill](./nonprofit-marketing/)
 
 ---
 
 ### pet-business-marketing
-Pet Business Marketing — Skill especializada para pet business marketing
+Estrategias e praticas de pet business marketing para nichos especificos.
 
 [Ver skill](./pet-business-marketing/)
 
 ---
 
 ### real-estate-marketing
-Real Estate Marketing — Skill especializada para criação e execução de estratégias de marketing digital para o setor ...
+Estrategias e praticas de real estate marketing para nichos especificos.
 
 [Ver skill](./real-estate-marketing/)
 
 ---
 
 ### restaurant-marketing
-Restaurant Marketing — Skill especializada para otimizar a presença digital, atrair e reter clientes em restaurantes.
+Estrategias e praticas de restaurant marketing para nichos especificos.
 
 [Ver skill](./restaurant-marketing/)
 
 ---
 
 ### saas-marketing
-Saas Marketing — Skill especializada para desenvolver e executar estratégias de marketing digital focadas no crescime...
+Estrategias e praticas de saas marketing para nichos especificos.
 
 [Ver skill](./saas-marketing/)
 
 ---
 
 ### tech-startup-marketing
-Tech Startup Marketing — Skill especializada para tech startup marketing
+Estrategias e praticas de tech startup marketing para nichos especificos.
 
 [Ver skill](./tech-startup-marketing/)
 
 ---
 
 ### travel-marketing
-Travel Marketing — Skill especializada para travel marketing
+Estrategias e praticas de travel marketing para nichos especificos.
 
 [Ver skill](./travel-marketing/)
 
 ---
 
 ### wedding-marketing
-Wedding Marketing — Skill especializada para criar e executar estratégias de marketing digital para o mercado de casa...
+Estrategias e praticas de wedding marketing para nichos especificos.
 
 [Ver skill](./wedding-marketing/)
 

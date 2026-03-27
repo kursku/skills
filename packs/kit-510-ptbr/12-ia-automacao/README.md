@@ -1,232 +1,228 @@
 # IA & Automacao
 
-_AI & Automation_
-
-Skills para IA aplicada, automacao, agentes e integracoes inteligentes.
+Skills para IA aplicada, agentes, chatbots e integracoes inteligentes.
 
 ---
 
-## Skills (32)
-
 ### ai-agent-design
-Ai Agent Design — Skill especializada para ai agent design
+Estrategias e praticas de ai agent design para IA e automacao.
 
 [Ver skill](./ai-agent-design/)
 
 ---
 
 ### ai-code-review
-Ai Code Review — Skill especializada para ai code review
+Estrategias e praticas de ai code review para IA e automacao.
 
 [Ver skill](./ai-code-review/)
 
 ---
 
 ### ai-content-pipeline
-Ai Content Pipeline — Skill especializada para ai content pipeline
+Estrategias e praticas de ai content pipeline para IA e automacao.
 
 [Ver skill](./ai-content-pipeline/)
 
 ---
 
 ### ai-customer-support
-Ai Customer Support — Skill especializada para ai customer support
+Estrategias e praticas de ai customer support para IA e automacao.
 
 [Ver skill](./ai-customer-support/)
 
 ---
 
 ### ai-data-analysis
-Ai Data Analysis — Skill especializada para ai data analysis com foco em automação, APIs e prompts.
+Estrategias e praticas de ai data analysis para IA e automacao.
 
 [Ver skill](./ai-data-analysis/)
 
 ---
 
 ### ai-image-generation
-Ai Image Generation — Skill especializada para ai image generation, com foco em automação, APIs e prompts avançados p...
+Estrategias e praticas de ai image generation para IA e automacao.
 
 [Ver skill](./ai-image-generation/)
 
 ---
 
 ### ai-meeting-assistant
-Ai Meeting Assistant — Skill especializada para ai meeting assistant
+Estrategias e praticas de ai meeting assistant para IA e automacao.
 
 [Ver skill](./ai-meeting-assistant/)
 
 ---
 
 ### ai-personalization
-Ai Personalization — Skill especializada para ai personalization
+Estrategias e praticas de ai personalization para IA e automacao.
 
 [Ver skill](./ai-personalization/)
 
 ---
 
 ### ai-quality-assurance
-Ai Quality Assurance — Skill especializada para garantir a qualidade, segurança e confiabilidade de sistemas de IA, f...
+Estrategias e praticas de ai quality assurance para IA e automacao.
 
 [Ver skill](./ai-quality-assurance/)
 
 ---
 
 ### ai-sales-assistant
-Ai Sales Assistant — Skill especializada para ai sales assistant
+Estrategias e praticas de ai sales assistant para IA e automacao.
 
 [Ver skill](./ai-sales-assistant/)
 
 ---
 
 ### ai-translation
-Ai Translation — Skill especializada para ai translation
+Estrategias e praticas de ai translation para IA e automacao.
 
 [Ver skill](./ai-translation/)
 
 ---
 
 ### api-integration-hub
-Api Integration Hub — Skill especializada para api integration hub
+Estrategias e praticas de api integration hub para IA e automacao.
 
 [Ver skill](./api-integration-hub/)
 
 ---
 
 ### chatbot-multiplatform
-Chatbot Multiplatform — Skill especializada para chatbot multiplatform
+Estrategias e praticas de chatbot multiplatform para IA e automacao.
 
 [Ver skill](./chatbot-multiplatform/)
 
 ---
 
 ### chatbot-whatsapp
-Chatbot Whatsapp — Skill especializada para chatbot whatsapp
+Estrategias e praticas de chatbot whatsapp para IA e automacao.
 
 [Ver skill](./chatbot-whatsapp/)
 
 ---
 
 ### crm-automation
-Crm Automation — Skill especializada para crm automation
+Estrategias e praticas de crm automation para IA e automacao.
 
 [Ver skill](./crm-automation/)
 
 ---
 
 ### data-scraping-automation
-Data Scraping Automation — Skill especializada para projetar, implementar e otimizar automações de extração de dados ...
+Estrategias e praticas de data scraping automation para IA e automacao.
 
 [Ver skill](./data-scraping-automation/)
 
 ---
 
 ### document-automation
-Document Automation — Skill especializada para otimização de processos documentais
+Estrategias e praticas de document automation para IA e automacao.
 
 [Ver skill](./document-automation/)
 
 ---
 
 ### email-automation-setup
-Email Automation Setup — Skill especializada para configurar automações de e-mail complexas e eficientes.
+Estrategias e praticas de email automation setup para IA e automacao.
 
 [Ver skill](./email-automation-setup/)
 
 ---
 
 ### lead-enrichment
-Lead Enrichment — Skill especializada para lead enrichment
+Estrategias e praticas de lead enrichment para IA e automacao.
 
 [Ver skill](./lead-enrichment/)
 
 ---
 
 ### make-scenario
-Make Scenario — Skill especializada para criar, otimizar e depurar fluxos de automação complexos na plataforma Make.com.
+Estrategias e praticas de make scenario para IA e automacao.
 
 [Ver skill](./make-scenario/)
 
 ---
 
 ### n8n-workflow
-N8N Workflow — Skill especializada para n8n workflow
+Estrategias e praticas de n8n workflow para IA e automacao.
 
 [Ver skill](./n8n-workflow/)
 
 ---
 
 ### notification-system
-Notification System — Skill especializada para projetar, implementar e otimizar sistemas de notificação utilizando au...
+Estrategias e praticas de notification system para IA e automacao.
 
 [Ver skill](./notification-system/)
 
 ---
 
 ### process-mining
-Process Mining — Skill especializada para process mining
+Estrategias e praticas de process mining para IA e automacao.
 
 [Ver skill](./process-mining/)
 
 ---
 
 ### prompt-engineering
-Prompt Engineering — Skill especializada para prompt engineering
+Estrategias e praticas de prompt engineering para IA e automacao.
 
 [Ver skill](./prompt-engineering/)
 
 ---
 
 ### rag-implementation
-Rag Implementation — Skill especializada para rag implementation
+Estrategias e praticas de rag implementation para IA e automacao.
 
 [Ver skill](./rag-implementation/)
 
 ---
 
 ### social-media-automation
-Social Media Automation — Skill especializada para social media automation
+Estrategias e praticas de social media automation para IA e automacao.
 
 [Ver skill](./social-media-automation/)
 
 ---
 
 ### spreadsheet-automation
-Spreadsheet Automation — Skill especializada para spreadsheet automation
+Estrategias e praticas de spreadsheet automation para IA e automacao.
 
 [Ver skill](./spreadsheet-automation/)
 
 ---
 
 ### task-automation
-Task Automation — Skill especializada para projetar, construir e otimizar fluxos de trabalho automatizados utilizando...
+Estrategias e praticas de task automation para IA e automacao.
 
 [Ver skill](./task-automation/)
 
 ---
 
 ### voice-bot-design
-Voice Bot Design — Skill especializada para voice bot design
+Estrategias e praticas de voice bot design para IA e automacao.
 
 [Ver skill](./voice-bot-design/)
 
 ---
 
 ### webhook-integration
-Webhook Integration — Skill especializada para webhook integration
+Estrategias e praticas de webhook integration para IA e automacao.
 
 [Ver skill](./webhook-integration/)
 
 ---
 
 ### workflow-optimization
-Workflow Optimization — Skill especializada para otimização de fluxos de trabalho através de IA e automação
+Estrategias e praticas de workflow optimization para IA e automacao.
 
 [Ver skill](./workflow-optimization/)
 
 ---
 
 ### zapier-automation
-Zapier Automation — Skill especializada para zapier automation
+Estrategias e praticas de zapier automation para IA e automacao.
 
 [Ver skill](./zapier-automation/)
 

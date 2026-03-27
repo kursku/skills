@@ -1,232 +1,228 @@
 # SEO & Busca
 
-_SEO & Search_
-
-Skills para SEO, conteudo organico, SERP e crescimento em busca.
+Skills para SEO tecnico, conteudo organico, keywords e rankeamento.
 
 ---
 
-## Skills (32)
-
 ### ai-seo-content
-Ai Seo Content — Skill especializada para ai seo content
+Estrategias e praticas de ai seo content para SEO e busca organica.
 
 [Ver skill](./ai-seo-content/)
 
 ---
 
 ### answer-engine-optimization
-Answer Engine Optimization — Skill especializada para answer engine optimization
+Estrategias e praticas de answer engine optimization para SEO e busca organica.
 
 [Ver skill](./answer-engine-optimization/)
 
 ---
 
 ### aso-app-store
-Aso App Store — Skill especializada para aso app store
+Estrategias e praticas de aso app store para SEO e busca organica.
 
 [Ver skill](./aso-app-store/)
 
 ---
 
 ### blog-seo-strategy
-Blog Seo Strategy — Skill especializada para blog seo strategy
+Estrategias e praticas de blog seo strategy para SEO e busca organica.
 
 [Ver skill](./blog-seo-strategy/)
 
 ---
 
 ### competitor-seo-analysis
-Competitor Seo Analysis — Skill especializada para competitor seo analysis
+Estrategias e praticas de competitor seo analysis para SEO e busca organica.
 
 [Ver skill](./competitor-seo-analysis/)
 
 ---
 
 ### content-cluster
-Content Cluster — Skill especializada para content cluster
+Estrategias e praticas de content cluster para SEO e busca organica.
 
 [Ver skill](./content-cluster/)
 
 ---
 
 ### content-refresh
-Content Refresh — Skill especializada para content refresh
+Estrategias e praticas de content refresh para SEO e busca organica.
 
 [Ver skill](./content-refresh/)
 
 ---
 
 ### ecommerce-seo
-Ecommerce Seo — Skill especializada para otimização de motores de busca em plataformas de comércio eletrônico, abrang...
+Estrategias e praticas de ecommerce seo para SEO e busca organica.
 
 [Ver skill](./ecommerce-seo/)
 
 ---
 
 ### featured-snippets
-Featured Snippets — Skill especializada para featured snippets
+Estrategias e praticas de featured snippets para SEO e busca organica.
 
 [Ver skill](./featured-snippets/)
 
 ---
 
 ### google-business-optimizer
-Google Business Optimizer — Skill especializada para otimização de perfis no Google Meu Negócio e rankeamento local.
+Estrategias e praticas de google business optimizer para SEO e busca organica.
 
 [Ver skill](./google-business-optimizer/)
 
 ---
 
 ### google-search-console
-Google Search Console — Skill especializada para otimização e monitoramento de performance em busca orgânica do Google.
+Estrategias e praticas de google search console para SEO e busca organica.
 
 [Ver skill](./google-search-console/)
 
 ---
 
 ### image-seo
-Image Seo — Skill especializada para otimizar imagens para mecanismos de busca, melhorando a visibilidade e performance.
+Estrategias e praticas de image seo para SEO e busca organica.
 
 [Ver skill](./image-seo/)
 
 ---
 
 ### indexing-strategy
-Indexing Strategy — Skill especializada para indexing strategy
+Estrategias e praticas de indexing strategy para SEO e busca organica.
 
 [Ver skill](./indexing-strategy/)
 
 ---
 
 ### internal-linking
-Internal Linking — Skill especializada para internal linking
+Estrategias e praticas de internal linking para SEO e busca organica.
 
 [Ver skill](./internal-linking/)
 
 ---
 
 ### international-seo
-International Seo — Skill especializada para international seo
+Estrategias e praticas de international seo para SEO e busca organica.
 
 [Ver skill](./international-seo/)
 
 ---
 
 ### keyword-research
-Keyword Research — Skill especializada para keyword research
+Estrategias e praticas de keyword research para SEO e busca organica.
 
 [Ver skill](./keyword-research/)
 
 ---
 
 ### link-building-strategy
-Link Building Strategy — Skill especializada para link building strategy
+Estrategias e praticas de link building strategy para SEO e busca organica.
 
 [Ver skill](./link-building-strategy/)
 
 ---
 
 ### local-seo
-Local Seo — Skill especializada para local seo
+Estrategias e praticas de local seo para SEO e busca organica.
 
 [Ver skill](./local-seo/)
 
 ---
 
 ### negative-seo-defense
-Negative Seo Defense — Skill especializada para negative seo defense
+Estrategias e praticas de negative seo defense para SEO e busca organica.
 
 [Ver skill](./negative-seo-defense/)
 
 ---
 
 ### on-page-seo
-On Page Seo — Skill especializada para on page seo
+Estrategias e praticas de on page seo para SEO e busca organica.
 
 [Ver skill](./on-page-seo/)
 
 ---
 
 ### podcast-seo
-Podcast Seo — Skill especializada para podcast seo
+Estrategias e praticas de podcast seo para SEO e busca organica.
 
 [Ver skill](./podcast-seo/)
 
 ---
 
 ### redirects-migration
-Redirects Migration — Skill especializada para planejamento, execução e validação de migrações de redirecionamentos 301.
+Estrategias e praticas de redirects migration para SEO e busca organica.
 
 [Ver skill](./redirects-migration/)
 
 ---
 
 ### schema-markup
-Schema Markup — Skill especializada para schema markup
+Estrategias e praticas de schema markup para SEO e busca organica.
 
 [Ver skill](./schema-markup/)
 
 ---
 
 ### seo-audit-checklist
-Seo Audit Checklist — Skill especializada para seo audit checklist
+Estrategias e praticas de seo audit checklist para SEO e busca organica.
 
 [Ver skill](./seo-audit-checklist/)
 
 ---
 
 ### seo-content-brief
-Seo Content Brief — Skill especializada para seo content brief
+Estrategias e praticas de seo content brief para SEO e busca organica.
 
 [Ver skill](./seo-content-brief/)
 
 ---
 
 ### seo-for-startups
-Seo For Startups — Skill especializada para seo for startups
+Estrategias e praticas de seo for startups para SEO e busca organica.
 
 [Ver skill](./seo-for-startups/)
 
 ---
 
 ### seo-reporting
-Seo Reporting — Skill especializada para gerar, analisar e apresentar relatórios de desempenho SEO, fornecendo insigh...
+Estrategias e praticas de seo reporting para SEO e busca organica.
 
 [Ver skill](./seo-reporting/)
 
 ---
 
 ### serp-analysis
-Serp Analysis — Skill especializada para serp analysis
+Estrategias e praticas de serp analysis para SEO e busca organica.
 
 [Ver skill](./serp-analysis/)
 
 ---
 
 ### site-speed-optimization
-Site Speed Optimization — Skill especializada para site speed optimization
+Estrategias e praticas de site speed optimization para SEO e busca organica.
 
 [Ver skill](./site-speed-optimization/)
 
 ---
 
 ### technical-seo-audit
-Technical Seo Audit — Skill especializada para technical seo audit
+Estrategias e praticas de technical seo audit para SEO e busca organica.
 
 [Ver skill](./technical-seo-audit/)
 
 ---
 
 ### voice-search-seo
-Voice Search Seo — Skill especializada para voice search seo
+Estrategias e praticas de voice search seo para SEO e busca organica.
 
 [Ver skill](./voice-search-seo/)
 
 ---
 
 ### youtube-seo
-Youtube Seo — Skill especializada para youtube seo
+Estrategias e praticas de youtube seo para SEO e busca organica.
 
 [Ver skill](./youtube-seo/)
 

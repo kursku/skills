@@ -1,36 +1,32 @@
 # Utilitarios de Negocio
 
-_Business Utilities_
-
-Skills utilitarias de negocio para atendimento, pesquisa, perfil e suporte geral.
+Skills para atendimento, pesquisa, perfil e suporte geral.
 
 ---
 
-## Skills (4)
-
 ### customer-support
-Handle customer support tasks professionally. Use when drafting support responses, analyzing customer issues, triagin...
+Handle customer support tasks professionally. Use when drafting support responses, analyzing customer issues, triaging tickets, writing help articl...
 
 [Ver skill](./customer-support/)
 
 ---
 
 ### frontend-design
-Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks ...
+Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages...
 
 [Ver skill](./frontend-design/)
 
 ---
 
 ### know-me
-Learn about the user across sessions. Observe preferences, habits, corrections, and context. Save to memory topic fil...
+Learn about the user across sessions. Observe preferences, habits, corrections, and context. Save to memory topic files. Reference stored knowledge...
 
 [Ver skill](./know-me/)
 
 ---
 
 ### researcher
-Deep research on any topic using web search, multiple sources, and synthesis. Use when the user wants to research a t...
+Deep research on any topic using web search, multiple sources, and synthesis. Use when the user wants to research a topic, investigate a question, ...
 
 [Ver skill](./researcher/)
 

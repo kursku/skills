@@ -1,232 +1,228 @@
 # Lancamento & Growth
 
-_Launch & Growth_
-
-Skills para growth, aquisicao, retencao e lancamentos.
+Skills para growth hacking, aquisicao, retencao e lancamentos.
 
 ---
 
-## Skills (32)
-
 ### ab-testing-framework
-Ab Testing Framework — Skill especializada para projetar, executar e analisar experimentos A/B complexos para otimiza...
+Estrategias e praticas de ab testing framework para lancamento e growth.
 
 [Ver skill](./ab-testing-framework/)
 
 ---
 
 ### acquisition-channel-ranking
-Acquisition Channel Ranking — Skill especializada para acquisition channel ranking
+Estrategias e praticas de acquisition channel ranking para lancamento e growth.
 
 [Ver skill](./acquisition-channel-ranking/)
 
 ---
 
 ### beta-launch-plan
-Beta Launch Plan — Skill especializada para beta launch plan
+Estrategias e praticas de beta launch plan para lancamento e growth.
 
 [Ver skill](./beta-launch-plan/)
 
 ---
 
 ### churn-reduction
-Churn Reduction — Skill especializada para prever, mitigar e reduzir a evasão de clientes, otimizando a retenção e o ...
+Estrategias e praticas de churn reduction para lancamento e growth.
 
 [Ver skill](./churn-reduction/)
 
 ---
 
 ### community-building
-Community Building — Skill especializada para community building
+Estrategias e praticas de community building para lancamento e growth.
 
 [Ver skill](./community-building/)
 
 ---
 
 ### content-led-growth
-Content Led Growth — Skill especializada para content led growth
+Estrategias e praticas de content led growth para lancamento e growth.
 
 [Ver skill](./content-led-growth/)
 
 ---
 
 ### crowdfunding-strategy
-Crowdfunding Strategy — Skill especializada para crowdfunding strategy
+Estrategias e praticas de crowdfunding strategy para lancamento e growth.
 
 [Ver skill](./crowdfunding-strategy/)
 
 ---
 
 ### customer-activation
-Customer Activation — Skill especializada para customer activation
+Estrategias e praticas de customer activation para lancamento e growth.
 
 [Ver skill](./customer-activation/)
 
 ---
 
 ### early-adopter-program
-Early Adopter Program — Skill especializada para early adopter program
+Estrategias e praticas de early adopter program para lancamento e growth.
 
 [Ver skill](./early-adopter-program/)
 
 ---
 
 ### feature-launch-playbook
-Feature Launch Playbook — Skill especializada para feature launch playbook
+Estrategias e praticas de feature launch playbook para lancamento e growth.
 
 [Ver skill](./feature-launch-playbook/)
 
 ---
 
 ### gamification-strategy
-Gamification Strategy — Skill especializada para gamification strategy
+Estrategias e praticas de gamification strategy para lancamento e growth.
 
 [Ver skill](./gamification-strategy/)
 
 ---
 
 ### growth-experiment
-Growth Experiment — Skill especializada para growth experiment
+Estrategias e praticas de growth experiment para lancamento e growth.
 
 [Ver skill](./growth-experiment/)
 
 ---
 
 ### growth-metrics-dashboard
-Growth Metrics Dashboard — Skill especializada para growth metrics dashboard
+Estrategias e praticas de growth metrics dashboard para lancamento e growth.
 
 [Ver skill](./growth-metrics-dashboard/)
 
 ---
 
 ### growth-team-structure
-Growth Team Structure — Skill especializada para growth team structure
+Estrategias e praticas de growth team structure para lancamento e growth.
 
 [Ver skill](./growth-team-structure/)
 
 ---
 
 ### influencer-seeding
-Influencer Seeding — Skill especializada para influencer seeding
+Estrategias e praticas de influencer seeding para lancamento e growth.
 
 [Ver skill](./influencer-seeding/)
 
 ---
 
 ### launch-day-checklist
-Launch Day Checklist — Skill especializada para launch day checklist
+Estrategias e praticas de launch day checklist para lancamento e growth.
 
 [Ver skill](./launch-day-checklist/)
 
 ---
 
 ### launch-email-campaign
-Launch Email Campaign — Skill especializada para launch email campaign
+Estrategias e praticas de launch email campaign para lancamento e growth.
 
 [Ver skill](./launch-email-campaign/)
 
 ---
 
 ### market-entry-strategy
-Market Entry Strategy — Skill especializada para planejar e executar a entrada bem-sucedida em novos mercados.
+Estrategias e praticas de market entry strategy para lancamento e growth.
 
 [Ver skill](./market-entry-strategy/)
 
 ---
 
 ### micro-saas-launch
-Micro Saas Launch — Skill especializada para micro saas launch
+Estrategias e praticas de micro saas launch para lancamento e growth.
 
 [Ver skill](./micro-saas-launch/)
 
 ---
 
 ### mvp-scope
-Mvp Scope — Skill especializada para mvp scope
+Estrategias e praticas de mvp scope para lancamento e growth.
 
 [Ver skill](./mvp-scope/)
 
 ---
 
 ### onboarding-optimization
-Onboarding Optimization — Skill especializada para otimizar a experiência inicial do usuário em produtos digitais, el...
+Estrategias e praticas de onboarding optimization para lancamento e growth.
 
 [Ver skill](./onboarding-optimization/)
 
 ---
 
 ### partnership-growth
-Partnership Growth — Skill especializada para partnership growth
+Estrategias e praticas de partnership growth para lancamento e growth.
 
 [Ver skill](./partnership-growth/)
 
 ---
 
 ### plg-product-led-growth
-Plg Product Led Growth — Skill especializada para plg product led growth
+Estrategias e praticas de plg product led growth para lancamento e growth.
 
 [Ver skill](./plg-product-led-growth/)
 
 ---
 
 ### pre-launch-checklist
-Pre Launch Checklist — Skill especializada em estratégias e táticas para validação, aquisição e ativação antes e dura...
+Estrategias e praticas de pre launch checklist para lancamento e growth.
 
 [Ver skill](./pre-launch-checklist/)
 
 ---
 
 ### press-outreach
-Press Outreach — Skill especializada para press outreach
+Estrategias e praticas de press outreach para lancamento e growth.
 
 [Ver skill](./press-outreach/)
 
 ---
 
 ### product-hunt-launch
-Product Hunt Launch — Skill especializada para product hunt launch
+Estrategias e praticas de product hunt launch para lancamento e growth.
 
 [Ver skill](./product-hunt-launch/)
 
 ---
 
 ### referral-program
-Referral Program — Skill especializada para referral program
+Estrategias e praticas de referral program para lancamento e growth.
 
 [Ver skill](./referral-program/)
 
 ---
 
 ### retention-playbook
-Retention Playbook — Skill especializada para retention playbook
+Estrategias e praticas de retention playbook para lancamento e growth.
 
 [Ver skill](./retention-playbook/)
 
 ---
 
 ### upsell-expansion
-Upsell Expansion — Skill especializada para upsell expansion
+Estrategias e praticas de upsell expansion para lancamento e growth.
 
 [Ver skill](./upsell-expansion/)
 
 ---
 
 ### user-feedback-loop
-User Feedback Loop — Skill especializada para user feedback loop
+Estrategias e praticas de user feedback loop para lancamento e growth.
 
 [Ver skill](./user-feedback-loop/)
 
 ---
 
 ### viral-loop-design
-Viral Loop Design — Skill especializada para viral loop design
+Estrategias e praticas de viral loop design para lancamento e growth.
 
 [Ver skill](./viral-loop-design/)
 
 ---
 
 ### waitlist-strategy
-Waitlist Strategy — Skill especializada para criação, gestão e otimização de listas de espera para lançamentos de pro...
+Estrategias e praticas de waitlist strategy para lancamento e growth.
 
 [Ver skill](./waitlist-strategy/)
 

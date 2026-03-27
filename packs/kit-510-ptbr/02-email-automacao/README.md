@@ -1,232 +1,228 @@
 # Email & Automacao
 
-_Email & Automation_
-
-Skills para e-mail marketing, automacoes e sequencias de comunicacao.
+Skills para sequencias de email, automacoes, campanhas e nurturing.
 
 ---
 
-## Skills (32)
-
 ### ab-test-email
-Ab Test Email — Skill especializada para ab test email
+Estrategias e praticas de ab test email para email marketing e automacao.
 
 [Ver skill](./ab-test-email/)
 
 ---
 
 ### abandoned-cart
-Abandoned Cart — Skill especializada para criar, otimizar e gerenciar sequências de email de recuperação de carrinhos...
+Estrategias e praticas de abandoned cart para email marketing e automacao.
 
 [Ver skill](./abandoned-cart/)
 
 ---
 
 ### affiliate-onboarding
-Affiliate Onboarding — Skill especializada para estruturar e otimizar sequências de email e automações para integrar ...
+Estrategias e praticas de affiliate onboarding para email marketing e automacao.
 
 [Ver skill](./affiliate-onboarding/)
 
 ---
 
 ### birthday-automation
-Birthday Automation — Skill especializada para birthday automation
+Estrategias e praticas de birthday automation para email marketing e automacao.
 
 [Ver skill](./birthday-automation/)
 
 ---
 
 ### black-friday-playbook
-Black Friday Playbook — Skill especializada para criar e otimizar campanhas de e-mail marketing da Black Friday, desd...
+Estrategias e praticas de black friday playbook para email marketing e automacao.
 
 [Ver skill](./black-friday-playbook/)
 
 ---
 
 ### cold-email-sequence
-Cold Email Sequence — Skill especializada para cold email sequence
+Estrategias e praticas de cold email sequence para email marketing e automacao.
 
 [Ver skill](./cold-email-sequence/)
 
 ---
 
 ### content-upgrade-funnel
-Content Upgrade Funnel — Skill especializada para content upgrade funnel
+Estrategias e praticas de content upgrade funnel para email marketing e automacao.
 
 [Ver skill](./content-upgrade-funnel/)
 
 ---
 
 ### course-drip
-Course Drip — Skill especializada para course drip
+Estrategias e praticas de course drip para email marketing e automacao.
 
 [Ver skill](./course-drip/)
 
 ---
 
 ### drip-campaign
-Drip Campaign — Skill especializada para drip campaign
+Estrategias e praticas de drip campaign para email marketing e automacao.
 
 [Ver skill](./drip-campaign/)
 
 ---
 
 ### email-template-html
-Email Template Html — Skill especializada para email template html
+Estrategias e praticas de email template html para email marketing e automacao.
 
 [Ver skill](./email-template-html/)
 
 ---
 
 ### event-email-sequence
-Event Email Sequence — Skill especializada para event email sequence
+Estrategias e praticas de event email sequence para email marketing e automacao.
 
 [Ver skill](./event-email-sequence/)
 
 ---
 
 ### feedback-survey-email
-Feedback Survey Email — Skill especializada para feedback survey email
+Estrategias e praticas de feedback survey email para email marketing e automacao.
 
 [Ver skill](./feedback-survey-email/)
 
 ---
 
 ### launch-sequence
-Launch Sequence — Skill especializada para launch sequence
+Estrategias e praticas de launch sequence para email marketing e automacao.
 
 [Ver skill](./launch-sequence/)
 
 ---
 
 ### lead-magnet-delivery
-Lead Magnet Delivery — Skill especializada para lead magnet delivery
+Estrategias e praticas de lead magnet delivery para email marketing e automacao.
 
 [Ver skill](./lead-magnet-delivery/)
 
 ---
 
 ### milestone-emails
-Milestone Emails — Skill especializada para criar, otimizar e gerenciar sequências de emails automáticos baseados em ...
+Estrategias e praticas de milestone emails para email marketing e automacao.
 
 [Ver skill](./milestone-emails/)
 
 ---
 
 ### newsletter-automation
-Newsletter Automation — Skill especializada para newsletter automation
+Estrategias e praticas de newsletter automation para email marketing e automacao.
 
 [Ver skill](./newsletter-automation/)
 
 ---
 
 ### post-purchase-sequence
-Post Purchase Sequence — Skill especializada para post purchase sequence
+Estrategias e praticas de post purchase sequence para email marketing e automacao.
 
 [Ver skill](./post-purchase-sequence/)
 
 ---
 
 ### re-engagement
-Re Engagement — Skill especializada para re engagement
+Estrategias e praticas de re engagement para email marketing e automacao.
 
 [Ver skill](./re-engagement/)
 
 ---
 
 ### reactivation-sms-whatsapp
-Reactivation Sms Whatsapp — Skill especializada para reactivation sms whatsapp
+Estrategias e praticas de reactivation sms whatsapp para email marketing e automacao.
 
 [Ver skill](./reactivation-sms-whatsapp/)
 
 ---
 
 ### referral-email
-Referral Email — Skill especializada para referral email
+Estrategias e praticas de referral email para email marketing e automacao.
 
 [Ver skill](./referral-email/)
 
 ---
 
 ### renewal-reminder
-Renewal Reminder — Skill especializada para renewal reminder
+Estrategias e praticas de renewal reminder para email marketing e automacao.
 
 [Ver skill](./renewal-reminder/)
 
 ---
 
 ### saas-onboarding
-Saas Onboarding — Skill especializada para saas onboarding
+Estrategias e praticas de saas onboarding para email marketing e automacao.
 
 [Ver skill](./saas-onboarding/)
 
 ---
 
 ### seasonal-campaigns
-Seasonal Campaigns — Skill especializada para criar e otimizar sequências de e-mail e automações para campanhas sazon...
+Estrategias e praticas de seasonal campaigns para email marketing e automacao.
 
 [Ver skill](./seasonal-campaigns/)
 
 ---
 
 ### segmentation-strategy
-Segmentation Strategy — Skill especializada para segmentation strategy
+Estrategias e praticas de segmentation strategy para email marketing e automacao.
 
 [Ver skill](./segmentation-strategy/)
 
 ---
 
 ### testimonial-request
-Testimonial Request — Skill especializada para testimonial request
+Estrategias e praticas de testimonial request para email marketing e automacao.
 
 [Ver skill](./testimonial-request/)
 
 ---
 
 ### transactional-emails
-Transactional Emails — Skill especializada para transactional emails
+Estrategias e praticas de transactional emails para email marketing e automacao.
 
 [Ver skill](./transactional-emails/)
 
 ---
 
 ### upsell-cross-sell
-Upsell Cross Sell — Skill especializada para upsell cross sell
+Estrategias e praticas de upsell cross sell para email marketing e automacao.
 
 [Ver skill](./upsell-cross-sell/)
 
 ---
 
 ### vip-nurture
-Vip Nurture — Skill especializada para vip nurture
+Estrategias e praticas de vip nurture para email marketing e automacao.
 
 [Ver skill](./vip-nurture/)
 
 ---
 
 ### waitlist-sequence
-Waitlist Sequence — Skill especializada para waitlist sequence
+Estrategias e praticas de waitlist sequence para email marketing e automacao.
 
 [Ver skill](./waitlist-sequence/)
 
 ---
 
 ### webinar-email-funnel
-Webinar Email Funnel — Skill especializada para webinar email funnel
+Estrategias e praticas de webinar email funnel para email marketing e automacao.
 
 [Ver skill](./webinar-email-funnel/)
 
 ---
 
 ### welcome-sequence
-Welcome Sequence — Skill especializada para welcome sequence
+Estrategias e praticas de welcome sequence para email marketing e automacao.
 
 [Ver skill](./welcome-sequence/)
 
 ---
 
 ### win-back-campaign
-Win Back Campaign — Skill especializada para win back campaign
+Estrategias e praticas de win back campaign para email marketing e automacao.
 
 [Ver skill](./win-back-campaign/)
 
