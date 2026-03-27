@@ -8,19 +8,43 @@ Escolha uma skill de copywriting e o Claude escreve como redator senior. Escolha
 
 ---
 
-## Como usar (3 minutos)
+## Como usar — passo a passo
 
-**1.** Escolha uma skill nas categorias abaixo
+### Passo 1: Escolha uma skill
 
-**2.** Clique em **[Ver skill]** → clique no arquivo `SKILL.md` → clique em **"Download raw file"** (icone de seta para baixo)
+Navegue pelas categorias abaixo e clique em **[Ver skill]** para abrir o arquivo `SKILL.md`. Clique em **"Download raw file"** (icone de seta para baixo) para baixar.
 
-**3.** Abra [claude.ai](https://claude.ai) → clique em **"Criar Projeto"** → va em **"Configuracoes"** → **"Add content"**
+![Navegando pelas categorias no GitHub](docs/assets/step0b-github-skills.png)
 
-**4.** Faca upload do arquivo baixado e comece a conversar. O Claude agora e especialista naquele assunto!
+---
 
-> **Alternativa rapida:** em vez de baixar, voce pode clicar em "Raw", selecionar tudo (Ctrl+A), copiar (Ctrl+C) e colar direto no projeto.
+### Passo 2: Abra o Claude e va em Personalizar
 
-> **Dica:** voce pode adicionar varias skills no mesmo projeto. Exemplo: junte "meta-ads-campaign" + "ad-creative-brief" + "conversion-tracking" para um projeto completo de trafego pago.
+No [claude.ai](https://claude.ai), clique em **Personalizar** na sidebar esquerda.
+
+![Menu Personalizar no Claude](docs/assets/step1-personalizar.png)
+
+---
+
+### Passo 3: Va em Habilidades e faca upload
+
+Clique em **Habilidades** → clique no botao **+** → faca upload do arquivo `SKILL.md` que voce baixou.
+
+![Tela de Habilidades](docs/assets/step2-habilidades.png)
+
+![Upload de skill](docs/assets/step3-upload.png)
+
+---
+
+### Passo 4: Use a skill no chat
+
+Volte para o chat. A skill aparece automaticamente — basta digitar **/** ou clicar em **"Vamos la"** para ativar.
+
+![Skill ativa no chat](docs/assets/step4-chat-skill.png)
+
+---
+
+> **Dica:** voce pode adicionar varias skills. Exemplo: junte "meta-ads-campaign" + "ad-creative-brief" + "conversion-tracking" para um projeto completo de trafego pago.
 
 > **Usa Claude Code (terminal)?** Veja [docs/SKILLSHARE.md](docs/SKILLSHARE.md) para instalar via `skillshare install`.
 
@@ -80,10 +104,10 @@ Skills do ecossistema global, focadas em desenvolvimento, infraestrutura e tecno
 As skills sao gratuitas. Voce so precisa de uma conta no [claude.ai](https://claude.ai) (tem plano gratuito).
 
 **Funciona no celular?**
-Sim! O claude.ai funciona no navegador do celular. Crie o projeto no computador e use em qualquer lugar.
+Sim! O claude.ai funciona no navegador do celular. Adicione as skills pelo computador e use em qualquer lugar.
 
 **Posso usar varias skills ao mesmo tempo?**
-Sim. Adicione quantas quiser no mesmo projeto — elas se complementam.
+Sim. Adicione quantas quiser — elas ficam disponiveis em todos os seus chats.
 
 **As skills funcionam no ChatGPT ou Gemini?**
 Foram feitas para o Claude, mas o conteudo do SKILL.md pode ser adaptado como instrucao em qualquer IA.
