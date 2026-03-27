@@ -1,13 +1,13 @@
-# Release Guide — Uploading Skills to claude.ai
+# Guia de Release — Enviando Skills para o claude.ai
 
 ## Formato exigido pelo claude.ai
 
-Cada skill precisa de um arquivo `.skill` (que é um ZIP renomeado) contendo:
+Cada skill precisa de um arquivo `.skill` (que e um ZIP renomeado) contendo:
 
 ```
-my-skill.skill   ← ZIP renomeado
-└── SKILL.md     ← Obrigatório (com frontmatter YAML: name + description)
-└── references/  ← Opcional
+my-skill.skill   <- ZIP renomeado
+└── SKILL.md     <- Obrigatorio (com frontmatter YAML: name + description)
+└── references/  <- Opcional
 └── ...
 ```
 
@@ -16,7 +16,7 @@ O `SKILL.md` precisa ter o frontmatter YAML com pelo menos:
 ```yaml
 ---
 name: my-skill
-description: "O que essa skill faz e quando usá-la."
+description: "O que essa skill faz e quando usa-la."
 ---
 ```
 
@@ -35,13 +35,13 @@ Use o `scripts/release.sh` diretamente:
 # Ver o que seria gerado sem criar arquivos
 ./scripts/release.sh --dry-run
 
-# Só uma categoria
+# So uma categoria
 ./scripts/release.sh --category frontend
 ```
 
 ### Pack skills (1785 skills)
 
-Primeiro gere o catálogo (necessário uma vez, ou após mudanças nos packs):
+Primeiro gere o catalogo (necessario uma vez, ou apos mudancas nos packs):
 
 ```bash
 python3 scripts/catalog.py
@@ -50,7 +50,7 @@ python3 scripts/catalog.py
 Depois use `--packs <categoria>` no release:
 
 ```bash
-# Pack skills de uma categoria específica
+# Pack skills de uma categoria especifica
 ./scripts/release.sh --packs security
 ./scripts/release.sh --packs ai-agents
 ./scripts/release.sh --packs devops
@@ -58,27 +58,27 @@ Depois use `--packs <categoria>` no release:
 # Todas as pack skills (gera ~1785 arquivos)
 ./scripts/release.sh --packs all
 
-# Ver o que o catálogo encontrou por categoria
+# Ver o que o catalogo encontrou por categoria
 python3 scripts/catalog.py --issues-only
 ```
 
-**Categorias disponíveis nos packs:**
+**Categorias disponiveis nos packs:**
 
-| Categoria | Skills | Descrição |
+| Categoria | Skills | Descricao |
 |-----------|--------|-----------|
 | `devops` | ~406 | CI/CD, deploy, pipelines, Kubernetes |
 | `ai-agents` | ~278 | Agentes, RAG, LLM, MCP, orchestration |
-| `business` | ~204 | Vendas, finanças, jurídico, CRM |
+| `business` | ~204 | Vendas, financas, juridico, CRM |
 | `content` | ~180 | Copywriting, SEO, social media, email |
 | `security` | ~138 | Auditoria, OWASP, pentest, hardening |
 | `backend` | ~117 | APIs, cloud, databases, frameworks |
 | `frontend` | ~105 | UI, React, mobile, games, acessibilidade |
 | `automation` | ~103 | Zapier, n8n, bots, webhooks |
 | `data` | ~65 | Data engineering, analytics, SQL |
-| `education` | ~39 | Cursos, documentação, tutoriais |
+| `education` | ~39 | Cursos, documentacao, tutoriais |
 | `productivity` | ~17 | GSD, Notion, Kanban, planejamento |
-| `tooling` | ~8 | Utilitários técnicos, CLI, integrações |
-| `uncategorized` | ~125 | Aguardando classificação |
+| `tooling` | ~8 | Utilitarios tecnicos, CLI, integracoes |
+| `uncategorized` | ~125 | Aguardando classificacao |
 
 **Output:** `dist/<categoria>/<skill-name>.skill`
 
@@ -93,57 +93,57 @@ dist/
 └── ...
 ```
 
-> A pasta `dist/` está no `.gitignore` — os `.skill` files são artefatos de build, não devem ser commitados.
+> A pasta `dist/` esta no `.gitignore` — os `.skill` files sao artefatos de build, nao devem ser commitados.
 
 ---
 
 ## Fazendo upload no claude.ai
 
-O claude.ai aceita **um `.skill` por upload**. Não há batch upload oficial na UI.
+O claude.ai aceita **um `.skill` por upload**. Nao ha batch upload oficial na UI.
 
 ### Onde fazer upload
 
-Acesse **[claude.ai/customize/skills](https://claude.ai/customize/skills)** → clique em **Add skill** → faça upload do `.skill`.
+Acesse **Personalizar** → **Habilidades** → faca o **Upload do SKILL.md** (ou do arquivo `.skill` gerado).
 
-As skills instaladas aqui ficam disponíveis em **todos os seus chats e Projetos**.
+As skills instaladas ficam disponiveis em **todos os seus chats e Projetos**.
 
-> **Alternativa por Projeto:** Para instalar em apenas um Projeto, abra o Projeto → Configurações → Add content → faça upload do `.skill`.
+> **Alternativa por Projeto:** Para instalar em apenas um Projeto, abra o Projeto → Configuracoes → Adicionar conteudo → faca upload do `.skill`.
 
-### Estratégia recomendada por volume:
+### Estrategia recomendada por volume:
 
-| Volume | Estratégia |
+| Volume | Estrategia |
 |--------|-----------|
-| 1–10 skills | Upload manual em [claude.ai/customize/skills](https://claude.ai/customize/skills) |
+| 1–10 skills | Upload manual via Personalizar → Habilidades |
 | 10–80 skills (curadas) | Build por categoria e upload por lote |
 | 80–1785 skills (packs) | Priorize por categoria: rode `--packs security` e suba o que for relevante |
-| Tudo de uma vez | Só via API do claude.ai (quando disponível) |
+| Tudo de uma vez | So via API do claude.ai (quando disponivel) |
 
-> **Dica:** Use o catálogo para decidir o que subir. `python3 scripts/catalog.py --issues-only` mostra skills com problemas de qualidade que provavelmente não valem o upload.
+> **Dica:** Use o catalogo para decidir o que subir. `python3 scripts/catalog.py --issues-only` mostra skills com problemas de qualidade que provavelmente nao valem o upload.
 
 ### Passo a passo (upload manual):
 
 1. Rode `./scripts/release.sh` para gerar os `.skill` files em `dist/`
-2. Acesse [claude.ai/customize/skills](https://claude.ai/customize/skills)
-3. Faça upload dos arquivos `.skill` da pasta `dist/` desejada
-4. Cada `.skill` vira uma skill disponível na sua conta
+2. No claude.ai, va em **Personalizar** → **Habilidades**
+3. Faca o **Upload** dos arquivos `.skill` da pasta `dist/` desejada
+4. Cada `.skill` vira uma skill disponivel na sua conta
 
 ---
 
-## Fluxo de release no repositório
+## Fluxo de release no repositorio
 
 ```
 1. Desenvolver/atualizar a skill em sua pasta (ex: frontend/adapt/)
-2. Editar o SKILL.md com as instruções e o frontmatter correto
+2. Editar o SKILL.md com as instrucoes e o frontmatter correto
 3. Commitar na branch de feature
-4. Após merge no master, rodar: ./scripts/release.sh
+4. Apos merge no master, rodar: ./scripts/release.sh
 5. Fazer upload dos .skill files gerados em dist/
 ```
 
 ---
 
-## Validação antes do upload
+## Validacao antes do upload
 
-O script `release.sh` valida automaticamente que cada `SKILL.md` tem `name:` e `description:` no frontmatter. Skills inválidas são listadas como "skipped" no output.
+O script `release.sh` valida automaticamente que cada `SKILL.md` tem `name:` e `description:` no frontmatter. Skills invalidas sao listadas como "skipped" no output.
 
 Para validar manualmente uma skill:
 

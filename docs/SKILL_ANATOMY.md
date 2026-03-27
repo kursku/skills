@@ -1,79 +1,79 @@
-# Anatomy of a Skill - Understanding the Structure
+# Anatomia de uma Skill - Entendendo a Estrutura
 
-**Want to understand how skills work under the hood?** This guide breaks down every part of a skill file.
+**Quer entender como as skills funcionam por dentro?** Este guia detalha cada parte de um arquivo de skill.
 
 ---
 
-## 📁 Basic Folder Structure
+## 📁 Estrutura Básica de Pastas
 
 ```
 skills/
 └── my-skill-name/
-    ├── SKILL.md              ← Required: The main skill definition
-    ├── examples/             ← Optional: Example files
+    ├── SKILL.md              ← Obrigatório: A definição principal da skill
+    ├── examples/             ← Opcional: Arquivos de exemplo
     │   ├── example1.js
     │   └── example2.py
-    ├── scripts/              ← Optional: Helper scripts
+    ├── scripts/              ← Opcional: Scripts auxiliares
     │   └── helper.sh
-    ├── templates/            ← Optional: Code templates
+    ├── templates/            ← Opcional: Templates de código
     │   └── template.tsx
-    ├── references/           ← Optional: Reference documentation
+    ├── references/           ← Opcional: Documentação de referência
     │   └── api-docs.md
-    └── README.md             ← Optional: Additional documentation
+    └── README.md             ← Opcional: Documentação adicional
 ```
 
-**Key Rule:** Only `SKILL.md` is required. Everything else is optional!
+**Regra principal:** Apenas o `SKILL.md` é obrigatório. Todo o resto é opcional!
 
 ---
 
-## SKILL.md Structure
+## Estrutura do SKILL.md
 
-Every `SKILL.md` file has two main parts:
+Todo arquivo `SKILL.md` tem duas partes principais:
 
-### 1. Frontmatter (Metadata)
+### 1. Frontmatter (Metadados)
 
-### 2. Content (Instructions)
+### 2. Conteúdo (Instruções)
 
-Let's break down each part:
+Vamos detalhar cada parte:
 
 ---
 
-## Part 1: Frontmatter
+## Parte 1: Frontmatter
 
-The frontmatter is at the very top, wrapped in `---`:
+O frontmatter fica no topo do arquivo, entre `---`:
 
 ```markdown
 ---
 name: my-skill-name
-description: "Brief description of what this skill does"
+description: "Breve descrição do que esta skill faz"
 ---
 ```
 
-### Required Fields
+### Campos Obrigatórios
 
 #### `name`
 
-- **What it is:** The skill's identifier
-- **Format:** lowercase-with-hyphens
-- **Must match:** The folder name exactly
-- **Example:** `stripe-integration`
+- **O que é:** O identificador da skill
+- **Formato:** lowercase-com-hifens
+- **Deve corresponder:** Exatamente ao nome da pasta
+- **Exemplo:** `stripe-integration`
 
 #### `description`
 
-- **What it is:** One-sentence summary
-- **Format:** String in quotes
-- **Length:** Keep it under 200 characters (validator enforces this)
-- **Example:** `"Stripe payment integration patterns including checkout, subscriptions, and webhooks"`
+- **O que é:** Resumo em uma frase
+- **Formato:** String entre aspas
+- **Tamanho:** Mantenha abaixo de 200 caracteres (o validador exige isso)
+- **Exemplo:** `"Stripe payment integration patterns including checkout, subscriptions, and webhooks"`
 
-### Optional Fields
+### Campos Opcionais
 
-Some skills include additional metadata:
+Algumas skills incluem metadados adicionais:
 
 ```markdown
 ---
 name: my-skill-name
-description: "Brief description"
-risk: "safe" # none | safe | critical | offensive (see QUALITY_BAR.md)
+description: "Breve descrição"
+risk: "safe" # none | safe | critical | offensive (veja QUALITY_BAR.md)
 source: "community"
 tags: ["react", "typescript"]
 date_added: "2024-01-15"
@@ -82,157 +82,157 @@ date_added: "2024-01-15"
 
 #### `date_added`
 
-- **What it is:** The date when the skill was created or added to the collection
-- **Format:** `YYYY-MM-DD` (ISO 8601 date format)
-- **Purpose:** Helps track skill versioning and community contributions
-- **Required:** No (optional, but recommended)
-- **Example:** `date_added: "2024-01-15"`
-- **Note:** Can be managed automatically with the `scripts/manage_skill_dates.py` script
+- **O que é:** A data em que a skill foi criada ou adicionada à coleção
+- **Formato:** `YYYY-MM-DD` (formato de data ISO 8601)
+- **Propósito:** Ajuda a rastrear versionamento de skills e contribuições da comunidade
+- **Obrigatório:** Não (opcional, mas recomendado)
+- **Exemplo:** `date_added: "2024-01-15"`
+- **Nota:** Pode ser gerenciado automaticamente com o script `scripts/manage_skill_dates.py`
 
 ---
 
-## Part 2: Content
+## Parte 2: Conteúdo
 
-After the frontmatter comes the actual skill content. Here's the recommended structure:
+Após o frontmatter vem o conteúdo da skill. Aqui está a estrutura recomendada:
 
-### Recommended Sections
+### Seções Recomendadas
 
-#### 1. Title (H1)
+#### 1. Título (H1)
 
 ```markdown
-# Skill Title
+# Título da Skill
 ```
 
-- Use a clear, descriptive title
-- Usually matches or expands on the skill name
+- Use um título claro e descritivo
+- Geralmente corresponde ou expande o nome da skill
 
-#### 2. Overview
+#### 2. Visão Geral
 
 ```markdown
 ## Overview
 
-A brief explanation of what this skill does and why it exists.
-2-4 sentences is perfect.
+Uma breve explicação do que esta skill faz e por que ela existe.
+2 a 4 frases é o ideal.
 ```
 
-#### 3. When to Use
+#### 3. Quando Usar
 
 ```markdown
 ## When to Use This Skill
 
-- Use when you need to [scenario 1]
-- Use when working with [scenario 2]
-- Use when the user asks about [scenario 3]
+- Use quando precisar de [cenário 1]
+- Use ao trabalhar com [cenário 2]
+- Use quando o usuário perguntar sobre [cenário 3]
 ```
 
-**Why this matters:** Helps the AI know when to activate this skill
+**Por que isso importa:** Ajuda a IA a saber quando ativar esta skill
 
-#### 4. Core Instructions
+#### 4. Instruções Principais
 
 ```markdown
 ## How It Works
 
-### Step 1: [Action]
+### Step 1: [Ação]
 
-Detailed instructions...
+Instruções detalhadas...
 
-### Step 2: [Action]
+### Step 2: [Ação]
 
-More instructions...
+Mais instruções...
 ```
 
-**This is the heart of your skill** - clear, actionable steps
+**Este é o coração da skill** - passos claros e acionáveis
 
-#### 5. Examples
+#### 5. Exemplos
 
 ```markdown
 ## Examples
 
-### Example 1: [Use Case]
+### Example 1: [Caso de Uso]
 
 \`\`\`javascript
-// Example code
+// Código de exemplo
 \`\`\`
 
-### Example 2: [Another Use Case]
+### Example 2: [Outro Caso de Uso]
 
 \`\`\`javascript
-// More code
+// Mais código
 \`\`\`
 ```
 
-**Why examples matter:** They show the AI exactly what good output looks like
+**Por que exemplos importam:** Eles mostram à IA exatamente como deve ser uma boa saída
 
-#### 6. Best Practices
+#### 6. Boas Práticas
 
 ```markdown
 ## Best Practices
 
-- ✅ Do this
-- ✅ Also do this
-- ❌ Don't do this
-- ❌ Avoid this
+- ✅ Faça isso
+- ✅ Também faça isso
+- ❌ Não faça isso
+- ❌ Evite isso
 ```
 
-#### 7. Common Pitfalls
+#### 7. Armadilhas Comuns
 
 ```markdown
 ## Common Pitfalls
 
-- **Problem:** Description
-  **Solution:** How to fix it
+- **Problema:** Descrição
+  **Solução:** Como resolver
 ```
 
-#### 8. Related Skills
+#### 8. Skills Relacionadas
 
 ```markdown
 ## Related Skills
 
-- `@other-skill` - When to use this instead
-- `@complementary-skill` - How this works together
+- `@other-skill` - Quando usar esta ao invés
+- `@complementary-skill` - Como estas funcionam juntas
 ```
 
 ---
 
-## Writing Effective Instructions
+## Escrevendo Instruções Eficazes
 
-### Use Clear, Direct Language
+### Use Linguagem Clara e Direta
 
-**❌ Bad:**
+**❌ Ruim:**
 
 ```markdown
 You might want to consider possibly checking if the user has authentication.
 ```
 
-**✅ Good:**
+**✅ Bom:**
 
 ```markdown
 Check if the user is authenticated before proceeding.
 ```
 
-### Use Action Verbs
+### Use Verbos de Ação
 
-**❌ Bad:**
+**❌ Ruim:**
 
 ```markdown
 The file should be created...
 ```
 
-**✅ Good:**
+**✅ Bom:**
 
 ```markdown
 Create the file...
 ```
 
-### Be Specific
+### Seja Específico
 
-**❌ Bad:**
+**❌ Ruim:**
 
 ```markdown
 Set up the database properly.
 ```
 
-**✅ Good:**
+**✅ Bom:**
 
 ```markdown
 1. Create a PostgreSQL database
@@ -242,31 +242,31 @@ Set up the database properly.
 
 ---
 
-## Optional Components
+## Componentes Opcionais
 
-### Scripts Directory
+### Diretório de Scripts
 
-If your skill needs helper scripts:
+Se sua skill precisar de scripts auxiliares:
 
 ```
 scripts/
-├── setup.sh          ← Setup automation
-├── validate.py       ← Validation tools
-└── generate.js       ← Code generators
+├── setup.sh          ← Automação de setup
+├── validate.py       ← Ferramentas de validação
+└── generate.js       ← Geradores de código
 ```
 
-**Reference them in SKILL.md:**
+**Referencie-os no SKILL.md:**
 
 ```markdown
-Run the setup script:
+Execute o script de setup:
 \`\`\`bash
 bash scripts/setup.sh
 \`\`\`
 ```
 
-### Examples Directory
+### Diretório de Exemplos
 
-Real-world examples that demonstrate the skill:
+Exemplos reais que demonstram a skill:
 
 ```
 examples/
@@ -277,9 +277,9 @@ examples/
     └── config.json
 ```
 
-### Templates Directory
+### Diretório de Templates
 
-Reusable code templates:
+Templates de código reutilizáveis:
 
 ```
 templates/
@@ -288,18 +288,18 @@ templates/
 └── config.json
 ```
 
-**Reference in SKILL.md:**
+**Referencie no SKILL.md:**
 
 ```markdown
-Use this template as a starting point:
+Use este template como ponto de partida:
 \`\`\`typescript
 {{#include templates/component.tsx}}
 \`\`\`
 ```
 
-### References Directory
+### Diretório de Referências
 
-External documentation or API references:
+Documentação externa ou referências de API:
 
 ```
 references/
@@ -310,38 +310,38 @@ references/
 
 ---
 
-## Skill Size Guidelines
+## Diretrizes de Tamanho
 
-### Minimum Viable Skill
-
-- **Frontmatter:** name + description
-- **Content:** 100-200 words
-- **Sections:** Overview + Instructions
-
-### Standard Skill
+### Skill Mínima Viável
 
 - **Frontmatter:** name + description
-- **Content:** 300-800 words
-- **Sections:** Overview + When to Use + Instructions + Examples
+- **Conteúdo:** 100-200 palavras
+- **Seções:** Visão Geral + Instruções
 
-### Comprehensive Skill
+### Skill Padrão
 
-- **Frontmatter:** name + description + optional fields
-- **Content:** 800-2000 words
-- **Sections:** All recommended sections
-- **Extras:** Scripts, examples, templates
+- **Frontmatter:** name + description
+- **Conteúdo:** 300-800 palavras
+- **Seções:** Visão Geral + Quando Usar + Instruções + Exemplos
 
-**Rule of thumb:** Start small, expand based on feedback
+### Skill Completa
+
+- **Frontmatter:** name + description + campos opcionais
+- **Conteúdo:** 800-2000 palavras
+- **Seções:** Todas as seções recomendadas
+- **Extras:** Scripts, exemplos, templates
+
+**Regra geral:** Comece pequeno, expanda com base no feedback
 
 ---
 
-## Formatting Best Practices
+## Boas Práticas de Formatação
 
-### Use Markdown Effectively
+### Use Markdown de Forma Eficaz
 
-#### Code Blocks
+#### Blocos de Código
 
-Always specify the language:
+Sempre especifique a linguagem:
 
 ```markdown
 \`\`\`javascript
@@ -349,9 +349,9 @@ const example = "code";
 \`\`\`
 ```
 
-#### Lists
+#### Listas
 
-Use consistent formatting:
+Use formatação consistente:
 
 ```markdown
 - Item 1
@@ -360,57 +360,57 @@ Use consistent formatting:
   - Sub-item 2.2
 ```
 
-#### Emphasis
+#### Ênfase
 
-- **Bold** for important terms: `**important**`
-- _Italic_ for emphasis: `*emphasis*`
-- `Code` for commands/code: `` `code` ``
+- **Negrito** para termos importantes: `**importante**`
+- _Itálico_ para ênfase: `*ênfase*`
+- `Código` para comandos/código: `` `código` ``
 
 #### Links
 
 ```markdown
-[Link text](https://example.com)
+[Texto do link](https://example.com)
 ```
 
 ---
 
-## ✅ Quality Checklist
+## ✅ Checklist de Qualidade
 
-Before finalizing your skill:
+Antes de finalizar sua skill:
 
-### Content Quality
+### Qualidade do Conteúdo
 
-- [ ] Instructions are clear and actionable
-- [ ] Examples are realistic and helpful
-- [ ] No typos or grammar errors
-- [ ] Technical accuracy verified
+- [ ] Instruções são claras e acionáveis
+- [ ] Exemplos são realistas e úteis
+- [ ] Sem erros de digitação ou gramática
+- [ ] Precisão técnica verificada
 
-### Structure
+### Estrutura
 
-- [ ] Frontmatter is valid YAML
-- [ ] Name matches folder name
-- [ ] Sections are logically organized
-- [ ] Headings follow hierarchy (H1 → H2 → H3)
+- [ ] Frontmatter é YAML válido
+- [ ] Nome corresponde ao nome da pasta
+- [ ] Seções estão organizadas logicamente
+- [ ] Headings seguem a hierarquia (H1 → H2 → H3)
 
-### Completeness
+### Completude
 
-- [ ] Overview explains the "why"
-- [ ] Instructions explain the "how"
-- [ ] Examples show the "what"
-- [ ] Edge cases are addressed
+- [ ] Visão geral explica o "por quê"
+- [ ] Instruções explicam o "como"
+- [ ] Exemplos mostram o "o quê"
+- [ ] Edge cases são abordados
 
-### Usability
+### Usabilidade
 
-- [ ] A beginner could follow this
-- [ ] An expert would find it useful
-- [ ] The AI can parse it correctly
-- [ ] It solves a real problem
+- [ ] Um iniciante conseguiria seguir
+- [ ] Um especialista acharia útil
+- [ ] A IA consegue interpretar corretamente
+- [ ] Resolve um problema real
 
 ---
 
-## 🔍 Real-World Example Analysis
+## 🔍 Análise de Exemplo Real
 
-Let's analyze a real skill: `brainstorming`
+Vamos analisar uma skill real: `brainstorming`
 
 ```markdown
 ---
@@ -419,11 +419,11 @@ description: "You MUST use this before any creative work..."
 ---
 ```
 
-**Analysis:**
+**Análise:**
 
-- ✅ Clear name
-- ✅ Strong description with urgency ("MUST use")
-- ✅ Explains when to use it
+- ✅ Nome claro
+- ✅ Descrição forte com urgência ("MUST use")
+- ✅ Explica quando usar
 
 ```markdown
 # Brainstorming Ideas Into Designs
@@ -433,11 +433,11 @@ description: "You MUST use this before any creative work..."
 Help turn ideas into fully formed designs...
 ```
 
-**Analysis:**
+**Análise:**
 
-- ✅ Clear title
-- ✅ Concise overview
-- ✅ Explains the value proposition
+- ✅ Título claro
+- ✅ Visão geral concisa
+- ✅ Explica a proposta de valor
 
 ```markdown
 ## The Process
@@ -448,17 +448,17 @@ Help turn ideas into fully formed designs...
 - Ask questions one at a time
 ```
 
-**Analysis:**
+**Análise:**
 
-- ✅ Broken into clear phases
-- ✅ Specific, actionable steps
-- ✅ Easy to follow
+- ✅ Dividido em fases claras
+- ✅ Passos específicos e acionáveis
+- ✅ Fácil de seguir
 
 ---
 
-## Advanced Patterns
+## Padrões Avançados
 
-### Conditional Logic
+### Lógica Condicional
 
 ```markdown
 ## Instructions
@@ -474,19 +474,19 @@ If the user is working with Vue:
 - Follow Vue 3 patterns
 ```
 
-### Progressive Disclosure
+### Revelação Progressiva
 
 ```markdown
 ## Basic Usage
 
-[Simple instructions for common cases]
+[Instruções simples para casos comuns]
 
 ## Advanced Usage
 
-[Complex patterns for power users]
+[Padrões complexos para usuários avançados]
 ```
 
-### Cross-References
+### Referências Cruzadas
 
 ```markdown
 ## Related Workflows
@@ -498,60 +498,60 @@ If the user is working with Vue:
 
 ---
 
-## Skill Effectiveness Metrics
+## Métricas de Eficácia
 
-How to know if your skill is good:
+Como saber se sua skill é boa:
 
-### Clarity Test
+### Teste de Clareza
 
-- Can someone unfamiliar with the topic follow it?
-- Are there any ambiguous instructions?
+- Alguém sem conhecimento do tema conseguiria seguir?
+- Existe alguma instrução ambígua?
 
-### Completeness Test
+### Teste de Completude
 
-- Does it cover the happy path?
-- Does it handle edge cases?
-- Are error scenarios addressed?
+- Cobre o caminho feliz (happy path)?
+- Lida com edge cases?
+- Cenários de erro são abordados?
 
-### Usefulness Test
+### Teste de Utilidade
 
-- Does it solve a real problem?
-- Would you use this yourself?
-- Does it save time or improve quality?
-
----
-
-## Learning from Existing Skills
-
-### Study These Examples
-
-**For Beginners:**
-
-- `skills/brainstorming/SKILL.md` - Clear structure
-- `skills/git-pushing/SKILL.md` - Simple and focused
-- `skills/copywriting/SKILL.md` - Good examples
-
-**For Advanced:**
-
-- `skills/systematic-debugging/SKILL.md` - Comprehensive
-- `skills/react-best-practices/SKILL.md` - Multiple files
-- `skills/loki-mode/SKILL.md` - Complex workflows
+- Resolve um problema real?
+- Você usaria isso no seu dia a dia?
+- Economiza tempo ou melhora a qualidade?
 
 ---
 
-## 💡 Pro Tips
+## Aprendendo com Skills Existentes
 
-1. **Start with the "When to Use" section** - This clarifies the skill's purpose
-2. **Write examples first** - They help you understand what you're teaching
-3. **Test with an AI** - See if it actually works before submitting
-4. **Get feedback** - Ask others to review your skill
-5. **Iterate** - Skills improve over time based on usage
+### Estude Estes Exemplos
+
+**Para Iniciantes:**
+
+- `skills/brainstorming/SKILL.md` - Estrutura clara
+- `skills/git-pushing/SKILL.md` - Simples e focada
+- `skills/copywriting/SKILL.md` - Bons exemplos
+
+**Para Avançados:**
+
+- `skills/systematic-debugging/SKILL.md` - Completa
+- `skills/react-best-practices/SKILL.md` - Múltiplos arquivos
+- `skills/loki-mode/SKILL.md` - Workflows complexos
 
 ---
 
-## Common Mistakes to Avoid
+## 💡 Dicas Importantes
 
-### ❌ Mistake 1: Too Vague
+1. **Comece pela seção "When to Use"** - Isso clarifica o propósito da skill
+2. **Escreva os exemplos primeiro** - Eles ajudam a entender o que você está ensinando
+3. **Teste com uma IA** - Veja se realmente funciona antes de submeter
+4. **Peça feedback** - Peça para outros revisarem sua skill
+5. **Itere** - Skills melhoram com o tempo baseado no uso
+
+---
+
+## Erros Comuns a Evitar
+
+### ❌ Erro 1: Vago Demais
 
 ```markdown
 ## Instructions
@@ -559,7 +559,7 @@ How to know if your skill is good:
 Make the code better.
 ```
 
-**✅ Fix:**
+**✅ Correção:**
 
 ```markdown
 ## Instructions
@@ -569,47 +569,47 @@ Make the code better.
 3. Write unit tests for core functionality
 ```
 
-### ❌ Mistake 2: Too Complex
+### ❌ Erro 2: Complexo Demais
 
 ```markdown
 ## Instructions
 
-[5000 words of dense technical jargon]
+[5000 palavras de jargão técnico denso]
 ```
 
-**✅ Fix:**
-Break into multiple skills or use progressive disclosure
+**✅ Correção:**
+Divida em múltiplas skills ou use revelação progressiva
 
-### ❌ Mistake 3: No Examples
+### ❌ Erro 3: Sem Exemplos
 
 ```markdown
 ## Instructions
 
-[Instructions without any code examples]
+[Instruções sem nenhum exemplo de código]
 ```
 
-**✅ Fix:**
-Add at least 2-3 realistic examples
+**✅ Correção:**
+Adicione pelo menos 2-3 exemplos realistas
 
-### ❌ Mistake 4: Outdated Information
+### ❌ Erro 4: Informação Desatualizada
 
 ```markdown
 Use React class components...
 ```
 
-**✅ Fix:**
-Keep skills updated with current best practices
+**✅ Correção:**
+Mantenha as skills atualizadas com as melhores práticas atuais
 
 ---
 
-## 🎯 Next Steps
+## 🎯 Próximos Passos
 
-1. **Read 3-5 existing skills** to see different styles
-2. **Try the skill template** from CONTRIBUTING.md
-3. **Create a simple skill** for something you know well
-4. **Test it** with your AI assistant
-5. **Share it** via Pull Request
+1. **Leia 3-5 skills existentes** para ver diferentes estilos
+2. **Experimente o template de skill** do CONTRIBUTING.md
+3. **Crie uma skill simples** sobre algo que você domina
+4. **Teste** com seu assistente de IA
+5. **Compartilhe** via Pull Request
 
 ---
 
-**Remember:** Every expert was once a beginner. Start simple, learn from feedback, and improve over time! 🚀
+**Lembre-se:** Todo especialista já foi iniciante. Comece simples, aprenda com o feedback e melhore com o tempo! 🚀

@@ -1,109 +1,111 @@
-# ❓ Frequently Asked Questions (FAQ)
+# Perguntas Frequentes (FAQ)
 
-**Got questions?** You're not alone! Here are answers to the most common questions about Antigravity Awesome Skills.
+**Tem duvidas?** Voce nao esta sozinho! Aqui estao as respostas para as perguntas mais comuns sobre Skills para Claude.
 
 ---
 
-## 🎯 General Questions
+## Perguntas Gerais
 
-### What are "skills" exactly?
+### O que sao "skills" exatamente?
 
-Skills are specialized instruction files that teach AI assistants how to handle specific tasks. Think of them as expert knowledge modules that your AI can load on-demand.
-**Simple analogy:** Just like you might consult different experts (a lawyer, a doctor, a mechanic), these skills let your AI become an expert in different areas when you need them.
+Skills sao arquivos de instrucao especializados que ensinam assistentes de IA a lidar com tarefas especificas. Pense nelas como modulos de conhecimento especializado que sua IA pode carregar sob demanda.
+**Analogia simples:** Assim como voce consultaria diferentes especialistas (um advogado, um medico, um mecanico), essas skills permitem que sua IA se torne especialista em diferentes areas quando voce precisar.
 
-### Do I need to install all 700+ skills?
+### Preciso instalar todas as 700+ skills?
 
-**No!** When you clone the repository, all skills are available, but your AI only loads them when you explicitly invoke them with `@skill-name`.
-It's like having a library - all books are there, but you only read the ones you need.
-**Pro Tip:** Use [Starter Packs](BUNDLES.md) to install only what matches your role.
+**Nao!** Quando voce clona o repositorio, todas as skills ficam disponiveis, mas sua IA so carrega quando voce invoca explicitamente com `@nome-da-skill`.
+E como ter uma biblioteca — todos os livros estao la, mas voce so le os que precisa.
+**Dica:** Use os [Starter Packs](BUNDLES.md) para instalar apenas o que combina com sua funcao.
 
-### What is the difference between Bundles and Workflows?
+### Qual a diferenca entre Bundles e Workflows?
 
-- **Bundles** are curated recommendations grouped by role or domain.
-- **Workflows** are ordered execution playbooks for concrete outcomes.
+- **Bundles** sao recomendacoes curadas agrupadas por funcao ou dominio.
+- **Workflows** sao playbooks de execucao ordenados para resultados concretos.
 
-Use bundles when you are deciding *which skills* to include. Use workflows when you need *step-by-step execution*.
+Use bundles quando estiver decidindo *quais skills* incluir. Use workflows quando precisar de *execucao passo a passo*.
 
-Start from:
+Comece por:
 - [BUNDLES.md](BUNDLES.md)
 - [WORKFLOWS.md](WORKFLOWS.md)
 
-### Which AI tools work with these skills?
+### Quais ferramentas de IA funcionam com essas skills?
 
-- ✅ **Claude Code** (Anthropic CLI)
-- ✅ **Gemini CLI** (Google)
-- ✅ **Codex CLI** (OpenAI)
-- ✅ **Cursor** (AI IDE)
-- ✅ **Antigravity IDE**
-- ✅ **OpenCode**
-- ⚠️ **GitHub Copilot** (partial support via copy-paste)
+- **Claude Code** (CLI da Anthropic)
+- **Gemini CLI** (Google)
+- **Codex CLI** (OpenAI)
+- **Cursor** (AI IDE)
+- **Antigravity IDE**
+- **OpenCode**
+- **GitHub Copilot** (suporte parcial via copiar e colar)
 
-### Are these skills free to use?
+### Essas skills sao gratuitas?
 
-**Yes!** This repository is licensed under MIT License.
+**Sim!** Este repositorio esta licenciado sob a Licenca MIT.
 
-- ✅ Free for personal use
-- ✅ Free for commercial use
-- ✅ You can modify them
+- Gratuito para uso pessoal
+- Gratuito para uso comercial
+- Voce pode modificar como quiser
 
-### Do skills work offline?
+### As skills funcionam offline?
 
-The skill files themselves are stored locally on your computer, but your AI assistant needs an internet connection to function.
-
----
-
-## 🔒 Security & Trust (V4 Update)
-
-### What do the Risk Labels mean?
-
-We classify skills so you know what you're running:
-
-- ⚪ **Safe (White/Blue)**: Read-only, planning, or benign skills.
-- 🔴 **Risk (Red)**: Skills that modify files (delete), use network scanners, or perform destructive actions. **Use with caution.**
-- 🟣 **Official (Purple)**: Maintained by trusted vendors (Anthropic, DeepMind, etc.).
-
-### Can these skills hack my computer?
-
-**No.** Skills are text files. However, they _instruct_ the AI to run commands. If a skill says "delete all files", a compliant AI might try to do it.
-_Always check the Risk label and review the code._
+Os arquivos das skills ficam armazenados localmente no seu computador, mas seu assistente de IA precisa de conexao com a internet para funcionar.
 
 ---
 
-## 📦 Installation & Setup
+## Seguranca e Confianca (Atualizacao V4)
 
-### Where should I install the skills?
+### O que significam os rotulos de risco?
 
-The universal path that works with most tools is `.agent/skills/`.
+Classificamos as skills para voce saber o que esta rodando:
 
-**Using npx:** `npx antigravity-awesome-skills` (or `npx github:sickn33/antigravity-awesome-skills` if you get a 404).
+- **Safe (Branco/Azul)**: Somente leitura, planejamento ou skills inofensivas.
+- **Risk (Vermelho)**: Skills que modificam arquivos (deletam), usam scanners de rede ou executam acoes destrutivas. **Use com cautela.**
+- **Official (Roxo)**: Mantidas por vendors confiaveis (Anthropic, DeepMind, etc.).
 
-**Using git clone:**
+### Essas skills podem hackear meu computador?
+
+**Nao.** Skills sao arquivos de texto. Porem, elas _instruem_ a IA a executar comandos. Se uma skill disser "delete todos os arquivos", uma IA obediente pode tentar fazer isso.
+_Sempre verifique o rotulo de risco e revise o codigo._
+
+---
+
+## Instalacao e Configuracao
+
+### Onde devo instalar as skills?
+
+O caminho universal que funciona com a maioria das ferramentas e `.agent/skills/`.
+
+**Usando npx:** `npx antigravity-awesome-skills` (ou `npx github:sickn33/antigravity-awesome-skills` se aparecer erro 404).
+
+**Usando git clone:**
 
 ```bash
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
 ```
 
-**Tool-specific paths:**
+**Caminhos por ferramenta:**
 
 - Claude Code: `.claude/skills/`
 - Gemini CLI: `.gemini/skills/`
 - Codex CLI: `.codex/skills/`
-- Cursor: `.cursor/skills/` or project root
+- Cursor: `.cursor/skills/` ou raiz do projeto
 
-### Does this work with Windows?
+**Para Claude Code (fluxo recomendado):** Personalizar > Habilidades > Upload do SKILL.md
 
-**Yes**, but some "Official" skills use **symlinks** which Windows handles poorly by default.
-Run git with:
+### Funciona no Windows?
+
+**Sim**, mas algumas skills "Official" usam **symlinks** que o Windows lida mal por padrao.
+Clone o git com:
 
 ```bash
 git clone -c core.symlinks=true https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
 ```
 
-Or enable "Developer Mode" in Windows Settings.
+Ou habilite o "Modo de Desenvolvedor" nas Configuracoes do Windows.
 
-### How do I update skills?
+### Como atualizo as skills?
 
-Navigate to your skills directory and pull the latest changes:
+Navegue ate o diretorio de skills e puxe as ultimas alteracoes:
 
 ```bash
 cd .agent/skills
@@ -112,85 +114,85 @@ git pull origin main
 
 ---
 
-## 🛠️ Using Skills
+## Usando Skills
 
-> **💡 For a complete guide with examples, see [USAGE.md](USAGE.md)**
+> **Para um guia completo com exemplos, veja [USAGE.md](USAGE.md)**
 
-### How do I invoke a skill?
+### Como invoco uma skill?
 
-Use the `@` symbol followed by the skill name:
-
-```bash
-@brainstorming help me design a todo app
-```
-
-### Can I use multiple skills at once?
-
-**Yes!** You can invoke multiple skills:
+Use o simbolo `@` seguido do nome da skill:
 
 ```bash
-@brainstorming help me design this, then use @writing-plans to create a task list.
+@brainstorming me ajude a desenhar um app de tarefas
 ```
 
-### How do I know which skill to use?
+### Posso usar varias skills de uma vez?
 
-1. **Browse the catalog**: Check the [Skill Catalog](../CATALOG.md).
-2. **Search**: `ls skills/ | grep "keyword"`
-3. **Ask your AI**: "What skills do you have for testing?"
+**Sim!** Voce pode invocar multiplas skills:
 
----
+```bash
+@brainstorming me ajude a desenhar isso, depois use @writing-plans para criar uma lista de tarefas.
+```
 
-## 🏗️ Troubleshooting
+### Como sei qual skill usar?
 
-### My AI assistant doesn't recognize skills
-
-**Possible causes:**
-
-1. **Wrong installation path**: Check your tool's docs. Try `.agent/skills/`.
-2. **Restart Needed**: Restart your AI/IDE after installing.
-3. **Typos**: Did you type `@brain-storming` instead of `@brainstorming`?
-
-### A skill gives incorrect or outdated advice
-
-Please [Open an issue](https://github.com/sickn33/antigravity-awesome-skills/issues)!
-Include:
-
-- Which skill
-- What went wrong
-- What should happen instead
+1. **Navegue pelo catalogo**: Confira o [Catalogo de Skills](../CATALOG.md).
+2. **Busque**: `ls skills/ | grep "palavra-chave"`
+3. **Pergunte para sua IA**: "Quais skills voce tem para testes?"
 
 ---
 
-## 🤝 Contribution
+## Solucao de Problemas
 
-### I'm new to open source. Can I contribute?
+### Meu assistente de IA nao reconhece as skills
 
-**Absolutely!** We welcome beginners.
+**Possiveis causas:**
 
-- Fix typos
-- Add examples
-- Improve docs
-  Check out [CONTRIBUTING.md](../CONTRIBUTING.md) for instructions.
+1. **Caminho de instalacao errado**: Verifique a documentacao da sua ferramenta. Tente `.agent/skills/`.
+2. **Precisa reiniciar**: Reinicie sua IA/IDE depois de instalar.
+3. **Erro de digitacao**: Voce digitou `@brain-storming` em vez de `@brainstorming`?
 
-### My PR failed "Quality Bar" check. Why?
+### Uma skill da conselho incorreto ou desatualizado
 
-V4 introduces automated quality control. Your skill might be missing:
+Por favor [abra uma issue](https://github.com/sickn33/antigravity-awesome-skills/issues)!
+Inclua:
 
-1. A valid `description`.
-2. Usage examples.
-   Run `python3 scripts/validate_skills.py` locally to check before you push.
-
-### Can I update an "Official" skill?
-
-**No.** Official skills (in `skills/official/`) are mirrored from vendors. Open an issue instead.
+- Qual skill
+- O que deu errado
+- O que deveria acontecer
 
 ---
 
-## 💡 Pro Tips
+## Contribuicao
 
-- Start with `@brainstorming` before building anything new
-- Use `@systematic-debugging` when stuck on bugs
-- Try `@test-driven-development` for better code quality
-- Explore `@skill-creator` to make your own skills
+### Sou novo em open source. Posso contribuir?
 
-**Still confused?** [Open a discussion](https://github.com/sickn33/antigravity-awesome-skills/discussions) and we'll help you out! 🙌
+**Com certeza!** Recebemos iniciantes de bracos abertos.
+
+- Corrija erros de digitacao
+- Adicione exemplos
+- Melhore a documentacao
+  Confira [CONTRIBUTING.md](../CONTRIBUTING.md) para instrucoes.
+
+### Meu PR falhou na verificacao "Quality Bar". Por que?
+
+A V4 introduziu controle de qualidade automatizado. Sua skill pode estar sem:
+
+1. Uma `description` valida.
+2. Exemplos de uso.
+   Rode `python3 scripts/validate_skills.py` localmente para verificar antes de fazer push.
+
+### Posso atualizar uma skill "Official"?
+
+**Nao.** Skills oficiais (em `skills/official/`) sao espelhadas dos vendors. Abra uma issue em vez disso.
+
+---
+
+## Dicas Pro
+
+- Comece com `@brainstorming` antes de construir qualquer coisa nova
+- Use `@systematic-debugging` quando travar num bug
+- Experimente `@test-driven-development` para melhor qualidade de codigo
+- Explore `@skill-creator` para criar suas proprias skills
+
+**Ainda com duvidas?** [Abra uma discussao](https://github.com/sickn33/antigravity-awesome-skills/discussions) e vamos te ajudar!

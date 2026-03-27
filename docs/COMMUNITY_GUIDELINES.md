@@ -1,33 +1,33 @@
-# Code of Conduct
+# Codigo de Conduta
 
-## Our Pledge
+## Nosso Compromisso
 
-In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone.
+No interesse de promover um ambiente aberto e acolhedor, nos, como contribuidores e mantenedores, nos comprometemos a tornar a participacao no nosso projeto e na nossa comunidade uma experiencia livre de assedio para todos.
 
-## Our Standards
+## Nossos Padroes
 
-Examples of behavior that contributes to creating a positive environment include:
+Exemplos de comportamento que contribuem para um ambiente positivo:
 
-- Using welcoming and inclusive language
-- Being respectful of differing viewpoints and experiences
-- Gracefully accepting constructive criticism
-- Focusing on what is best for the community
-- Showing empathy towards other community members
+- Usar linguagem acolhedora e inclusiva
+- Respeitar pontos de vista e experiencias diferentes
+- Aceitar criticas construtivas com maturidade
+- Focar no que e melhor para a comunidade
+- Demonstrar empatia com os demais membros da comunidade
 
-Examples of unacceptable behavior by participants include:
+Exemplos de comportamento inaceitavel:
 
-- The use of sexualized language or imagery and unwelcome sexual attention or advances
-- Trolling, insulting/derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information without explicit permission
-- Other conduct which could reasonably be considered inappropriate in a professional setting
+- Uso de linguagem ou imagens sexualizadas e atencao ou investidas sexuais indesejadas
+- Trollagem, comentarios insultuosos ou depreciativos, e ataques pessoais ou politicos
+- Assedio publico ou privado
+- Publicar informacoes privadas de terceiros sem permissao explicita
+- Qualquer outra conduta que possa ser razoavelmente considerada inadequada em um ambiente profissional
 
-## Enforcement
+## Aplicacao
 
-Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
+Os mantenedores do projeto sao responsaveis por esclarecer os padroes de comportamento aceitavel e devem tomar acoes corretivas apropriadas e justas em resposta a qualquer caso de comportamento inaceitavel.
 
-## Attribution
+## Atribuicao
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 2.1.
+Este Codigo de Conduta foi adaptado do [Contributor Covenant][homepage], versao 2.1.
 
 [homepage]: https://www.contributor-covenant.org

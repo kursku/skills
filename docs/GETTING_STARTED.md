@@ -1,142 +1,142 @@
-# Getting Started with Antigravity Awesome Skills (V6.5.0)
+# Primeiros Passos com Skills para Claude (V6.5.0)
 
-**New here? This guide will help you supercharge your AI Agent in 5 minutes.**
+**Chegou agora? Este guia vai turbinar seu AI Agent em 5 minutos.**
 
-> **💡 Confused about what to do after installation?** Check out the [**Complete Usage Guide**](USAGE.md) for detailed explanations and examples!
-
----
-
-## 🤔 What Are "Skills"?
-
-AI Agents (like **Claude Code**, **Gemini**, **Cursor**) are smart, but they lack specific knowledge about your tools.
-**Skills** are specialized instruction manuals (markdown files) that teach your AI how to perform specific tasks perfectly, every time.
-
-**Analogy:** Your AI is a brilliant intern. **Skills** are the SOPs (Standard Operating Procedures) that make them a Senior Engineer.
+> **Confuso sobre o que fazer depois da instalacao?** Confira o [**Guia Completo de Uso**](USAGE.md) para explicacoes detalhadas e exemplos!
 
 ---
 
-## ⚡️ Quick Start: The "Starter Packs"
+## O Que Sao "Skills"?
 
-Don't panic about the 954+ skills. You don't need them all at once.
-We have curated **Starter Packs** to get you running immediately.
+AI Agents (como **Claude Code**, **Gemini**, **Cursor**) sao inteligentes, mas nao tem conhecimento especifico sobre suas ferramentas.
+**Skills** sao manuais de instrucao especializados (arquivos markdown) que ensinam sua IA a executar tarefas especificas com perfeicao, sempre.
 
-You **install the full repo once** (npx or clone); Starter Packs are curated lists to help you **pick which skills to use** by role (e.g. Web Wizard, Hacker Pack)—they are not a different way to install.
+**Analogia:** Sua IA e um estagiario brilhante. **Skills** sao os POPs (Procedimentos Operacionais Padrao) que transformam ele num Engenheiro Senior.
 
-### 1. Install the Repo
+---
 
-**Option A — npx (easiest):**
+## Inicio Rapido: Os "Starter Packs"
+
+Nao entre em panico com as 954+ skills. Voce nao precisa de todas de uma vez.
+Temos **Starter Packs** curados para voce comecar imediatamente.
+
+Voce **instala o repositorio completo uma vez** (npx ou clone); Starter Packs sao listas curadas para ajudar voce a **escolher quais skills usar** por funcao (ex: Web Wizard, Hacker Pack) — nao sao uma forma diferente de instalar.
+
+### 1. Instale o Repositorio
+
+**Opcao A — npx (mais facil):**
 
 ```bash
 npx antigravity-awesome-skills
 ```
 
-This clones to `~/.gemini/antigravity/skills` by default. Use `--cursor`, `--claude`, `--gemini`, `--codex`, or `--kiro` to install for a specific tool, or `--path <dir>` for a custom location. Run `npx antigravity-awesome-skills --help` for details.
+Isso clona para `~/.gemini/antigravity/skills` por padrao. Use `--cursor`, `--claude`, `--gemini`, `--codex`, ou `--kiro` para instalar para uma ferramenta especifica, ou `--path <dir>` para um local customizado. Execute `npx antigravity-awesome-skills --help` para detalhes.
 
-If you see a 404 error, use: `npx github:sickn33/antigravity-awesome-skills`
+Se aparecer erro 404, use: `npx github:sickn33/antigravity-awesome-skills`
 
-**Option B — git clone:**
+**Opcao B — git clone:**
 
 ```bash
-# Universal (works for most agents)
+# Universal (funciona com a maioria dos agents)
 git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
 ```
 
-### 2. Pick Your Persona
+### 2. Escolha Seu Perfil
 
-Find the bundle that matches your role (see [BUNDLES.md](BUNDLES.md)):
+Encontre o bundle que combina com sua funcao (veja [BUNDLES.md](BUNDLES.md)):
 
-| Persona               | Bundle Name    | What's Inside?                                    |
-| :-------------------- | :------------- | :------------------------------------------------ |
-| **Web Developer**     | `Web Wizard`   | React Patterns, Tailwind mastery, Frontend Design |
-| **Security Engineer** | `Hacker Pack`  | OWASP, Metasploit, Pentest Methodology            |
-| **Manager / PM**      | `Product Pack` | Brainstorming, Planning, SEO, Strategy            |
-| **Everything**        | `Essentials`   | Clean Code, Planning, Validation (The Basics)     |
-
----
-
-## 🧭 Bundles vs Workflows
-
-Bundles and workflows solve different problems:
-
-- **Bundles** = curated sets by role (what to pick).
-- **Workflows** = step-by-step playbooks (how to execute).
-
-Start with bundles in [BUNDLES.md](BUNDLES.md), then run a workflow from [WORKFLOWS.md](WORKFLOWS.md) when you need guided execution.
-
-Example:
-
-> "Use **@antigravity-workflows** and run `ship-saas-mvp` for my project idea."
+| Perfil                  | Nome do Bundle | O Que Tem Dentro?                                  |
+| :---------------------- | :------------- | :------------------------------------------------- |
+| **Desenvolvedor Web**   | `Web Wizard`   | React Patterns, dominio de Tailwind, Frontend Design |
+| **Engenheiro de Seguranca** | `Hacker Pack`  | OWASP, Metasploit, Metodologia de Pentest        |
+| **Gerente / PM**        | `Product Pack` | Brainstorming, Planejamento, SEO, Estrategia       |
+| **Tudo**                | `Essentials`   | Clean Code, Planejamento, Validacao (O Basico)     |
 
 ---
 
-## 🚀 How to Use a Skill
+## Bundles vs Workflows
 
-Once installed, just talk to your AI naturally.
+Bundles e workflows resolvem problemas diferentes:
 
-### Example 1: Planning a Feature (**Essentials**)
+- **Bundles** = conjuntos curados por funcao (o que escolher).
+- **Workflows** = playbooks passo a passo (como executar).
 
-> "Use **@brainstorming** to help me design a new login flow."
+Comece com bundles em [BUNDLES.md](BUNDLES.md), depois rode um workflow de [WORKFLOWS.md](WORKFLOWS.md) quando precisar de execucao guiada.
 
-**What happens:** The AI loads the brainstorming skill, asks you structured questions, and produces a professional spec.
+Exemplo:
 
-### Example 2: Checking Your Code (**Web Wizard**)
-
-> "Run **@lint-and-validate** on this file and fix errors."
-
-**What happens:** The AI follows strict linting rules defined in the skill to clean your code.
-
-### Example 3: Security Audit (**Hacker Pack**)
-
-> "Use **@api-security-best-practices** to review my API endpoints."
-
-**What happens:** The AI audits your code against OWASP standards.
+> "Use **@antigravity-workflows** e rode `ship-saas-mvp` para minha ideia de projeto."
 
 ---
 
-## 🔌 Supported Tools
+## Como Usar uma Skill
 
-| Tool            | Status          | Path                                                                  |
+Depois de instalado, basta conversar com sua IA naturalmente.
+
+### Exemplo 1: Planejando uma Feature (**Essentials**)
+
+> "Use **@brainstorming** para me ajudar a desenhar um novo fluxo de login."
+
+**O que acontece:** A IA carrega a skill de brainstorming, faz perguntas estruturadas e produz uma especificacao profissional.
+
+### Exemplo 2: Verificando Seu Codigo (**Web Wizard**)
+
+> "Rode **@lint-and-validate** neste arquivo e corrija os erros."
+
+**O que acontece:** A IA segue regras rigorosas de linting definidas na skill para limpar seu codigo.
+
+### Exemplo 3: Auditoria de Seguranca (**Hacker Pack**)
+
+> "Use **@api-security-best-practices** para revisar meus endpoints de API."
+
+**O que acontece:** A IA audita seu codigo contra os padroes OWASP.
+
+---
+
+## Ferramentas Suportadas
+
+| Ferramenta      | Status          | Caminho                                                               |
 | :-------------- | :-------------- | :-------------------------------------------------------------------- |
-| **Claude Code** | ✅ Full Support | `.claude/skills/`                                                     |
-| **Gemini CLI**  | ✅ Full Support | `.gemini/skills/`                                                     |
-| **Codex CLI**   | ✅ Full Support | `.codex/skills/`                                                      |
-| **Kiro CLI**    | ✅ Full Support | Global: `~/.kiro/skills/` · Workspace: `.kiro/skills/`                |
-| **Kiro IDE**    | ✅ Full Support | Global: `~/.kiro/skills/` · Workspace: `.kiro/skills/`                |
-| **Antigravity** | ✅ Native       | Global: `~/.gemini/antigravity/skills/` · Workspace: `.agent/skills/` |
-| **Cursor**      | ✅ Native       | `.cursor/skills/`                                                     |
-| **OpenCode**    | ✅ Full Support | `.agents/skills/`                                                     |
-| **AdaL CLI**    | ✅ Full Support | `.adal/skills/`                                                       |
-| **Copilot**     | ⚠️ Text Only    | Manual copy-paste                                                     |
+| **Claude Code** | Suporte Total   | `.claude/skills/`                                                     |
+| **Gemini CLI**  | Suporte Total   | `.gemini/skills/`                                                     |
+| **Codex CLI**   | Suporte Total   | `.codex/skills/`                                                      |
+| **Kiro CLI**    | Suporte Total   | Global: `~/.kiro/skills/` - Workspace: `.kiro/skills/`                |
+| **Kiro IDE**    | Suporte Total   | Global: `~/.kiro/skills/` - Workspace: `.kiro/skills/`                |
+| **Antigravity** | Nativo          | Global: `~/.gemini/antigravity/skills/` - Workspace: `.agent/skills/` |
+| **Cursor**      | Nativo          | `.cursor/skills/`                                                     |
+| **OpenCode**    | Suporte Total   | `.agents/skills/`                                                     |
+| **AdaL CLI**    | Suporte Total   | `.adal/skills/`                                                       |
+| **Copilot**     | Somente Texto   | Copiar e colar manualmente                                            |
 
 ---
 
-## 🛡️ Trust & Safety (New in V4)
+## Confianca e Seguranca (Novidade na V4)
 
-We classify skills so you know what you're running:
+Classificamos as skills para voce saber o que esta rodando:
 
-- 🟣 **Official**: Maintained by Anthropic/Google/Vendors (High Trust).
-- 🔵 **Safe**: Community skills that are non-destructive (Read-only/Planning).
-- 🔴 **Risk**: Skills that modify systems or perform security tests (Authorized Use Only).
+- **Official**: Mantidas pela Anthropic/Google/Vendors (Alta Confianca).
+- **Safe**: Skills da comunidade que nao sao destrutivas (Somente leitura/Planejamento).
+- **Risk**: Skills que modificam sistemas ou executam testes de seguranca (Somente Uso Autorizado).
 
-_Check the [Skill Catalog](../CATALOG.md) for the full list._
-
----
-
-## ❓ FAQ
-
-**Q: Do I need to install all 954+ skills?**
-A: You clone the whole repo once; your AI only _reads_ the skills you invoke (or that are relevant), so it stays lightweight. **Starter Packs** in [BUNDLES.md](BUNDLES.md) are curated lists to help you discover the right skills for your role—they don't change how you install.
-
-**Q: Can I make my own skills?**
-A: Yes! Use the **@skill-creator** skill to build your own.
-
-**Q: Is this free?**
-A: Yes, MIT License. Open Source forever.
+_Confira o [Catalogo de Skills](../CATALOG.md) para a lista completa._
 
 ---
 
-## ⏭️ Next Steps
+## FAQ
 
-1. [Browse the Bundles](BUNDLES.md)
-2. [See Real-World Examples](EXAMPLES.md)
-3. [Contribute a Skill](../CONTRIBUTING.md)
+**P: Preciso instalar todas as 954+ skills?**
+R: Voce clona o repositorio inteiro uma vez; sua IA so _le_ as skills que voce invoca (ou que sao relevantes), entao fica leve. **Starter Packs** em [BUNDLES.md](BUNDLES.md) sao listas curadas para ajudar voce a descobrir as skills certas para sua funcao — nao mudam a forma de instalar.
+
+**P: Posso criar minhas proprias skills?**
+R: Sim! Use a skill **@skill-creator** para criar as suas.
+
+**P: E de graca?**
+R: Sim, Licenca MIT. Open Source para sempre.
+
+---
+
+## Proximos Passos
+
+1. [Explore os Bundles](BUNDLES.md)
+2. [Veja Exemplos Reais](EXAMPLES.md)
+3. [Contribua com uma Skill](../CONTRIBUTING.md)

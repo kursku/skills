@@ -1,62 +1,62 @@
 ---
-name: your-skill-name
-description: "Brief one-sentence description of what this skill does (under 200 characters)"
-category: your-category
+name: nome-da-sua-skill
+description: "Descrição breve em uma frase do que essa skill faz (menos de 200 caracteres)"
+category: sua-categoria
 risk: safe
 source: community
 date_added: "YYYY-MM-DD"
 ---
 
-# Skill Title
+# Titulo da Skill
 
-## Overview
+## Visao Geral
 
-A brief explanation of what this skill does and why it exists.
-2-4 sentences is perfect.
+Uma explicacao breve do que essa skill faz e por que ela existe.
+2 a 4 frases e o ideal.
 
-## When to Use This Skill
+## Quando Usar
 
-- Use when you need to [scenario 1]
-- Use when working with [scenario 2]
-- Use when the user asks about [scenario 3]
+- Use quando precisar de [cenario 1]
+- Use ao trabalhar com [cenario 2]
+- Use quando o usuario perguntar sobre [cenario 3]
 
-## How It Works
+## Como Funciona
 
-### Step 1: [Action]
+### Passo 1: [Acao]
 
-Detailed instructions...
+Instrucoes detalhadas...
 
-### Step 2: [Action]
+### Passo 2: [Acao]
 
-More instructions...
+Mais instrucoes...
 
-## Examples
+## Exemplos
 
-### Example 1: [Use Case]
+### Exemplo 1: [Caso de Uso]
 
-\`\`\`javascript
-// Example code
-\`\`\`
+```javascript
+// Codigo de exemplo
+```
 
-### Example 2: [Another Use Case]
+### Exemplo 2: [Outro Caso de Uso]
 
-\`\`\`javascript
-// More code
-\`\`\`
+```javascript
+// Mais codigo
+```
 
-## Best Practices
+## Boas Praticas
 
-- ✅ Do this
-- ✅ Also do this
-- ❌ Don't do this
-- ❌ Avoid this
+- ✅ Faca isso
+- ✅ Faca isso tambem
+- ❌ Nao faca isso
+- ❌ Evite isso
 
-## Common Pitfalls
+## Erros Comuns
 
-- **Problem:** Description
-  **Solution:** How to fix it
+- **Problema:** Descricao
+  **Solucao:** Como resolver
 
-## Related Skills
+## Skills Relacionadas
 
-- `@other-skill` - When to use this instead
-- `@complementary-skill` - How this works together
+- `@outra-skill` - Quando usar essa no lugar
+- `@skill-complementar` - Como elas funcionam juntas
