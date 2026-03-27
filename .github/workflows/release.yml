@@ -49,11 +49,18 @@ jobs:
       - name: Build pack .skill files
         run: bash scripts/release.sh --packs all
 
-      - name: Collect built files
-        id: collect
+      - name: Package skills by category
         run: |
-          files=$(find dist -name "*.skill" | sort | tr '\n' ' ')
-          echo "files=$files" >> "$GITHUB_OUTPUT"
+          mkdir -p dist/release
+          for category_dir in dist/*/; do
+            category=$(basename "$category_dir")
+            [ "$category" = "release" ] && continue
+            skill_count=$(find "$category_dir" -name "*.skill" | wc -l)
+            [ "$skill_count" -eq 0 ] && continue
+            (cd dist && zip -qr "release/${category}.zip" "$category"/*)
+            echo "  $category: $skill_count skills -> release/${category}.zip"
+          done
+          ls -lh dist/release/
 
       - name: Delete existing latest release
         env:
@@ -68,6 +75,6 @@ jobs:
         run: |
           gh release create latest \
             --title "Skills — última versão" \
-            --notes "Arquivos `.skill` prontos para upload no claude.ai. Veja o [README](https://github.com/${{ github.repository }}/blob/master/README.md) para instruções." \
+            --notes "Arquivos de skills organizados por categoria. Cada ZIP contem os arquivos \`.skill\` da categoria. Veja o [README](https://github.com/${{ github.repository }}/blob/master/README.md) para instruções." \
             --latest \
-            ${{ steps.collect.outputs.files }}
+            dist/release/*.zip
