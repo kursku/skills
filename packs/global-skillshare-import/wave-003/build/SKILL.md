@@ -1,12 +1,7 @@
 ---
 name: build
-description: build
-risk: safe
----
-
----
-name: build
 description: Feature development pipeline - research, plan, track, and implement major features.
+risk: safe
 argument-hint: [subcommand] [name]
 metadata:
   author: Shpigford
