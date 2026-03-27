@@ -12,11 +12,13 @@ Escolha uma skill de copywriting e o Claude escreve como redator senior. Escolha
 
 **1.** Escolha uma skill nas categorias abaixo
 
-**2.** Clique em **[Ver skill]** e copie o conteudo do arquivo `SKILL.md`
+**2.** Clique em **[Ver skill]** → clique no arquivo `SKILL.md` → clique em **"Download raw file"** (icone de seta para baixo)
 
 **3.** Abra [claude.ai](https://claude.ai) → clique em **"Criar Projeto"** → va em **"Configuracoes"** → **"Add content"**
 
-**4.** Cole o conteudo e comece a conversar. O Claude agora e especialista naquele assunto!
+**4.** Faca upload do arquivo baixado e comece a conversar. O Claude agora e especialista naquele assunto!
+
+> **Alternativa rapida:** em vez de baixar, voce pode clicar em "Raw", selecionar tudo (Ctrl+A), copiar (Ctrl+C) e colar direto no projeto.
 
 > **Dica:** voce pode adicionar varias skills no mesmo projeto. Exemplo: junte "meta-ads-campaign" + "ad-creative-brief" + "conversion-tracking" para um projeto completo de trafego pago.
 
