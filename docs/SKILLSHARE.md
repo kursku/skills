@@ -1,40 +1,40 @@
-# Skillshare Usage For This Repository
+# Como usar skills com Skillshare (CLI)
 
-This repository can be used as a direct source for skillshare installs and updates.
+Este repositorio pode ser usado como fonte direta para instalar e atualizar skills via terminal.
 
-## Quick Start
+## Inicio rapido
 
-1. Clone this repository.
-2. In your own project, run:
+1. Clone este repositorio.
+2. No seu projeto, execute:
 
 ```bash
 skillshare init -p --targets "claude,codex,cursor"
-skillshare install github.com/sickn33/antigravity-awesome-skills --track -p --all
+skillshare install github.com/kursku/skills --track -p --all
 skillshare sync -p
 ```
 
-Notes:
-- Use `--targets` to match your actual tools.
-- Keep `--track` so `skillshare update --all -p` can pull updates from this repo.
+Notas:
+- Use `--targets` para configurar suas ferramentas.
+- Mantenha `--track` para que `skillshare update --all -p` puxe atualizacoes deste repo.
 
-## Windows-Friendly Setup
+## Configuracao no Windows
 
 ```powershell
 skillshare init -p --targets "claude,codex,cursor"
-skillshare install github.com/sickn33/antigravity-awesome-skills --track -p --all
+skillshare install github.com/kursku/skills --track -p --all
 skillshare sync -p
 ```
 
-If your environment has symlink restrictions, set copy mode for a target:
+Se seu ambiente tem restricoes de symlinks, use modo copia:
 
 ```bash
 skillshare target claude --mode copy -p
 skillshare sync -p --force
 ```
 
-## Recommended Maintenance
+## Manutencao recomendada
 
-Run this in projects that consume skills from this repo:
+Execute nos projetos que consomem skills deste repo:
 
 ```bash
 skillshare check -p
@@ -42,216 +42,112 @@ skillshare update --all -p
 skillshare sync -p
 ```
 
-## Repository Health Check
+## Verificacao de saude do repositorio
 
-This repo includes a validation script that checks top-level skill folders and optionally emits an index:
+Este repo inclui um script de validacao que verifica as pastas de skills:
 
 ```powershell
 ./scripts/skillshare_repo_check.ps1
 ```
 
-Options:
-- `-WriteIndex`: writes [docs/skillshare-skills.json](docs/skillshare-skills.json)
-- `-Strict`: exit with error code when required fields are missing
+Opcoes:
+- `-WriteIndex`: gera [docs/skillshare-skills.json](docs/skillshare-skills.json)
+- `-Strict`: retorna erro quando campos obrigatorios estao faltando
 
-Examples:
+Exemplos:
 
 ```powershell
 ./scripts/skillshare_repo_check.ps1 -WriteIndex
 ./scripts/skillshare_repo_check.ps1 -WriteIndex -Strict
 ```
 
-## What The Checker Validates
+## O que o verificador valida
 
-- Every discovered skill directory (including grouped folders) contains `SKILL.md`
-- `SKILL.md` includes frontmatter with `name` and `description`
-- `.skillshare-meta.json` is optional, but if present must be valid JSON
+- Cada diretorio de skill contem `SKILL.md`
+- `SKILL.md` inclui frontmatter com `name` e `description`
+- `.skillshare-meta.json` e opcional, mas se presente deve ser JSON valido
 
-## Why This Helps Skillshare
+## Organizacao por dominio
 
-- Reduces install/update surprises caused by malformed skill folders
-- Creates a machine-readable inventory for auditing and automation
-- Standardizes setup for project-mode (`-p`) teams
+Para colecoes grandes, use pastas agrupadas por area:
 
-See the proposed folder migration map in [SKILLSHARE_MIGRATION_PROPOSAL.md](SKILLSHARE_MIGRATION_PROPOSAL.md).
+- `core/` — skills universais (planejamento, debug, review)
+- `frontend/` — UI e web
+- `backend/` — APIs, dados e infra
+- `data-ai/` — LLM, RAG e avaliacao
+- `security/` — seguranca e auditoria
+- `workflow/` — orquestracao e processos
+- `tooling/` — ferramentas de editor/CLI
+- `_experimental/` — skills em teste
 
-## Best Practice: Organize Skills By Purpose
+### Por que essa estrutura funciona
 
-For large collections, use stable folder groups instead of a flat root.
+- **Descoberta facil:** usuarios navegam por dominio primeiro
+- **Atualizacoes seguras:** itens experimentais ficam isolados
+- **Propriedade clara:** equipes podem cuidar de uma pasta cada
+- **Reviews mais rapidos:** prefixos de caminho facilitam diffs e auditorias
 
-Recommended top-level groups:
-- `core/` for universal daily skills (planning, debug, review)
-- `frontend/` for UI and web skills
-- `backend/` for API, data, and infra skills
-- `data-ai/` for LLM, RAG, and evaluation skills
-- `security/` for security and audit skills
-- `workflow/` for orchestrator and process skills
-- `tooling/` for editor/CLI integration helpers
-- `_experimental/` for trial skills not yet approved for broad use
+## Convencoes de nomenclatura
 
-Example layout:
+- Use lowercase kebab-case para pastas e nomes de skills
+- Mantenha a profundidade de caminho rasa (um nivel de agrupamento e suficiente)
+- Prefira nomes semanticos em vez de nomes de fornecedores
+- Use prefixos consistentes para bundles de workflow:
+  - `workflow-frontend-*`
+  - `workflow-backend-*`
+  - `workflow-release-*`
 
-```text
-.skillshare/skills/
-	core/
-	frontend/
-	backend/
-	data-ai/
-	security/
-	workflow/
-	tooling/
-	_experimental/
-```
+## Comandos para instalacao organizada
 
-### Why this structure works
-
-- Easier discovery: users can browse by domain first.
-- Safer updates: experimental items are isolated.
-- Better ownership: teams can own one folder each.
-- Cleaner reviews: path prefixes make diffs and audits faster.
-
-## Naming Conventions
-
-- Use lowercase kebab-case for folders and skill names.
-- Keep path depth shallow (usually one group level is enough).
-- Prefer semantic names over vendor names.
-- Use consistent prefixes for workflow bundles, for example:
-	- `workflow-frontend-*`
-	- `workflow-backend-*`
-	- `workflow-release-*`
-
-## Skillshare Commands For Organized Installs
-
-Install directly into a group folder:
+Instalar em uma pasta especifica:
 
 ```bash
-skillshare install github.com/sickn33/antigravity-awesome-skills -s clarify,audit --into frontend -p
-skillshare install github.com/sickn33/antigravity-awesome-skills -s supabase-postgres-best-practices --into backend -p
+skillshare install github.com/kursku/skills -s clarify,audit --into frontend -p
+skillshare install github.com/kursku/skills -s supabase-postgres-best-practices --into backend -p
 ```
 
-Validate and sync after changes:
+Validar e sincronizar apos mudancas:
 
 ```bash
 ./scripts/skillshare_repo_check.ps1 -WriteIndex
 skillshare sync -p
 ```
 
-## Operating Model For Teams
+## Modelo operacional para equipes
 
-- Keep `core/` small and high-trust.
-- Route new skills to `_experimental/` first.
-- Promote from `_experimental/` to a stable domain folder after review.
-- Run checker + sync in CI for every change.
-- Use `--track` for shared repos so updates remain reproducible.
+- Mantenha `core/` pequeno e confiavel
+- Direcione novas skills para `_experimental/` primeiro
+- Promova de `_experimental/` para uma pasta estavel apos review
+- Execute verificador + sync no CI para cada mudanca
+- Use `--track` para repos compartilhados
 
-## Windows Notes
+## Convencao de packs
 
-- If symlink behavior is inconsistent, use copy mode per target:
+- Packs grandes de terceiros devem ficar em `packs/` em vez de misturar com pastas curadas
+- Exemplo atual: `packs/kit-510-ptbr` (skills em portugues)
+- Instrucoes em portugues: `packs/kit-510-ptbr/README_SKILLSHARE_PT-BR.md`
 
-```bash
-skillshare target claude --mode copy -p
-skillshare sync -p --force
-```
+## Usando no claude.ai (navegador)
 
-- Keep paths short and avoid deep nesting to reduce path-length friction.
+Se voce usa o claude.ai no navegador, o fluxo e diferente e mais simples:
 
-## Pack Convention
+1. Baixe o arquivo `SKILL.md` da skill desejada
+2. No claude.ai, va em **Personalizar** → **Habilidades** → **+** (adicionar)
+3. Faca upload do arquivo `SKILL.md`
+4. A skill fica disponivel em todos os seus chats
 
-- Large third-party or marketplace packs should live under `packs/` instead of mixing with curated first-party groups.
-- Current example: `packs/kit-510-ptbr`.
-- For this pack, Portuguese usage instructions are in `packs/kit-510-ptbr/README_SKILLSHARE_PT-BR.md`.
+Veja o [README principal](../README.md) para o passo a passo completo com imagens.
 
-## Global Source Audit (AppData/Roaming)
+### Seletor rapido para iniciantes
 
-To compare this repo against your global source at `AppData/Roaming/skillshare/skills`, run:
+| Objetivo | Comece com | Primeiro prompt |
+|----------|-----------|-----------------|
+| Conteudo e redes sociais | `conteudo-copy` + `redes-sociais` | "Use as skills de conteudo e redes sociais para criar um calendario de 30 dias." |
+| Anuncios e ROI | `anuncios-trafego` + `analytics-dados` | "Use as skills de anuncios e analytics para planejar uma campanha de geracao de leads." |
+| Consultoria e clientes | `clientes-consultoria` + `operacoes-sistemas` | "Use as skills de consultoria e operacoes para criar um fluxo de onboarding de clientes." |
 
-```powershell
-./scripts/audit_global_skillshare_coverage.ps1
-```
+### Manutencao para usuarios do claude.ai
 
-Generated reports:
-
-- `docs/global-skillshare-coverage-summary.json` (counts and totals)
-- `docs/global-skillshare-in-repo.txt` (skill names already present)
-- `docs/global-skillshare-missing-in-repo.txt` (skill names missing in this repo)
-- `docs/global-skillshare-missing-with-source-paths.csv` (missing skills with exact source paths)
-
-### Controlled Import Waves
-
-To import missing skills in safe batches, use:
-
-```powershell
-./scripts/import_missing_skills_wave.ps1
-./scripts/audit_global_skillshare_coverage.ps1
-```
-
-Default behavior imports the first 100 missing skills into:
-
-- `packs/global-skillshare-import/wave-001`
-
-Wave reports:
-
-- `docs/global-skillshare-import-wave-001-report.json`
-- `docs/global-skillshare-import-wave-001-imported.txt`
-- `docs/global-skillshare-import-wave-001-skipped.txt`
-
-## Using These Skills in Claude.ai (Web)
-
-If you are using Claude.ai in the browser (not CLI), the workflow is different:
-
-- `skillshare` does not sync directly into Claude.ai.
-- Use Claude.ai Projects and upload skill files as project knowledge.
-- Trigger skills by naming them in prompts (for example, "Use skill X").
-
-### Quick Path Selector (Beginner)
-
-Use this table to choose your starting bundle:
-
-| Primary goal | Start with | First prompt |
-|---|---|---|
-| Social and content growth | `01-conteudo-copy` + `09-redes-sociais` (from `packs/kit-510-ptbr`) | "Use social and content skills to build a 30-day content calendar." |
-| Paid ads and ROI optimization | `04-anuncios-trafego` + `15-analytics-dados` (from `packs/kit-510-ptbr`) | "Use ads and analytics skills to draft a lead generation campaign plan." |
-| Consulting and client ops | `10-clientes-consultoria` + `11-operacoes-sistemas` + `00-utilitarios-negocio` (from `packs/kit-510-ptbr`) | "Use consulting and operations skills to create a 30-day client onboarding workflow." |
-
-If unsure, start with the social/content path because it is usually the easiest to validate quickly.
-
-### Practical Claude.ai Workflow
-
-1. Create a Claude.ai Project for your domain (for example, marketing, frontend, operations).
-2. Upload selected `SKILL.md` files and supporting docs from this repo to Project Knowledge.
-3. Add a short project instruction listing your preferred skills and when to apply each.
-4. In chat, explicitly request a skill by name and task.
-
-Suggested project instruction:
-
-```text
-Prioritize the uploaded skills for this project.
-For each request, first identify the best matching skill and state your choice briefly.
-Then execute using the guidance in that SKILL.md.
-If critical context is missing, ask up to 3 concise clarification questions before executing.
-```
-
-Upload checklist:
-
-1. Upload `SKILL.md` for each selected skill.
-2. Upload referenced support files (templates/references/scripts) used by that skill.
-3. Avoid uploading the entire repository unless absolutely necessary.
-
-Example prompt:
-
-```text
-Use the skill "frontend-design" from the uploaded knowledge to create a landing page hero with CTA and responsive layout.
-```
-
-### Recommended For Claude.ai
-
-- Keep uploads curated (10 to 40 high-value skills per project).
-- Split projects by context instead of uploading the entire repository.
-- Include one index file or checklist in project knowledge for discovery.
-- Re-upload when skills are updated in git.
-
-Maintenance routine:
-
-1. Weekly: remove unused uploads and keep only active skills.
-2. Biweekly: add missing support files discovered during usage.
-3. Monthly: refresh uploaded files from latest git changes.
+- Mantenha entre 10 e 40 skills ativas por vez
+- Remova skills que voce nao usa mais
+- Atualize os arquivos quando houver mudancas no repositorio
