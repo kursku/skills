@@ -48,7 +48,7 @@ CATEGORIES = [
     # ── Security ──────────────────────────────────────────────────────────────
     ("security", [
         "security", "owasp", "pentest", "hardening", "threat model",
-        "vulnerability", "sast", "secret scan", "zero trust",
+        "vulnerability", "sast", "secret scan", "zero trust", "sharp edges",
         "csrf", "xss", "firewall", "encryption", "red team",
         "blue team", "active directory", "cyber", "advogado criminal",
         "bug bounty", "malware", "exploit", "injection attack",
@@ -63,7 +63,7 @@ CATEGORIES = [
 
     # ── AI / Agents / ML ──────────────────────────────────────────────────────
     ("ai-agents", [
-        "agent", "orchestrat", "multi agent", "rag", "llm", "langchain",
+        "agent", "orchestrat", "multi agent", "rag", "llm", "langchain", "clarity gate",
         "langgraph", "crewai", "autogen", "memory mcp", "tool builder",
         "agentfolio", "agentmail", "agents md", "ai engineer", "ai wrapper",
         "ai agent", "ai ml", "ai native", "ai studio", "ai product",
@@ -90,7 +90,7 @@ CATEGORIES = [
         "rollback", "branch cleanup", "stale issues", "issue triage",
         "matrix build", "gitops", "helm", "rebase", "github action",
         "github comment", "infra", "migration monitoring", "production pipeline",
-        "build and push", "lint check", "smart test",
+        "build and push", "lint check", "smart test", "feature development pipeline",
         "terraform", "prometheus", "grafana", "observabilit",
         "slo ", "sli ", "incident responder", "incident response",
         "incident runbook", "on call", "service mesh",
