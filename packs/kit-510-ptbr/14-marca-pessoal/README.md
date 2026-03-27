@@ -1,232 +1,228 @@
 # Marca Pessoal
 
-_Personal Brand_
-
-Skills para marca pessoal, autoridade, reputacao e presenca profissional.
+Skills para autoridade, reputacao, networking e presenca profissional.
 
 ---
 
-## Skills (32)
-
 ### authority-content-calendar
-Authority Content Calendar — Skill especializada para authority content calendar
+Estrategias e praticas de authority content calendar para marca pessoal.
 
 [Ver skill](./authority-content-calendar/)
 
 ---
 
 ### awards-strategy
-Awards Strategy — Skill especializada para desenvolver e executar estratégias de premiação para fortalecer a marca pe...
+Estrategias e praticas de awards strategy para marca pessoal.
 
 [Ver skill](./awards-strategy/)
 
 ---
 
 ### book-writing-plan
-Book Writing Plan — Skill especializada para book writing plan
+Estrategias e praticas de book writing plan para marca pessoal.
 
 [Ver skill](./book-writing-plan/)
 
 ---
 
 ### brand-consistency-guide
-Brand Consistency Guide — Skill especializada para brand consistency guide
+Estrategias e praticas de brand consistency guide para marca pessoal.
 
 [Ver skill](./brand-consistency-guide/)
 
 ---
 
 ### brand-storytelling
-Brand Storytelling — Skill especializada para brand storytelling no contexto de marca pessoal
+Estrategias e praticas de brand storytelling para marca pessoal.
 
 [Ver skill](./brand-storytelling/)
 
 ---
 
 ### collaboration-strategy
-Collaboration Strategy — Skill especializada para collaboration strategy
+Estrategias e praticas de collaboration strategy para marca pessoal.
 
 [Ver skill](./collaboration-strategy/)
 
 ---
 
 ### conference-strategy
-Conference Strategy — Skill especializada para conference strategy
+Estrategias e praticas de conference strategy para marca pessoal.
 
 [Ver skill](./conference-strategy/)
 
 ---
 
 ### content-pillar-personal
-Content Pillar Personal — Skill especializada para content pillar personal
+Estrategias e praticas de content pillar personal para marca pessoal.
 
 [Ver skill](./content-pillar-personal/)
 
 ---
 
 ### email-signature-branding
-Email Signature Branding — Skill especializada para email signature branding
+Estrategias e praticas de email signature branding para marca pessoal.
 
 [Ver skill](./email-signature-branding/)
 
 ---
 
 ### first-impression-audit
-First Impression Audit — Skill especializada para first impression audit
+Estrategias e praticas de first impression audit para marca pessoal.
 
 [Ver skill](./first-impression-audit/)
 
 ---
 
 ### guest-posting-strategy
-Guest Posting Strategy — Skill especializada para guest posting strategy
+Estrategias e praticas de guest posting strategy para marca pessoal.
 
 [Ver skill](./guest-posting-strategy/)
 
 ---
 
 ### industry-report-creation
-Industry Report Creation — Skill especializada para industry report creation
+Estrategias e praticas de industry report creation para marca pessoal.
 
 [Ver skill](./industry-report-creation/)
 
 ---
 
 ### linkedin-profile-optimize
-Linkedin Profile Optimize — Skill especializada para linkedin profile optimize
+Estrategias e praticas de linkedin profile optimize para marca pessoal.
 
 [Ver skill](./linkedin-profile-optimize/)
 
 ---
 
 ### media-kit-creation
-Media Kit Creation — Skill especializada para media kit creation
+Estrategias e praticas de media kit creation para marca pessoal.
 
 [Ver skill](./media-kit-creation/)
 
 ---
 
 ### mentoring-program-setup
-Mentoring Program Setup — Skill especializada para criar e gerenciar programas de mentoria para marca pessoal e autor...
+Estrategias e praticas de mentoring program setup para marca pessoal.
 
 [Ver skill](./mentoring-program-setup/)
 
 ---
 
 ### networking-strategy
-Networking Strategy — Skill especializada para criar e escalar uma rede de contatos para autoridade e marca pessoal.
+Estrategias e praticas de networking strategy para marca pessoal.
 
 [Ver skill](./networking-strategy/)
 
 ---
 
 ### online-course-authority
-Online Course Authority — Skill especializada para online course authority
+Estrategias e praticas de online course authority para marca pessoal.
 
 [Ver skill](./online-course-authority/)
 
 ---
 
 ### online-reputation-management
-Online Reputation Management — Skill especializada para gerenciar e construir a reputação digital de profissionais e ...
+Estrategias e praticas de online reputation management para marca pessoal.
 
 [Ver skill](./online-reputation-management/)
 
 ---
 
 ### personal-advisory-board
-Personal Advisory Board — Skill especializada para personal advisory board
+Estrategias e praticas de personal advisory board para marca pessoal.
 
 [Ver skill](./personal-advisory-board/)
 
 ---
 
 ### personal-brand-audit
-Personal Brand Audit — Skill especializada para personal brand audit
+Estrategias e praticas de personal brand audit para marca pessoal.
 
 [Ver skill](./personal-brand-audit/)
 
 ---
 
 ### personal-brand-monetization
-Personal Brand Monetization — Skill especializada para personal brand monetization
+Estrategias e praticas de personal brand monetization para marca pessoal.
 
 [Ver skill](./personal-brand-monetization/)
 
 ---
 
 ### personal-brand-photography
-Personal Brand Photography — Skill especializada para criação e execução de estratégias visuais para marcas pessoais,...
+Estrategias e praticas de personal brand photography para marca pessoal.
 
 [Ver skill](./personal-brand-photography/)
 
 ---
 
 ### personal-brand-strategy
-Personal Brand Strategy — Skill especializada para personal brand strategy
+Estrategias e praticas de personal brand strategy para marca pessoal.
 
 [Ver skill](./personal-brand-strategy/)
 
 ---
 
 ### personal-crm
-Personal Crm — Skill especializada para personal crm
+Estrategias e praticas de personal crm para marca pessoal.
 
 [Ver skill](./personal-crm/)
 
 ---
 
 ### personal-website
-Personal Website — Skill especializada para personal website
+Estrategias e praticas de personal website para marca pessoal.
 
 [Ver skill](./personal-website/)
 
 ---
 
 ### podcast-launch
-Podcast Launch — Skill especializada para podcast launch
+Estrategias e praticas de podcast launch para marca pessoal.
 
 [Ver skill](./podcast-launch/)
 
 ---
 
 ### portfolio-presentation
-Portfolio Presentation — Skill especializada para estruturar, apresentar e otimizar portfólios profissionais para con...
+Estrategias e praticas de portfolio presentation para marca pessoal.
 
 [Ver skill](./portfolio-presentation/)
 
 ---
 
 ### public-relations-personal
-Public Relations Personal — Skill especializada para public relations personal
+Estrategias e praticas de public relations personal para marca pessoal.
 
 [Ver skill](./public-relations-personal/)
 
 ---
 
 ### speaking-proposal
-Speaking Proposal — Skill especializada para criação e otimização de propostas de palestras que elevam a marca pessoa...
+Estrategias e praticas de speaking proposal para marca pessoal.
 
 [Ver skill](./speaking-proposal/)
 
 ---
 
 ### testimonial-showcase
-Testimonial Showcase — Skill especializada para testimonial showcase
+Estrategias e praticas de testimonial showcase para marca pessoal.
 
 [Ver skill](./testimonial-showcase/)
 
 ---
 
 ### thought-leadership
-Thought Leadership — Skill especializada para thought leadership
+Estrategias e praticas de thought leadership para marca pessoal.
 
 [Ver skill](./thought-leadership/)
 
 ---
 
 ### youtube-channel-launch
-Youtube Channel Launch — Skill especializada para youtube channel launch com foco em marca pessoal e autoridade.
+Estrategias e praticas de youtube channel launch para marca pessoal.
 
 [Ver skill](./youtube-channel-launch/)
 

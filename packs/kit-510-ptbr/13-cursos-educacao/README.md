@@ -1,232 +1,228 @@
 # Cursos & Educacao
 
-_Courses & Education_
-
-Skills para cursos, educacao, programas e produtos de aprendizagem.
+Skills para cursos online, programas de ensino e produtos educacionais.
 
 ---
 
-## Skills (32)
-
 ### ai-tutoring-setup
-Ai Tutoring Setup — Skill especializada para ai tutoring setup
+Estrategias e praticas de ai tutoring setup para cursos e educacao.
 
 [Ver skill](./ai-tutoring-setup/)
 
 ---
 
 ### certification-program
-Certification Program — Skill especializada para criar, desenvolver e gerenciar programas de certificação profissiona...
+Estrategias e praticas de certification program para cursos e educacao.
 
 [Ver skill](./certification-program/)
 
 ---
 
 ### challenge-course
-Challenge Course — Skill especializada para design, implementação e avaliação de programas de desafio e aventura, foc...
+Estrategias e praticas de challenge course para cursos e educacao.
 
 [Ver skill](./challenge-course/)
 
 ---
 
 ### coaching-program
-Coaching Program — Skill especializada para coaching program
+Estrategias e praticas de coaching program para cursos e educacao.
 
 [Ver skill](./coaching-program/)
 
 ---
 
 ### community-for-course
-Community For Course — Skill especializada para community for course
+Estrategias e praticas de community for course para cursos e educacao.
 
 [Ver skill](./community-for-course/)
 
 ---
 
 ### corporate-training
-Corporate Training — Skill especializada para corporate training
+Estrategias e praticas de corporate training para cursos e educacao.
 
 [Ver skill](./corporate-training/)
 
 ---
 
 ### course-affiliate-program
-Course Affiliate Program — Skill especializada para course affiliate program
+Estrategias e praticas de course affiliate program para cursos e educacao.
 
 [Ver skill](./course-affiliate-program/)
 
 ---
 
 ### course-completion-strategy
-Course Completion Strategy — Skill especializada para course completion strategy
+Estrategias e praticas de course completion strategy para cursos e educacao.
 
 [Ver skill](./course-completion-strategy/)
 
 ---
 
 ### course-launch-strategy
-Course Launch Strategy — Skill especializada para course launch strategy
+Estrategias e praticas de course launch strategy para cursos e educacao.
 
 [Ver skill](./course-launch-strategy/)
 
 ---
 
 ### course-outline
-Course Outline — Skill especializada para course outline
+Estrategias e praticas de course outline para cursos e educacao.
 
 [Ver skill](./course-outline/)
 
 ---
 
 ### course-platform-comparison
-Course Platform Comparison — Skill especializada para course platform comparison
+Estrategias e praticas de course platform comparison para cursos e educacao.
 
 [Ver skill](./course-platform-comparison/)
 
 ---
 
 ### course-pricing-model
-Course Pricing Model — Skill especializada para course pricing model
+Estrategias e praticas de course pricing model para cursos e educacao.
 
 [Ver skill](./course-pricing-model/)
 
 ---
 
 ### course-sales-page
-Course Sales Page — Skill especializada para course sales page
+Estrategias e praticas de course sales page para cursos e educacao.
 
 [Ver skill](./course-sales-page/)
 
 ---
 
 ### course-update-strategy
-Course Update Strategy — Skill especializada para course update strategy
+Estrategias e praticas de course update strategy para cursos e educacao.
 
 [Ver skill](./course-update-strategy/)
 
 ---
 
 ### drip-content-course
-Drip Content Course — Skill especializada para drip content course
+Estrategias e praticas de drip content course para cursos e educacao.
 
 [Ver skill](./drip-content-course/)
 
 ---
 
 ### ebook-creation
-Ebook Creation — Skill especializada para estruturar, desenvolver e otimizar ebooks para fins educacionais e de marke...
+Estrategias e praticas de ebook creation para cursos e educacao.
 
 [Ver skill](./ebook-creation/)
 
 ---
 
 ### feedback-system-course
-Skill especializada para criar, desenvolver e implementar cursos sobre sistemas de feedback eficazes para diversas ap...
+Criar, desenvolver e implementar cursos sobre sistemas de feedback eficazes para diversas aplicações, focando em design instrucional e engajamento.
 
 [Ver skill](./feedback-system-course/)
 
 ---
 
 ### knowledge-product-ideation
-Knowledge Product Ideation — Skill especializada para knowledge product ideation, focada na criação de cursos digitai...
+Estrategias e praticas de knowledge product ideation para cursos e educacao.
 
 [Ver skill](./knowledge-product-ideation/)
 
 ---
 
 ### lead-magnet-course
-Lead Magnet Course — Skill especializada para lead magnet course
+Estrategias e praticas de lead magnet course para cursos e educacao.
 
 [Ver skill](./lead-magnet-course/)
 
 ---
 
 ### learning-path-design
-Learning Path Design — Skill especializada para learning path design
+Estrategias e praticas de learning path design para cursos e educacao.
 
 [Ver skill](./learning-path-design/)
 
 ---
 
 ### lesson-plan
-Lesson Plan — Skill especializada para lesson plan
+Estrategias e praticas de lesson plan para cursos e educacao.
 
 [Ver skill](./lesson-plan/)
 
 ---
 
 ### live-cohort-course
-Live Cohort Course — Skill especializada para projetar, lançar e gerenciar cursos em formato de coorte ao vivo.
+Estrategias e praticas de live cohort course para cursos e educacao.
 
 [Ver skill](./live-cohort-course/)
 
 ---
 
 ### masterclass-structure
-Masterclass Structure — Skill especializada para masterclass structure
+Estrategias e praticas de masterclass structure para cursos e educacao.
 
 [Ver skill](./masterclass-structure/)
 
 ---
 
 ### membership-site
-Membership Site — Skill especializada para membership site
+Estrategias e praticas de membership site para cursos e educacao.
 
 [Ver skill](./membership-site/)
 
 ---
 
 ### podcast-for-course
-Podcast For Course — Skill especializada para podcast for course
+Estrategias e praticas de podcast for course para cursos e educacao.
 
 [Ver skill](./podcast-for-course/)
 
 ---
 
 ### quiz-assessment
-Quiz Assessment — Skill especializada para quiz assessment
+Estrategias e praticas de quiz assessment para cursos e educacao.
 
 [Ver skill](./quiz-assessment/)
 
 ---
 
 ### student-engagement
-Student Engagement — Skill especializada para student engagement
+Estrategias e praticas de student engagement para cursos e educacao.
 
 [Ver skill](./student-engagement/)
 
 ---
 
 ### student-success-metrics
-Student Success Metrics — Skill especializada para student success metrics
+Estrategias e praticas de student success metrics para cursos e educacao.
 
 [Ver skill](./student-success-metrics/)
 
 ---
 
 ### tutoring-system
-Tutoring System — Skill especializada para projetar, implementar e otimizar sistemas de tutoria online e híbrida, com...
+Estrategias e praticas de tutoring system para cursos e educacao.
 
 [Ver skill](./tutoring-system/)
 
 ---
 
 ### video-course-production
-Video Course Production — Skill especializada para video course production
+Estrategias e praticas de video course production para cursos e educacao.
 
 [Ver skill](./video-course-production/)
 
 ---
 
 ### webinar-training
-Webinar Training — Skill especializada para planejar, executar e otimizar webinars de alta conversão para cursos e tr...
+Estrategias e praticas de webinar training para cursos e educacao.
 
 [Ver skill](./webinar-training/)
 
 ---
 
 ### workshop-design
-Workshop Design — Skill especializada para workshop design
+Estrategias e praticas de workshop design para cursos e educacao.
 
 [Ver skill](./workshop-design/)
 

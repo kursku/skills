@@ -1,232 +1,228 @@
 # Juridico & Compliance
 
-_Legal & Compliance_
-
-Skills para contratos, politicas, conformidade e documentacao juridica.
+Skills para contratos, politicas, LGPD e documentacao juridica.
 
 ---
 
-## Skills (32)
-
 ### accessibility-compliance
-Accessibility Compliance — Skill especializada para auxiliar na conformidade com padrões de acessibilidade digital e ...
+Estrategias e praticas de accessibility compliance para juridico e compliance.
 
 [Ver skill](./accessibility-compliance/)
 
 ---
 
 ### affiliate-agreement
-Affiliate Agreement — Skill especializada para affiliate agreement
+Estrategias e praticas de affiliate agreement para juridico e compliance.
 
 [Ver skill](./affiliate-agreement/)
 
 ---
 
 ### age-verification
-Age Verification — Skill especializada para implementar e auditar sistemas de verificação de idade, garantindo confor...
+Estrategias e praticas de age verification para juridico e compliance.
 
 [Ver skill](./age-verification/)
 
 ---
 
 ### ai-usage-policy
-Ai Usage Policy — Skill especializada para ai usage policy
+Estrategias e praticas de ai usage policy para juridico e compliance.
 
 [Ver skill](./ai-usage-policy/)
 
 ---
 
 ### anti-spam-policy
-Anti Spam Policy — Skill especializada para anti spam policy
+Estrategias e praticas de anti spam policy para juridico e compliance.
 
 [Ver skill](./anti-spam-policy/)
 
 ---
 
 ### api-terms
-Api Terms — Skill especializada para api terms
+Estrategias e praticas de api terms para juridico e compliance.
 
 [Ver skill](./api-terms/)
 
 ---
 
 ### client-service-agreement
-Client Service Agreement — Skill especializada para client service agreement
+Estrategias e praticas de client service agreement para juridico e compliance.
 
 [Ver skill](./client-service-agreement/)
 
 ---
 
 ### content-licensing
-Content Licensing — Skill especializada para content licensing
+Estrategias e praticas de content licensing para juridico e compliance.
 
 [Ver skill](./content-licensing/)
 
 ---
 
 ### contest-rules
-Contest Rules — Skill especializada para elaboração, revisão e conformidade legal de regulamentos de concursos e prom...
+Estrategias e praticas de contest rules para juridico e compliance.
 
 [Ver skill](./contest-rules/)
 
 ---
 
 ### contract-template-freelancer
-Contract Template Freelancer — Skill especializada em elaborar, revisar e gerenciar contratos para freelancers, garan...
+Estrategias e praticas de contract template freelancer para juridico e compliance.
 
 [Ver skill](./contract-template-freelancer/)
 
 ---
 
 ### cookie-policy
-Cookie Policy — Skill especializada para cookie policy
+Estrategias e praticas de cookie policy para juridico e compliance.
 
 [Ver skill](./cookie-policy/)
 
 ---
 
 ### crisis-legal-playbook
-Crisis Legal Playbook — Skill especializada para crisis legal playbook
+Estrategias e praticas de crisis legal playbook para juridico e compliance.
 
 [Ver skill](./crisis-legal-playbook/)
 
 ---
 
 ### data-processing-agreement
-Data Processing Agreement — Skill especializada para data processing agreement
+Estrategias e praticas de data processing agreement para juridico e compliance.
 
 [Ver skill](./data-processing-agreement/)
 
 ---
 
 ### data-retention-policy
-Data Retention Policy — Skill especializada para data retention policy
+Estrategias e praticas de data retention policy para juridico e compliance.
 
 [Ver skill](./data-retention-policy/)
 
 ---
 
 ### disclaimer-templates
-Disclaimer Templates — Skill especializada para criar, personalizar e gerenciar avisos de isenção de responsabilidade...
+Estrategias e praticas de disclaimer templates para juridico e compliance.
 
 [Ver skill](./disclaimer-templates/)
 
 ---
 
 ### dmca-response
-Dmca Response — Skill especializada para dmca response
+Estrategias e praticas de dmca response para juridico e compliance.
 
 [Ver skill](./dmca-response/)
 
 ---
 
 ### email-compliance
-Email Compliance — Skill especializada para email compliance
+Estrategias e praticas de email compliance para juridico e compliance.
 
 [Ver skill](./email-compliance/)
 
 ---
 
 ### employment-contract-digital
-Employment Contract Digital — Skill especializada para employment contract digital
+Estrategias e praticas de employment contract digital para juridico e compliance.
 
 [Ver skill](./employment-contract-digital/)
 
 ---
 
 ### gdpr-basics
-Gdpr Basics — Skill especializada para gdpr basics
+Estrategias e praticas de gdpr basics para juridico e compliance.
 
 [Ver skill](./gdpr-basics/)
 
 ---
 
 ### influencer-contract
-Influencer Contract — Skill especializada para influencer contract
+Estrategias e praticas de influencer contract para juridico e compliance.
 
 [Ver skill](./influencer-contract/)
 
 ---
 
 ### intellectual-property-guide
-Intellectual Property Guide — Skill especializada para intellectual property guide
+Estrategias e praticas de intellectual property guide para juridico e compliance.
 
 [Ver skill](./intellectual-property-guide/)
 
 ---
 
 ### lgpd-compliance-check
-Lgpd Compliance Check — Skill especializada para lgpd compliance check
+Estrategias e praticas de lgpd compliance check para juridico e compliance.
 
 [Ver skill](./lgpd-compliance-check/)
 
 ---
 
 ### nda-template
-Nda Template — Skill especializada para nda template
+Estrategias e praticas de nda template para juridico e compliance.
 
 [Ver skill](./nda-template/)
 
 ---
 
 ### partnership-agreement
-Partnership Agreement — Skill especializada para elaboração, negociação e gestão de acordos de parceria estratégica.
+Estrategias e praticas de partnership agreement para juridico e compliance.
 
 [Ver skill](./partnership-agreement/)
 
 ---
 
 ### privacy-policy-generator
-Privacy Policy Generator — Skill especializada para privacy policy generator
+Estrategias e praticas de privacy policy generator para juridico e compliance.
 
 [Ver skill](./privacy-policy-generator/)
 
 ---
 
 ### refund-policy
-Refund Policy — Skill especializada para refund policy
+Estrategias e praticas de refund policy para juridico e compliance.
 
 [Ver skill](./refund-policy/)
 
 ---
 
 ### saas-agreement
-Saas Agreement — Skill especializada para saas agreement
+Estrategias e praticas de saas agreement para juridico e compliance.
 
 [Ver skill](./saas-agreement/)
 
 ---
 
 ### social-media-policy
-Social Media Policy — Skill especializada para social media policy
+Estrategias e praticas de social media policy para juridico e compliance.
 
 [Ver skill](./social-media-policy/)
 
 ---
 
 ### terms-of-service
-Terms Of Service — Skill especializada para terms of service
+Estrategias e praticas de terms of service para juridico e compliance.
 
 [Ver skill](./terms-of-service/)
 
 ---
 
 ### testimonial-release
-Testimonial Release — Skill especializada para testimonial release
+Estrategias e praticas de testimonial release para juridico e compliance.
 
 [Ver skill](./testimonial-release/)
 
 ---
 
 ### vendor-agreement
-Vendor Agreement — Skill especializada para vendor agreement
+Estrategias e praticas de vendor agreement para juridico e compliance.
 
 [Ver skill](./vendor-agreement/)
 
 ---
 
 ### white-label-agreement
-White Label Agreement — Skill especializada para white label agreement
+Estrategias e praticas de white label agreement para juridico e compliance.
 
 [Ver skill](./white-label-agreement/)
 

@@ -1,232 +1,228 @@
 # Operacoes & Sistemas
 
-_Operations & Systems_
-
-Skills para processos, operacao, documentacao e gestao de sistemas.
+Skills para processos, documentacao, SOPs e gestao operacional.
 
 ---
 
-## Skills (32)
-
 ### automation-audit
-Automation Audit — Skill especializada para auditoria de automação
+Estrategias e praticas de automation audit para operacoes e sistemas.
 
 [Ver skill](./automation-audit/)
 
 ---
 
 ### capacity-planning
-Capacity Planning — Skill especializada para capacity planning
+Estrategias e praticas de capacity planning para operacoes e sistemas.
 
 [Ver skill](./capacity-planning/)
 
 ---
 
 ### change-management
-Change Management — Skill especializada para change management
+Estrategias e praticas de change management para operacoes e sistemas.
 
 [Ver skill](./change-management/)
 
 ---
 
 ### client-project-tracker
-Client Project Tracker — Skill especializada para gerenciar e monitorar projetos de clientes
+Estrategias e praticas de client project tracker para operacoes e sistemas.
 
 [Ver skill](./client-project-tracker/)
 
 ---
 
 ### cross-functional-collab
-Cross Functional Collab — Skill especializada para otimizar e executar colaborações entre equipes e departamentos, fo...
+Estrategias e praticas de cross functional collab para operacoes e sistemas.
 
 [Ver skill](./cross-functional-collab/)
 
 ---
 
 ### data-backup-strategy
-Data Backup Strategy — Skill especializada para data backup strategy
+Estrategias e praticas de data backup strategy para operacoes e sistemas.
 
 [Ver skill](./data-backup-strategy/)
 
 ---
 
 ### delegation-framework
-Delegation Framework — Skill especializada em frameworks de delegação de tarefas e responsabilidades para otimizar a ...
+Estrategias e praticas de delegation framework para operacoes e sistemas.
 
 [Ver skill](./delegation-framework/)
 
 ---
 
 ### disaster-recovery-plan
-Disaster Recovery Plan — Skill especializada para elaboração, implementação e gestão de planos de recuperação de desa...
+Estrategias e praticas de disaster recovery plan para operacoes e sistemas.
 
 [Ver skill](./disaster-recovery-plan/)
 
 ---
 
 ### documentation-standards
-Documentation Standards — Skill especializada para estabelecer, manter e auditar padrões de documentação operacional ...
+Estrategias e praticas de documentation standards para operacoes e sistemas.
 
 [Ver skill](./documentation-standards/)
 
 ---
 
 ### escalation-matrix
-Escalation Matrix — Skill especializada para criação, gestão e otimização de matrizes de escalada para incidentes e p...
+Estrategias e praticas de escalation matrix para operacoes e sistemas.
 
 [Ver skill](./escalation-matrix/)
 
 ---
 
 ### hiring-process
-Hiring Process — Skill especializada para hiring process
+Estrategias e praticas de hiring process para operacoes e sistemas.
 
 [Ver skill](./hiring-process/)
 
 ---
 
 ### incident-response-plan
-Incident Response Plan — Skill especializada para incident response plan
+Estrategias e praticas de incident response plan para operacoes e sistemas.
 
 [Ver skill](./incident-response-plan/)
 
 ---
 
 ### internal-communication
-Internal Communication — Skill especializada para internal communication
+Estrategias e praticas de internal communication para operacoes e sistemas.
 
 [Ver skill](./internal-communication/)
 
 ---
 
 ### inventory-management
-Inventory Management — Skill especializada para inventory management
+Estrategias e praticas de inventory management para operacoes e sistemas.
 
 [Ver skill](./inventory-management/)
 
 ---
 
 ### knowledge-base-setup
-Knowledge Base Setup — Skill especializada para knowledge base setup
+Estrategias e praticas de knowledge base setup para operacoes e sistemas.
 
 [Ver skill](./knowledge-base-setup/)
 
 ---
 
 ### meeting-cadence
-Meeting Cadence — Skill especializada para meeting cadence
+Estrategias e praticas de meeting cadence para operacoes e sistemas.
 
 [Ver skill](./meeting-cadence/)
 
 ---
 
 ### okr-setting
-Okr Setting — Skill especializada para okr setting
+Estrategias e praticas de okr setting para operacoes e sistemas.
 
 [Ver skill](./okr-setting/)
 
 ---
 
 ### onboarding-new-employee
-Onboarding New Employee — Skill especializada para onboarding new employee
+Estrategias e praticas de onboarding new employee para operacoes e sistemas.
 
 [Ver skill](./onboarding-new-employee/)
 
 ---
 
 ### performance-review
-Skill especializada para Performance Review, capacitando o Claude a gerenciar ciclos de avaliação, feedback e desenvo...
+Performance Review, capacitando o Claude a gerenciar ciclos de avaliação, feedback e desenvolvimento de equipes.
 
 [Ver skill](./performance-review/)
 
 ---
 
 ### process-documentation
-Process Documentation — Skill especializada para process documentation
+Estrategias e praticas de process documentation para operacoes e sistemas.
 
 [Ver skill](./process-documentation/)
 
 ---
 
 ### project-management-setup
-Project Management Setup — Skill especializada para project management setup
+Estrategias e praticas de project management setup para operacoes e sistemas.
 
 [Ver skill](./project-management-setup/)
 
 ---
 
 ### quality-assurance-checklist
-Quality Assurance Checklist — Skill especializada para quality assurance checklist
+Estrategias e praticas de quality assurance checklist para operacoes e sistemas.
 
 [Ver skill](./quality-assurance-checklist/)
 
 ---
 
 ### remote-team-management
-Remote Team Management — Skill especializada para remote team management
+Estrategias e praticas de remote team management para operacoes e sistemas.
 
 [Ver skill](./remote-team-management/)
 
 ---
 
 ### retrospective-facilitator
-Retrospective Facilitator — Skill especializada para facilitar retrospectivas de equipes ágeis e de projetos, promove...
+Estrategias e praticas de retrospective facilitator para operacoes e sistemas.
 
 [Ver skill](./retrospective-facilitator/)
 
 ---
 
 ### sop-creator
-Sop Creator — Skill especializada para sop creator
+Estrategias e praticas de sop creator para operacoes e sistemas.
 
 [Ver skill](./sop-creator/)
 
 ---
 
 ### sprint-planning
-Sprint Planning — Skill especializada para planejamento de sprints ágeis
+Estrategias e praticas de sprint planning para operacoes e sistemas.
 
 [Ver skill](./sprint-planning/)
 
 ---
 
 ### standard-templates-library
-Standard Templates Library — Skill especializada para standard templates library
+Estrategias e praticas de standard templates library para operacoes e sistemas.
 
 [Ver skill](./standard-templates-library/)
 
 ---
 
 ### system-integration-plan
-System Integration Plan — Skill especializada para system integration plan
+Estrategias e praticas de system integration plan para operacoes e sistemas.
 
 [Ver skill](./system-integration-plan/)
 
 ---
 
 ### team-workflow-design
-Team Workflow Design — Skill especializada para team workflow design
+Estrategias e praticas de team workflow design para operacoes e sistemas.
 
 [Ver skill](./team-workflow-design/)
 
 ---
 
 ### time-tracking-system
-Time Tracking System — Skill especializada para time tracking system
+Estrategias e praticas de time tracking system para operacoes e sistemas.
 
 [Ver skill](./time-tracking-system/)
 
 ---
 
 ### tool-stack-audit
-Tool Stack Audit — Skill especializada para auditar e otimizar o conjunto de ferramentas tecnológicas de uma organiza...
+Estrategias e praticas de tool stack audit para operacoes e sistemas.
 
 [Ver skill](./tool-stack-audit/)
 
 ---
 
 ### vendor-management
-Vendor Management — Skill especializada para vendor management
+Estrategias e praticas de vendor management para operacoes e sistemas.
 
 [Ver skill](./vendor-management/)
 

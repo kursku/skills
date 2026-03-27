@@ -1,232 +1,228 @@
 # Financeiro & Precos
 
-_Finance & Pricing_
-
-Skills para precificacao, financas, projecoes e saude economica.
+Skills para precificacao, projecoes, fluxo de caixa e saude financeira.
 
 ---
 
-## Skills (32)
-
 ### affiliate-commission-calc
-Affiliate Commission Calc — Skill especializada para affiliate commission calc
+Estrategias e praticas de affiliate commission calc para financas e precificacao.
 
 [Ver skill](./affiliate-commission-calc/)
 
 ---
 
 ### agency-pricing-guide
-Agency Pricing Guide — Skill especializada para agency pricing guide
+Estrategias e praticas de agency pricing guide para financas e precificacao.
 
 [Ver skill](./agency-pricing-guide/)
 
 ---
 
 ### annual-budget
-Annual Budget — Skill especializada para a criação, gestão e análise de orçamentos anuais, focada em projeções financ...
+Estrategias e praticas de annual budget para financas e precificacao.
 
 [Ver skill](./annual-budget/)
 
 ---
 
 ### breakeven-analysis
-Breakeven Analysis — Skill especializada para calcular e analisar o ponto de equilíbrio financeiro e operacional de n...
+Estrategias e praticas de breakeven analysis para financas e precificacao.
 
 [Ver skill](./breakeven-analysis/)
 
 ---
 
 ### cash-flow-management
-Cash Flow Management — Skill especializada para cash flow management
+Estrategias e praticas de cash flow management para financas e precificacao.
 
 [Ver skill](./cash-flow-management/)
 
 ---
 
 ### client-profitability
-Client Profitability — Skill especializada para client profitability
+Estrategias e praticas de client profitability para financas e precificacao.
 
 [Ver skill](./client-profitability/)
 
 ---
 
 ### commission-structure
-Commission Structure — Skill especializada para criação, otimização e gestão de estruturas de comissão de vendas.
+Estrategias e praticas de commission structure para financas e precificacao.
 
 [Ver skill](./commission-structure/)
 
 ---
 
 ### cost-reduction-audit
-Cost Reduction Audit — Skill especializada para cost reduction audit
+Estrategias e praticas de cost reduction audit para financas e precificacao.
 
 [Ver skill](./cost-reduction-audit/)
 
 ---
 
 ### course-pricing
-Course Pricing — Skill especializada para course pricing
+Estrategias e praticas de course pricing para financas e precificacao.
 
 [Ver skill](./course-pricing/)
 
 ---
 
 ### discount-strategy
-Discount Strategy — Skill especializada para desenvolver, implementar e otimizar estratégias de desconto para maximiz...
+Estrategias e praticas de discount strategy para financas e precificacao.
 
 [Ver skill](./discount-strategy/)
 
 ---
 
 ### dynamic-pricing
-Dynamic Pricing — Skill especializada para dynamic pricing
+Estrategias e praticas de dynamic pricing para financas e precificacao.
 
 [Ver skill](./dynamic-pricing/)
 
 ---
 
 ### expense-tracker-template
-Expense Tracker Template — Skill especializada para expense tracker template
+Estrategias e praticas de expense tracker template para financas e precificacao.
 
 [Ver skill](./expense-tracker-template/)
 
 ---
 
 ### financial-dashboard
-Financial Dashboard — Skill especializada para financial dashboard
+Estrategias e praticas de financial dashboard para financas e precificacao.
 
 [Ver skill](./financial-dashboard/)
 
 ---
 
 ### financial-health-check
-Financial Health Check — Skill especializada para financial health check
+Estrategias e praticas de financial health check para financas e precificacao.
 
 [Ver skill](./financial-health-check/)
 
 ---
 
 ### financial-projection
-Financial Projection — Skill especializada para financial projection
+Estrategias e praticas de financial projection para financas e precificacao.
 
 [Ver skill](./financial-projection/)
 
 ---
 
 ### freelancer-rate-calc
-Freelancer Rate Calc — Skill especializada para calcular e otimizar taxas de freelancers, cobrindo custos, lucro dese...
+Estrategias e praticas de freelancer rate calc para financas e precificacao.
 
 [Ver skill](./freelancer-rate-calc/)
 
 ---
 
 ### fundraising-deck
-Fundraising Deck — Skill especializada para criação e otimização de apresentações de captação de recursos para startu...
+Estrategias e praticas de fundraising deck para financas e precificacao.
 
 [Ver skill](./fundraising-deck/)
 
 ---
 
 ### invoice-template
-Invoice Template — Skill especializada para invoice template
+Estrategias e praticas de invoice template para financas e precificacao.
 
 [Ver skill](./invoice-template/)
 
 ---
 
 ### payment-gateway-compare
-Payment Gateway Compare — Skill especializada para payment gateway compare
+Estrategias e praticas de payment gateway compare para financas e precificacao.
 
 [Ver skill](./payment-gateway-compare/)
 
 ---
 
 ### payment-terms
-Payment Terms — Skill especializada para payment terms
+Estrategias e praticas de payment terms para financas e precificacao.
 
 [Ver skill](./payment-terms/)
 
 ---
 
 ### pricing-calculator
-Pricing Calculator — Skill especializada para pricing calculator
+Estrategias e praticas de pricing calculator para financas e precificacao.
 
 [Ver skill](./pricing-calculator/)
 
 ---
 
 ### pricing-page-optimization
-Pricing Page Optimization — Skill especializada para pricing page optimization
+Estrategias e praticas de pricing page optimization para financas e precificacao.
 
 [Ver skill](./pricing-page-optimization/)
 
 ---
 
 ### profit-margin-analyzer
-Profit Margin Analyzer — Skill especializada para análise e otimização de margens de lucro, precificação estratégica ...
+Estrategias e praticas de profit margin analyzer para financas e precificacao.
 
 [Ver skill](./profit-margin-analyzer/)
 
 ---
 
 ### recurring-revenue-model
-Recurring Revenue Model — Skill especializada para recurring revenue model
+Estrategias e praticas de recurring revenue model para financas e precificacao.
 
 [Ver skill](./recurring-revenue-model/)
 
 ---
 
 ### revenue-forecast
-Revenue Forecast — Skill especializada para revenue forecast
+Estrategias e praticas de revenue forecast para financas e precificacao.
 
 [Ver skill](./revenue-forecast/)
 
 ---
 
 ### roi-calculator
-Roi Calculator — Skill especializada para roi calculator
+Estrategias e praticas de roi calculator para financas e precificacao.
 
 [Ver skill](./roi-calculator/)
 
 ---
 
 ### saas-metrics
-Saas Metrics — Skill especializada para saas metrics
+Estrategias e praticas de saas metrics para financas e precificacao.
 
 [Ver skill](./saas-metrics/)
 
 ---
 
 ### service-package-pricing
-Service Package Pricing — Skill especializada para service package pricing
+Estrategias e praticas de service package pricing para financas e precificacao.
 
 [Ver skill](./service-package-pricing/)
 
 ---
 
 ### subscription-pricing
-Subscription Pricing — Skill especializada para subscription pricing
+Estrategias e praticas de subscription pricing para financas e precificacao.
 
 [Ver skill](./subscription-pricing/)
 
 ---
 
 ### tax-planning-digital
-Tax Planning Digital — Skill especializada para tax planning digital
+Estrategias e praticas de tax planning digital para financas e precificacao.
 
 [Ver skill](./tax-planning-digital/)
 
 ---
 
 ### unit-economics
-Unit Economics — Skill especializada para unit economics
+Estrategias e praticas de unit economics para financas e precificacao.
 
 [Ver skill](./unit-economics/)
 
 ---
 
 ### value-based-pricing
-Value Based Pricing — Skill especializada para value based pricing
+Estrategias e praticas de value based pricing para financas e precificacao.
 
 [Ver skill](./value-based-pricing/)
 

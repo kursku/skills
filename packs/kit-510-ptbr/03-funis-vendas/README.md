@@ -1,232 +1,228 @@
 # Funis de Vendas
 
-_Sales Funnels_
-
-Skills para funis, ofertas, conversao e estrategia comercial.
+Skills para funis, ofertas, checkout, upsell e estrategia comercial.
 
 ---
 
-## Skills (32)
-
 ### affiliate-program-setup
-Affiliate Program Setup — Skill especializada para affiliate program setup
+Estrategias e praticas de affiliate program setup para funis de vendas e conversao.
 
 [Ver skill](./affiliate-program-setup/)
 
 ---
 
 ### application-funnel
-Application Funnel — Skill especializada para application funnel
+Estrategias e praticas de application funnel para funis de vendas e conversao.
 
 [Ver skill](./application-funnel/)
 
 ---
 
 ### book-funnel
-Book Funnel — Skill especializada para book funnel
+Estrategias e praticas de book funnel para funis de vendas e conversao.
 
 [Ver skill](./book-funnel/)
 
 ---
 
 ### bundle-strategy
-Bundle Strategy — Skill especializada para bundle strategy
+Estrategias e praticas de bundle strategy para funis de vendas e conversao.
 
 [Ver skill](./bundle-strategy/)
 
 ---
 
 ### challenge-funnel
-Challenge Funnel — Skill especializada para criar, otimizar e executar estratégias de Challenge Funnel de alta conver...
+Estrategias e praticas de challenge funnel para funis de vendas e conversao.
 
 [Ver skill](./challenge-funnel/)
 
 ---
 
 ### checkout-optimization
-Checkout Optimization — Skill especializada para checkout optimization
+Estrategias e praticas de checkout optimization para funis de vendas e conversao.
 
 [Ver skill](./checkout-optimization/)
 
 ---
 
 ### customer-journey-map
-Customer Journey Map — Skill especializada para customer journey map
+Estrategias e praticas de customer journey map para funis de vendas e conversao.
 
 [Ver skill](./customer-journey-map/)
 
 ---
 
 ### downsell-strategy
-Downsell Strategy — Skill especializada para downsell strategy
+Estrategias e praticas de downsell strategy para funis de vendas e conversao.
 
 [Ver skill](./downsell-strategy/)
 
 ---
 
 ### flash-sale-playbook
-Flash Sale Playbook — Skill especializada para flash sale playbook
+Estrategias e praticas de flash sale playbook para funis de vendas e conversao.
 
 [Ver skill](./flash-sale-playbook/)
 
 ---
 
 ### follow-up-system
-Follow Up System — Skill especializada para criar, otimizar e automatizar sistemas de follow up que convertem leads e...
+Estrategias e praticas de follow up system para funis de vendas e conversao.
 
 [Ver skill](./follow-up-system/)
 
 ---
 
 ### free-trial-funnel
-Free Trial Funnel — Skill especializada para free trial funnel
+Estrategias e praticas de free trial funnel para funis de vendas e conversao.
 
 [Ver skill](./free-trial-funnel/)
 
 ---
 
 ### guarantee-frameworks
-Guarantee Frameworks — Skill especializada para criar e implementar garantias irresistíveis em funis de vendas, otimi...
+Estrategias e praticas de guarantee frameworks para funis de vendas e conversao.
 
 [Ver skill](./guarantee-frameworks/)
 
 ---
 
 ### high-ticket-funnel
-High Ticket Funnel — Skill especializada para high ticket funnel
+Estrategias e praticas de high ticket funnel para funis de vendas e conversao.
 
 [Ver skill](./high-ticket-funnel/)
 
 ---
 
 ### lead-magnet-funnel
-Lead Magnet Funnel — Skill especializada para lead magnet funnel
+Estrategias e praticas de lead magnet funnel para funis de vendas e conversao.
 
 [Ver skill](./lead-magnet-funnel/)
 
 ---
 
 ### lifetime-deal
-Lifetime Deal — Skill especializada para lifetime deal
+Estrategias e praticas de lifetime deal para funis de vendas e conversao.
 
 [Ver skill](./lifetime-deal/)
 
 ---
 
 ### membership-funnel
-Membership Funnel — Skill especializada para membership funnel
+Estrategias e praticas de membership funnel para funis de vendas e conversao.
 
 [Ver skill](./membership-funnel/)
 
 ---
 
 ### objection-handler
-Objection Handler — Skill especializada para identificar, categorizar e superar objeções de vendas em funis, otimizan...
+Estrategias e praticas de objection handler para funis de vendas e conversao.
 
 [Ver skill](./objection-handler/)
 
 ---
 
 ### order-bump-ideas
-Order Bump Ideas — Skill especializada para order bump ideas
+Estrategias e praticas de order bump ideas para funis de vendas e conversao.
 
 [Ver skill](./order-bump-ideas/)
 
 ---
 
 ### pricing-strategy
-Pricing Strategy — Skill especializada para pricing strategy
+Estrategias e praticas de pricing strategy para funis de vendas e conversao.
 
 [Ver skill](./pricing-strategy/)
 
 ---
 
 ### product-launch-formula
-Product Launch Formula — Skill especializada para product launch formula
+Estrategias e praticas de product launch formula para funis de vendas e conversao.
 
 [Ver skill](./product-launch-formula/)
 
 ---
 
 ### proposal-template
-Proposal Template — Skill especializada para proposal template
+Estrategias e praticas de proposal template para funis de vendas e conversao.
 
 [Ver skill](./proposal-template/)
 
 ---
 
 ### quiz-funnel
-Quiz Funnel — Skill especializada para quiz funnel
+Estrategias e praticas de quiz funnel para funis de vendas e conversao.
 
 [Ver skill](./quiz-funnel/)
 
 ---
 
 ### referral-system
-Referral System — Skill especializada para referral system
+Estrategias e praticas de referral system para funis de vendas e conversao.
 
 [Ver skill](./referral-system/)
 
 ---
 
 ### renewal-upsell
-Renewal Upsell — Skill especializada para renewal upsell
+Estrategias e praticas de renewal upsell para funis de vendas e conversao.
 
 [Ver skill](./renewal-upsell/)
 
 ---
 
 ### saas-pricing-page
-Saas Pricing Page — Skill especializada para saas pricing page
+Estrategias e praticas de saas pricing page para funis de vendas e conversao.
 
 [Ver skill](./saas-pricing-page/)
 
 ---
 
 ### sales-call-script
-Sales Call Script — Skill especializada para sales call script
+Estrategias e praticas de sales call script para funis de vendas e conversao.
 
 [Ver skill](./sales-call-script/)
 
 ---
 
 ### scarcity-urgency
-Scarcity Urgency — Skill especializada para scarcity urgency
+Estrategias e praticas de scarcity urgency para funis de vendas e conversao.
 
 [Ver skill](./scarcity-urgency/)
 
 ---
 
 ### summit-funnel
-Summit Funnel — Skill especializada para summit funnel
+Estrategias e praticas de summit funnel para funis de vendas e conversao.
 
 [Ver skill](./summit-funnel/)
 
 ---
 
 ### tripwire-funnel
-Tripwire Funnel — Skill especializada para tripwire funnel
+Estrategias e praticas de tripwire funnel para funis de vendas e conversao.
 
 [Ver skill](./tripwire-funnel/)
 
 ---
 
 ### value-ladder
-Value Ladder — Skill especializada para value ladder
+Estrategias e praticas de value ladder para funis de vendas e conversao.
 
 [Ver skill](./value-ladder/)
 
 ---
 
 ### vsl-structure
-Vsl Structure — Skill especializada para vsl structure
+Estrategias e praticas de vsl structure para funis de vendas e conversao.
 
 [Ver skill](./vsl-structure/)
 
 ---
 
 ### webinar-funnel
-Webinar Funnel — Skill especializada para webinar funnel
+Estrategias e praticas de webinar funnel para funis de vendas e conversao.
 
 [Ver skill](./webinar-funnel/)
 

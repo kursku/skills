@@ -1,232 +1,228 @@
 # Analytics & Dados
 
-_Analytics & Data_
-
-Skills para analytics, metricas, dashboards e analise de dados.
+Skills para metricas, dashboards, testes A/B e analise de dados.
 
 ---
 
-## Skills (32)
-
 ### ab-test-analysis
-Ab Test Analysis — Skill especializada para ab test analysis
+Estrategias e praticas de ab test analysis para analytics e dados.
 
 [Ver skill](./ab-test-analysis/)
 
 ---
 
 ### attribution-model
-Attribution Model — Skill especializada para análise, comparação e implementação de modelos de atribuição no Google A...
+Estrategias e praticas de attribution model para analytics e dados.
 
 [Ver skill](./attribution-model/)
 
 ---
 
 ### campaign-analytics
-Campaign Analytics — Skill especializada para campaign analytics
+Estrategias e praticas de campaign analytics para analytics e dados.
 
 [Ver skill](./campaign-analytics/)
 
 ---
 
 ### churn-analysis
-Churn Analysis — Skill especializada para churn analysis
+Estrategias e praticas de churn analysis para analytics e dados.
 
 [Ver skill](./churn-analysis/)
 
 ---
 
 ### cohort-analysis
-Cohort Analysis — Skill especializada para cohort analysis
+Estrategias e praticas de cohort analysis para analytics e dados.
 
 [Ver skill](./cohort-analysis/)
 
 ---
 
 ### competitive-analysis
-Competitive Analysis — Skill especializada para competitive analysis
+Estrategias e praticas de competitive analysis para analytics e dados.
 
 [Ver skill](./competitive-analysis/)
 
 ---
 
 ### content-analytics
-Content Analytics — Skill especializada para content analytics
+Estrategias e praticas de content analytics para analytics e dados.
 
 [Ver skill](./content-analytics/)
 
 ---
 
 ### conversion-tracking-setup
-Conversion Tracking Setup — Skill especializada para configurar e otimizar o rastreamento de conversões no Google Ana...
+Estrategias e praticas de conversion tracking setup para analytics e dados.
 
 [Ver skill](./conversion-tracking-setup/)
 
 ---
 
 ### customer-journey-analytics
-Customer Journey Analytics — Skill especializada para customer journey analytics
+Estrategias e praticas de customer journey analytics para analytics e dados.
 
 [Ver skill](./customer-journey-analytics/)
 
 ---
 
 ### customer-segmentation
-Customer Segmentation — Skill especializada para customer segmentation
+Estrategias e praticas de customer segmentation para analytics e dados.
 
 [Ver skill](./customer-segmentation/)
 
 ---
 
 ### dashboard-design
-Dashboard Design — Skill especializada para dashboard design
+Estrategias e praticas de dashboard design para analytics e dados.
 
 [Ver skill](./dashboard-design/)
 
 ---
 
 ### data-quality-management
-Data Quality Management — Skill especializada para garantir a integridade, consistência e confiabilidade dos dados co...
+Estrategias e praticas de data quality management para analytics e dados.
 
 [Ver skill](./data-quality-management/)
 
 ---
 
 ### data-storytelling
-Data Storytelling — Skill especializada para data storytelling
+Estrategias e praticas de data storytelling para analytics e dados.
 
 [Ver skill](./data-storytelling/)
 
 ---
 
 ### data-visualization
-Data Visualization — Skill especializada para criar visualizações de dados, dashboards e relatórios impactantes a par...
+Estrategias e praticas de data visualization para analytics e dados.
 
 [Ver skill](./data-visualization/)
 
 ---
 
 ### ecommerce-analytics
-Ecommerce Analytics — Skill especializada para ecommerce analytics
+Estrategias e praticas de ecommerce analytics para analytics e dados.
 
 [Ver skill](./ecommerce-analytics/)
 
 ---
 
 ### email-analytics
-Email Analytics — Skill especializada para configurar, analisar e otimizar campanhas de email marketing usando dados ...
+Estrategias e praticas de email analytics para analytics e dados.
 
 [Ver skill](./email-analytics/)
 
 ---
 
 ### funnel-analysis
-Funnel Analysis — Skill especializada para identificar gargalos, otimizar fluxos de conversão e maximizar a performan...
+Estrategias e praticas de funnel analysis para analytics e dados.
 
 [Ver skill](./funnel-analysis/)
 
 ---
 
 ### ga4-setup
-Ga4 Setup — Skill especializada para ga4 setup
+Estrategias e praticas de ga4 setup para analytics e dados.
 
 [Ver skill](./ga4-setup/)
 
 ---
 
 ### gtm-implementation
-Gtm Implementation — Skill especializada para gtm implementation
+Estrategias e praticas de gtm implementation para analytics e dados.
 
 [Ver skill](./gtm-implementation/)
 
 ---
 
 ### heatmap-analysis
-Heatmap Analysis — Skill especializada para análise de mapas de calor, otimizando a experiência do usuário e conversõ...
+Estrategias e praticas de heatmap analysis para analytics e dados.
 
 [Ver skill](./heatmap-analysis/)
 
 ---
 
 ### kpi-framework
-Kpi Framework — Skill especializada para kpi framework
+Estrategias e praticas de kpi framework para analytics e dados.
 
 [Ver skill](./kpi-framework/)
 
 ---
 
 ### ltv-calculation
-Ltv Calculation — Skill especializada para ltv calculation
+Estrategias e praticas de ltv calculation para analytics e dados.
 
 [Ver skill](./ltv-calculation/)
 
 ---
 
 ### market-research-analysis
-Market Research Analysis — Skill especializada para market research analysis
+Estrategias e praticas de market research analysis para analytics e dados.
 
 [Ver skill](./market-research-analysis/)
 
 ---
 
 ### predictive-analytics
-Predictive Analytics — Skill especializada para predictive analytics
+Estrategias e praticas de predictive analytics para analytics e dados.
 
 [Ver skill](./predictive-analytics/)
 
 ---
 
 ### realtime-monitoring
-Realtime Monitoring — Skill especializada para realtime monitoring
+Estrategias e praticas de realtime monitoring para analytics e dados.
 
 [Ver skill](./realtime-monitoring/)
 
 ---
 
 ### reporting-automation
-Reporting Automation — Skill especializada para automação de relatórios de marketing e análise de dados.
+Estrategias e praticas de reporting automation para analytics e dados.
 
 [Ver skill](./reporting-automation/)
 
 ---
 
 ### roi-analysis
-Roi Analysis — Skill especializada para calcular e otimizar o Retorno sobre Investimento (ROI) de campanhas e ações d...
+Estrategias e praticas de roi analysis para analytics e dados.
 
 [Ver skill](./roi-analysis/)
 
 ---
 
 ### seo-analytics
-Seo Analytics — Skill especializada para seo analytics
+Estrategias e praticas de seo analytics para analytics e dados.
 
 [Ver skill](./seo-analytics/)
 
 ---
 
 ### social-media-analytics
-Social Media Analytics — Skill especializada para social media analytics
+Estrategias e praticas de social media analytics para analytics e dados.
 
 [Ver skill](./social-media-analytics/)
 
 ---
 
 ### survey-analysis
-Survey Analysis — Skill especializada para survey analysis
+Estrategias e praticas de survey analysis para analytics e dados.
 
 [Ver skill](./survey-analysis/)
 
 ---
 
 ### user-behavior-analysis
-User Behavior Analysis — Skill especializada para user behavior analysis
+Estrategias e praticas de user behavior analysis para analytics e dados.
 
 [Ver skill](./user-behavior-analysis/)
 
 ---
 
 ### web-analytics-audit
-Web Analytics Audit — Skill especializada para web analytics audit
+Estrategias e praticas de web analytics audit para analytics e dados.
 
 [Ver skill](./web-analytics-audit/)
 
