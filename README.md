@@ -114,12 +114,18 @@ Foram feitas para o Claude, mas o conteudo do SKILL.md pode ser adaptado como in
 
 ---
 
+## Crie sua propria skill
+
+Quer ensinar o Claude algo novo? Veja o **[guia completo de como criar uma skill](./docs/COMO_CRIAR_SKILL.md)** — com exemplos reais, dicas de escrita e template pronto para usar.
+
+---
+
 ## Contribuindo
 
-Quer criar uma skill ou melhorar uma existente?
-
 1. Faca um fork do repositorio
-2. Crie sua skill seguindo o formato `SKILL.md` (veja qualquer skill existente como exemplo)
+2. Crie sua skill seguindo o [guia](./docs/COMO_CRIAR_SKILL.md)
 3. Abra um Pull Request
 
-Veja o [guia de qualidade](./docs/QUALITY_BAR.md) para boas praticas. Duvidas? Abra uma [issue](https://github.com/kursku/skills/issues).
+Veja tambem: [padrao de qualidade](./docs/QUALITY_BAR.md) | [anatomia de uma skill](./docs/SKILL_ANATOMY.md) | [template](./docs/SKILL_TEMPLATE.md)
+
+Duvidas? Abra uma [issue](https://github.com/kursku/skills/issues).
