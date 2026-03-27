@@ -1,95 +1,79 @@
-# Skills para claude.ai
+# Skills para Claude — Catalogo com +2.300 skills
 
-Skills são módulos de instrução especializada que ensinam o Claude a lidar com tarefas específicas. Pense nelas como conhecimento de especialista que você pode carregar no seu Projeto do claude.ai.
+Skills sao instrucoes especializadas que ensinam o Claude a executar tarefas especificas. Funciona como contratar um especialista: voce escolhe a skill, carrega no seu projeto e o Claude passa a dominar aquele assunto.
 
----
-
-## Como instalar no claude.ai
-
-**1. Escolha uma skill nas categorias abaixo**
-
-**2. Abra a pasta da skill e copie o conteudo do arquivo `SKILL.md`**
-
-**3. Acesse [claude.ai](https://claude.ai) → Projeto → Configuracoes → Add content**
-
-**4. Cole o conteudo como instrucao do projeto. Pronto!**
-
-> **Alternativa (Claude Code / CLI):** Se voce usa o Claude Code, veja [docs/SKILLSHARE.md](docs/SKILLSHARE.md) para instalar via `skillshare install`.
+**+2.300 skills** organizadas em **30 categorias**, incluindo marketing, vendas, SEO, financeiro, juridico, IA, desenvolvimento e muito mais.
 
 ---
 
-## claude.ai vs Claude Code
+## Como usar
 
-| | claude.ai (web) | Claude Code / CLI |
-|---|---|---|
-| **Como instalar** | Copie o `SKILL.md` como instrucao de Projeto | `skillshare install <skill>` via terminal |
-| **Formato** | Texto colado ou arquivo de instrucao | Pasta com `SKILL.md` diretamente |
-| **Escopo** | Por projeto | Por projeto ou global, conforme config |
-| **Atualizacao** | Re-colar manualmente | `skillshare update --all` |
+**1.** Navegue pelas categorias abaixo e escolha uma skill
 
-Se voce usa o **claude.ai no navegador**, siga o passo a passo acima.
-Se voce usa o **Claude Code**, veja [docs/SKILLSHARE.md](docs/SKILLSHARE.md) para instalar via `skillshare`.
+**2.** Abra a pasta da skill e copie o conteudo do arquivo `SKILL.md`
 
----
+**3.** No [claude.ai](https://claude.ai), crie ou abra um Projeto → Configuracoes → Add content
 
-## Categorias
+**4.** Cole o conteudo. Pronto — o Claude agora e especialista naquele assunto!
 
-O catálogo publicado na raiz está organizado em dois blocos:
-
-- **Categorias PT-BR (principal):** baseadas em `packs/kit-510-ptbr`, que continua sendo a fonte de verdade para o catálogo em português.
-- **Categorias importadas:** publicadas a partir de `packs/global-skillshare-import`, mantendo agrupamentos semânticos estáveis para skills vindas do ecossistema global.
-
-As descrições ficam com português como padrão, com apoio em inglês em itálico para facilitar o uso por novos usuários de CLI.
+> **Usa Claude Code (terminal)?** Veja [docs/SKILLSHARE.md](docs/SKILLSHARE.md) para instalar via `skillshare install`.
 
 ---
 
-<!-- BEGIN PTBR CATEGORIES -->
-## Categorias PT-BR (Principal) / Portuguese Categories (Primary)
+## Categorias em Portugues (522 skills)
 
-As skills de `packs/kit-510-ptbr` continuam sendo a fonte de verdade. A publicação na raiz usa categorias em português como padrão, com apoio em inglês em itálico para facilitar o uso por novos usuários de CLI.
+Skills criadas em portugues, focadas em marketing digital, negocios e estrategia.
 
-- [Utilitarios de Negocio / Business Utilities](./utilitarios-negocio/) — Skills utilitarias de negocio para atendimento, pesquisa, perfil e suporte geral. _(Business utility skills for support, research, profile and general assistance.)_
-- [Utilitarios Tecnicos / Technical Utilities](./utilitarios-tecnicos/) — Skills utilitarias tecnicas para integracao, automacao, seguranca e engenharia. _(Technical utility skills for integration, automation, security and engineering.)_
-- [Conteudo & Copy / Content & Copywriting](./conteudo-copy/) — Skills focadas em conteudo, copywriting e producao de materiais persuasivos. _(Skills for content, copywriting and persuasive assets.)_
-- [Email & Automacao / Email & Automation](./email-automacao/) — Skills para e-mail marketing, automacoes e sequencias de comunicacao. _(Skills for email marketing, automation and lifecycle sequences.)_
-- [Funis de Vendas / Sales Funnels](./funis-vendas/) — Skills para funis, ofertas, conversao e estrategia comercial. _(Skills for funnels, offers, conversion and sales strategy.)_
-- [Anuncios & Trafego / Paid Ads & Traffic](./anuncios-trafego/) — Skills para midia paga, criativos, tracking e otimizacao de campanhas. _(Skills for paid media, creatives, tracking and campaign optimization.)_
-- [SEO & Busca / SEO & Search](./seo-busca/) — Skills para SEO, conteudo organico, SERP e crescimento em busca. _(Skills for SEO, search visibility and organic growth.)_
-- [Financeiro & Precos / Finance & Pricing](./financeiro-precos/) — Skills para precificacao, financas, projecoes e saude economica. _(Skills for pricing, finance, projections and business economics.)_
-- [Juridico & Compliance / Legal & Compliance](./juridico-compliance/) — Skills para contratos, politicas, conformidade e documentacao juridica. _(Skills for contracts, policies, compliance and legal docs.)_
-- [Lancamento & Growth / Launch & Growth](./lancamento-growth/) — Skills para growth, aquisicao, retencao e lancamentos. _(Skills for launch strategy, acquisition, retention and growth.)_
-- [Redes Sociais / Social Media](./redes-sociais/) — Skills para conteudo, posicionamento e crescimento em redes sociais. _(Skills for content, positioning and social growth.)_
-- [Clientes & Consultoria / Clients & Consulting](./clientes-consultoria/) — Skills para operacao de consultoria, relacionamento e gestao de clientes. _(Skills for consulting operations, client management and delivery.)_
-- [Operacoes & Sistemas / Operations & Systems](./operacoes-sistemas/) — Skills para processos, operacao, documentacao e gestao de sistemas. _(Skills for processes, operations, documentation and systems management.)_
-- [IA & Automacao / AI & Automation](./ia-automacao/) — Skills para IA aplicada, automacao, agentes e integracoes inteligentes. _(Skills for applied AI, automation, agents and intelligent integrations.)_
-- [Cursos & Educacao / Courses & Education](./cursos-educacao/) — Skills para cursos, educacao, programas e produtos de aprendizagem. _(Skills for education products, courses and learning programs.)_
-- [Marca Pessoal / Personal Brand](./marca-pessoal/) — Skills para marca pessoal, autoridade, reputacao e presenca profissional. _(Skills for personal brand, authority, reputation and visibility.)_
-- [Analytics & Dados / Analytics & Data](./analytics-dados/) — Skills para analytics, metricas, dashboards e analise de dados. _(Skills for analytics, metrics, dashboards and data analysis.)_
-- [Nichos Especificos / Specific Niches](./nichos-especificos/) — Skills de marketing e estrategia para nichos e verticais especificos. _(Skills for marketing and strategy across specific niches and verticals.)_
-
----
-<!-- END PTBR CATEGORIES -->
-
-<!-- BEGIN GLOBAL IMPORT CATEGORIES -->
-## Categorias Importadas (Global Skillshare) / Imported Categories
-
-As skills de `packs/global-skillshare-import` continuam sendo a fonte de importação. A publicação na raiz usa categorias semânticas estáveis, com português como linguagem principal e apoio em inglês em itálico para novos usuários de CLI.
-
-- [Frontend / Interface Web](./frontend/) — Skills para interface web, design systems, frameworks frontend, acessibilidade e experiencias no navegador. _(Skills for web UI, design systems, frontend frameworks, accessibility and browser experiences.)_
-- [Backend / Servidor](./backend/) — Skills para APIs, bancos de dados, frameworks server-side e arquitetura backend. _(Skills for APIs, databases, server-side frameworks and backend architecture.)_
-- [Dados & IA / Data & AI](./data-ai/) — Skills para LLMs, agentes, machine learning, avaliacao, busca vetorial e sistemas de IA. _(Skills for LLMs, agents, ML, evaluation, vector search and AI systems.)_
-- [Ferramentas / Tooling](./tooling/) — Skills para ferramentas de desenvolvedor, CLIs, fluxos locais e utilitarios gerais. _(Skills for developer tools, CLI skills, local workflows and general-purpose utilities.)_
-- [Fluxos & Orquestracao / Workflow](./workflow/) — Skills para orquestracao de projetos, planejamento e sistemas de execucao. _(Skills for project orchestration, planning and execution systems.)_
-- [Seguranca / Security](./security/) — Skills para auditoria de seguranca, hardening, threat modeling e testes ofensivos/defensivos. _(Skills for security auditing, hardening, threat modeling and offensive/defensive testing.)_
-- [Cloud & DevOps](./cloud-devops/) — Skills para plataformas cloud, infraestrutura, deploy, containers e operacao de plataforma. _(Skills for cloud platforms, infrastructure, deployment, containers and platform operations.)_
-- [Mobile](./mobile/) — Skills para iOS, Android, Expo, React Native, Flutter e engenharia mobile. _(Skills for iOS, Android, Expo, React Native, Flutter and mobile-specific engineering.)_
-- [Games / Game Dev](./game-dev/) — Skills para engines de jogos, sistemas de gameplay, 3D interativo e desenvolvimento de jogos. _(Skills for game engines, gameplay systems, interactive 3D and game development.)_
-- [Docs & Conteudo / Docs & Content](./docs-content/) — Skills para documentacao, escrita, sistemas de conteudo e fluxos de publicacao. _(Skills for documentation, writing, content systems and publishing workflows.)_
-- [Automacao & Integracoes / Automation & Integrations](./automation/) — Skills para integracoes, automacoes SaaS, workflows e conectores externos. _(Skills for app integrations, SaaS automations, workflows and external tool connectors.)_
-- [Negocios & Growth / Business & Growth](./business/) — Skills para produto, marketing, analytics, vendas, precificacao e operacao de negocios. _(Skills for product, marketing, analytics, sales, pricing and business operations.)_
+| Categoria | Skills | Descricao |
+|-----------|:------:|-----------|
+| [Conteudo & Copy](./conteudo-copy/) | 32 | Copywriting, headlines, roteiros, posts e materiais persuasivos |
+| [Email & Automacao](./email-automacao/) | 32 | Sequencias de email, automacoes, campanhas e nurturing |
+| [Funis de Vendas](./funis-vendas/) | 32 | Funis, ofertas, checkout, upsell e estrategia comercial |
+| [Anuncios & Trafego](./anuncios-trafego/) | 32 | Meta Ads, Google Ads, TikTok Ads, criativos e tracking |
+| [SEO & Busca](./seo-busca/) | 32 | SEO tecnico, conteudo organico, keywords e rankeamento |
+| [Financeiro & Precos](./financeiro-precos/) | 32 | Precificacao, projecoes, fluxo de caixa e saude financeira |
+| [Juridico & Compliance](./juridico-compliance/) | 32 | Contratos, politicas, LGPD e documentacao juridica |
+| [Lancamento & Growth](./lancamento-growth/) | 32 | Growth hacking, aquisicao, retencao e lancamentos |
+| [Redes Sociais](./redes-sociais/) | 32 | Conteudo, engajamento e crescimento em redes sociais |
+| [Clientes & Consultoria](./clientes-consultoria/) | 32 | Gestao de clientes, onboarding, reporting e consultoria |
+| [Operacoes & Sistemas](./operacoes-sistemas/) | 32 | Processos, documentacao, SOPs e gestao operacional |
+| [IA & Automacao](./ia-automacao/) | 32 | IA aplicada, agentes, chatbots e integracoes inteligentes |
+| [Cursos & Educacao](./cursos-educacao/) | 32 | Cursos online, programas de ensino e produtos educacionais |
+| [Marca Pessoal](./marca-pessoal/) | 32 | Autoridade, reputacao, networking e presenca profissional |
+| [Analytics & Dados](./analytics-dados/) | 32 | Metricas, dashboards, testes A/B e analise de dados |
+| [Nichos Especificos](./nichos-especificos/) | 30 | Marketing para imoveis, saude, educacao, SaaS e mais |
+| [Utilitarios Tecnicos](./utilitarios-tecnicos/) | 8 | Integracao, automacao, seguranca e engenharia |
+| [Utilitarios de Negocio](./utilitarios-negocio/) | 4 | Atendimento, pesquisa e suporte geral |
 
 ---
-<!-- END GLOBAL IMPORT CATEGORIES -->
+
+## Categorias Tecnicas e Importadas (+1.800 skills)
+
+Skills do ecossistema global, focadas em desenvolvimento, infraestrutura e tecnologia.
+
+| Categoria | Skills | Descricao |
+|-----------|:------:|-----------|
+| [Cloud & DevOps](./cloud-devops/) | 277 | AWS, GCP, Azure, Docker, Kubernetes, CI/CD |
+| [Backend](./backend/) | 252 | APIs, bancos de dados, Node.js, Python, Go |
+| [Negocios & Growth](./business/) | 231 | Produto, analytics, vendas e operacao |
+| [Dados & IA](./data-ai/) | 99 | LLMs, machine learning, RAG e agentes IA |
+| [Docs & Conteudo](./docs-content/) | 205 | Documentacao, escrita tecnica e publicacao |
+| [Automacao & Integracoes](./automation/) | 145 | Zapier, Make, n8n, integracoes SaaS |
+| [Frontend](./frontend/) | 135 | React, Next.js, CSS, acessibilidade e UI/UX |
+| [Seguranca](./security/) | 123 | Auditoria, hardening, pentesting e compliance |
+| [Mobile](./mobile/) | 65 | React Native, Expo, Flutter, iOS e Android |
+| [Games](./game-dev/) | 25 | Unity, Godot, jogos 2D/3D e gameplay |
+| [Ferramentas](./tooling/) | 11 | CLIs, ferramentas de dev e utilitarios |
+| [Fluxos & Orquestracao](./workflow/) | 32 | Planejamento, execucao e gestao de projetos |
+
+---
+
 ## Contribuindo
 
-Quer criar uma skill ou melhorar uma existente? Abra uma issue ou Pull Request.
+Quer criar uma skill ou melhorar uma existente?
+
+1. Faca um fork do repositorio
+2. Crie sua skill seguindo o formato `SKILL.md` (veja qualquer skill existente como exemplo)
+3. Abra um Pull Request
+
+Duvidas? Abra uma [issue](https://github.com/kursku/skills/issues).
